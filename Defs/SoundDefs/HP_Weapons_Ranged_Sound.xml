@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<SoundDef>
+		<defName>HP_Bolt_Gun_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Boltgun</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>35~35</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HP_Executor_Bolt_Gun_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Boltgun</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>50~50</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HP_Heavy_Bolt_Gun_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Boltgun</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>40~40</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HP_Plasma_Gun_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Plasmagun</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>35~35</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
+
+	<SoundDef>
+		<defName>HP_Incinerator_Gun_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Plasmagun</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>40~45</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
+	
+	<SoundDef>
+		<defName>HP_Melta_Gun_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Meltagun</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>35~35</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>	
+
+	<SoundDef>
+		<defName>HP_Multi_Melta_Gun_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Meltagun</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>50~50</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
+</Defs>

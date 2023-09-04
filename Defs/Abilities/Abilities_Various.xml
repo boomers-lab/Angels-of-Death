@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <AbilityDef>
+    <defName>TossFragGrenade</defName>
+    <label>Toss Frag Grenades</label>
+    <description>Toss frag grenades against groups of enemy. The user will gain a maximum of 4 charges before the skill enters a 24 hour cooldown.</description>
+    <iconPath>Things/Misc/AbilityUI/GrenadeThrowUI</iconPath>
+    <cooldownTicksRange>60000</cooldownTicksRange>
+	<charges>4</charges>
+    <displayOrder>100</displayOrder>
+    <aiCanUse>true</aiCanUse>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>20.9</range>
+	  <minRange>3.9</minRange>
+      <warmupTime>0.5</warmupTime>
+	  <forcedMissRadius>1.9</forcedMissRadius>
+      <soundCast>ThrowGrenade</soundCast>
+	  <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+		<canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityLaunchProjectile">
+        <projectileDef>FragGrenade</projectileDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>FragGrenade</defName>
+    <label>Frag Grenade</label>
+    <graphicData>
+      <texPath>Things/Misc/Projectiles/Grenade_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+	<thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Bomb</damageDef>
+	  <explosionDelay>100</explosionDelay>
+	  <explosionRadius>3.9</explosionRadius>
+      <speed>12</speed>
+    </projectile>
+  </ThingDef>
+  
+  <AbilityDef>
+    <defName>Charge</defName>
+    <label>Charge!</label>
+    <description>Grants the caster an indomitable aura, temporarily turning them into an unstopable killing machine.</description>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <iconPath>Things/Misc/AbilityUI/ChargeUI</iconPath>
+    <writeCombatLog>True</writeCombatLog>
+    <showPsycastEffects>False</showPsycastEffects>
+	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+	<statBases>
+    </statBases>
+    <verbProperties>
+	  <verbClass>Verb_CastAbilityTouch</verbClass>
+	  <drawAimPie>False</drawAimPie>
+	  <range>-1</range>
+      <warmupTime>0.1</warmupTime>
+	  <targetable>false</targetable>
+	  <soundCast>FOR_THE_EMPEROR</soundCast>
+	  <targetParams>
+		 <canTargetSelf>true</canTargetSelf>
+	  </targetParams>
+    </verbProperties>
+    <comps>
+	   <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>IndomitableAura</hediffDef>
+        <applicableToMechs>False</applicableToMechs>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>IndomitableAuraFleck</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>IndomitableAuraFleck</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>
+    <fadeInTime>0.1</fadeInTime>
+    <fadeOutTime>0.55</fadeOutTime>
+    <solidTime>0.4</solidTime>
+    <growthRate>0.9</growthRate>
+    <graphicData>
+      <texPath>Things/Misc/AbilityEffects/Aura_Fleck</texPath>
+      <drawSize>(3, 3)</drawSize>
+	  <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+  
+  <AbilityDef>
+    <defName>FireOnMyMark</defName>
+    <label>Fire On My Mark!</label>
+    <description>Grants the caster an aura of a master marksman, boosting their skill in ranged combat.</description>
+    <cooldownTicksRange>180000</cooldownTicksRange>
+    <iconPath>Things/Misc/AbilityUI/FireOnMyMark</iconPath>
+    <writeCombatLog>True</writeCombatLog>
+    <showPsycastEffects>False</showPsycastEffects>
+	<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>true</disableGizmoWhileUndrafted>
+	<statBases>
+    </statBases>
+    <verbProperties>
+	  <verbClass>Verb_CastAbilityTouch</verbClass>
+	  <drawAimPie>False</drawAimPie>
+	  <range>-1</range>
+      <warmupTime>0.1</warmupTime>
+	  <targetable>false</targetable>
+	  <soundCast>Fire_On_My_Mark</soundCast>
+	  <targetParams>
+		 <canTargetSelf>true</canTargetSelf>
+	  </targetParams>
+    </verbProperties>
+    <comps>
+	   <li Class = "CompProperties_AbilityGiveHediff">
+        <compClass>CompAbilityEffect_GiveHediff</compClass>
+        <hediffDef>TriggerHappyAura</hediffDef>
+        <applicableToMechs>False</applicableToMechs>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>TriggerHappyFleck</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef>
+  
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>TriggerHappyFleck</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fleckSystemClass>FleckSystemThrown</fleckSystemClass>
+    <fadeInTime>0.1</fadeInTime>
+    <fadeOutTime>0.55</fadeOutTime>
+    <solidTime>0.4</solidTime>
+    <growthRate>0.9</growthRate>
+    <graphicData>
+      <texPath>Things/Misc/AbilityEffects/ReloadAura</texPath>
+      <drawSize>(2, 2)</drawSize>
+	  <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+</Defs>

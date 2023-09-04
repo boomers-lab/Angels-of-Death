@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>HP_Bullet_Bolter</defName>
+    <label>Bolter Round</label>
+    <graphicData>
+      <texPath>Things/Projectiles/Bolter_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+	  <armorPenetrationBase>0.55</armorPenetrationBase>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+  
+<!-- ====================== HP Bolter  ===================== -->
+  
+  <ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Bolter_Gun_Bolter</defName>
+    <label>Astartes Bolter</label>
+    <description>The Boltgun, also commonly referred to as the Bolter, is the standard weapon of the Adeptus Astartes and Adepta Sororitas. A . 75 caliber weapon, the Boltgun fires a self-propelled explosive 'bolt' which explodes with devastating effect once it has penetrated its target, effectively blowing it apart from the inside.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Ranged/Boltgun</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.1</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+	  <recipeUsers Inherit="False">
+		<li>HP_ImperialFabricationBench</li>
+	  </recipeUsers>
+      <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>38000</WorkToMake>
+      <Mass>5</Mass>
+      <AccuracyTouch>0.85</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+      <Steel>400</Steel>
+      <ComponentIndustrial>25</ComponentIndustrial>
+	  <HP_Ceramite>20</HP_Ceramite>
+    </costList>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>HPRanged</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HP_Bullet_Bolter</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>35</range>
+        <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+        <burstShotCount>6</burstShotCount>
+        <soundCast>HP_Bolt_Gun_Sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- ====================== ExecutorBoltRifle ===================== -->
+  
+  <ThingDef ParentName="BaseBullet">
+    <defName>HP_Bullet_Executor</defName>
+    <label>Executor Round</label>
+    <graphicData>
+      <texPath>Things/Projectiles/Bolter_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.35</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <armorPenetrationBase>0.7</armorPenetrationBase>
+      <speed>40</speed>
+    </projectile>
+  </ThingDef>
+
+<ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>Executor_Bolt_Rifle</defName>
+    <label>Executor Bolt Rifle</label>
+    <description>The Executor Bolt Rifle is a variant of the Mark II Cawl Pattern Bolt Rifle primarily used by Heavy Intercessors. It has a longer range, does more damage and is capable of greater armour penetration than the standard pattern Bolt Rifle.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Ranged/ExecutorBoltRifle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.1</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+	  <recipeUsers Inherit="False">
+		<li>HP_ImperialFabricationBench</li>
+	  </recipeUsers>
+      <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>50000</WorkToMake>
+      <Mass>7</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.80</AccuracyMedium>
+      <AccuracyLong>0.90</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+	<equippedStatOffsets>
+      <MoveSpeed>-0.20</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>600</Steel>
+      <ComponentIndustrial>35</ComponentIndustrial>
+	  <ComponentSpacer>5</ComponentSpacer>
+	  <HP_Ceramite>40</HP_Ceramite>
+    </costList>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>HPRanged</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HP_Bullet_Executor</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>45</range>
+        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+        <burstShotCount>1</burstShotCount>
+        <soundCast>HP_Executor_Bolt_Gun_Sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+<!-- ====================== HeavyBolter  ===================== -->
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>HP_Bullet_HeavyBolter</defName>
+    <label>Bolter Round</label>
+    <graphicData>
+      <texPath>Things/Projectiles/Bolter_Projectile</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>45</damageAmountBase>
+      <stoppingPower>1</stoppingPower>
+      <speed>50</speed>
+    </projectile>
+  </ThingDef>
+
+<ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>HeavyBolter</defName>
+    <label>Heavy Bolter</label>
+    <description>A Heavy Bolter is a powerful bolter weapon that is used for anti-infantry and fire support roles, and is also known as the "Backbreaker" or the "Bruiser" because of its great weight and the amount of damage it can deal. A Heavy Bolter uses the same principles and technology of standard bolters, but unleashes much larger and more explosively powerful bolts and possesses a much larger ammunition capacity and rate of fire.</description>
+    <graphicData>
+      <texPath>Things/Weapons/Ranged/HeavyBolter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>1.1</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker>
+	  <recipeUsers Inherit="False">
+		<li>HP_ImperialFabricationBench</li>
+	  </recipeUsers>
+      <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>15</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <statBases>
+      <WorkToMake>61000</WorkToMake>
+      <Mass>8</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.65</AccuracyShort>
+      <AccuracyMedium>0.60</AccuracyMedium>
+      <AccuracyLong>0.50</AccuracyLong>
+      <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+    </statBases>
+	<equippedStatOffsets>
+      <MoveSpeed>-0.50</MoveSpeed>
+    </equippedStatOffsets>
+    <costList>
+      <Steel>750</Steel>
+      <ComponentIndustrial>30</ComponentIndustrial>
+	  <ComponentSpacer>6</ComponentSpacer>
+	  <HP_Ceramite>50</HP_Ceramite>
+    </costList>
+    <weaponClasses>
+      <li>RangedHeavy</li>
+    </weaponClasses>
+    <tradeTags>
+      <li>HPRanged</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HP_Bullet_HeavyBolter</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>35</range>
+        <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+        <burstShotCount>10</burstShotCount>
+        <soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>8</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+    </weaponTags>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>12</power>
+        <cooldownTime>2.2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>2.1</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+
+ </Defs>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ScenarioDef>
+        <defName>HP_CrashlandedAngels</defName>
+        <label>Crashlanded Angels</label>
+        <description>Your squad barely survived a space battle.\nOut of the entire five-man team, only two of you survived.\nYou have to cope.\nFor the Emperor.</description>
+        <scenario>
+            <summary>Two surviving space marines thriving in a hostile world.</summary>
+            <playerFaction>
+                <def>PlayerFaction</def>
+                <factionDef>GW_CrashlandedAngels</factionDef>
+            </playerFaction>
+            <parts>
+                <!-- Config pages -->
+                <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+                    <def>ConfigPage_ConfigureStartingPawns</def>
+                    <pawnCount>2</pawnCount>
+                    <pawnChoiceCount>5</pawnChoiceCount>
+                </li>
+
+                <!-- Player starting stuff spawn method-->
+                <li Class="ScenPart_PlayerPawnsArriveMethod">
+                    <def>PlayerPawnsArriveMethod</def>
+                    <method>DropPods</method>
+                    <visible>false</visible>
+                </li>
+
+                <!-- Player starting things -->
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>RelicMedkit</thingDef>
+                    <count>2</count>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ODZ_40k_AS_UM_MkXHelmet</thingDef>
+                    <count>2</count>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>ODZ_40k_AS_UM_MkXArmor</thingDef>
+                    <count>2</count>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>MeleeWeapon_Powersword_GrimWorld</thingDef>
+                    <count>1</count>
+                    <stuff>HP_Ceramite</stuff>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Bolter_Gun_Bolter</thingDef>
+                    <count>1</count>
+                </li>
+
+                <li Class="ScenPart_StartingThing_Defined" MayRequire="ceteam.combatextended">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Ammo_Bolter</thingDef>
+                    <count>180</count>
+                </li>
+
+                <!-- Scatter some things near player start -->
+
+                <li Class="ScenPart_StartingThing_Defined">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>CorpseStarch</thingDef>
+                    <count>1000</count>
+                </li>
+
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>WoodLog</thingDef>
+                    <count>500</count>
+                </li>
+
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>StartingThing_Defined</def>
+                    <thingDef>Silver</thingDef>
+                    <count>1000</count>
+                </li>   
+
+                <li Class="ScenPart_ScatterThingsNearPlayerStart">
+                    <def>ScatterThingsNearPlayerStart</def>
+                    <thingDef>Steel</thingDef>
+                    <count>500</count>
+                </li>
+
+                <!-- Scatter some things anywhere -->
+                <li Class="ScenPart_ScatterThingsAnywhere">
+                    <def>ScatterThingsAnywhere</def>
+                    <thingDef>ShipChunk</thingDef>
+                    <allowRoofed>false</allowRoofed>
+                    <count>10</count>
+                </li>
+
+                <!-- Constant Raids -->
+                <li Class="ScenPart_CreateIncident">
+                    <def>CreateIncident</def>
+                    <incident>RaidEnemy</incident>
+                    <intervalDays>10</intervalDays>
+                    <repeat>true</repeat>
+                </li>
+
+                <!-- Game start dialog -->
+                <li Class="ScenPart_GameStartDialog">
+                    <def>GameStartDialog</def>
+                    <text>Your squad barely survived a space battle.\nOut of the entire five-man team, only two of you survived.\nYou have to cope.\nFor the Emperor.</text>
+                    <closeSound>GameStartSting</closeSound>
+                </li>
+            </parts>
+        </scenario>
+    </ScenarioDef>
+
+    <FactionDef ParentName="PlayerFactionBase">
+        <defName>GW_CrashlandedAngels</defName>
+        <label>Crashlanded Angels</label>
+        <description>A colony of recently crashlanded ultramarines.</description>
+        <isPlayer>true</isPlayer>
+        <basicMemberKind>Colonist</basicMemberKind>
+        <pawnSingular>colonist</pawnSingular>
+        <pawnsPlural>colonists</pawnsPlural>
+        <techLevel>Industrial</techLevel>
+        <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <allowedCultures><li>Astropolitan</li></allowedCultures>
+        <backstoryFilters>
+        <li>
+            <categories>
+                <li>Offworld</li>
+            </categories>
+        </li>
+        </backstoryFilters>
+        <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+        <startingResearchTags>
+            <li>ClassicStart</li>
+        </startingResearchTags>
+        <startingTechprintsResearchTags>
+            <li>ClassicStart</li>
+            <li>ClassicStartTechprints</li>
+        </startingTechprintsResearchTags>
+        <apparelStuffFilter>
+            <thingDefs>
+                <li>Synthread</li>
+            </thingDefs>
+        </apparelStuffFilter>
+        <permanentEnemyToEveryoneExcept />
+    </FactionDef>
+</Defs>

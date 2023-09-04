@@ -1,0 +1,2041 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+            <!--Searches for CE or VEF. If CE exists, that one is prefered to create automatic CE compatibility. The Shield textures are tied to specific mods because each mod handles equipped textures differently.-->
+    <Operation Class="PatchOperationFindMod">
+        <mods><li>Combat Extended</li></mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs</xpath>
+            <value>
+                <ThingDef ParentName="ArmorSmithableBase" Name="GWShieldBase" Abstract="true">
+                    <thingClass>CombatExtended.Apparel_Shield</thingClass>
+                    <techLevel>Spacer</techLevel>
+                    <thingCategories>
+                        <li>Shields</li>
+                    </thingCategories>
+                    <stuffCategories><li>Metallic</li></stuffCategories>
+                    <possessionCount>1</possessionCount>
+                    <apparel>
+                        <countsAsClothingForNudity>false</countsAsClothingForNudity>
+                        <careIfWornByCorpse>false</careIfWornByCorpse>
+                        <bodyPartGroups>
+                            <li>LeftShoulder</li>
+                        </bodyPartGroups>
+                        <layers>
+                            <li>Shield</li>
+                        </layers>
+                    </apparel>
+                    <statBases>
+                        <WorkToMake>15000</WorkToMake>
+                        <MaxHitPoints>125</MaxHitPoints>
+                    </statBases>
+                    <storedConceptLearnOpportunity>CE_Shields</storedConceptLearnOpportunity>
+                    <smeltable>true</smeltable>	
+                    <recipeMaker>
+                        <unfinishedThingDef>UnfinishedShield</unfinishedThingDef>
+                        <recipeUsers>
+                            <li>HP_ImperialFabricationBench</li>
+                        </recipeUsers>		
+                        <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+                    </recipeMaker>
+                    <tradeTags>
+                        <li>Armor</li>
+                    </tradeTags>
+                </ThingDef>
+
+                <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase" Abstract="true">
+                    <costStuffCount>60</costStuffCount>
+                    <statBases>
+                        <StuffEffectMultiplierArmor>9</StuffEffectMultiplierArmor>
+                        <Mass>7</Mass>
+                        <Bulk>8</Bulk>
+                        <WornBulk>5</WornBulk>
+                    </statBases>
+                    <equippedStatOffsets>
+                      <ReloadSpeed>-0.2</ReloadSpeed>
+                      <MeleeHitChance>-1</MeleeHitChance>
+                      <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+                      <AimingAccuracy>-0.08</AimingAccuracy>
+                      <Suppressability>-0.25</Suppressability>
+                      <MeleeCritChance>-0.05</MeleeCritChance>
+                      <MeleeParryChance>1.0</MeleeParryChance>
+                    </equippedStatOffsets>
+                    <apparel>
+                      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                    </apparel>
+                    <modExtensions>
+                      <li Class="CombatExtended.ShieldDefExtension">
+                        <shieldCoverage>
+                          <li>Hands</li>
+                          <li>Arms</li>
+                          <li>Shoulders</li>
+                          <li>Torso</li>
+                          <li>Neck</li>
+                        </shieldCoverage>
+                      </li>
+                    </modExtensions>
+                </ThingDef>
+
+                <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase" Abstract="true">
+                    <costStuffCount>90</costStuffCount>
+                    <statBases>
+                        <StuffEffectMultiplierArmor>9.5</StuffEffectMultiplierArmor>
+                        <Mass>12</Mass>
+                        <Bulk>8</Bulk>
+                        <WornBulk>5</WornBulk>
+                    </statBases>
+                    <equippedStatOffsets>
+                        <ReloadSpeed>-0.3</ReloadSpeed>
+                        <MeleeHitChance>-4</MeleeHitChance>
+                        <ShootingAccuracyPawn>-0.4</ShootingAccuracyPawn>
+                        <AimingAccuracy>-0.2</AimingAccuracy>
+                        <Suppressability>-0.5</Suppressability>
+                        <MeleeCritChance>-0.2</MeleeCritChance>
+                        <MeleeParryChance>1.0</MeleeParryChance>
+                    </equippedStatOffsets>
+                    <apparel>
+                        <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                    </apparel>
+                    <modExtensions>
+                      <li Class="CombatExtended.ShieldDefExtension">
+                        <shieldCoverage>
+                          <li>Hands</li>
+                          <li>Arms</li>
+                          <li>Shoulders</li>
+                          <li>Torso</li>
+                          <li>Neck</li>
+                        </shieldCoverage>
+                      </li>
+                    </modExtensions>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_PrimarisShield</defName>
+                    <label>primaris shield</label>
+                    <description>A primaris shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/Primaris_Shield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>MKXTacticusArmor</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_BlackTemplars-StormShield</defName>
+                    <label>black templar storm shield</label>
+                    <description>A Black Templar storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/BlackTemplars-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Black_Templars</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_BloodAngels-StormShield</defName>
+                    <label>blood angel storm shield</label>
+                    <description>A Blood Angel storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/BloodAngels-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Blood_Angels</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_BloodRavens-StormShield</defName>
+                    <label>blood raven storm shield</label>
+                    <description>A Blood Raven storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/BloodRavens-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Blood_Ravens</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_Carcharodons-StormShield</defName>
+                    <label>carcharodon storm shield</label>
+                    <description>A Carcharodons storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/Carcharodons-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Carcharodons</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_DarkAngels-StormShield</defName>
+                    <label>dark angel storm shield</label>
+                    <description>A Dark Angels storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/DarkAngels-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>DarkAngels</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_ImperialFists-StormShield</defName>
+                    <label>imperial fist storm shield</label>
+                    <description>A Imperial Fists storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/ImperialFists-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Imperial_Fists</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_IronHands-StormShield</defName>
+                    <label>iron hand storm shield</label>
+                    <description>A Iron Hands storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/IronHands-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Iron_Hands</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_Legion-StormShield</defName>
+                    <label>legion of the damned storm shield</label>
+                    <description>A Legion of the Damned storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/Legion-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Legion_of_the_Damned</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_Minotaurs-StormShield</defName>
+                    <label>minotaur storm shield</label>
+                    <description>A Minotaurs storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/Minotaurs-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Minotaurs</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_RavenGuard-StormShield</defName>
+                    <label>raven guard storm shield</label>
+                    <description>A Raven Guard storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/RavenGuard-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Raven_Guard</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_Salamanders-StormShield</defName>
+                    <label>salamander storm shield</label>
+                    <description>A Salamders storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/Salamanders-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Salamanders</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_SpaceWolves-StormShield</defName>
+                    <label>space wolf storm shield</label>
+                    <description>A Space Wolves storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/SpaceWolves-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>SpaceWolves</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_Ultramarines-StormShield</defName>
+                    <label>ultramarine storm shield</label>
+                    <description>A Ultramarines storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/Ultramarines-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Ultramarines</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWStormShieldBase">
+                    <defName>GW_WhiteScars-StormShield</defName>
+                    <label>white scar storm shield</label>
+                    <description>A White Scars storm shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/StornShield/WhiteScars-StormShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>WhiteScars</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_BlackTemplars-CombatShield</defName>
+                    <label>black templar combat shield</label>
+                    <description>A Black Templar combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/BlackTemplars-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Black_Templars</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_BloodAngels-CombatShield</defName>
+                    <label>blood angel combat shield</label>
+                    <description>A Blood Angel combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/BloodAngels-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Blood_Angels</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_BloodRavens-CombatShield</defName>
+                    <label>blood raven combat shield</label>
+                    <description>A Blood Raven combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/BloodRavens-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Blood_Ravens</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_Carcharodons-CombatShield</defName>
+                    <label>carcharodon combat shield</label>
+                    <description>A Carcharodons combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/Carcharodons-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Carcharodons</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_DarkAngels-CombatShield</defName>
+                    <label>dark angel combat shield</label>
+                    <description>A Dark Angels combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/DarkAngels-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>DarkAngels</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_ImperialFists-CombatShield</defName>
+                    <label>imperial fist combat shield</label>
+                    <description>A Imperial Fists combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/ImperialFists-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Imperial_Fists</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_IronHands-CombatShield</defName>
+                    <label>iron hand combat shield</label>
+                    <description>A Iron Hands combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/IronHands-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Iron_Hands</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_Legion-CombatShield</defName>
+                    <label>legion of the damned combat shield</label>
+                    <description>A Legion of the Damned combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/Legion-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Legion_of_the_Damned</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_Minotaurs-CombatShield</defName>
+                    <label>minotaur combat shield</label>
+                    <description>A Minotaurs combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/Minotaurs-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Minotaurs</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_RavenGuard-CombatShield</defName>
+                    <label>raven guard combat shield</label>
+                    <description>A Raven Guard combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/RavenGuard-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Raven_Guard</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_Salamanders-CombatShield</defName>
+                    <label>salamander combat shield</label>
+                    <description>A Salamders combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/Salamanders-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Salamanders</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_SpaceWolves-CombatShield</defName>
+                    <label>space wolf combat shield</label>
+                    <description>A Space Wolves combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/SpaceWolves-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>SpaceWolves</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_Ultramarines-CombatShield</defName>
+                    <label>ultramarine combat shield</label>
+                    <description>A Ultramarines combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/Ultramarines-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>Ultramarines</li>
+                    </researchPrerequisites>
+                </ThingDef>
+
+                <ThingDef ParentName="GWCombatShieldBase">
+                    <defName>GW_WhiteScars-CombatShield</defName>
+                    <label>white scar combat shield</label>
+                    <description>A White Scars combat shield.</description>
+                    <graphicData>
+                        <texPath>Things/Shields/CombatShield/WhiteScars-CombatShield</texPath>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
+                    <researchPrerequisites>
+                        <li>WhiteScars</li>
+                    </researchPrerequisites>
+                </ThingDef>
+            </value>
+        </match>
+                <!--If CE was not found, then the patch will attempt to create the same shields, but a Vanilla Expanded version-->
+        <nomatch Class="PatchOperationFindMod">
+            <mods><li>Vanilla Expanded Framework</li></mods>
+            <match Class="PatchOperationAdd">
+                <xpath>Defs</xpath>
+                <value>
+                    <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality" Name="GWShieldBase" Abstract="true">
+                        <techLevel>Spacer</techLevel>
+                        <category>Item</category>
+                        <thingCategories Inherit="False">
+                            <li>VFEC_Shields</li>
+                        </thingCategories>
+                		<thingClass>VFECore.Apparel_Shield</thingClass>
+                        <stuffCategories><li>Metallic</li></stuffCategories>
+                        <possessionCount>1</possessionCount>
+                        <apparel>
+                            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+                            <careIfWornByCorpse>false</careIfWornByCorpse>
+                            <bodyPartGroups>
+				                <li>LeftHand</li>
+                            </bodyPartGroups>
+                    		<wornGraphicPath></wornGraphicPath>
+                            <layers>
+                                <li>VFEC_OuterShell</li>
+                            </layers>
+                        </apparel>
+                        <drawGUIOverlay>true</drawGUIOverlay>
+                        <altitudeLayer>Item</altitudeLayer>
+                        <statBases>
+                            <WorkToMake>15000</WorkToMake>
+                            <MaxHitPoints>125</MaxHitPoints>
+                        </statBases>
+                        <equippedAngleOffset>-30</equippedAngleOffset>
+                        <tools>
+                            <li>
+                                <label>base</label>
+                                <capacities>
+                                    <li>Poke</li>
+                                </capacities>
+                                <power>9</power>
+                                <cooldownTime>2</cooldownTime>
+                            </li>
+                            <li>
+                                <label>centre</label>
+                                <labelUsedInLogging>false</labelUsedInLogging>
+                                <capacities>
+                                    <li>Blunt</li>
+                                </capacities>
+                                <power>9</power>
+                                <cooldownTime>2</cooldownTime>
+                            </li>
+                        </tools>
+                        <smeltable>true</smeltable>	
+                        <recipeMaker>
+                            <unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
+                            <recipeUsers>
+                                <li>HP_ImperialFabricationBench</li>
+                            </recipeUsers>		
+                            <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+                        </recipeMaker>
+                        <tradeTags>
+                            <li>HPShield</li>
+                        </tradeTags>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase" Abstract="true">
+                        <costStuffCount>60</costStuffCount>
+                        <statBases>
+                            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+                            <Mass>7</Mass>
+                        </statBases>
+                        <equippedStatOffsets>
+		                    <AimingDelayFactor>0.1</AimingDelayFactor>
+                            <MeleeHitChance>-1</MeleeHitChance>
+                            <ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
+			                <MeleeDodgeChance>-0.5</MeleeDodgeChance>				
+                        </equippedStatOffsets>
+                        <apparel>
+                            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                        </apparel>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase" Abstract="true">
+                        <costStuffCount>90</costStuffCount>
+                        <statBases>
+                            <StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
+                            <Mass>8</Mass>
+                        </statBases>
+                        <equippedStatOffsets>
+                            <AimingDelayFactor>-0.3</AimingDelayFactor>
+                            <MeleeHitChance>-4</MeleeHitChance>
+                            <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+			                <MeleeDodgeChance>-2</MeleeDodgeChance>				
+                        </equippedStatOffsets>
+                        <apparel>
+                            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                        </apparel>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_PrimarisShield</defName>
+                        <label>primaris shield</label>
+                        <description>A primaris shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/Primaris_Shield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>MKXTacticusArmor</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/Primaris_Shield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_BlackTemplars-StormShield</defName>
+                        <label>black templar storm shield</label>
+                        <description>A Black Templar storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/BlackTemplars-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Black_Templars</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/BlackTemplars-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_BloodAngels-StormShield</defName>
+                        <label>blood angel storm shield</label>
+                        <description>A Blood Angel storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/BloodAngels-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Blood_Angels</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/BloodAngels-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_BloodRavens-StormShield</defName>
+                        <label>blood raven storm shield</label>
+                        <description>A Blood Raven storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/BloodRavens-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Blood_Ravens</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/BloodRavens-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_Carcharodons-StormShield</defName>
+                        <label>carcharodon storm shield</label>
+                        <description>A Carcharodons storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/Carcharodons-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Carcharodons</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/Carcharodons-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_DarkAngels-StormShield</defName>
+                        <label>dark angel storm shield</label>
+                        <description>A Dark Angels storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/DarkAngels-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>DarkAngels</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/DarkAngels-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_ImperialFists-StormShield</defName>
+                        <label>imperial fist storm shield</label>
+                        <description>A Imperial Fists storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/ImperialFists-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Imperial_Fists</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/ImperialFists-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_IronHands-StormShield</defName>
+                        <label>iron hand storm shield</label>
+                        <description>A Iron Hands storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/IronHands-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Iron_Hands</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/IronHands-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_Legion-StormShield</defName>
+                        <label>legion of the damned storm shield</label>
+                        <description>A Legion of the Damned storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/Legion-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Legion_of_the_Damned</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/Legion-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_Minotaurs-StormShield</defName>
+                        <label>minotaur storm shield</label>
+                        <description>A Minotaurs storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/Minotaurs-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Minotaurs</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/Minotaurs-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_RavenGuard-StormShield</defName>
+                        <label>raven guard storm shield</label>
+                        <description>A Raven Guard storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/RavenGuard-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Raven_Guard</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/RavenGuard-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_Salamanders-StormShield</defName>
+                        <label>salamander storm shield</label>
+                        <description>A Salamders storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/Salamanders-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Salamanders</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/Salamanders-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_SpaceWolves-StormShield</defName>
+                        <label>space wolf storm shield</label>
+                        <description>A Space Wolves storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/SpaceWolves-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>SpaceWolves</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/SpaceWolves-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_Ultramarines-StormShield</defName>
+                        <label>ultramarine storm shield</label>
+                        <description>A Ultramarines storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/Ultramarines-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Ultramarines</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/Ultramarines-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWStormShieldBase">
+                        <defName>GW_WhiteScars-StormShield</defName>
+                        <label>white scar storm shield</label>
+                        <description>A White Scars storm shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/StornShield/WhiteScars-StormShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>WhiteScars</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/StornShield/WhiteScars-StormShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_BlackTemplars-CombatShield</defName>
+                        <label>black templar combat shield</label>
+                        <description>A Black Templar combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/BlackTemplars-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Black_Templars</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/BlackTemplars-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_BloodAngels-CombatShield</defName>
+                        <label>blood angel combat shield</label>
+                        <description>A Blood Angel combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/BloodAngels-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Blood_Angels</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/BloodAngels-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_BloodRavens-CombatShield</defName>
+                        <label>blood raven combat shield</label>
+                        <description>A Blood Raven combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/BloodRavens-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Blood_Ravens</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/BloodRavens-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_Carcharodons-CombatShield</defName>
+                        <label>carcharodon combat shield</label>
+                        <description>A Carcharodons combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/Carcharodons-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Carcharodons</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/Carcharodons-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_DarkAngels-CombatShield</defName>
+                        <label>dark angel combat shield</label>
+                        <description>A Dark Angels combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/DarkAngels-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>DarkAngels</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/DarkAngels-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_ImperialFists-CombatShield</defName>
+                        <label>imperial fist combat shield</label>
+                        <description>A Imperial Fists combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/ImperialFists-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Imperial_Fists</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/ImperialFists-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_IronHands-CombatShield</defName>
+                        <label>iron hand combat shield</label>
+                        <description>A Iron Hands combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/IronHands-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Iron_Hands</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/IronHands-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_Legion-CombatShield</defName>
+                        <label>legion of the damned combat shield</label>
+                        <description>A Legion of the Damned combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/Legion-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Legion_of_the_Damned</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/Legion-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_Minotaurs-CombatShield</defName>
+                        <label>minotaur combat shield</label>
+                        <description>A Minotaurs combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/Minotaurs-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Minotaurs</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/Minotaurs-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_RavenGuard-CombatShield</defName>
+                        <label>raven guard combat shield</label>
+                        <description>A Raven Guard combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/RavenGuard-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Raven_Guard</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/RavenGuard-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_Salamanders-CombatShield</defName>
+                        <label>salamander combat shield</label>
+                        <description>A Salamders combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/Salamanders-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Salamanders</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/Salamanders-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_SpaceWolves-CombatShield</defName>
+                        <label>space wolf combat shield</label>
+                        <description>A Space Wolves combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/SpaceWolves-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>SpaceWolves</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/SpaceWolves-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_Ultramarines-CombatShield</defName>
+                        <label>ultramarine combat shield</label>
+                        <description>A Ultramarines combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/Ultramarines-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>Ultramarines</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/Ultramarines-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+
+                    <ThingDef ParentName="GWCombatShieldBase">
+                        <defName>GW_WhiteScars-CombatShield</defName>
+                        <label>white scar combat shield</label>
+                        <description>A White Scars combat shield.</description>
+                        <graphicData>
+                            <texPath>Things/Shields/CombatShield/WhiteScars-CombatShield</texPath>
+                            <graphicClass>Graphic_Single</graphicClass>
+                            <shaderType>CutoutComplex</shaderType>
+                        </graphicData>
+                        <researchPrerequisites>
+                            <li>WhiteScars</li>
+                        </researchPrerequisites>
+                        <comps>
+                            <li Class="VFECore.CompProperties_Shield">
+                                <shieldTags>
+                                    <li>MedievalBasic</li>
+                                </shieldTags>
+                                <coveredBodyPartGroups>
+                                    <li>Neck</li>
+                                    <li>Torso</li>
+                                    <li>Arms</li>
+                                    <li>Hands</li>
+                                </coveredBodyPartGroups>
+                                <offHandGraphicData>
+                                    <texPath>Things/Shields/CombatShield/WhiteScars-CombatShield</texPath>
+                                    <graphicClass>Graphic_Single</graphicClass> <!--When multi-graphics are completed. Change this to Graphic_Multi and update texPath as needed-->
+                                    <shaderType>CutoutComplex</shaderType>
+                                    <drawSize>1.6</drawSize>
+                                </offHandGraphicData>
+                                <offHandHoldOffset>
+                                    <northDefault>
+                                        <offset>(0, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </northDefault>
+                                    <east>
+                                        <offset>(-0.1, 0, 0.2)</offset>
+                                        <behind>true</behind>
+                                    </east>
+                                    <south>
+                                        <offset>(-0.1, -0.04, 0.2)</offset>
+                                    </south>
+                                    <west>
+                                        <offset>(0.1, 0, 0.2)</offset>
+                                    </west>
+                                </offHandHoldOffset>
+                            </li>
+                        </comps>
+                    </ThingDef>
+                </value>
+            </match>
+        </nomatch>
+    </Operation>
+</Patch>

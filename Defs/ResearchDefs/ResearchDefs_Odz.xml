@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ResearchProjectDef Abstract="true" Name="HP_ResearchProject_Base">
+		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>HP_ImperialFabricationBench</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+    </ResearchProjectDef>
+
+            <!--To add a new category, copy one of the ones below, and change the tab and baseCost to the desired amount. If one of them requires completely different prereqs, either remove the parent name(remember to add everything in the normal base to the new one), or remove the prerequisite from the base to add to all of these bases-->
+
+    <ResearchProjectDef Abstract="true" Name="HP_Armors_AA_Base" ParentName="HP_ResearchProject_Base">
+		<tab>Armors_AA</tab>
+		<baseCost>4000</baseCost>
+    </ResearchProjectDef>
+
+    <ResearchProjectDef Abstract="true" Name="HP_Adeptus_Base" ParentName="HP_ResearchProject_Base">
+		<tab>Odz_ResearchTab_Adeptus</tab>
+		<baseCost>12000</baseCost>
+    </ResearchProjectDef>
+
+            <!--This area is for adding new prerequisite researches, like the basic fabrication bench research. If there are other researches that act primarily as prerequisites, add them here-->
+
+    <ResearchProjectDef>
+        <defName>HP_ImperialFabricationBench</defName>
+		<label>Astartes Fabrication Bench</label>
+		<description>Its workstation which allow you to craft Adeptus Astartes armors and weapons from Warhammer 40,000 universe</description>
+		<tab>Odz_ResearchTab_Adeptus</tab>
+		<techLevel>Ultra</techLevel>
+		<requiredResearchFacilities>
+			<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<baseCost>8000</baseCost>
+		<researchViewX>0.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+	</ResearchProjectDef>
+
+            <!--From here you add individual researches. Most will only require a defName, label, description, and location. To override the baseCost, just add an additional line in here that has the desired cost value-->
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>DarkAngels</defName>
+		<label>Dark Angels</label>
+		<description>Dark Angels armors set.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>WhiteScars</defName>
+		<label>White Scars</label>
+		<description>White Scars armors set.</description>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>SpaceWolves</defName>
+		<label>Space Wolves</label>
+		<description>Space Wolves armors set.</description>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Spacemarines</defName>
+		<label>Spacemarines</label>
+		<description>Spacemarines armors set.</description>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Imperial_Fists</defName>
+		<label>Imperial Fists</label>
+		<description>Imperial Fists armors set.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Blood_Angels</defName>
+		<label>Blood Angels</label>
+		<description>Blood Angels armors set.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Iron_Hands</defName>
+		<label>Iron Hands</label>
+		<description>Iron Hands armors set.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Ultramarines</defName>
+		<label>Ultramarines</label>
+		<description>Ultramarines armors set.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Salamanders</defName>
+		<label>Salamanders</label>
+		<description>Salamanders armors set.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Raven_Guard</defName>
+		<label>Raven Guard</label>
+		<description>Raven Guard armors set.</description>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Blood_Ravens</defName>
+		<label>Blood Ravens</label>
+		<description>Blood Ravens armors set.</description>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Black_Templars</defName>
+		<label>Black Templars</label>
+		<description>Black Templars armors set.</description>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Carcharodons</defName>
+		<label>Carcharodons</label>
+		<description>Carcharodons armors set.</description>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Minotaurs</defName>
+		<label>Minotaurs</label>
+		<description>Minotaurs armors set.</description>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Armors_AA_Base">
+		<defName>Legion_of_the_Damned</defName>
+		<label>Legion of the Damned</label>
+		<description>Legion of the Damned armors set.</description>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Adeptus_Base">
+		<defName>MKVIIAquillaArmors</defName>
+		<label>MK VII Aquilla Armors</label>
+		<description>MK VII Aquilla Armors</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Adeptus_Base">
+		<defName>MKXTacticusArmor</defName>
+		<label>MK X Tacticus Armors</label>
+		<description>MK X Armors</description>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Adeptus_Base">
+		<defName>MKXGravisArmor</defName>
+		<label>MKX Gravis armors</label>
+		<description>Gravis armors</description>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Adeptus_Base">
+		<defName>Odz_Astartes_BoltGuns</defName>
+		<label>Bolt Guns</label>
+		<description>This research unlocks all of Astartes Bolt weapons like Boltguns, Heavy Boltguns ect.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Adeptus_Base">
+		<defName>Odz_Astartes_PlasmaGuns</defName>
+		<label>Plasma Guns</label>
+		<description>This research unlocks all of Astartes Plasma weapons like Plasmagun, Plasma Incinerator ect.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Adeptus_Base">
+		<defName>Odz_Astartes_MeltaGuns</defName>
+		<label>Melta Guns</label>
+		<description>This research unlocks all of Astartes Melta weapons like Melta, Multi Melta ect.</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Adeptus_Base">
+		<defName>Odz_Astartes_Melee</defName>
+		<label>Melee Weapons</label>
+		<description>This research unlocks all of Astartes Melee weapons like Chainsword, ChainAxe</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>5.00</researchViewY>
+	</ResearchProjectDef>
+</Defs>

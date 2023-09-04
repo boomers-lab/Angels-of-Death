@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+            <!--Generic helmet base. Every helmet will have these things. Only add/change stuff in this if you want every helmet to be affected-->
+    <ThingDef Abstract="true" Name="HP_AoD_HelmetBase" ParentName="ArmorHelmetMakeableBase">
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<uiIconScale>1</uiIconScale>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+        <tradeTags>
+            <li>HPHelmet</li>
+        </tradeTags>
+		<apparel>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+    </ThingDef>
+
+            <!--Specific helmet categories. All helmet should inherit from one of these. To make a new helmet type, copy one of the others, then adjust everything to whatever the new helmet type should have.-->
+
+        <!--MKVII-->
+    <ThingDef Abstract="true" Name="HP_AoD_MKVIIHelmet_Base" ParentName="HP_AoD_HelmetBase">
+		<description>Special hermetic helmet with improved optics, target scanning system and life support. Primaris Marine version. Worn by most of Firstborn battle brothers.</description>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisites>
+                <li>MKVIIAquillaArmors</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<apparel>
+			<tags>
+				<li>40kDeathKorps</li>
+				<li>40kDeathKorpsHelmet</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKX-->
+    <ThingDef Abstract="true" Name="HP_AoD_MKXHelmet_Base" ParentName="HP_AoD_HelmetBase">
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>300</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisites>
+                <li>MKXTacticusArmor</li>
+			</researchPrerequisites>
+		</recipeMaker>
+    </ThingDef>
+
+        <!--MKX_LT-->
+    <ThingDef Abstract="true" Name="HP_AoD_MKX_LTHelmet_Base" ParentName="HP_AoD_MKXHelmet_Base">
+		<equippedStatOffsets>
+			<SocialImpact>0.5</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
+        <!--MKX_SG-->
+    <ThingDef Abstract="true" Name="HP_AoD_MKX_SGHelmet_Base" ParentName="HP_AoD_MKXHelmet_Base">
+		<equippedStatOffsets>
+			<SocialImpact>0.2</SocialImpact>
+		</equippedStatOffsets>
+		<recipeMaker>
+			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+        </recipeMaker>
+    </ThingDef>
+
+        <!--Gravis-->
+    <ThingDef Abstract="true" Name="HP_AoD_GravisHelmet_Base" ParentName="HP_AoD_HelmetBase">
+		<description>Special hermetic helmet with improved optics, target scanning system and life support, heavy armor plating and stronger vox/augur cotigator. Worn by most of Primaris Capitains.</description>
+		<recipeMaker>
+			<researchPrerequisites>
+                <li>MKXGravisArmor</li>
+			</researchPrerequisites>
+		</recipeMaker>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>25</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.70</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.3</ArmorRating_Heat>
+			<Insulation_Cold>25</Insulation_Cold>
+			<Insulation_Heat>25</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.5</AimingDelayFactor>
+			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+			<SocialImpact>0.75</SocialImpact>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>PrestigeCombatGear</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+</Defs>
