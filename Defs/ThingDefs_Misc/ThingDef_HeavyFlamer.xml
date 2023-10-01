@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<!--===== Flamer Projectile =====-->
+
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>GW_SM_Bullet_Flamer</defName>
+		<label>flamer shot</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Flamer_Flame</texPath>
+			<texPathFadeOut>Things/Projectiles/Flamer_End</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<speed>45</speed>
+			<damageAmountBase>4</damageAmountBase>
+		</projectile>
+
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>55</lifeTimeDuration>
+		<widthScaleFactor>0.65</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
+	
+	<!--===== Heavy Flamer Projectile =====-->
+	
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
+		<defName>GW_SM_Bullet_HeavyFlamer</defName>
+		<label>heavy flamer shot</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Flamer_Flame</texPath>
+			<texPathFadeOut>Things/Projectiles/Flamer_End</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
+		</graphicData>
+		<projectile>
+			<damageDef>Flame</damageDef>
+			<speed>45</speed>
+			<damageAmountBase>6</damageAmountBase>
+		</projectile>
+
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>55</lifeTimeDuration>
+		<widthScaleFactor>0.75</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.25</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>30</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
+		
+	<ThingDef Abstract="True" ParentName="BaseGunWithQuality" Name="GW_SM_FlamerBase">
+		<smeltable>false</smeltable>
+		<techLevel>Spacer</techLevel>
+		<generateCommonality>0.5</generateCommonality>
+		<tradeability>None</tradeability>
+		<relicChance>0</relicChance>
+	</ThingDef>
+
+	<!--===== Flamer =====-->
+	
+	<ThingDef ParentName="GW_SM_FlamerBase">
+		<defName>GW_SM_Gun_Flamer</defName>
+		<label>flamer</label>
+		<description>I bet it burns</description>
+		<graphicData>
+			<texPath>Things/Weapons/Ranged/Flamer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11.7</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Plasteel>105</Plasteel>
+			<Steel>125</Steel>
+			<ComponentIndustrial>15</ComponentIndustrial>
+			<HP_Ceramite>35</HP_Ceramite>
+		</costList>
+		<statBases>
+			<Mass>18</Mass>
+			<RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
+			<WorkToMake>42000</WorkToMake>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_Bullet_Flamer</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.25</warmupTime>
+				<range>16</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>GW_SM_Flamer_Sound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<!--===== Heavy Flamer =====-->
+	
+	<ThingDef ParentName="GW_SM_FlamerBase">
+		<defName>GW_SM_Gun_HeavyFlamer</defName>
+		<label>heavy flamer</label>
+		<description>I bet it burns, more? You should really see a doctor.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Terminator/Heavy_Flamer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.3</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13.4</power>
+				<cooldownTime>4.2</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Plasteel>130</Plasteel>
+			<Steel>150</Steel>
+			<ComponentIndustrial>18</ComponentIndustrial>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<Mass>26</Mass>
+			<RangedWeapon_Cooldown>5.4</RangedWeapon_Cooldown>
+			<WorkToMake>45000</WorkToMake>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_Bullet_HeavyFlamer</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.5</warmupTime>
+				<range>18</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>GW_SM_Flamer_Sound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+</Defs>

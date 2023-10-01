@@ -109,11 +109,11 @@
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.45</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>20</Insulation_Cold>
-			<Insulation_Heat>20</Insulation_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<recipeMaker>
@@ -151,11 +151,11 @@
 			<MaxHitPoints>1000</MaxHitPoints>
 			<Mass>13</Mass>
 			<Flammability>0.1</Flammability>
-			<ArmorRating_Sharp>1.70</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.40</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.55</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.3</ArmorRating_Heat>
-			<Insulation_Cold>25</Insulation_Cold>
-			<Insulation_Heat>25</Insulation_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>40</Insulation_Heat>
 			<EquipDelay>6</EquipDelay>
 			<EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
 			<EnergyShieldEnergyMax>2.0</EnergyShieldEnergyMax>

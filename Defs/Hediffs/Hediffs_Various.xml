@@ -2018,8 +2018,8 @@
 			      <IncomingDamageFactor>0.8</IncomingDamageFactor>
 				  <MeleeWeapon_DamageMultiplier>1.0</MeleeWeapon_DamageMultiplier>
 				  <MeleeDPS>2.5</MeleeDPS>
-				  <MeleeDamageFactor>2.0</MeleeDamageFactor>
-				  <StaggerDurationFactor>0</StaggerDurationFactor>
+				  <MeleeDamageFactor MayRequire="Ludeon.RimWorld.Biotech">2.0</MeleeDamageFactor>
+				  <StaggerDurationFactor MayRequire="Ludeon.RimWorld.Biotech">0</StaggerDurationFactor>
 				  <InjuryHealingFactor>15</InjuryHealingFactor>
 			  </statFactors>
 			  <naturalHealingFactor>300.0</naturalHealingFactor>
@@ -2038,7 +2038,7 @@
           </scale>
           <chancePerTick>0.01</chancePerTick>
           <positionRadius>0.25</positionRadius>
-          <moteDef>Mote_AuraSparkSimple</moteDef>
+          <moteDef MayRequire="Ludeon.RimWorld.Biotech">Mote_AuraSparkSimple</moteDef>
           <speed>
             <min>0.18</min>
             <max>0.18</max>
@@ -2071,7 +2071,7 @@
       </children>
     </EffecterDef>
 	
-	<ThingDef ParentName="MoteBase">
+	<ThingDef ParentName="MoteBase" MayRequire="Ludeon.RimWorld.Biotech">
       <defName>Mote_AuraSparkSimple</defName>
       <thingClass>MoteAttached</thingClass>
       <altitudeLayer>MoteOverhead</altitudeLayer>
@@ -2084,7 +2084,7 @@
         <texPath>Things/Mote/MechSparkSimple</texPath>
         <graphicClass>Graphic_MoteWithAgeSecs</graphicClass>
         <shaderType>GlowAnimated</shaderType>
-		<color>(1, 1, 0.2)</color>
+		    <color>(1, 1, 0.2)</color>
         <shaderParameters>
           <_NumFrames>2</_NumFrames>
           <_FramesPerSec>4</_FramesPerSec>
@@ -2186,7 +2186,7 @@
         </comps>
         <stages>
             <li>
-			  <capMods>
+			        <capMods>
                 <li>
                   <capacity>Sight</capacity>
                   <offset>1.00</offset>
@@ -2195,15 +2195,15 @@
                   <capacity>Manipulation</capacity>
                   <offset>0.50</offset>
                 </li>
-				<li>
+				        <li>
                   <capacity>Hearing</capacity>
                   <offset>0.50</offset>
                 </li>				
               </capMods>
-			  <statFactors>
-			      <RangedCooldownFactor>0.30</RangedCooldownFactor>
+			        <statFactors>
+			          <RangedCooldownFactor MayRequire="Ludeon.RimWorld.Biotech">0.30</RangedCooldownFactor>
 	              <AimingDelayFactor>0.30</AimingDelayFactor>
-			  </statFactors>			  
+              </statFactors>			  
             </li>
         </stages>
     </HediffDef>
@@ -2219,7 +2219,7 @@
           </scale>
           <chancePerTick>0.01</chancePerTick>
           <positionRadius>0.25</positionRadius>
-          <moteDef>Mote_RangerAuraSparkSimple</moteDef>
+          <moteDef MayRequire="Ludeon.RimWorld.Biotech">Mote_RangerAuraSparkSimple</moteDef>
           <speed>
             <min>0.18</min>
             <max>0.18</max>
@@ -2231,7 +2231,7 @@
         </li>
 		<li>
           <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
-          <moteDef>Mote_ApocritonPulse</moteDef>
+          <moteDef MayRequire="Ludeon.RimWorld.Biotech">Mote_ApocritonPulse</moteDef>
           <burstCount>1</burstCount>
           <rotation>-150~150</rotation>
           <ticksBetweenMotes>76</ticksBetweenMotes>
@@ -2242,7 +2242,7 @@
       </children>
     </EffecterDef>
 	
-	<ThingDef ParentName="MoteBase">
+	<ThingDef ParentName="MoteBase" MayRequire="Ludeon.RimWorld.Biotech">
       <defName>Mote_RangerAuraSparkSimple</defName>
       <thingClass>MoteAttached</thingClass>
       <altitudeLayer>MoteOverhead</altitudeLayer>

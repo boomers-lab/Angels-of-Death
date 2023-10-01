@@ -51,16 +51,19 @@
                         <WornBulk>5</WornBulk>
                     </statBases>
                     <equippedStatOffsets>
-                      <ReloadSpeed>-0.2</ReloadSpeed>
-                      <MeleeHitChance>-1</MeleeHitChance>
-                      <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
-                      <AimingAccuracy>-0.08</AimingAccuracy>
-                      <Suppressability>-0.25</Suppressability>
-                      <MeleeCritChance>-0.05</MeleeCritChance>
-                      <MeleeParryChance>1.0</MeleeParryChance>
+                        <ReloadSpeed>-0.2</ReloadSpeed>
+                        <MeleeHitChance>-1</MeleeHitChance>
+                        <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+                        <AimingAccuracy>-0.08</AimingAccuracy>
+                        <Suppressability>-0.25</Suppressability>
+                        <MeleeCritChance>-0.05</MeleeCritChance>
+                        <MeleeParryChance>1.0</MeleeParryChance>
                     </equippedStatOffsets>
                     <apparel>
-                      <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                        <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                        <tags>
+                            <li>GW_SM_CombatShield</li>
+                        </tags>
                     </apparel>
                     <modExtensions>
                       <li Class="CombatExtended.ShieldDefExtension">
@@ -94,6 +97,9 @@
                     </equippedStatOffsets>
                     <apparel>
                         <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                        <tags>
+                            <li>GW_SM_StormShield</li>
+                        </tags>
                     </apparel>
                     <modExtensions>
                       <li Class="CombatExtended.ShieldDefExtension">
@@ -117,6 +123,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kPrimaris_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>MKXTacticusArmor</li>
                     </researchPrerequisites>
@@ -131,6 +142,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kBlackTemplars_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Black_Templars</li>
                     </researchPrerequisites>
@@ -145,6 +161,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kBloodAngels_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Blood_Angels</li>
                     </researchPrerequisites>
@@ -159,6 +180,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kBloodRavens_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Blood_Ravens</li>
                     </researchPrerequisites>
@@ -173,6 +199,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kCarcharodons_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Carcharodons</li>
                     </researchPrerequisites>
@@ -187,6 +218,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kDarkAngels_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>DarkAngels</li>
                     </researchPrerequisites>
@@ -201,6 +237,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kImperialFists_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Imperial_Fists</li>
                     </researchPrerequisites>
@@ -215,6 +256,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kIronHands_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Iron_Hands</li>
                     </researchPrerequisites>
@@ -229,6 +275,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kLOTD_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Legion_of_the_Damned</li>
                     </researchPrerequisites>
@@ -243,6 +294,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kMinotaurs_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Minotaurs</li>
                     </researchPrerequisites>
@@ -257,6 +313,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kRavenGuards_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Raven_Guard</li>
                     </researchPrerequisites>
@@ -271,6 +332,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kSalamanders_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Salamanders</li>
                     </researchPrerequisites>
@@ -285,6 +351,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kSpaceWolves_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>SpaceWolves</li>
                     </researchPrerequisites>
@@ -299,6 +370,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kUltramarines_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Ultramarines</li>
                     </researchPrerequisites>
@@ -313,6 +389,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kWhiteScars_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>WhiteScars</li>
                     </researchPrerequisites>
@@ -327,6 +408,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kBlackTemplars_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Black_Templars</li>
                     </researchPrerequisites>
@@ -341,6 +427,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kBloodAngels_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Blood_Angels</li>
                     </researchPrerequisites>
@@ -355,6 +446,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kBloodRavens_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Blood_Ravens</li>
                     </researchPrerequisites>
@@ -369,6 +465,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kCarcharodons_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Carcharodons</li>
                     </researchPrerequisites>
@@ -383,6 +484,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kDarkAngels_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>DarkAngels</li>
                     </researchPrerequisites>
@@ -397,6 +503,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kImperialFists_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Imperial_Fists</li>
                     </researchPrerequisites>
@@ -411,6 +522,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kIronHands_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Iron_Hands</li>
                     </researchPrerequisites>
@@ -425,6 +541,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kLOTD_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Legion_of_the_Damned</li>
                     </researchPrerequisites>
@@ -439,6 +560,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kMinotaurs_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Minotaurs</li>
                     </researchPrerequisites>
@@ -453,6 +579,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kRavenGuards_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Raven_Guard</li>
                     </researchPrerequisites>
@@ -467,6 +598,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kSalamanders_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Salamanders</li>
                     </researchPrerequisites>
@@ -481,6 +617,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kSpaceWolves_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>SpaceWolves</li>
                     </researchPrerequisites>
@@ -495,6 +636,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kUltramarines_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>Ultramarines</li>
                     </researchPrerequisites>
@@ -509,6 +655,11 @@
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
+                    <apparel>
+                        <tags>
+                            <li>40kWhiteScars_Shield</li>
+                        </tags>
+                    </apparel>
                     <researchPrerequisites>
                         <li>WhiteScars</li>
                     </researchPrerequisites>
@@ -594,6 +745,9 @@
                         </equippedStatOffsets>
                         <apparel>
                             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                            <tags>
+                                <li>GW_SM_CombatShield</li>
+                            </tags>
                         </apparel>
                     </ThingDef>
 
@@ -611,6 +765,9 @@
                         </equippedStatOffsets>
                         <apparel>
                             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+                            <tags>
+                                <li>GW_SM_StormShield</li>
+                            </tags>
                         </apparel>
                     </ThingDef>
 

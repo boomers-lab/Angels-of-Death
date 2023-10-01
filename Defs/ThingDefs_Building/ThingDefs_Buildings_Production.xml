@@ -41,6 +41,7 @@
     <recipes>
       <li>Make_ComponentIndustrial</li>
       <li>Make_ComponentSpacer</li>
+      <li>GW_Make_ComponentRelic</li>
     </recipes>
     <graphicData>
       <texPath>Things/Building/Production/AstartesFabricationBench/AstartesFabricationBench</texPath>
@@ -66,8 +67,8 @@
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <hasInteractionCell>true</hasInteractionCell>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-    <designationCategory>Production</designationCategory>
-    <uiOrder>2530</uiOrder>
+    <designationCategory>GrimworldCategory</designationCategory>
+    <uiOrder>1</uiOrder>
     <surfaceType>Item</surfaceType>
     <designationHotKey>Misc12</designationHotKey>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
@@ -77,7 +78,7 @@
     </placeWorkers>
     <researchPrerequisites>
       <li>AdvancedFabrication</li>
-	  <li>HP_ImperialFabricationBench</li>
+	    <li>HP_ImperialFabricationBench</li>
     </researchPrerequisites>
   </ThingDef>
 

@@ -118,4 +118,22 @@
           </li>
         </subSounds>
 	</SoundDef>
+	
+	<SoundDef>
+		<defName>GW_SM_Flamer_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Flamer</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>50~50</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
+	
 </Defs>

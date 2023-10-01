@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <RulePackDef>
+        <defName>GW_Namer_AdeptusAstartes</defName>
+        <rulePack>
+            <rulesStrings>
+                <li>r_name->The Adeptus Astartes</li>
+            </rulesStrings>
+        </rulePack>
+    </RulePackDef>
+
+    <ThingSetMakerDef ParentName="GW_ImperialLootBase">
+        <defName>GW_SM_RaidLootMaker</defName>
+        <root Class="ThingSetMaker_MarketValue">
+            <fixedParams>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentSpacer</li>
+                        <li>AdvancedMedkit</li>
+                        <li>HP_Adamantium</li>
+                        <li>HP_Auramite</li>
+                        <li>HP_Ceramite</li>
+                    </thingDefs>
+                </filter>
+            </fixedParams>
+        </root>
+    </ThingSetMakerDef>
+
+    <FactionDef ParentName="GW_ImperialFactionBase">
+        <defName>GW_SM_AdeptusAstartes</defName>
+        <label>Adeptus Astartes</label>
+        <description>The Adeptus Astartes, also known as Space Marines, are the greatest warriors in the Imperium of Man. Their soldiers have undergone an intense training regime and extensive genetic modifications to become the ultimate weapons. Clad in exceptionally strong power armor and wielding massive weapons, these fearless warriors will do whatever it takes to ensure humanity survives.</description>
+        <configurationListOrderPriority>999</configurationListOrderPriority>
+        <leaderTitle>captain</leaderTitle>
+        <techLevel>Ultra</techLevel>
+        <factionIconPath>UI/Icons/AdeptusAstartes</factionIconPath>
+        <factionNameMaker>GW_Namer_AdeptusAstartes</factionNameMaker>
+        <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <autoFlee>false</autoFlee>
+        <pawnSingular>marine</pawnSingular>
+        <pawnsPlural>marines</pawnsPlural>
+        <baseTraderKinds>
+            <li>GW_SM_Trader</li>
+        </baseTraderKinds>
+        <disallowedRaidStrategies> <!--Prefer raid strategies with drop pods and immediate action-->
+            <li>ImmediateAttackSappers</li>
+            <li>ImmediateAttackBreaching</li>
+            <li>ImmediateAttackBreachingSmart</li>
+            <li>StageThenAttack</li>
+            <li>Siege</li>
+        </disallowedRaidStrategies>
+        <raidLootMaker>GW_SM_RaidLootMaker</raidLootMaker>
+        <settlementTexturePath>UI/Icons/AdeptusAstartes</settlementTexturePath>
+        <allowedCultures><li>Astropolitan</li></allowedCultures>
+        <maxPawnCostPerTotalPointsCurve>
+            <points>
+                <li>(900,300)</li>
+                <li>(1500,1000)</li>
+                <li>(100000,10000)</li>
+            </points>
+        </maxPawnCostPerTotalPointsCurve>
+        <pawnGroupMakers>
+                <!--Black Templar-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_BT_RangedTier2>5</GW_SM_BT_RangedTier2>
+                    <GW_SM_BT_MeleeTier2>3</GW_SM_BT_MeleeTier2>
+                    <GW_SM_BT_RangedTier3>7</GW_SM_BT_RangedTier3>
+                    <GW_SM_BT_MeleeTier3>5</GW_SM_BT_MeleeTier3>
+                    <GW_SM_BT_RangedTier4>10</GW_SM_BT_RangedTier4>
+                    <GW_SM_BT_MeleeTier4>7</GW_SM_BT_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Black Angel-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_BL_RangedTier2>5</GW_SM_BL_RangedTier2>
+                    <GW_SM_BL_MeleeTier2>3</GW_SM_BL_MeleeTier2>
+                    <GW_SM_BL_RangedTier3>7</GW_SM_BL_RangedTier3>
+                    <GW_SM_BL_MeleeTier3>5</GW_SM_BL_MeleeTier3>
+                    <GW_SM_BL_RangedTier4>10</GW_SM_BL_RangedTier4>
+                    <GW_SM_BL_MeleeTier4>7</GW_SM_BL_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Blood Raven-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_BR_RangedTier2>5</GW_SM_BR_RangedTier2>
+                    <GW_SM_BR_MeleeTier2>3</GW_SM_BR_MeleeTier2>
+                    <GW_SM_BR_RangedTier3>7</GW_SM_BR_RangedTier3>
+                    <GW_SM_BR_MeleeTier3>5</GW_SM_BR_MeleeTier3>
+                    <GW_SM_BR_RangedTier4>10</GW_SM_BR_RangedTier4>
+                    <GW_SM_BR_MeleeTier4>7</GW_SM_BR_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Carcharodon-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_CAR_RangedTier2>5</GW_SM_CAR_RangedTier2>
+                    <GW_SM_CAR_MeleeTier2>3</GW_SM_CAR_MeleeTier2>
+                    <GW_SM_CAR_RangedTier3>7</GW_SM_CAR_RangedTier3>
+                    <GW_SM_CAR_MeleeTier3>5</GW_SM_CAR_MeleeTier3>
+                    <GW_SM_CAR_RangedTier4>10</GW_SM_CAR_RangedTier4>
+                    <GW_SM_CAR_MeleeTier4>7</GW_SM_CAR_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Dark Angel-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_DA_RangedTier2>5</GW_SM_DA_RangedTier2>
+                    <GW_SM_DA_MeleeTier2>3</GW_SM_DA_MeleeTier2>
+                    <GW_SM_DA_RangedTier3>7</GW_SM_DA_RangedTier3>
+                    <GW_SM_DA_MeleeTier3>5</GW_SM_DA_MeleeTier3>
+                    <GW_SM_DA_RangedTier4>10</GW_SM_DA_RangedTier4>
+                    <GW_SM_DA_MeleeTier4>7</GW_SM_DA_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Imperial Fist-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_IF_RangedTier2>5</GW_SM_IF_RangedTier2>
+                    <GW_SM_IF_MeleeTier2>3</GW_SM_IF_MeleeTier2>
+                    <GW_SM_IF_RangedTier3>7</GW_SM_IF_RangedTier3>
+                    <GW_SM_IF_MeleeTier3>5</GW_SM_IF_MeleeTier3>
+                    <GW_SM_IF_RangedTier4>10</GW_SM_IF_RangedTier4>
+                    <GW_SM_IF_MeleeTier4>7</GW_SM_IF_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Iron Hand-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_IH_RangedTier2>5</GW_SM_IH_RangedTier2>
+                    <GW_SM_IH_MeleeTier2>3</GW_SM_IH_MeleeTier2>
+                    <GW_SM_IH_RangedTier3>7</GW_SM_IH_RangedTier3>
+                    <GW_SM_IH_MeleeTier3>5</GW_SM_IH_MeleeTier3>
+                    <GW_SM_IH_RangedTier4>10</GW_SM_IH_RangedTier4>
+                    <GW_SM_IH_MeleeTier4>7</GW_SM_IH_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Legion of the Dead-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_LOTD_RangedTier2>5</GW_SM_LOTD_RangedTier2>
+                    <GW_SM_LOTD_MeleeTier2>3</GW_SM_LOTD_MeleeTier2>
+                    <GW_SM_LOTD_RangedTier3>7</GW_SM_LOTD_RangedTier3>
+                    <GW_SM_LOTD_MeleeTier3>5</GW_SM_LOTD_MeleeTier3>
+                    <GW_SM_LOTD_RangedTier4>10</GW_SM_LOTD_RangedTier4>
+                    <GW_SM_LOTD_MeleeTier4>7</GW_SM_LOTD_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Minotaur-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_M_RangedTier2>5</GW_SM_M_RangedTier2>
+                    <GW_SM_M_MeleeTier2>3</GW_SM_M_MeleeTier2>
+                    <GW_SM_M_RangedTier3>7</GW_SM_M_RangedTier3>
+                    <GW_SM_M_MeleeTier3>5</GW_SM_M_MeleeTier3>
+                    <GW_SM_M_RangedTier4>10</GW_SM_M_RangedTier4>
+                    <GW_SM_M_MeleeTier4>7</GW_SM_M_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Raven Guard-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_RG_RangedTier2>5</GW_SM_RG_RangedTier2>
+                    <GW_SM_RG_MeleeTier2>3</GW_SM_RG_MeleeTier2>
+                    <GW_SM_RG_RangedTier3>7</GW_SM_RG_RangedTier3>
+                    <GW_SM_RG_MeleeTier3>5</GW_SM_RG_MeleeTier3>
+                    <GW_SM_RG_RangedTier4>10</GW_SM_RG_RangedTier4>
+                    <GW_SM_RG_MeleeTier4>7</GW_SM_RG_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Salamander-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_SL_RangedTier2>5</GW_SM_SL_RangedTier2>
+                    <GW_SM_SL_MeleeTier2>3</GW_SM_SL_MeleeTier2>
+                    <GW_SM_SL_RangedTier3>7</GW_SM_SL_RangedTier3>
+                    <GW_SM_SL_MeleeTier3>5</GW_SM_SL_MeleeTier3>
+                    <GW_SM_SL_RangedTier4>10</GW_SM_SL_RangedTier4>
+                    <GW_SM_SL_MeleeTier4>7</GW_SM_SL_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Space Wolf-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_SW_RangedTier2>5</GW_SM_SW_RangedTier2>
+                    <GW_SM_SW_MeleeTier2>3</GW_SM_SW_MeleeTier2>
+                    <GW_SM_SW_RangedTier3>7</GW_SM_SW_RangedTier3>
+                    <GW_SM_SW_MeleeTier3>5</GW_SM_SW_MeleeTier3>
+                    <GW_SM_SW_RangedTier4>10</GW_SM_SW_RangedTier4>
+                    <GW_SM_SW_MeleeTier4>7</GW_SM_SW_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--Ultramarine-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_UM_RangedTier2>5</GW_SM_UM_RangedTier2>
+                    <GW_SM_UM_MeleeTier2>3</GW_SM_UM_MeleeTier2>
+                    <GW_SM_UM_RangedTier3>7</GW_SM_UM_RangedTier3>
+                    <GW_SM_UM_MeleeTier3>5</GW_SM_UM_MeleeTier3>
+                    <GW_SM_UM_RangedTier4>10</GW_SM_UM_RangedTier4>
+                    <GW_SM_UM_MeleeTier4>7</GW_SM_UM_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!--White Scar-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_WS_RangedTier2>5</GW_SM_WS_RangedTier2>
+                    <GW_SM_WS_MeleeTier2>3</GW_SM_WS_MeleeTier2>
+                    <GW_SM_WS_RangedTier3>7</GW_SM_WS_RangedTier3>
+                    <GW_SM_WS_MeleeTier3>5</GW_SM_WS_MeleeTier3>
+                    <GW_SM_WS_RangedTier4>10</GW_SM_WS_RangedTier4>
+                    <GW_SM_WS_MeleeTier4>7</GW_SM_WS_MeleeTier4>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+
+                <!-- Base defense, uses all tier 4 ranged units to make it harder to take. When terminators are released, they will be added to the list with a frequency of 1 on each of them -->
+            <li>
+                <kindDef>Settlement</kindDef>
+                <options>
+                    <GW_SM_BT_RangedTier4>5</GW_SM_BT_RangedTier4>
+                    <GW_SM_BL_RangedTier4>5</GW_SM_BL_RangedTier4>
+                    <GW_SM_BR_RangedTier4>5</GW_SM_BR_RangedTier4>
+                    <GW_SM_CAR_RangedTier4>5</GW_SM_CAR_RangedTier4>
+                    <GW_SM_DA_RangedTier4>5</GW_SM_DA_RangedTier4>
+                    <GW_SM_IF_RangedTier4>5</GW_SM_IF_RangedTier4>
+                    <GW_SM_IH_RangedTier4>5</GW_SM_IH_RangedTier4>
+                    <GW_SM_LOTD_RangedTier4>5</GW_SM_LOTD_RangedTier4>
+                    <GW_SM_M_RangedTier4>5</GW_SM_M_RangedTier4>
+                    <GW_SM_RG_RangedTier4>5</GW_SM_RG_RangedTier4>
+                    <GW_SM_SL_RangedTier4>5</GW_SM_SL_RangedTier4>
+                    <GW_SM_SW_RangedTier4>5</GW_SM_SW_RangedTier4>
+                    <GW_SM_UM_RangedTier4>5</GW_SM_UM_RangedTier4>
+                    <GW_SM_WS_RangedTier4>5</GW_SM_WS_RangedTier4>
+                </options>
+            </li>
+        </pawnGroupMakers>
+        <allowedArrivalTemperatureRange>-10~45</allowedArrivalTemperatureRange>
+    </FactionDef>
+</Defs>

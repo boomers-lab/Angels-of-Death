@@ -17,6 +17,41 @@
     </projectile>
   </ThingDef>
   
+	<!--===== Astartes Shotgun Projectile =====-->
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_SM_AstartesBullet</defName>
+		<label>shotgun blast</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Shotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>28</damageAmountBase>
+			<stoppingPower>5</stoppingPower>
+			<armorPenetrationBase>0.22</armorPenetrationBase>
+			<speed>65</speed>
+		</projectile>
+	</ThingDef>
+	
+	<!--===== Needle Rifle Projectile =====-->
+  
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_SM_NeedleBullet</defName>
+		<label>neelde round</label>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>24</damageAmountBase>
+			<armorPenetrationBase>0.92</armorPenetrationBase>
+			<speed>95</speed>
+		</projectile>
+	</ThingDef>
+	
 <!-- ====================== HP Bolter  ===================== -->
   
   <ThingDef ParentName="BaseHumanMakeableGun">
@@ -31,7 +66,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
 	  <recipeUsers Inherit="False">
-		<li>HP_ImperialFabricationBench</li>
+		  <li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>
       <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
       <skillRequirements>
@@ -52,6 +87,10 @@
       <ComponentIndustrial>25</ComponentIndustrial>
 	  <HP_Ceramite>20</HP_Ceramite>
     </costList>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>GW_SM_Ranged</li>
+    </weaponTags>
     <weaponClasses>
       <li>RangedHeavy</li>
     </weaponClasses>
@@ -72,9 +111,6 @@
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -152,6 +188,10 @@
 	  <ComponentSpacer>5</ComponentSpacer>
 	  <HP_Ceramite>40</HP_Ceramite>
     </costList>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>GW_SM_Ranged</li>
+    </weaponTags>
     <weaponClasses>
       <li>RangedHeavy</li>
     </weaponClasses>
@@ -172,9 +212,6 @@
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -225,7 +262,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <recipeMaker>
 	  <recipeUsers Inherit="False">
-		<li>HP_ImperialFabricationBench</li>
+		  <li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>
       <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
       <skillRequirements>
@@ -241,7 +278,7 @@
       <AccuracyLong>0.50</AccuracyLong>
       <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
     </statBases>
-	<equippedStatOffsets>
+	  <equippedStatOffsets>
       <MoveSpeed>-0.50</MoveSpeed>
     </equippedStatOffsets>
     <costList>
@@ -250,6 +287,11 @@
 	  <ComponentSpacer>6</ComponentSpacer>
 	  <HP_Ceramite>50</HP_Ceramite>
     </costList>
+    <weaponTags>
+      <li>IndustrialGunAdvanced</li>
+      <li>GW_SM_Ranged</li>
+      <li>GW_SM_RangedHeavy</li>
+    </weaponTags>
     <weaponClasses>
       <li>RangedHeavy</li>
     </weaponClasses>
@@ -270,9 +312,6 @@
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
     </verbs>
-    <weaponTags>
-      <li>IndustrialGunAdvanced</li>
-    </weaponTags>
     <tools>
       <li>
         <label>stock</label>
@@ -293,5 +332,169 @@
       </li>
     </tools>
   </ThingDef>
-
+  
+	<!--===== Astartes Shotgun =====-->
+  
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>GW_SM_AstartesShotgun</defName>
+		<label>Astartes Pattern Shotgun</label>
+		<description>Boomstick</description>
+		<graphicData>
+			<texPath>Things/Weapons/Ranged/AstartesShotgun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>52000</WorkToMake>
+			<Mass>8</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.87</AccuracyShort>
+			<AccuracyMedium>0.45</AccuracyMedium>
+			<AccuracyLong>0.35</AccuracyLong>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+		</statBases>
+			<equippedStatOffsets>
+			<MoveSpeed>-0.25</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>250</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
+			<HP_Ceramite>25</HP_Ceramite>
+		</costList>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<tradeTags>
+			<li>HPRanged</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_AstartesBullet</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>22</range>
+				<soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+			<tools>
+				<li>
+					<label>grip</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>2.2</cooldownTime>
+				</li>
+				<li>
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.1</cooldownTime>
+				</li>
+			</tools>
+	</ThingDef>
+	
+	<!--===== Sniper Rifle =====-->
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>GW_SM_SniperRifle</defName>
+		<label>Ultra Pattern Sniper Rifle</label>
+		<description>its a long shot</description>
+		<graphicData>
+			<texPath>Things/Weapons/Ranged/SniperRifle</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>58000</WorkToMake>
+			<Mass>6.8</Mass>
+			<AccuracyTouch>0.50</AccuracyTouch>
+			<AccuracyShort>0.88</AccuracyShort>
+			<AccuracyMedium>0.92</AccuracyMedium>
+			<AccuracyLong>0.88</AccuracyLong>
+			<RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
+		</statBases>
+			<equippedStatOffsets>
+			<MoveSpeed>-0.15</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>200</Steel>
+			<ComponentIndustrial>16</ComponentIndustrial>
+			<ComponentSpacer>4</ComponentSpacer>
+			<HP_Ceramite>15</HP_Ceramite>
+		</costList>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<tradeTags>
+			<li>HPRanged</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_NeedleBullet</defaultProjectile>
+				<warmupTime>1.2</warmupTime>
+				<range>55</range>
+				<soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+			<tools>
+				<li>
+					<label>stock</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>12</power>
+					<cooldownTime>2.2</cooldownTime>
+				</li>
+				<li>
+					<label>barrel</label>
+					<capacities>
+						<li>Blunt</li>
+						<li>Poke</li>
+					</capacities>
+					<power>11</power>
+					<cooldownTime>2.1</cooldownTime>
+				</li>
+			</tools>
+	</ThingDef>
+	
  </Defs>

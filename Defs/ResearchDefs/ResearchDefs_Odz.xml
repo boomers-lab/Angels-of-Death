@@ -30,6 +30,9 @@
 		<description>Its workstation which allow you to craft Adeptus Astartes armors and weapons from Warhammer 40,000 universe</description>
 		<tab>Odz_ResearchTab_Adeptus</tab>
 		<techLevel>Ultra</techLevel>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
@@ -193,11 +196,19 @@
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="HP_Adeptus_Base">
+		<defName>GW_Astartes_TermWeapons</defName>
+		<label>Terminator Weapons</label>
+		<description>'eavy weapons</description>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="HP_Adeptus_Base">
 		<defName>Odz_Astartes_PlasmaGuns</defName>
 		<label>Plasma Guns</label>
 		<description>This research unlocks all of Astartes Plasma weapons like Plasmagun, Plasma Incinerator ect.</description>
 		<researchViewX>1.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewY>4.00</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="HP_Adeptus_Base">
@@ -205,7 +216,7 @@
 		<label>Melta Guns</label>
 		<description>This research unlocks all of Astartes Melta weapons like Melta, Multi Melta ect.</description>
 		<researchViewX>1.00</researchViewX>
-		<researchViewY>4.00</researchViewY>
+		<researchViewY>5.00</researchViewY>
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="HP_Adeptus_Base">
@@ -213,6 +224,6 @@
 		<label>Melee Weapons</label>
 		<description>This research unlocks all of Astartes Melee weapons like Chainsword, ChainAxe</description>
 		<researchViewX>1.00</researchViewX>
-		<researchViewY>5.00</researchViewY>
+		<researchViewY>6.00</researchViewY>
 	</ResearchProjectDef>
 </Defs>

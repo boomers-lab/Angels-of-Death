@@ -118,7 +118,7 @@
 
     <FactionDef ParentName="PlayerFactionBase">
         <defName>GW_CrashlandedAngels</defName>
-        <label>Crashlanded Angels</label>
+        <label>crashlanded angels</label>
         <description>A colony of recently crashlanded ultramarines.</description>
         <isPlayer>true</isPlayer>
         <basicMemberKind>Colonist</basicMemberKind>
@@ -148,6 +148,9 @@
                 <li>Synthread</li>
             </thingDefs>
         </apparelStuffFilter>
-        <permanentEnemyToEveryoneExcept />
+        <permanentEnemyToEveryoneExcept>
+            <li MayRequire="Grimworld.AstraMilitarum">GW_AM_AstraMilitarum</li>
+            <li>GW_SM_AdeptusAstartes</li>
+        </permanentEnemyToEveryoneExcept>
     </FactionDef>
 </Defs>
