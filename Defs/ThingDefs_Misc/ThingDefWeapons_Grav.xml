@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8 ?>
+<?xml version="1.0" encoding="utf-8" ?>
 
 <Defs>
 
@@ -64,7 +64,7 @@
 
 	<!--===== Grav Weapon base =====-->
 	
-	<ThingDef Abstract="true" ParentName="BaseHumanMakeableGun" Name="GW_SM_Grav">
+	<ThingDef Abstract="true" ParentName="BaseHumanMakeableGun" Name="GW_SM_GravBase">
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
@@ -129,6 +129,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_GravCannon_Bullet</defaultProjectile>
+				<forcedMissRadius>2.9</forcedMissRadius>
 				<warmupTime>3</warmupTime>
 				<range>35</range>
 				<burstShotCount>1</burstShotCount>
@@ -195,6 +196,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_GravRifle_Bullet</defaultProjectile>
+				<forcedMissRadius>1.9</forcedMissRadius>
 				<warmupTime>3</warmupTime>
 				<range>24</range>
 				<burstShotCount>1</burstShotCount>
@@ -227,7 +229,7 @@
 	<!--===== Grav Pistol =====-->
 
 	<ThingDef ParentName="GW_SM_GravBase">
-		<defName>GW_SM_Gun_GravRifle</defName>
+		<defName>GW_SM_Gun_GravPistol</defName>
 		<label>Graviton Pistol</label>
 		<description>The air feels kinda less heavy.</description>
 		<graphicData>
@@ -269,6 +271,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_GravPistol_Bullet</defaultProjectile>
+				<forcedMissRadius>0.9</forcedMissRadius>
 				<warmupTime>3</warmupTime>
 				<range>18</range>
 				<burstShotCount>1</burstShotCount>
