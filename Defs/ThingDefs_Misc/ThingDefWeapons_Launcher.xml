@@ -142,15 +142,15 @@
 		</weaponTags>
 	</ThingDef>
 	
-	<!--===== Grenade =====-->
+	<!--===== Frag Launcher =====-->
 
 	<ThingDef ParentName="GW_SM_LauncherBase">
-		<defName>GW_SM_Gun_GravCannon</defName>
-		<label>Graviton Cannon</label>
-		<description>The air feels kinda heavy.</description>
+		<defName>GW_SM_Gun_FragLauncher</defName>
+		<label>Voss Pattern Launcher (Frag)</label>
+		<description>Can't we throw this further?</description>
 		<graphicData>
-			<texPath>Things/Weapons/Grav/GravCannon</texPath>
-			<drawSize>1.4</drawSize>
+			<texPath>Things/Weapons/Launcher/GrenadeLauncher</texPath>
+			<drawSize>1.2</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
@@ -158,26 +158,22 @@
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
 			<skillRequirements>
-				<Crafting>15</Crafting>
+				<Crafting>12</Crafting>
 			</skillRequirements>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>52000</WorkToMake>
-			<Mass>16</Mass>
-			<AccuracyTouch>0.82</AccuracyTouch>
-			<AccuracyShort>0.85</AccuracyShort>
-			<AccuracyMedium>0.76</AccuracyMedium>
-			<AccuracyLong>0.62</AccuracyLong>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>10</Mass>
 			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.40</MoveSpeed>
+			<MoveSpeed>-0.10</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<Steel>550</Steel>
-			<Plasteel>175</Plasteel>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<HP_Ceramite>15</HP_Ceramite>
+			<Steel>240</Steel>
+			<Plasteel>85</Plasteel>
+			<ComponentIndustrial>22</ComponentIndustrial>
+			<HP_Ceramite>8</HP_Ceramite>
 		</costList>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -186,10 +182,10 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_SM_GravCannon_Bullet</defaultProjectile>
-				<forcedMissRadius>2.9</forcedMissRadius>
+				<defaultProjectile>GW_SM_LauncherFrag_Bullet</defaultProjectile>
+				<forcedMissRadius>2.4</forcedMissRadius>
 				<warmupTime>3</warmupTime>
-				<range>35</range>
+				<range>26</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>HP_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
