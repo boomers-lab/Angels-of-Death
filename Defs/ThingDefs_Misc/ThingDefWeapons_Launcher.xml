@@ -126,9 +126,16 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
 		<recipeMaker>
 			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
 			<displayPriority>420</displayPriority>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
 		</recipeMaker>
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
@@ -140,6 +147,25 @@
 			<li>IndustrialGunAdvanced</li>
 			<li>GW_SM_Ranged</li>
 		</weaponTags>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>14</power>
+				<cooldownTime>2.5</cooldownTime>
+			</li>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+		</tools>
 	</ThingDef>
 	
 	<!--===== Frag Launcher =====-->
@@ -152,15 +178,6 @@
 			<texPath>Things/Weapons/Launcher/GrenadeLauncher</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
-		<soundInteract>Interact_Rifle</soundInteract>
-		<recipeMaker>
-			<recipeUsers Inherit="False">
-				<li>HP_ImperialFabricationBench</li>
-			</recipeUsers>
-			<skillRequirements>
-				<Crafting>12</Crafting>
-			</skillRequirements>
-		</recipeMaker>
 		<statBases>
 			<WorkToMake>42000</WorkToMake>
 			<Mass>10</Mass>
@@ -192,17 +209,178 @@
 				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>
 		</verbs>
-		<tools>
+	</ThingDef>
+
+	<!--===== EMP Launcher =====-->
+
+	<ThingDef ParentName="GW_SM_LauncherBase">
+		<defName>GW_SM_Gun_EMPLauncher</defName>
+		<label>Voss Pattern Launcher (EMP)</label>
+		<description>It feels tingly.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Launcher/GrenadeLauncherEMP</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>10</Mass>
+			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>240</Steel>
+			<Plasteel>70</Plasteel>
+			<ComponentIndustrial>36</ComponentIndustrial>
+			<HP_Ceramite>8</HP_Ceramite>
+		</costList>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
 			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>14</power>
-				<cooldownTime>2.5</cooldownTime>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_LauncherEMP_Bullet</defaultProjectile>
+				<forcedMissRadius>3.2</forcedMissRadius>
+				<warmupTime>3</warmupTime>
+				<range>32</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>HP_Plasma_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
 			</li>
-		</tools>
+		</verbs>
+	</ThingDef>
+
+	<!--===== Smoke Launcher =====-->
+
+	<ThingDef ParentName="GW_SM_LauncherBase">
+		<defName>GW_SM_Gun_SmokeLauncher</defName>
+		<label>Voss Pattern Launcher (Smoke)</label>
+		<description>Hey who turn out the lights</description>
+		<graphicData>
+			<texPath>Things/Weapons/Launcher/GrenadeLauncherSmoke</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>10</Mass>
+			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>240</Steel>
+			<Plasteel>85</Plasteel>
+			<ComponentIndustrial>22</ComponentIndustrial>
+			<HP_Ceramite>8</HP_Ceramite>
+		</costList>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_LauncherSmoke_Bullet</defaultProjectile>
+				<forcedMissRadius>1.2</forcedMissRadius>
+				<warmupTime>3</warmupTime>
+				<range>36</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>HP_Plasma_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+
+	<!--===== Stun Launcher =====-->
+
+	<ThingDef ParentName="GW_SM_LauncherBase">
+		<defName>GW_SM_Gun_StunLauncher</defName>
+		<label>Voss Pattern Launcher (Stun)</label>
+		<description>Just wait right there</description>
+		<graphicData>
+			<texPath>Things/Weapons/Launcher/GrenadeLauncherStun</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>10</Mass>
+			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>250</Steel>
+			<Plasteel>80</Plasteel>
+			<ComponentIndustrial>28</ComponentIndustrial>
+			<HP_Ceramite>8</HP_Ceramite>
+		</costList>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_LauncherStun_Bullet</defaultProjectile>
+				<forcedMissRadius>2.4</forcedMissRadius>
+				<warmupTime>3</warmupTime>
+				<range>32</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>HP_Plasma_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
+	<!--===== Tox Launcher =====-->
+
+	<ThingDef ParentName="GW_SM_LauncherBase" MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>GW_SM_Gun_ToxLauncher</defName>
+		<label>Voss Pattern Launcher (Tox)</label>
+		<description>Just some casual chemical warfare</description>
+		<graphicData>
+			<texPath>Things/Weapons/Launcher/GrenadeLauncherTox</texPath>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<statBases>
+			<WorkToMake>42000</WorkToMake>
+			<Mass>10</Mass>
+			<RangedWeapon_Cooldown>6</RangedWeapon_Cooldown>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<Steel>250</Steel>
+			<Plasteel>95</Plasteel>
+			<ComponentIndustrial>26</ComponentIndustrial>
+			<HP_Ceramite>8</HP_Ceramite>
+		</costList>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_LauncherTox_Bullet</defaultProjectile>
+				<forcedMissRadius>2.4</forcedMissRadius>
+				<warmupTime>3</warmupTime>
+				<range>36</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>HP_Plasma_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>10</muzzleFlashScale>
+			</li>
+		</verbs>
 	</ThingDef>
 
 </Defs>
