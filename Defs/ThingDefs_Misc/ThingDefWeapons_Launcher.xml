@@ -347,7 +347,7 @@
 		<label>Voss Pattern Launcher (Tox)</label>
 		<description>Just some casual chemical warfare</description>
 		<graphicData>
-			<texPath>Things/Weapons/Launcher/GrenadeLauncherTox</texPath>
+			<texPath>Things/Weapons/Launcher/GrenadeLauncherToxic</texPath>
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<statBases>
