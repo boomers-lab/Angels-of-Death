@@ -119,6 +119,7 @@
 			<Steel>550</Steel>
 			<Plasteel>175</Plasteel>
 			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
 			<HP_Ceramite>15</HP_Ceramite>
 		</costList>
 		<weaponClasses>
@@ -186,6 +187,7 @@
 			<Steel>485</Steel>
 			<Plasteel>155</Plasteel>
 			<ComponentIndustrial>36</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
 			<HP_Ceramite>12</HP_Ceramite>
 		</costList>
 		<weaponClasses>
