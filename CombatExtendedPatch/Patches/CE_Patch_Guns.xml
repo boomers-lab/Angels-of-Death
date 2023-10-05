@@ -12,7 +12,9 @@
 		defName="HeavyBolter" or
 		defName="GW_SM_AstartesShotgun" or
 		defName="GW_SM_SniperRifle" or 
-		defName="GW_SM_Gun_FragLauncher"
+		defName="GW_SM_Gun_FragLauncher" or
+		defName="GW_SM_Gun_GravRifle" or
+		defName="GW_SM_Gun_GravPistol"
 		]/tools</xpath>
 		<value>
 			<tools>
@@ -49,7 +51,8 @@
 		defName="GW_SM_Gun_PlasmaCannon" or
 		defName="GW_SM_Gun_ReaperCannon" or
 		defName="GW_SM_Gun_StormBolter" or
-		defName="GW_SM_Gun_AstartesPlasmaCannon"
+		defName="GW_SM_Gun_AstartesPlasmaCannon" or
+		defName="GW_SM_Gun_GravCannon"
 		]/tools</xpath>
 		<value>
 			<tools>
@@ -738,6 +741,12 @@
 	
 	<!--===== Grenade Launcher =====-->
 	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_SM_Gun_FragLauncher"]/label</xpath>
+		<value>
+			<label>Voss Pattern Launcher</label>
+		</value>
+	</Operation>
 	<Operation Class="PatchOperationConditional">
 		<xpath>Defs/ThingDef[defName="GW_SM_Gun_FragLauncher"]/weaponTags</xpath>
 		<nomatch Class="PatchOperationAdd">
@@ -747,7 +756,6 @@
 	</Operation>
 	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
 		<defName>GW_SM_Gun_FragLauncher</defName>
-		<label>Voss Pattern Launcher</label>
 		<statBases>
 			<Mass>8.4</Mass>
 			<RangedWeapon_Cooldown>0.98</RangedWeapon_Cooldown>
@@ -787,9 +795,147 @@
 	
 	<!--===== Grav Cannon =====-->
 	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GW_SM_Gun_GravCannon"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GW_SM_Gun_GravCannon"]</xpath>
+			<value><weaponTags /></value>
+		</nomatch>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>GW_SM_Gun_GravCannon</defName>
+		<statBases>
+			<Mass>64.2</Mass>
+			<RangedWeapon_Cooldown>0.98</RangedWeapon_Cooldown>
+			<SightsEfficiency>2.3</SightsEfficiency>
+			<ShotSpread>0.64</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>26.2</Bulk>
+			<WorkToMake>62000</WorkToMake>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_GravCell</defaultProjectile>
+			<warmupTime>3.4</warmupTime>
+			<range>72</range>
+			<burstShotCount>3</burstShotCount>
+			<soundCast>HP_Incinerator_Gun_Sound</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+			<recoilAmount>4.6</recoilAmount>
+			<ticksBetweenBurstShots>21</ticksBetweenBurstShots>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>12</magazineSize>
+			<reloadTime>13</reloadTime>
+			<ammoSet>AmmoSet_GravCell</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_Rifle</li>
+			<li>NoSwitch</li>
+		</weaponTags>
+	</Operation>
+	
 	<!--===== Grav Rifle =====-->
 	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GW_SM_Gun_GravRifle"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GW_SM_Gun_GravRifle"]</xpath>
+			<value><weaponTags /></value>
+		</nomatch>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>GW_SM_Gun_GravRifle</defName>
+		<statBases>
+			<Mass>30.8</Mass>
+			<RangedWeapon_Cooldown>0.98</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.4</SightsEfficiency>
+			<ShotSpread>0.05</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>16.4</Bulk>
+			<WorkToMake>58000</WorkToMake>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_GravCell</defaultProjectile>
+			<warmupTime>3.4</warmupTime>
+			<range>86</range>
+			<burstShotCount>0</burstShotCount>
+			<soundCast>HP_Incinerator_Gun_Sound</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+			<recoilAmount>4.6</recoilAmount>
+			<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>5</magazineSize>
+			<reloadTime>8.6</reloadTime>
+			<ammoSet>AmmoSet_GravCell</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_Rifle</li>
+			<li>NoSwitch</li>
+		</weaponTags>
+	</Operation>
+	
 	<!--===== Grav Pistol =====-->
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GW_SM_Gun_GravPistol"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GW_SM_Gun_GravPistol"]</xpath>
+			<value><weaponTags /></value>
+		</nomatch>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>GW_SM_Gun_GravPistol</defName>
+		<statBases>
+			<Mass>24.6</Mass>
+			<RangedWeapon_Cooldown>0.98</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.4</SightsEfficiency>
+			<ShotSpread>0.15</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>12.4</Bulk>
+			<WorkToMake>56000</WorkToMake>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_GravCell</defaultProjectile>
+			<warmupTime>2.4</warmupTime>
+			<range>42</range>
+			<burstShotCount>0</burstShotCount>
+			<soundCast>HP_Incinerator_Gun_Sound</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+			<recoilAmount>4.6</recoilAmount>
+			<ticksBetweenBurstShots>16</ticksBetweenBurstShots>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>1</magazineSize>
+			<reloadTime>8.6</reloadTime>
+			<ammoSet>AmmoSet_GravCell</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_Rifle</li>
+			<li>NoSwitch</li>
+		</weaponTags>
+	</Operation>
 	
 	<!--===== Remove Extra Launchers =====-->
 	
