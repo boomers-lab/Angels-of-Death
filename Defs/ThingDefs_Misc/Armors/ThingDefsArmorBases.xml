@@ -106,7 +106,7 @@
 		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Primaris Marines version.</description>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>750</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
