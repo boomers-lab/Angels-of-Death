@@ -414,5 +414,206 @@
       </li>
     </tools>
   </ThingDef>
-  
+
+		<!--===== Plasma Pistol =====-->
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_SM_PlasmaPistol_Bullet</defName>
+		<label>plasma pistol shot</label>
+		<graphicData>
+			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>15</damageAmountBase>
+			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.7</armorPenetrationBase>
+			<explosionRadius>1.5</explosionRadius>
+			<speed>120</speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>GW_SM_PlasmaPistol</defName>
+		<label>Plasma Pistol</label>
+		<description>Smol 4th state of matter </description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<drawSize>1.2</drawSize>
+			<texPath>Things/Weapons/Ranged/PlasmaPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.62</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Plasteel>120</Plasteel>
+			<Steel>150</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<HP_Ceramite>25</HP_Ceramite>
+		</costList>
+		<weaponTags>
+			<li>SpacerGun</li>
+			<li>GW_SM_Ranged</li>
+		</weaponTags>
+		<tradeTags>
+			<li>HPRanged</li>
+		</tradeTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_PlasmaPistol_Bullet</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<range>26</range>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>HP_Plasma_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>	
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<!--===== Inferno Pistol =====-->
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_SM_InfernoPistol_Bullet</defName>
+		<label>inferno pistol shot</label>
+		<graphicData>
+			<texPath>Things/Projectiles/Melta_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>18</damageAmountBase>
+			<stoppingPower>3</stoppingPower>
+			<armorPenetrationBase>1.5</armorPenetrationBase>
+			<speed>80</speed>
+		</projectile>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>GW_SM_InfernoPistol</defName>
+		<label>Inferno Gun</label>
+		<description>Smol fires</description>
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<drawSize>1.2</drawSize>
+			<texPath>Things/Weapons/Ranged/InfernoPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_ChargeRifle</soundInteract>
+		<statBases>
+			<WorkToMake>26000</WorkToMake>
+			<Mass>4.8</Mass>
+			<AccuracyTouch>0.60</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.90</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
+			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Plasteel>120</Plasteel>
+			<Steel>150</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<HP_Ceramite>25</HP_Ceramite>
+		</costList>
+		<weaponTags>
+			<li>SpacerGun</li>
+			<li>GW_SM_Ranged</li>
+		</weaponTags>
+		<tradeTags>
+			<li>HPRanged</li>
+		</tradeTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_InfernoPistol_Bullet</defaultProjectile>
+				<warmupTime>4</warmupTime>
+				<range>12</range>
+				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>HP_Melta_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>12</muzzleFlashScale>	
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+
 </Defs>
