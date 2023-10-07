@@ -24,6 +24,9 @@
             <li>HPArmor</li>
         </tradeTags>
 		<apparel>
+			<tags>
+				<li>EVA</li>
+			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -36,7 +39,7 @@
 				<li MayRequire="ceteam.combatextended">Feet</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Shell</li>
+				<li>Middle</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -80,9 +83,9 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisites>
-                <li>MKVIIAquillaArmors</li>
-			</researchPrerequisites>
+		<researchPrerequisites>
+			<li>MKVIIAquillaArmors</li>
+		</researchPrerequisites>
 		</recipeMaker>
 		<equippedStatOffsets>
 			<MoveSpeed>0.3</MoveSpeed>
@@ -117,9 +120,9 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisites>
-                <li>MKXTacticusArmor</li>
-			</researchPrerequisites>
+		<researchPrerequisites>
+			<li>MKXTacticusArmor</li>
+		</researchPrerequisites>
 		</recipeMaker>
 		<equippedStatOffsets>
 			<MoveSpeed>0.3</MoveSpeed>
@@ -143,9 +146,9 @@
 		<description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Worn by most of Primaris Capitains.</description>
 		<thingClass>WarHammerShieldBubblez.Apparel_UltramarineShieldBubble</thingClass>
 		<tickerType>Normal</tickerType>
-			<researchPrerequisites>
-                <li>MKXGravisArmor</li>
-			</researchPrerequisites>
+		<researchPrerequisites>
+			<li>MKXGravisArmor</li>
+		</researchPrerequisites>
         <statBases>
 			<WorkToMake>90000</WorkToMake>
 			<MaxHitPoints>1000</MaxHitPoints>
@@ -176,4 +179,70 @@
 			</tags>
 		</apparel>
     </ThingDef>
+
+		<!--Terminator-->
+	<ThingDef Abstract="true" Name="HP_AoD_TerminatorArmor_Base" ParentName="HP_AoD_ArmorBase">
+		<description>Terminator armor is massive power armor.</description>
+		<researchPrerequisites>
+			<li>MKXGravisArmor</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>110000</WorkToMake>
+			<MaxHitPoints>1500</MaxHitPoints>
+			<Mass>15</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>2.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
+			<EquipDelay>7</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>13</ComponentSpacer>
+			<Plasteel>1000</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>120</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>PrestigeCombatGear</li>
+			</tags>
+		</apparel>
+		<modExtensions>
+            <li Class="VFECore.ApparelDrawPosExtension">
+                <shellPosDrawSettings>
+                    <drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
+                    <drawPosSouthOffset>(0, 0, 0)</drawPosSouthOffset>
+                    <drawPosWestOffset>(0.1, 0.01, 0)</drawPosWestOffset>
+                    <drawPosEastOffset>(-0.1, 0.01, 0)</drawPosEastOffset>
+                    <!--
+                <drawNorthSize>(2, 2)</drawNorthSize>
+                <drawSouthSize>(2, 2)</drawSouthSize>
+                <drawWestSize>(2, 2)</drawWestSize>
+                <drawEastSize>(2, 2)</drawEastSize> -->
+                </shellPosDrawSettings>
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+		</modExtensions>
+    </ThingDef>
+
+	<ThingDef ParentName="HP_AoD_TerminatorArmor_Base" MayRequire="co.uk.epicguru.gw4karmor">
+		<defName>GW_TestTerminator</defName>
+		<label>Test Terminator</label>
+		<graphicData>
+			<texPath>Armor - Indomitus Terminator/Indomitus_torso_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor - Indomitus Terminator/Indomitus_torso</wornGraphicPath>
+			<tags>
+				<li>40KTestTerminator</li>
+			</tags>
+		</apparel>
+	</ThingDef>
 </Defs>

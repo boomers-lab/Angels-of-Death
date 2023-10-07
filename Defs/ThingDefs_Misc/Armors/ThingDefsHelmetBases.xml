@@ -21,6 +21,9 @@
             <li>HPHelmet</li>
         </tradeTags>
 		<apparel>
+			<tags>
+				<li>EVA</li>
+			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -28,6 +31,9 @@
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>
+				<li>EyeCover</li>
+				<li MayRequire="ceteam.combatextended">OnHead</li>
+				<li MayRequire="ceteam.combatextended">StrappedHead</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -173,4 +179,66 @@
 			</tags>
 		</apparel>
     </ThingDef>
+
+	<ThingDef Abstract="true" Name="HP_AoD_TerminatorHelmet_Base" ParentName="HP_AoD_HelmetBase">
+		<description>Terminator armor is massive power armor.</description>
+		<researchPrerequisites>
+			<li>MKXGravisArmor</li>
+		</researchPrerequisites>
+        <costList>
+			<ComponentSpacer>8</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>120</Uranium>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>5500</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>2.0</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+			<Insulation_Cold>50</Insulation_Cold>
+			<Insulation_Heat>50</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<headgearDrawSettings>
+					<drawPosNorthOffset>(0, -1.0, 0)</drawPosNorthOffset>
+					<drawPosSouthOffset>(0, 0.001, -0.07)</drawPosSouthOffset>
+					<drawPosWestOffset>(0, -0.1, 0)</drawPosWestOffset>
+					<drawPosEastOffset>(0, -0.1, 0)</drawPosEastOffset>
+					<!--
+				<drawNorthSize>(2, 2)</drawNorthSize>
+				<drawSouthSize>(2, 2)</drawSouthSize>
+				<drawWestSize>(2, 2)</drawWestSize>
+				<drawEastSize>(2, 2)</drawEastSize> -->
+				</headgearDrawSettings>
+				<isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>true</hideHead>
+			</li>
+		</modExtensions>
+		<apparel>
+			<tags>
+				<li>PrestigeCombatGear</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+	<ThingDef ParentName="HP_AoD_TerminatorHelmet_Base" MayRequire="co.uk.epicguru.gw4karmor">
+		<defName>GW_TestTerminatorHelm</defName>
+		<label>Test Terminator Helmet</label>
+		<graphicData>
+			<texPath>Armor - Indomitus Terminator/Helmets/Indomitus_helmet_simple_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Armor - Indomitus Terminator/Helmets/Indomitus_helmet_simple</wornGraphicPath>
+			<tags>
+				<li>40KTestTerminator</li>
+			</tags>
+		</apparel>
+	</ThingDef>
 </Defs>
