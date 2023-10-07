@@ -439,7 +439,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_PlasmaPistol</defName>
 		<label>Plasma Pistol</label>
-		<description>Smol 4th state of matter </description>
+		<description>Smol 4th state of matter.</description>
 		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<drawSize>1.2</drawSize>
