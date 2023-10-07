@@ -106,7 +106,7 @@
 	
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Flamer</defName>
-		<label>flamer</label>
+		<label>Flamer</label>
 		<description>I bet it burns</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Flamer</texPath>
@@ -163,7 +163,7 @@
 	
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_HeavyFlamer</defName>
-		<label>heavy flamer</label>
+		<label>Heavy Flamer</label>
 		<description>I bet it burns, more? You should really see a doctor.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/Heavy_Flamer</texPath>
@@ -215,4 +215,70 @@
 			</li>
 		</verbs>
 	</ThingDef>
+	
+	<!--===== Burner =====-->
+	
+	<ThingDef ParentName="GW_SM_FlamerBase">
+		<defName>GW_SM_Gun_Burner</defName>
+		<label>Burner</label>
+		<description>small burns</description>
+		<graphicData>
+			<texPath>Things/Weapons/Ranged/Burner</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<tools>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2.6</cooldownTime>
+			</li>
+		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Plasteel>85</Plasteel>
+			<Steel>115</Steel>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<HP_Ceramite>28</HP_Ceramite>
+		</costList>
+		<statBases>
+			<Mass>6.4</Mass>
+			<RangedWeapon_Cooldown>4.2</RangedWeapon_Cooldown>
+			<WorkToMake>36000</WorkToMake>
+		</statBases>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_Bullet_Burner</defaultProjectile>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<warmupTime>1.25</warmupTime>
+				<range>8</range>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>GW_SM_Flamer_Sound</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+			</li>
+		</verbs>
+	</ThingDef>
+	
 </Defs>
