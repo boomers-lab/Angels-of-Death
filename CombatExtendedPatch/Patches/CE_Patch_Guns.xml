@@ -14,7 +14,10 @@
 		defName="GW_SM_SniperRifle" or 
 		defName="GW_SM_Gun_FragLauncher" or
 		defName="GW_SM_Gun_GravRifle" or
-		defName="GW_SM_Gun_GravPistol"
+		defName="GW_SM_Gun_GravPistol" or
+		defName="GW_SM_HeavyBoltPistol" or
+		defName="GW_SM_InfernoPistol" or
+		defName="GW_SM_PlasmaPistol"
 		]/tools</xpath>
 		<value>
 			<tools>
@@ -934,6 +937,148 @@
 			<li>AdvancedGun</li>
 			<li>CE_AI_Rifle</li>
 			<li>NoSwitch</li>
+		</weaponTags>
+	</Operation>
+	
+	<!--===== Heavy Bolt Pistol =====-->
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GW_SM_HeavyBoltPistol"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GW_SM_HeavyBoltPistol"]</xpath>
+			<value><weaponTags /></value>
+		</nomatch>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>GW_SM_HeavyBoltPistol</defName>
+		<statBases>
+			<Mass>8.6</Mass>
+			<RangedWeapon_Cooldown>0.98</RangedWeapon_Cooldown>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.06</ShotSpread>
+			<SwayFactor>1.27</SwayFactor>
+			<Bulk>6.5</Bulk>
+			<WorkToMake>32000</WorkToMake>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_Bolter</defaultProjectile>
+			<warmupTime>1</warmupTime>
+			<range>26</range>
+			<burstShotCount>0</burstShotCount>
+			<soundCast>HP_Bolt_Gun_Sound</soundCast>
+			<soundCastTail>GunTail_Medium</soundCastTail>
+			<muzzleFlashScale>8</muzzleFlashScale>
+			<recoilAmount>1.45</recoilAmount>
+			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>8</magazineSize>
+			<reloadTime>3</reloadTime>
+			<ammoSet>AmmoSet_Bolter</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiUseBurstMode>FALSE</aiUseBurstMode>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>CE_AI_AR</li>
+			<li>IndustrialGunAdvanced</li>
+		</weaponTags>
+	</Operation>
+	
+	<!--===== Plasma Pistol =====-->
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GW_SM_PlasmaPistol"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GW_SM_PlasmaPistol"]</xpath>
+			<value><weaponTags /></value>
+		</nomatch>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>GW_SM_PlasmaPistol</defName>
+		<statBases>
+			<Mass>9.2</Mass>
+			<RangedWeapon_Cooldown>0.98</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.5</SightsEfficiency>
+			<ShotSpread>0.05</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>6.8</Bulk>
+			<WorkToMake>32000</WorkToMake>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_PlasmaGun</defaultProjectile>
+			<warmupTime>1.3</warmupTime>
+			<range>27</range>
+			<burstShotCount>1</burstShotCount>
+			<soundCast>HP_Plasma_Gun_Sound</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+			<recoilAmount>0.8</recoilAmount>
+			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>4</magazineSize>
+			<reloadTime>2.4</reloadTime>
+			<ammoSet>AmmoSet_PlasmaGun</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>AimedShot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_Rifle</li>
+		</weaponTags>
+	</Operation>
+	
+	<!--===== Inferno Pistol =====-->
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GW_SM_InfernoPistol"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GW_SM_InfernoPistol"]</xpath>
+			<value><weaponTags /></value>
+		</nomatch>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>GW_SM_InfernoPistol</defName>
+		<statBases>
+			<Mass>9.5</Mass>
+			<RangedWeapon_Cooldown>1.78</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.5</SightsEfficiency>
+			<ShotSpread>0.07</ShotSpread>
+			<SwayFactor>1.2</SwayFactor>
+			<Bulk>7.2</Bulk>
+			<WorkToMake>36000</WorkToMake>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_MeltaGun</defaultProjectile>
+			<warmupTime>0.6</warmupTime>
+			<range>12</range>
+			<burstShotCount>0</burstShotCount>
+			<soundCast>HP_Melta_Gun_Sound</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+			<recoilAmount>2.7</recoilAmount>
+			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>2</magazineSize>
+			<reloadTime>2.6</reloadTime>
+			<ammoSet>AmmoSet_MeltaGun</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiAimMode>Snapshot</aiAimMode>
+		</FireModes>
+		<weaponTags>
+			<li>AdvancedGun</li>
+			<li>CE_AI_BROOM</li>
 		</weaponTags>
 	</Operation>
 	
