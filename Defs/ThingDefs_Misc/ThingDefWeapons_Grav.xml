@@ -79,8 +79,9 @@
 			<li>HPRanged</li>
 		</tradeTags>
 		<weaponTags>
-			<li>IndustrialGunAdvanced</li>
 			<li>GW_SM_Ranged</li>
+			<li>GW_SM_RangedHeavy</li>
+			<li>GW_SM_TerminatorRanged</li>
 		</weaponTags>
 	</ThingDef>
 	

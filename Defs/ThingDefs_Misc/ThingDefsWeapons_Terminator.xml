@@ -77,7 +77,7 @@
 		</tradeTags>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
-			<li>GW_SM_Ranged</li>
+			<li>GW_SM_TerminatorRanged</li>
 		</weaponTags>
 	</ThingDef>
 	
@@ -120,7 +120,6 @@
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
-			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -194,7 +193,6 @@
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
-			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -268,7 +266,6 @@
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
-			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -351,7 +348,6 @@
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
-			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -426,7 +422,6 @@
 		</costList>
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
-			<li>GW_SM_Ranged</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>
@@ -482,72 +477,10 @@
 		</tradeTags>
 		<weaponTags>
 			<li>SpacerMeleeDecent</li>
-			<li>GW_SM_Melee</li>
+			<li>GW_SM_TerminatorMelee</li>
 		</weaponTags>
 	</ThingDef>
-	
-	<!--===== Thunder Hammer =====-->
-	
-	<ThingDef ParentName="GW_SM_TermBluntBase">
-		<defName>GW_SM_Melee_ThunderHammer</defName>
-		<label>Stormlord Thunder Hammer</label>
-		<description>Thonk</description>
-		<possessionCount>1</possessionCount>
-		<graphicData>
-			<texPath>Things/Weapons/Terminator/ThunderHammer</texPath>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<thingSetMakerTags>
-			<li>RewardStandardQualitySuper</li>
-		</thingSetMakerTags>
-		<recipeMaker>
-			<recipeUsers Inherit="False">
-				<li>HP_ImperialFabricationBench</li>
-			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>13</Crafting>
-			</skillRequirements>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>48000</WorkToMake>
-			<Mass>12</Mass>
-		</statBases>
-		<relicChance>2</relicChance>
-		<equippedAngleOffset>-65</equippedAngleOffset>
-		<costList>
-			<Steel>175</Steel>
-			<Plasteel>85</Plasteel>
-			<ComponentIndustrial>15</ComponentIndustrial>
-		</costList>
-		<tools>
-			<li>
-				<label>handle</label>
-				<capacities>
-					<li>Poke</li>
-					<li>Blunt</li>
-				</capacities>
-				<power>15</power>
-				<cooldownTime>3</cooldownTime>
-			</li>
-			<li>
-				<label>head</label>
-				<labelUsedInLogging>false</labelUsedInLogging>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>54</power>
-				<cooldownTime>3.5</cooldownTime>
-				<extraMeleeDamages>
-					<li>
-						<def>Bomb</def>
-						<amount>14</amount>
-					</li>
-				</extraMeleeDamages>
-			</li>
-		</tools>
-	</ThingDef>
-	
+		
 	<!--===== Thunder Hammer 1-H=====-->
 	
 	<ThingDef ParentName="GW_SM_TermBluntBase">
