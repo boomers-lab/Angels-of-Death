@@ -6,7 +6,8 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ThingDef[
 		defName="GW_SM_Gun_Flamer" or 
-		defName="GW_SM_Gun_HeavyFlamer"
+		defName="GW_SM_Gun_HeavyFlamer" or
+		defName="GW_SM_Gun_Burner"
 		]/tools</xpath>
 		
 		<value>
@@ -124,4 +125,55 @@
 			<li>NoSwitch</li>
 		</weaponTags>
 	</Operation>
+	
+	<!--===== Burner =====-->
+	
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GW_SM_Gun_Burner"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GW_SM_Gun_Burner"]</xpath>
+			<value><weaponTags /></value>
+		</nomatch>
+	</Operation>
+	<Operation Class="CombatExtended.PatchOperationMakeGunCECompatible">
+		<defName>GW_SM_Gun_Burner</defName>
+		<statBases>
+			<Mass>8.4</Mass>
+			<RangedWeapon_Cooldown>0.98</RangedWeapon_Cooldown>
+			<SightsEfficiency>1.5</SightsEfficiency>
+			<ShotSpread>5.4</ShotSpread>
+			<SwayFactor>1</SwayFactor>
+			<Bulk>12.2</Bulk>
+			<WorkToMake>32000</WorkToMake>
+		</statBases>
+		<Properties>
+			<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+			<hasStandardCommand>true</hasStandardCommand>
+			<defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
+			<warmupTime>0.9</warmupTime>
+			<range>15</range>
+			<minRange>1</minRange>
+			<burstShotCount>2</burstShotCount>
+			<soundCast>GW_SM_Flamer_Sound</soundCast>
+			<soundCastTail>GunTail_Heavy</soundCastTail>
+			<muzzleFlashScale>12</muzzleFlashScale>
+			<recoilAmount>0.4</recoilAmount>
+			<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+			<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+		</Properties>
+		<AmmoUser>
+			<magazineSize>8</magazineSize>
+			<reloadTime>2</reloadTime>
+			<ammoSet>AmmoSet_Flamethrower</ammoSet>
+		</AmmoUser>
+		<FireModes>
+			<aiUseBurstMode>False</aiUseBurstMode>
+			<aiAimMode>SuppressFire</aiAimMode>
+			<noSingleShot>true</noSingleShot>
+		</FireModes>
+		<weaponTags>
+			<li>NoSwitch</li>
+		</weaponTags>
+	</Operation>
+	
 </Patch>

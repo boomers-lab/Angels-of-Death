@@ -52,6 +52,24 @@
 		</projectile>
 	</ThingDef>
 	
+	<!--===== Heavy Bolt Pistol Projectile =====-->
+	
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_SM_HeavyBoltPistol_Bullet</defName>
+		<label>heavy bolt pistol round</label>
+		<graphicData>
+			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bullet</damageDef>
+			<damageAmountBase>12</damageAmountBase>
+			<stoppingPower>1</stoppingPower>
+			<armorPenetrationBase>0.55</armorPenetrationBase>
+			<speed>50</speed>
+		</projectile>
+	</ThingDef>
+	
 <!-- ====================== HP Bolter  ===================== -->
   
   <ThingDef ParentName="BaseHumanMakeableGun">
@@ -495,6 +513,86 @@
 					<cooldownTime>2.1</cooldownTime>
 				</li>
 			</tools>
+	</ThingDef>
+	
+	<!--===== Heavy Bolt Pistol =====-->
+	
+	<ThingDef ParentName="BaseHumanMakeableGun">
+		<defName>GW_SM_HeavyBoltPistol</defName>
+		<label>Heavy Bolt Pistol</label>
+		<description>Boop.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Ranged/HeavyBoltPistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+			<researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>30000</WorkToMake>
+			<Mass>5</Mass>
+			<AccuracyTouch>0.85</AccuracyTouch>
+			<AccuracyShort>0.75</AccuracyShort>
+			<AccuracyMedium>0.60</AccuracyMedium>
+			<AccuracyLong>0.50</AccuracyLong>
+			<RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<Steel>250</Steel>
+			<ComponentIndustrial>20</ComponentIndustrial>
+			<HP_Ceramite>5</HP_Ceramite>
+		</costList>
+		<weaponTags>
+			<li>IndustrialGunAdvanced</li>
+			<li>GW_SM_Ranged</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>RangedHeavy</li>
+		</weaponClasses>
+		<tradeTags>
+			<li>HPRanged</li>
+		</tradeTags>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_SM_HeavyBoltPistol_Bullet</defaultProjectile>
+				<warmupTime>2</warmupTime>
+				<range>16</range>
+				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<soundCast>HP_Bolt_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>8</muzzleFlashScale>
+			</li>
+		</verbs>
+		<tools>
+			<li>
+				<label>grip</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2.2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>2.1</cooldownTime>
+			</li>
+		</tools>
 	</ThingDef>
 	
  </Defs>
