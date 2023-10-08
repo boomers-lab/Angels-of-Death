@@ -71,9 +71,6 @@
 			<aiAimMode>SuppressFire</aiAimMode>
 			<noSingleShot>true</noSingleShot>
 		</FireModes>
-		<targetParams>
-			<canTargetLocations>true</canTargetLocations>
-		</targetParams>
 		<weaponTags>
 			<li>NoSwitch</li>
 		</weaponTags>
@@ -124,9 +121,6 @@
 			<aiAimMode>SuppressFire</aiAimMode>
 			<noSingleShot>true</noSingleShot>
 		</FireModes>
-		<targetParams>
-			<canTargetLocations>true</canTargetLocations>
-		</targetParams>
 		<weaponTags>
 			<li>NoSwitch</li>
 		</weaponTags>
@@ -177,9 +171,6 @@
 			<aiAimMode>SuppressFire</aiAimMode>
 			<noSingleShot>true</noSingleShot>
 		</FireModes>
-		<targetParams>
-			<canTargetLocations>true</canTargetLocations>
-		</targetParams>
 		<weaponTags>
 			<li>NoSwitch</li>
 		</weaponTags>
