@@ -136,4 +136,21 @@
         </subSounds>
 	</SoundDef>
 	
+	<SoundDef>
+		<defName>GW_SM_Grav_Sound</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+          <li>
+            <grains>
+              <li Class="AudioGrain_Folder">
+                <clipPath>Weapons/Graviton</clipPath>
+              </li>
+            </grains>      
+            <volumeRange>40~45</volumeRange>      
+          </li>
+        </subSounds>
+	</SoundDef>
+	
 </Defs>
