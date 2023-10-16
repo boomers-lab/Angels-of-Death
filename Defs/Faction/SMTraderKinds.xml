@@ -70,6 +70,17 @@
                 <countRange>500~1000</countRange>
             </li>
             <li Class="StockGenerator_Tag">
+                <tradeTag>GW_Drugs</tradeTag>
+                <countRange>
+                    <min>100</min>
+                    <max>200</max>
+                </countRange>
+                <thingDefCountRange>
+                    <min>0</min>
+                    <max>10</max>
+                </thingDefCountRange>
+            </li>
+            <li Class="StockGenerator_Tag">
                 <tradeTag>GW_BuildingMaterials</tradeTag>
                 <countRange>
                     <min>500</min>
@@ -161,6 +172,17 @@
             <li Class="StockGenerator_SingleDef">
                 <thingDef>HP_Ceramite</thingDef>
                 <countRange>100~200</countRange>
+            </li>
+            <li Class="StockGenerator_Tag">
+                <tradeTag>GW_Drugs</tradeTag>
+                <countRange>
+                    <min>50</min>
+                    <max>100</max>
+                </countRange>
+                <thingDefCountRange>
+                    <min>0</min>
+                    <max>2</max>
+                </thingDefCountRange>
             </li>
             <li Class="StockGenerator_Tag">
                 <tradeTag>GW_BuildingMaterials</tradeTag>
