@@ -44,7 +44,6 @@
         </baseTraderKinds>
         <disallowedRaidStrategies> <!--Prefer raid strategies with drop pods and immediate action-->
             <li>ImmediateAttackSappers</li>
-            <li>ImmediateAttackBreaching</li>
             <li>ImmediateAttackBreachingSmart</li>
             <li>StageThenAttack</li>
             <li>Siege</li>
