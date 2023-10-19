@@ -595,4 +595,72 @@
 		</tools>
 	</ThingDef>
 	
+	<!--===== Terminator Power Sword =====-->
+	
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>GW_SM_Melee_TermSword</defName>
+		<label>Powersword</label>
+		<description>todo.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapons/Terminator/TermSword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<techLevel>Industrial</techLevel>
+		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<weaponTags>
+			<li>SpacerMeleeDecent</li>
+			<li>GW_SM_TerminatorMelee</li>
+		</weaponTags>
+		<tradeTags>
+			<li>HPMelee</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>64000</WorkToMake>
+			<Mass>12</Mass>
+		</statBases>
+		<relicChance>2</relicChance>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>80</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.05</armorPenetration>
+				<soundMeleeHit>PowerSword</soundMeleeHit>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
+		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>16</Crafting>
+			</skillRequirements>
+			<displayPriority>410</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+	
 </Defs>
