@@ -604,4 +604,77 @@
 		</value>
 	</Operation>
 	
+	<!--===== Terminator Powersword =====-->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/stuffCategories</xpath>
+		<value>
+			<li>Metallic_Weapon</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/tools</xpath>
+		<value>
+			<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>6</power>
+					<cooldownTime>1.65</cooldownTime>
+					<chanceFactor>0.2</chanceFactor>
+					<armorPenetrationBlunt>0.75</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>98</power>
+					<cooldownTime>1.2</cooldownTime>
+					<armorPenetrationSharp>27.54</armorPenetrationSharp>
+					<armorPenetrationBlunt>5.24</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationConditional">
+		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/weaponTags</xpath>
+		<nomatch Class="PatchOperationAdd">
+			<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]</xpath>
+			<value>
+				<weaponTags />
+			</value>
+		</nomatch>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/weaponTags</xpath>
+		<value><li>CE_OneHandedWeapon</li></value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]</xpath>
+		<value>
+			<equippedStatOffsets>
+				<MeleeCritChance>0.35</MeleeCritChance>
+				<MeleeParryChance>0.3</MeleeParryChance>
+				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			</equippedStatOffsets>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/statBases</xpath>
+		<value>
+			<Bulk>4.25</Bulk>
+			<MeleeCounterParryBonus>0.42</MeleeCounterParryBonus>
+		</value>
+	</Operation>
+	
 </Patch>
