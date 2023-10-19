@@ -662,9 +662,9 @@
 		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]</xpath>
 		<value>
 			<equippedStatOffsets>
-				<MeleeCritChance>0.35</MeleeCritChance>
-				<MeleeParryChance>0.3</MeleeParryChance>
-				<MeleeDodgeChance>0.15</MeleeDodgeChance>
+				<MeleeCritChance>0.32</MeleeCritChance>
+				<MeleeParryChance>0.38</MeleeParryChance>
+				<MeleeDodgeChance>0.1</MeleeDodgeChance>
 			</equippedStatOffsets>
 		</value>
 	</Operation>
@@ -672,8 +672,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/statBases</xpath>
 		<value>
-			<Bulk>4.25</Bulk>
-			<MeleeCounterParryBonus>0.42</MeleeCounterParryBonus>
+			<Bulk>12.4</Bulk>
+			<MeleeCounterParryBonus>0.54</MeleeCounterParryBonus>
 		</value>
 	</Operation>
 	
