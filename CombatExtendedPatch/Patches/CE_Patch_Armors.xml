@@ -249,4 +249,20 @@
 			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
 		</value>
 	</Operation>
+
+				<!--OnSkin-->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="HP_AoD_OnSkinBase"]/statBases</xpath>
+		<value>
+			<Bulk>0.5</Bulk>
+			<WornBulk>0.3</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="HP_AoD_OnSkinBase"]/statBases/StuffEffectMultiplierArmor</xpath>
+		<value>
+			<StuffEffectMultiplierArmor>5</StuffEffectMultiplierArmor>
+		</value>
+	</Operation>
 </Patch>
