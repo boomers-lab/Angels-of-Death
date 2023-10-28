@@ -604,17 +604,16 @@
 		</value>
 	</Operation>
 	
-	<!--===== Terminator Powersword =====-->
-	
+				<!-- ======== Combat Knife ======= -->
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/stuffCategories</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]/stuffCategories</xpath>
 		<value>
 			<li>Metallic_Weapon</li>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/tools</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]/tools</xpath>
 		<value>
 			<tools>
 				<li Class="CombatExtended.ToolCE">
@@ -622,10 +621,10 @@
 					<capacities>
 						<li>Poke</li>
 					</capacities>
-					<power>6</power>
-					<cooldownTime>1.65</cooldownTime>
+					<power>4</power>
+					<cooldownTime>1.4</cooldownTime>
 					<chanceFactor>0.2</chanceFactor>
-					<armorPenetrationBlunt>0.75</armorPenetrationBlunt>
+					<armorPenetrationBlunt>1.425</armorPenetrationBlunt>
 					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 				</li>
 				<li Class="CombatExtended.ToolCE">
@@ -633,10 +632,10 @@
 					<capacities>
 						<li>Cut</li>
 					</capacities>
-					<power>98</power>
+					<power>45</power>
 					<cooldownTime>1.2</cooldownTime>
-					<armorPenetrationSharp>27.54</armorPenetrationSharp>
-					<armorPenetrationBlunt>5.24</armorPenetrationBlunt>
+					<armorPenetrationSharp>25.26</armorPenetrationSharp>
+					<armorPenetrationBlunt>6.44</armorPenetrationBlunt>
 					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
 				</li>
 			</tools>
@@ -644,9 +643,9 @@
 	</Operation>
 
 	<Operation Class="PatchOperationConditional">
-		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/weaponTags</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]/weaponTags</xpath>
 		<nomatch Class="PatchOperationAdd">
-			<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]</xpath>
+			<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]</xpath>
 			<value>
 				<weaponTags />
 			</value>
@@ -654,27 +653,28 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/weaponTags</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]/weaponTags</xpath>
 		<value><li>CE_OneHandedWeapon</li></value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]</xpath>
 		<value>
 			<equippedStatOffsets>
-				<MeleeCritChance>0.32</MeleeCritChance>
-				<MeleeParryChance>0.38</MeleeParryChance>
-				<MeleeDodgeChance>0.1</MeleeDodgeChance>
+				<MeleeCritChance>0.23</MeleeCritChance>
+				<MeleeParryChance>0.45</MeleeParryChance>
+				<MeleeDodgeChance>0.35</MeleeDodgeChance>
 			</equippedStatOffsets>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GW_SM_Melee_TermSword"]/statBases</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]/statBases</xpath>
 		<value>
-			<Bulk>12.4</Bulk>
-			<MeleeCounterParryBonus>0.54</MeleeCounterParryBonus>
+			<Bulk>4.9</Bulk>
+			<MeleeCounterParryBonus>0.58</MeleeCounterParryBonus>
 		</value>
 	</Operation>
-	
+
+
 </Patch>

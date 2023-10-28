@@ -483,4 +483,68 @@
 		</tools>
 	</ThingDef>
 
+		<!-- ====================== Combat Knife ===================== -->
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>GW_SM_MeleeWeapon_CombatKnife</defName>
+		<label>combat knife</label>
+		<description>A knife commonly used by space marines.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Weapons/Melee/Combat-knife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>
+		<techLevel>Industrial</techLevel>
+		<thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags>
+		<weaponTags>
+			<li>GW_SM_Melee</li>
+		</weaponTags>
+		<tradeTags>
+			<li>HPMelee</li>
+		</tradeTags>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<Mass>4</Mass>
+		</statBases>
+		<costStuffCount>70</costStuffCount>
+		<equippedAngleOffset>-65</equippedAngleOffset>
+		<costList>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
+		</costList>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<tools>
+			<li>
+				<label>handle</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>		
+			</li>
+			<li>
+				<label>edge</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+				<soundMeleeMiss>Smite</soundMeleeMiss>
+			</li>
+		</tools>
+		<recipeMaker>
+			<recipeUsers Inherit="False">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>		
+			<researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<displayPriority>409</displayPriority>
+		</recipeMaker>
+	  </ThingDef>
 </Defs>
