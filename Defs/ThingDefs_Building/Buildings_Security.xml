@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <!--Turrets were made more accurate that their HoI counterparts to create a more notable technological difference-->
+
+            <!--Heavy Bolter-->
+    <ThingDef ParentName="BaseBullet">
+        <defName>GW_SM_BuildingBullet_HeavyBolter</defName>
+        <label>Heavy bolter round</label>
+        <graphicData>
+            <texPath>Things/Projectile/Bullet_Big</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1.2</drawSize>
+        </graphicData>
+        <projectile>
+            <damageDef>Bullet</damageDef>
+            <damageAmountBase>100</damageAmountBase>
+            <stoppingPower>0.6</stoppingPower>
+            <speed>70</speed>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="AutocannonTurret">
+        <defName>GW_SM_Building_HeavyBolter</defName>
+        <label>astartes bolter turret</label>
+        <description>An automatic bolter turret.</description>
+        <thingClass>Building_TurretGun</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <uiIconPath>Things/Building/Emplacement/AstartesTurret_HeavyBolter_UI</uiIconPath>
+        <uiIconScale>1.1</uiIconScale>
+        <graphicData>
+            <texPath>Things/Building/Emplacement/AstartesTurret_Base</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(4, 4)</drawSize>
+            <drawOffset>(0,0,0)</drawOffset>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+            <shadowData>
+                <volume>(1.5,0.35,1.4)</volume>
+                <offset>(0,0,-0.05)</offset>
+            </shadowData>
+        </graphicData>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <altitudeLayer>Building</altitudeLayer>
+        <rotatable>true</rotatable>
+        <stealable>false</stealable>
+        <size>(3,3)</size>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <fillPercent>0.5</fillPercent>
+        <thingCategories>
+            <li>BuildingsSecurity</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>GrimworldCategory</designationCategory>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <costList>
+            <Steel>200</Steel>
+            <Plasteel>40</Plasteel>
+            <HP_Ceramite>30</HP_Ceramite>
+            <ComponentIndustrial>6</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Refuelable">
+                <fuelLabel>Shots until reload</fuelLabel>
+                <fuelGizmoLabel>Current Ammo</fuelGizmoLabel>
+                <outOfFuelMessage>Needs more ammo</outOfFuelMessage>
+                <fuelFilter><thingDefs><li>Steel</li></thingDefs></fuelFilter>
+                <fuelCapacity>140</fuelCapacity>       <!-- 20 bursts, 140 total shots -->
+                <fuelMultiplier>1</fuelMultiplier> <!-- 10 steel per burst, 1 per shot -->
+                <initialFuelPercent>1</initialFuelPercent>
+                <autoRefuelPercent>0.5</autoRefuelPercent>
+                <showFuelGizmo>true</showFuelGizmo>
+                <minimumFueledThreshold>1</minimumFueledThreshold>
+                <factorByDifficulty>true</factorByDifficulty>
+                <consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+                <fuelIconPath>UI/Overlays/Barrel</fuelIconPath>
+            </li>
+        </comps>
+        <statBases>
+            <ShootingAccuracyTurret>1.10</ShootingAccuracyTurret>
+        </statBases>
+        <building>
+            <turretGunDef>GW_SM_BuildingGun_HeavyBolter</turretGunDef>
+            <turretBurstCooldownTime>2</turretBurstCooldownTime>
+        </building>
+        <placeWorkers>
+            <li>PlaceWorker_TurretTop</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>GW_AM_AdvancedDefence</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret">
+        <defName>GW_SM_BuildingGun_HeavyBolter</defName>
+        <label>heavy bolter turret</label>
+        <description>An automated bolter turret.</description>
+        <recoilPower>3</recoilPower>
+        <graphicData>
+            <texPath>Things/Building/Emplacement/AstartesTurret_Bolter_Top</texPath>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <statBases>
+            <Mass>15</Mass>
+            <AccuracyTouch>0.85</AccuracyTouch>
+            <AccuracyShort>0.78</AccuracyShort>
+            <AccuracyMedium>0.70</AccuracyMedium>
+            <AccuracyLong>0.55</AccuracyLong>
+            <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Flammability>0</Flammability>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <defaultProjectile>GW_SM_BuildingBullet_HeavyBolter</defaultProjectile>
+                <warmupTime>2</warmupTime>
+                <range>30</range>
+                <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
+                <burstShotCount>10</burstShotCount>
+                <soundCast>GW_AM_HeavyBolter</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>8</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+            </li>
+        </verbs>
+    </ThingDef>
+
+
+        <!-- Lascannon -->
+
+    <ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef" MayRequire="VanillaExpanded.VWEL">
+        <defName>GW_SM_BuildingBullet_LascanonShot</defName>
+        <label>Lascanon shot</label>
+        <description>An heavily charged beam of focused light fired from a lascannon.</description>
+        <textures>
+            <li>Things/Projectiles/Las_Bolt</li>
+        </textures>
+        <seam>0</seam>
+        <causefireChance>0.08</causefireChance>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>170</damageAmountBase>
+            <armorPenetrationBase>1</armorPenetrationBase>
+            <stoppingPower>2.0</stoppingPower>
+        </projectile>
+    </ThingDef>
+
+    <ThingDef ParentName="AutocannonTurret" MayRequire="VanillaExpanded.VWEL">
+        <defName>GW_SM_Building_Lascannon</defName>
+        <label>astartes lascannon turret</label>
+        <description>An automatic lascannon turret</description>
+        <thingClass>Building_TurretGun</thingClass>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <uiIconPath>Things/Building/Emplacement/AstartesTurret_Lascannon_UI</uiIconPath>
+        <uiIconScale>1.1</uiIconScale>
+        <graphicData>
+            <texPath>Things/Building/Emplacement/AstartesTurret_Base</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(4, 4)</drawSize>
+            <drawOffset>(0,0,0)</drawOffset>
+            <damageData>
+                <rect>(0.2,0.2,0.6,0.6)</rect>
+            </damageData>
+            <shadowData>
+                <volume>(1.5,0.35,1.4)</volume>
+                <offset>(0,0,-0.05)</offset>
+            </shadowData>
+        </graphicData>
+        <rotatable>true</rotatable>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <altitudeLayer>Building</altitudeLayer>
+        <stealable>false</stealable>
+        <size>(3,3)</size>
+        <passability>PassThroughOnly</passability>
+        <pathCost>50</pathCost>
+        <fillPercent>0.5</fillPercent>
+        <thingCategories>
+            <li>BuildingsSecurity</li>
+        </thingCategories>
+        <tickerType>Normal</tickerType>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>GrimworldCategory</designationCategory>
+        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+        <costList>
+            <Steel>100</Steel>
+            <Plasteel>60</Plasteel>
+            <ComponentIndustrial>18</ComponentIndustrial>
+        </costList>
+        <comps>
+            <li Class="CompProperties_Explosive">   <!--Explosion added due to electrical use-->
+                <wickTicks>240</wickTicks>
+                <explosiveRadius>5.9</explosiveRadius>
+                <explosiveDamageType>Bomb</explosiveDamageType>
+                <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+            </li>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>  <!--Uses energy constantly instead of consuming weapons each shot-->
+                <basePowerConsumption>1500</basePowerConsumption>
+            </li>
+        </comps>
+        <statBases>
+            <ShootingAccuracyTurret>1.5</ShootingAccuracyTurret>
+        </statBases>
+        <building>
+            <turretGunDef>GW_SM_BuildingGun_Lascannon</turretGunDef>
+            <turretBurstCooldownTime>3</turretBurstCooldownTime>
+        </building>
+        <placeWorkers>
+            <li>PlaceWorker_TurretTop</li>
+        </placeWorkers>
+        <researchPrerequisites>
+            <li>GW_AM_AdvancedDefence</li>
+        </researchPrerequisites>
+    </ThingDef>
+
+    <ThingDef ParentName="BaseWeaponTurret" MayRequire="VanillaExpanded.VWEL">
+        <defName>GW_SM_BuildingGun_Lascannon</defName>
+        <label>lascannon turret</label>
+        <description>An automated lascannon.</description>
+        <recoilPower>3</recoilPower>
+        <graphicData>
+            <texPath>Things/Building/Emplacement/AstartesTurret_Las_Top</texPath>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <statBases>
+            <AccuracyTouch>0.22</AccuracyTouch>
+            <AccuracyShort>0.45</AccuracyShort>
+            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyLong>0.95</AccuracyLong>
+            <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
+            <DeteriorationRate>0</DeteriorationRate>
+            <Mass>15</Mass>
+            <Flammability>0</Flammability>
+        </statBases>
+        <verbs>
+            <li>
+                <verbClass>Verb_Shoot</verbClass>
+                <defaultProjectile>GW_SM_BuildingBullet_LascanonShot</defaultProjectile>
+                <warmupTime>2</warmupTime>
+                <range>40</range>
+                <ticksBetweenBurstShots>17</ticksBetweenBurstShots>
+                <burstShotCount>1</burstShotCount>
+                <soundCast>GW_AM_Lascannon</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+                <muzzleFlashScale>8</muzzleFlashScale>
+                <consumeFuelPerShot>1</consumeFuelPerShot>
+            </li>
+        </verbs>
+    </ThingDef>
+</Defs>
