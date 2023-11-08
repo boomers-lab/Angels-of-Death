@@ -89,9 +89,9 @@
         <placeWorkers>
             <li>PlaceWorker_TurretTop</li>
         </placeWorkers>
-        <researchPrerequisites>
-            <li>GW_AM_AdvancedDefence</li>
-        </researchPrerequisites>
+        <!--<researchPrerequisites>
+            <li>GW_BolterTurrets</li>
+        </researchPrerequisites>-->
     </ThingDef>
 
     <ThingDef ParentName="BaseWeaponTurret">
@@ -121,7 +121,7 @@
                 <range>30</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>GW_AM_HeavyBolter</soundCast>
+                <soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>8</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>
@@ -213,9 +213,9 @@
         <placeWorkers>
             <li>PlaceWorker_TurretTop</li>
         </placeWorkers>
-        <researchPrerequisites>
-            <li>GW_AM_AdvancedDefence</li>
-        </researchPrerequisites>
+        <!--<researchPrerequisites>
+            <li>GW_LasCannonTurret</li>
+        </researchPrerequisites>-->
     </ThingDef>
 
     <ThingDef ParentName="BaseWeaponTurret" MayRequire="VanillaExpanded.VWEL">
@@ -245,7 +245,7 @@
                 <range>40</range>
                 <ticksBetweenBurstShots>17</ticksBetweenBurstShots>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>GW_AM_Lascannon</soundCast>
+                <soundCast>HP_Plasma_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>8</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>
