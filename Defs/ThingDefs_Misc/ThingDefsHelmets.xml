@@ -40,7 +40,7 @@
 				</defaultPalette>
             </li>
         </comps>
-		<!--<modExtensions>
+		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<headgearDrawSettings>
 					<drawPosNorthOffset>(0, -1.0, 0)</drawPosNorthOffset>
@@ -51,7 +51,7 @@
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>true</hideHead>
 			</li>
-		</modExtensions>-->
+		</modExtensions>
 		<apparel>
 			<tags>
 				<li>PrestigeCombatGear</li>
