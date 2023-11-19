@@ -132,7 +132,7 @@
 
         <!-- Lascannon -->
 
-    <ThingDef ParentName="VWEL_Bullet_LaserGeneric" Class="VanillaWeaponsExpandedLaser.LaserBeamDef" MayRequire="VanillaExpanded.VWEL">
+    <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
         <defName>GW_SM_BuildingBullet_LascanonShot</defName>
         <label>Lascanon shot</label>
         <description>An heavily charged beam of focused light fired from a lascannon.</description>
@@ -149,7 +149,7 @@
         </projectile>
     </ThingDef>
 
-    <ThingDef ParentName="AutocannonTurret" MayRequire="VanillaExpanded.VWEL">
+    <ThingDef ParentName="AutocannonTurret">
         <defName>GW_SM_Building_Lascannon</defName>
         <label>astartes lascannon turret</label>
         <description>An automatic lascannon turret</description>
@@ -218,7 +218,7 @@
         </researchPrerequisites>-->
     </ThingDef>
 
-    <ThingDef ParentName="BaseWeaponTurret" MayRequire="VanillaExpanded.VWEL">
+    <ThingDef ParentName="BaseWeaponTurret">
         <defName>GW_SM_BuildingGun_Lascannon</defName>
         <label>lascannon turret</label>
         <description>An automated lascannon.</description>
@@ -245,7 +245,7 @@
                 <range>40</range>
                 <ticksBetweenBurstShots>17</ticksBetweenBurstShots>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>HP_Plasma_Gun_Sound</soundCast>
+                <soundCast>GW_SM_Lascannon</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>8</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>
