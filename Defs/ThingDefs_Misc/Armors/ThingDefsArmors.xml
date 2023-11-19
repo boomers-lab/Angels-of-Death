@@ -106,17 +106,17 @@
                 <li>GW_Terminator</li>
 			</tags>
 		</apparel>
-        <!--<comps>
+        <comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
                 <maskCount>4</maskCount>
                 <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
                 <defaultPalette>
-                    <colorA>(250, 250, 250)</colorA>
-                    <colorB>(250, 250, 250)</colorB>
-                    <colorC>(250, 250, 250)</colorC>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
                 </defaultPalette>
             </li>
-        </comps>-->
+        </comps>
 		<modExtensions>
             <li Class="VFECore.ApparelDrawPosExtension">
                 <shellPosDrawSettings>
