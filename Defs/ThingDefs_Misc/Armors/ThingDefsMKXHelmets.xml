@@ -12,11 +12,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Black_Templars</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Black Templars/Primaris/HeadGear/BlackTemplarsPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -31,11 +26,6 @@
 		<graphicData>
 			<texPath>Things/Chapters/Black Templars/Primaris/Shell/BlackTemplar_PrimarisLieutenat</texPath>
 		</graphicData>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Black_Templars</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Black Templars/Primaris/HeadGear/BlackTemplar_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -56,11 +46,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Blood_Angels</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Blood Angels/Primaris/HeadGear/BloodAnglesPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -81,11 +66,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Blood_Angels</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Blood Angels/Primaris/HeadGear/BloodAngels_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -106,11 +86,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Blood_Ravens</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Blood Ravens/Primaris/HeadGear/BloodRavensPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -131,11 +106,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Blood_Ravens</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Blood Ravens/Primaris/HeadGear/BloodRavens_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -156,11 +126,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Carcharodons</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Carcharodons/Primaris/HeadGear/CarcharodonsPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -181,11 +146,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Carcharodons</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Carcharodons/Primaris/HeadGear/Carcharodons_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -206,11 +166,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>DarkAngels</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Dark Angles/Primaris/HeadGear/DarkAngelsPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -231,11 +186,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>DarkAngels</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Dark Angles/Primaris/HeadGear/DarkAngels_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -256,11 +206,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Imperial_Fists</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Imperial Fists/Primaris/HeadGear/ImperialFistsPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -281,11 +226,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Imperial_Fists</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Imperial Fists/Primaris/HeadGear/ImperialFists_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -306,11 +246,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Iron_Hands</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Iron Hands/Primaris/HeadGear/IronHandsPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -331,11 +266,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Iron_Hands</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Iron Hands/Primaris/HeadGear/IronHands_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -356,11 +286,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Legion_of_the_Damned</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Legion of the Damned/Primaris/HeadGear/LOTDPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -381,11 +306,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Legion_of_the_Damned</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Legion of the Damned/Primaris/HeadGear/LOTD_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -406,11 +326,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Minotaurs</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Minotaurs/Primaris/HeadGear/MinotaursPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -431,11 +346,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Minotaurs</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Minotaurs/Primaris/HeadGear/Minotaurs_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -456,11 +366,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Raven_Guard</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Raven Guard/Primaris/HeadGear/RavenGuardsPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -481,11 +386,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Raven_Guard</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Raven Guard/Primaris/HeadGear/RavenGuard_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -506,11 +406,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Salamanders</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Salamanders/Primaris/HeadGear/SalamandersPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -531,11 +426,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Salamanders</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Salamanders/Primaris/HeadGear/Salamanders_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -556,11 +446,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Spacemarines</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Spacemarines/Primaris/Helmet/Helmet</wornGraphicPath>
 			<tags>
@@ -581,11 +466,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>SpaceWolves</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Space Wolves/Primaris/HeadGear/SpaceWolvesPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -606,11 +486,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>SpaceWolves</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Space Wolves/Primaris/HeadGear/SpaceWolves_PrimarisLieutenat</wornGraphicPath>
 			<tags>
@@ -631,11 +506,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Ultramarines</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Ultramarines/Primaris/Headgear/MkXHelmet</wornGraphicPath>
 			<tags>
@@ -656,11 +526,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Ultramarines</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Ultramarines/Primaris/Headgear/MkXHelmet_Sergeant</wornGraphicPath>
 			<tags>
@@ -681,11 +546,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Ultramarines</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/Ultramarines/Primaris/Headgear/MkXHelmet_Lieutenant</wornGraphicPath>
 			<tags>
@@ -706,11 +566,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>WhiteScars</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/White Scars/Primaris/HeadGear/WhiteScarsPrimarisHelmet</wornGraphicPath>
 			<tags>
@@ -731,11 +586,6 @@
                 <part>Head</part>
             </li>
         </comps>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>WhiteScars</li>
-			</researchPrerequisites>
-        </recipeMaker>
 		<apparel>
 			<wornGraphicPath>Things/Chapters/White Scars/Primaris/HeadGear/WhiteScars_PrimarisLieutenat</wornGraphicPath>
 			<tags>

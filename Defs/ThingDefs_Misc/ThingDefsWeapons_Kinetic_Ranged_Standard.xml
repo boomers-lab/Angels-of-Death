@@ -86,7 +86,7 @@
 	  <recipeUsers Inherit="False">
 		  <li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>
-      <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+      <researchPrerequisite>GW_Bolters</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -183,7 +183,7 @@
 	  <recipeUsers Inherit="False">
 		<li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>
-      <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+      <researchPrerequisite>GW_Bolters</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -282,7 +282,7 @@
 	  <recipeUsers Inherit="False">
 		  <li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>
-      <researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+      <researchPrerequisite>GW_Bolters</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -367,7 +367,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+			<researchPrerequisite>GW_Bolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -449,7 +449,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+			<researchPrerequisite>GW_Bolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -531,7 +531,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>Odz_Astartes_BoltGuns</researchPrerequisite>
+			<researchPrerequisite>GW_Bolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>

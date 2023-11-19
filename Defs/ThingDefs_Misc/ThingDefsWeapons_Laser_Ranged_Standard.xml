@@ -46,7 +46,7 @@
 	  <recipeUsers Inherit="False">
 		<li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>		
-      <researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+      <researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -149,7 +149,7 @@
 	  <recipeUsers Inherit="False">
 		<li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>		
-      <researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+      <researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -249,7 +249,7 @@
 	  <recipeUsers Inherit="False">
 		<li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>		
-      <researchPrerequisite>Odz_Astartes_MeltaGuns</researchPrerequisite>
+      <researchPrerequisite>GW_MeltaWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -355,7 +355,7 @@
 	  <recipeUsers Inherit="False">
 		<li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>		
-      <researchPrerequisite>Odz_Astartes_MeltaGuns</researchPrerequisite>
+      <researchPrerequisite>GW_MeltaWeapons</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -460,7 +460,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -560,7 +560,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>

@@ -80,7 +80,7 @@
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelA_south</texPath>
 		</graphicData>
 		<researchPrerequisites>
-			<li>MKXGravisArmor</li>
+			<li>GW_SM_AstartesSuperHeavy</li>
 		</researchPrerequisites>
         <statBases>
 			<WorkToMake>110000</WorkToMake>

@@ -3,11 +3,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_BT_MkVIIArmor</defName>
 		<label>Black Templar MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Black_Templars</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Black Templars/Firstborn/Shell/BlackTemplarsFirstBorn</texPath>
 		</graphicData>
@@ -28,11 +23,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_BL_MkVIIArmor</defName>
 		<label>Blood Angel MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Blood_Angels</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Blood Angels/Firstborn/Shell/BloodAnglesFirstBorn</texPath>
 		</graphicData>
@@ -53,11 +43,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_BR_MkVIIArmor</defName>
 		<label>Blood Raven MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Blood_Ravens</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Blood Ravens/Firstborn/Shell/BloodRavenFirstBorn</texPath>
 		</graphicData>
@@ -78,11 +63,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_CAR_MkVIIArmor</defName>
 		<label>Carcharodon MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Carcharodons</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Carcharodons/Firstborn/Shell/CarcharodonsFirstBorn</texPath>
 		</graphicData>
@@ -103,11 +83,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_DA_MkVIIArmor</defName>
 		<label>Dark Angel MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>DarkAngels</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Dark Angles/Firstborn/Shell/DarkAngelsFirstBorn</texPath>
 		</graphicData>
@@ -129,11 +104,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_IF_MkVIIArmor</defName>
 		<label>Imperial Fist MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Imperial_Fists</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Imperial Fists/Firstborn/Shell/ImperialFistsFirstBorn</texPath>
 		</graphicData>
@@ -154,11 +124,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_IH_MkVIIArmor</defName>
 		<label>Iron Hand MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Iron_Hands</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Iron Hands/Firstborn/Shell/IronHandsFirstBorn</texPath>
 		</graphicData>
@@ -179,11 +144,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_LOTD_MkVIIArmor</defName>
 		<label>LOTD MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Legion_of_the_Damned</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Legion of the Damned/Firstborn/Shell/LOTDFirstBorn</texPath>
 		</graphicData>
@@ -204,11 +164,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_M_MkVIIArmor</defName>
 		<label>Minotaur MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Minotaurs</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Minotaurs/Firstborn/Shell/MinotaursFirstBorn</texPath>
 		</graphicData>
@@ -229,11 +184,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_RG_MkVIIArmor</defName>
 		<label>Raven Guard MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Raven_Guard</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Raven Guard/Firstborn/Shell/RavenGuardsFirstBorn</texPath>
 		</graphicData>
@@ -254,11 +204,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_SL_MkVIIArmor</defName>
 		<label>Salamander MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Salamanders</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Salamanders/Firstborn/Shell/SalamandersFirstBorn</texPath>
 		</graphicData>
@@ -279,11 +224,6 @@
 	<!--<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_SM_MkVIIArmor</defName>
 		<label>Spacemarine MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Spacemarines</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Spacemarines/Firstborn/Armor_south</texPath>
 		</graphicData>
@@ -304,11 +244,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_SW_MkVIIArmor</defName>
 		<label>Space Wolf MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>SpaceWolves</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Space Wolves/Firstborn/Shell/SpaceWolvesFirstBorn</texPath>
 		</graphicData>
@@ -329,11 +264,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_UM_MkVIIArmor</defName>
 		<label>Ultramarine MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Ultramarines</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Ultramarines/Firstborn/Display/Firstborn_Brother</texPath>
 		</graphicData>
@@ -354,11 +284,6 @@
 	<ThingDef ParentName="HP_AoD_MKVIIArmor_Base">
 		<defName>ODZ_40k_AS_WS_MkVIIArmor</defName>
 		<label>White Scar MK VII Aquilla Armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>WhiteScars</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/White Scars/Firstborn/Shell/WhiteScarsFirstBorn</texPath>
 		</graphicData>

@@ -35,7 +35,6 @@
                         <recipeUsers>
                             <li>HP_ImperialFabricationBench</li>
                         </recipeUsers>		
-                        <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
                     </recipeMaker>
                     <tradeTags>
                         <li>Armor</li>
@@ -65,6 +64,9 @@
                             <li>GW_SM_CombatShield</li>
                         </tags>
                     </apparel>
+                    <recipeMaker>
+                        <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
+                    </recipeMaker>
                     <modExtensions>
                       <li Class="CombatExtended.ShieldDefExtension">
                         <shieldCoverage>
@@ -101,6 +103,9 @@
                             <li>GW_SM_StormShield</li>
                         </tags>
                     </apparel>
+                    <recipeMaker>
+                        <researchPrerequisite>GW_SM_AstartesAdvancedShields</researchPrerequisite>
+                    </recipeMaker>
                     <modExtensions>
                       <li Class="CombatExtended.ShieldDefExtension">
                         <shieldCoverage>
@@ -128,9 +133,6 @@
                             <li>40kPrimaris_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>MKXTacticusArmor</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -147,9 +149,6 @@
                             <li>40kBlackTemplars_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Black_Templars</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -166,9 +165,6 @@
                             <li>40kBloodAngels_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Blood_Angels</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -185,9 +181,6 @@
                             <li>40kBloodRavens_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Blood_Ravens</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -204,9 +197,6 @@
                             <li>40kCarcharodons_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Carcharodons</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -223,9 +213,6 @@
                             <li>40kDarkAngels_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>DarkAngels</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -242,9 +229,6 @@
                             <li>40kImperialFists_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Imperial_Fists</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -261,9 +245,6 @@
                             <li>40kIronHands_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Iron_Hands</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -280,9 +261,6 @@
                             <li>40kLOTD_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Legion_of_the_Damned</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -299,9 +277,6 @@
                             <li>40kMinotaurs_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Minotaurs</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -318,9 +293,6 @@
                             <li>40kRavenGuards_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Raven_Guard</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -337,9 +309,6 @@
                             <li>40kSalamanders_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Salamanders</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -356,9 +325,6 @@
                             <li>40kSpaceWolves_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>SpaceWolves</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -375,9 +341,6 @@
                             <li>40kUltramarines_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Ultramarines</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
@@ -394,9 +357,6 @@
                             <li>40kWhiteScars_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>WhiteScars</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -413,9 +373,6 @@
                             <li>40kBlackTemplars_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Black_Templars</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -432,9 +389,6 @@
                             <li>40kBloodAngels_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Blood_Angels</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -451,9 +405,6 @@
                             <li>40kBloodRavens_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Blood_Ravens</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -470,9 +421,6 @@
                             <li>40kCarcharodons_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Carcharodons</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -489,9 +437,6 @@
                             <li>40kDarkAngels_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>DarkAngels</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -508,9 +453,6 @@
                             <li>40kImperialFists_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Imperial_Fists</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -527,9 +469,6 @@
                             <li>40kIronHands_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Iron_Hands</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -546,9 +485,6 @@
                             <li>40kLOTD_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Legion_of_the_Damned</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -565,9 +501,6 @@
                             <li>40kMinotaurs_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Minotaurs</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -584,9 +517,6 @@
                             <li>40kRavenGuards_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Raven_Guard</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -603,9 +533,6 @@
                             <li>40kSalamanders_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Salamanders</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -622,9 +549,6 @@
                             <li>40kSpaceWolves_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>SpaceWolves</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -641,9 +565,6 @@
                             <li>40kUltramarines_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>Ultramarines</li>
-                    </researchPrerequisites>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
@@ -660,9 +581,6 @@
                             <li>40kWhiteScars_Shield</li>
                         </tags>
                     </apparel>
-                    <researchPrerequisites>
-                        <li>WhiteScars</li>
-                    </researchPrerequisites>
                 </ThingDef>
             </value>
         </match>
@@ -724,7 +642,6 @@
                             <recipeUsers>
                                 <li>HP_ImperialFabricationBench</li>
                             </recipeUsers>		
-                            <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
                         </recipeMaker>
                         <tradeTags>
                             <li>HPShield</li>
@@ -749,6 +666,9 @@
                                 <li>GW_SM_CombatShield</li>
                             </tags>
                         </apparel>
+                        <recipeMaker>
+                            <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
+                        </recipeMaker>
                     </ThingDef>
 
                     <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase" Abstract="true">
@@ -769,6 +689,9 @@
                                 <li>GW_SM_StormShield</li>
                             </tags>
                         </apparel>
+                        <recipeMaker>
+                            <researchPrerequisite>GW_SM_AstartesAdvancedShields</researchPrerequisite>
+                        </recipeMaker>
                     </ThingDef>
 
                     <ThingDef ParentName="GWStormShieldBase">
@@ -780,9 +703,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>MKXTacticusArmor</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -829,9 +749,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Black_Templars</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -878,9 +795,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Blood_Angels</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -927,9 +841,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Blood_Ravens</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -976,9 +887,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Carcharodons</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1025,9 +933,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>DarkAngels</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1074,9 +979,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Imperial_Fists</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1123,9 +1025,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Iron_Hands</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1172,9 +1071,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Legion_of_the_Damned</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1221,9 +1117,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Minotaurs</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1270,9 +1163,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Raven_Guard</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1319,9 +1209,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Salamanders</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1368,9 +1255,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>SpaceWolves</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1417,9 +1301,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Ultramarines</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1466,9 +1347,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>WhiteScars</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1515,9 +1393,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Black_Templars</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1564,9 +1439,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Blood_Angels</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1613,9 +1485,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Blood_Ravens</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1662,9 +1531,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Carcharodons</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1711,9 +1577,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>DarkAngels</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1760,9 +1623,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Imperial_Fists</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1809,9 +1669,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Iron_Hands</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1858,9 +1715,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Legion_of_the_Damned</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1907,9 +1761,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Minotaurs</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -1956,9 +1807,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Raven_Guard</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -2005,9 +1853,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Salamanders</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -2054,9 +1899,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>SpaceWolves</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -2103,9 +1945,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>Ultramarines</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>
@@ -2152,9 +1991,6 @@
                             <graphicClass>Graphic_Single</graphicClass>
                             <shaderType>CutoutComplex</shaderType>
                         </graphicData>
-                        <researchPrerequisites>
-                            <li>WhiteScars</li>
-                        </researchPrerequisites>
                         <comps>
                             <li Class="VFECore.CompProperties_Shield">
                                 <shieldTags>

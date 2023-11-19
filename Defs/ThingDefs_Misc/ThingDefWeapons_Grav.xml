@@ -69,7 +69,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<researchPrerequisite>GW_SM_GravWeapons</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
 		<thingSetMakerTags>

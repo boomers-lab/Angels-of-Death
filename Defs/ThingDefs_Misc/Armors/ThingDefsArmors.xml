@@ -75,7 +75,7 @@
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
 		</graphicData>
 		<researchPrerequisites>
-			<li>MKXGravisArmor</li>
+			<li>GW_SM_AstartesSuperHeavy</li>
 		</researchPrerequisites>
         <statBases>
 			<WorkToMake>110000</WorkToMake>

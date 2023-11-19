@@ -42,7 +42,7 @@
     </ThingDef>
 
 	<!--MKX Reiver-->
-	<ThingDef Abstract="true" Name="GW_SM_MKXReiverHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
+	<ThingDef Name="GW_SM_MKXReiverHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
 		<defName>GW_SM_ReiverHelmet_Simple</defName>
 		<label>reiver helmet</label>
 		<graphicData>
@@ -118,7 +118,7 @@
 	</ThingDef>
 
 	<!--MKX Phobos-->
-	<ThingDef Abstract="true" Name="GW_SM_MKXPhobosHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
+	<ThingDef Name="GW_SM_MKXPhobosHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
 		<defName>GW_SM_PhobosHelmet_Simple</defName>
 		<label>phobos helmet</label>
 		<graphicData>
@@ -194,7 +194,7 @@
 	</ThingDef>
 
         <!--MKIV-->
-    <ThingDef Abstract="true" Name="GW_SM_MKIVHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
+    <ThingDef Name="GW_SM_MKIVHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
 		<defName>GW_SM_MaximusHelmet_Simple</defName>
 		<label>maximus helmet</label>
 		<graphicData>
@@ -281,7 +281,7 @@
     </ThingDef>
 
         <!--MKVI-->
-    <ThingDef Abstract="true" Name="GW_SM_MKVIHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
+    <ThingDef Name="GW_SM_MKVIHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
 		<defName>GW_SM_CorvusHelmet_Simple</defName>
 		<label>corvus helmet</label>
 		<graphicData>
@@ -357,7 +357,7 @@
     </ThingDef>
 
         <!--MKVII-->
-    <ThingDef Abstract="true" Name="GW_SM_MKVIIHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
+    <ThingDef Name="GW_SM_MKVIIHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
 		<defName>GW_SM_AquillaHelmet_Simple</defName>
 		<label>aquilla helmet</label>
 		<graphicData>
@@ -520,7 +520,7 @@
 		</apparel>
     </ThingDef>
 
-    <ThingDef Abstract="true" ParentName="GW_SM_MKXHelmet_Base">
+    <ThingDef ParentName="GW_SM_MKXHelmet_Base">
 		<defName>GW_SM_TacticusHelmet_Laurels</defName>
 		<label>tacticus helmet (laurels)</label>
 		<graphicData>
@@ -531,7 +531,7 @@
 		</apparel>
     </ThingDef>
 
-    <ThingDef Abstract="true" ParentName="GW_SM_MKXHelmet_Base">
+    <ThingDef ParentName="GW_SM_MKXHelmet_Base">
 		<defName>GW_SM_TacticusHelmet_Winged</defName>
 		<label>nightlord tacticus helmet</label>
 		<graphicData>

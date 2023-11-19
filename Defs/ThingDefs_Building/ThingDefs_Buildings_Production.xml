@@ -78,7 +78,7 @@
     </placeWorkers>
     <researchPrerequisites>
       <li>AdvancedFabrication</li>
-	    <li>HP_ImperialFabricationBench</li>
+	    <li>GW_SM_AstartesFabrication</li>
     </researchPrerequisites>
   </ThingDef>
 

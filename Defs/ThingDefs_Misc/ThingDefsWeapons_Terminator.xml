@@ -66,7 +66,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
 		<thingSetMakerTags>
@@ -96,7 +95,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_AdvancedBolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -169,7 +168,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_Autoguns</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -242,7 +241,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_AdvancedBolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -323,7 +322,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -397,7 +396,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -466,7 +465,7 @@
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
 		<thingSetMakerTags>
@@ -499,7 +498,6 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>13</Crafting>
 			</skillRequirements>
@@ -561,7 +559,6 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>13</Crafting>
 			</skillRequirements>
@@ -656,7 +653,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>16</Crafting>
 			</skillRequirements>

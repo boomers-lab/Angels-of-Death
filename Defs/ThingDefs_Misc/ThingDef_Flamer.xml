@@ -127,7 +127,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<researchPrerequisite>GW_Flamers</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
@@ -184,7 +184,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<researchPrerequisite>GW_Flamers</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -249,7 +249,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>Odz_Astartes_PlasmaGuns</researchPrerequisite>
+			<researchPrerequisite>GW_Flamers</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>

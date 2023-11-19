@@ -3,11 +3,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_BT_MkXArmor</defName>
 		<label>Black Templar MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Black_Templars</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Black Templars/Primaris/Shell/BlackTemplarsPrimaris</texPath>
 		</graphicData>
@@ -28,11 +23,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_BL_MkXArmor</defName>
 		<label>Blood Angel MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Blood_Angels</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Blood Angels/Primaris/Shell/BloodAnglesPrimaris</texPath>
 		</graphicData>
@@ -53,11 +43,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_BR_MkXArmor</defName>
 		<label>Blood Raven MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Blood_Ravens</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Blood Ravens/Primaris/Shell/BloodRavenPrimaris</texPath>
 		</graphicData>
@@ -78,11 +63,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_CAR_MkXArmor</defName>
 		<label>Carcharodon MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Carcharodons</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Carcharodons/Primaris/Shell/CarcharodonsPrimaris</texPath>
 		</graphicData>
@@ -103,11 +83,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_DA_MkXArmor</defName>
 		<label>Dark Angel MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>DarkAngels</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Dark Angles/Primaris/Shell/DarkAngelsPrimaris</texPath>
 		</graphicData>
@@ -128,11 +103,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_IF_MkXArmor</defName>
 		<label>Imperial Fist MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Imperial_Fists</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Imperial Fists/Primaris/Shell/ImperialFistsPrimaris</texPath>
 		</graphicData>
@@ -153,11 +123,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_IH_MkXArmor</defName>
 		<label>Iron Hand MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Iron_Hands</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Iron Hands/Primaris/Shell/IronHandsPrimaris</texPath>
 		</graphicData>
@@ -178,11 +143,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_LOTD_MkXArmor</defName>
 		<label>LOTD MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Legion_of_the_Damned</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Legion of the Damned/Primaris/Shell/LOTDPrimaris</texPath>
 		</graphicData>
@@ -203,11 +163,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_M_MkXArmor</defName>
 		<label>Minotaur MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Minotaurs</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Minotaurs/Primaris/Shell/MinotaursPrimaris</texPath>
 		</graphicData>
@@ -228,11 +183,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_RG_MkXArmor</defName>
 		<label>Raven Guard MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Raven_Guard</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Raven Guard/Primaris/Shell/RavenGuardsPrimaris</texPath>
 		</graphicData>
@@ -253,11 +203,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_SL_MkXArmor</defName>
 		<label>Salamader MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Salamanders</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Salamanders/Primaris/Shell/SalamandersPrimaris</texPath>
 		</graphicData>
@@ -278,11 +223,6 @@
 	<!--<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_SM_MkXArmor</defName>
 		<label>Spacemarine MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Spacemarines</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Spacemarines/Primaris/Armor_south</texPath>
 		</graphicData>
@@ -303,11 +243,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_SW_MkXArmor</defName>
 		<label>Space Wolf MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>SpaceWolves</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Space Wolves/Primaris/Shell/SpaceWolvesPrimaris</texPath>
 		</graphicData>
@@ -328,11 +263,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_UM_MkXArmor</defName>
 		<label>Ultramarine MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>Ultramarines</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/Ultramarines/Primaris/Display/Primaris_Brother</texPath>
 		</graphicData>
@@ -353,11 +283,6 @@
 	<ThingDef ParentName="HP_AoD_MKXArmor_Base">
 		<defName>ODZ_40k_AS_WS_MkXArmor</defName>
 		<label>White Scars MK X Tacticus armor</label>
-		<recipeMaker>
-			<researchPrerequisites>
-                <li>WhiteScars</li>
-			</researchPrerequisites>
-		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Chapters/White Scars/Primaris/Shell/WhiteScarsPrimaris</texPath>
 		</graphicData>
