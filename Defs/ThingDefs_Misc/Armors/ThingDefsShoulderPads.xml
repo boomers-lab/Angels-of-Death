@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ApparelLayerDef>
+        <defName>GW_Shoulder</defName>
+        <label>shoulder</label>
+        <drawOrder>550</drawOrder>
+    </ApparelLayerDef>
+
+    <ThingCategoryDef>
+        <defName>GW_ArmorShoulderPad</defName>
+        <label>shoulder pads</label>
+        <parent>ApparelArmor</parent>
+    </ThingCategoryDef>
+
+
+        <!--Generic shoulder base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
+    <ThingDef Abstract="true" Name="HP_AoD_ShoulderBase" ParentName="ArmorMachineableBase">
+        <techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>HP_ImperialFabricationBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.7</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>GW_ArmorShoulderPad</li>
+		</thingCategories>
+        <tradeTags>
+            <li>HPArmor</li>
+        </tradeTags>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li MayRequire="ceteam.combatextended">Hands</li>
+			</bodyPartGroups>
+			<layers>
+				<li>GW_Shoulder</li>
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+	    <modExtensions>
+            <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
+                <stats>		  				  
+                    <li>
+                        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                    <li>
+                        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                </stats>
+            </li>
+	    </modExtensions>
+    </ThingDef>
+
+    	<!--Terminator-->
+	<ThingDef Name="GW_SM_TerminatorShoulderPads" ParentName="HP_AoD_ShoulderBase" MayRequire="Grimworld.Framework">
+		<defName>GW_SM_TerminatorShoulderPads_TypeA</defName>
+		<label>Terminator shoulder pads</label>
+		<description>Terminator armor is massive power armor.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelA_south</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>MKXGravisArmor</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>110000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>2.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.7</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.5</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>8</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>120</Uranium>
+			<HP_Ceramite>40</HP_Ceramite>
+		</costList>
+		<apparel>
+			<tags>
+				<li>PrestigeCombatGear</li>
+				<li>GW_Terminator</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Shoulder pads/Indomitus_sp_modelA</wornGraphicPath>
+		</apparel>
+        <!--<comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>4</maskCount>
+                <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 250, 250)</colorA>
+                    <colorB>(250, 250, 250)</colorB>
+                    <colorC>(250, 250, 250)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>-->
+		<!--<modExtensions>
+            <li Class="VFECore.ApparelDrawPosExtension">
+                <shellPosDrawSettings>
+                    <drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
+                    <drawPosSouthOffset>(0, 0, 0)</drawPosSouthOffset>
+                    <drawPosWestOffset>(-0.1, 0.1, 0)</drawPosWestOffset>
+                    <drawPosEastOffset>(0.1, 0.1, 0)</drawPosEastOffset>
+                </shellPosDrawSettings>
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+		</modExtensions>-->
+    </ThingDef>
+</Defs>

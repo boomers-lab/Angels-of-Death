@@ -90,7 +90,7 @@
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>GW_SM_AstartesHeavy</li>
+				<li>GW_SM_AstartesLight</li>
 			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>
@@ -166,7 +166,7 @@
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>GW_SM_AstartesHeavy</li>
+				<li>GW_SM_AstartesLight</li>
 			</researchPrerequisites>
 		</recipeMaker>
 	</ThingDef>
