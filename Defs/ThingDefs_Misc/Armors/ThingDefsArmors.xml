@@ -72,7 +72,7 @@
 		<label>Terminator Power Armor</label>
         <description>Terminator armor is massive power armor.</description>
 		<graphicData>
-			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
+			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_Male_south</texPath>
 		</graphicData>
 		<researchPrerequisites>
 			<li>GW_SM_AstartesSuperHeavy</li>
@@ -100,7 +100,7 @@
 			<HP_Ceramite>150</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso</wornGraphicPath>
+            <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_Male</wornGraphicPath>
 			<tags>
 				<li>PrestigeCombatGear</li>
                 <li>GW_Terminator</li>
