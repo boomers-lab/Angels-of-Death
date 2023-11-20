@@ -56,7 +56,7 @@
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>9</maskCount>
+				<maskCount>8</maskCount>
 				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
@@ -295,7 +295,7 @@
 		</apparel>
 		<comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>9</maskCount>
+                <maskCount>8</maskCount>
                 <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
                 <defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
@@ -635,6 +635,17 @@
 	<ThingDef ParentName="GW_SM_GravisHelmet_Base" MayRequire="Grimworld.Framework">
         <defName>GW_SM_GravisHelmet_ClosedInterceptor</defName>
 		<label>closed interceptor helmet</label>
+		<comps Inherit="False">
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>4</maskCount>
+                <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+                <defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+            </li>
+        </comps>
         <graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed_south</texPath>
 		</graphicData>
