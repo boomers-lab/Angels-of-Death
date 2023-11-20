@@ -291,7 +291,7 @@
 			<tags>
 				<li>GW_Corvus</li>
 			</tags>
-			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_simple_south</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_simple</wornGraphicPath>
 		</apparel>
 		<comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
@@ -352,7 +352,7 @@
 			<texPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels_south</texPath>
 		</graphicData>
 		<apparel>
-			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels_south</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels</wornGraphicPath>
 		</apparel>
     </ThingDef>
 
