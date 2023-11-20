@@ -15,7 +15,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.7</drawSize>
+			<drawSize>1</drawSize>
 		</graphicData>
 		<thingCategories>
 			<li>ApparelArmor</li>
