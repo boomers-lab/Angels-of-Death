@@ -119,7 +119,7 @@
                 </defaultPalette>
             </li>
         </comps>-->
-		<!--<modExtensions>
+		<modExtensions>
             <li Class="VFECore.ApparelDrawPosExtension">
                 <shellPosDrawSettings>
                     <drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
@@ -130,6 +130,6 @@
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
             </li>
-		</modExtensions>-->
+		</modExtensions>
     </ThingDef>
 </Defs>
