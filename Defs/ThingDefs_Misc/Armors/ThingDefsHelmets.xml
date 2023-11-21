@@ -636,6 +636,11 @@
         <defName>GW_SM_GravisHelmet_ClosedInterceptor</defName>
 		<label>closed interceptor helmet</label>
 		<comps Inherit="False">
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Styleable"></li>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
                 <maskCount>4</maskCount>
                 <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
