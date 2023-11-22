@@ -87,6 +87,7 @@
 		<defName>GW_SM_Gun_AssualtCannon</defName>
 		<label>Absolo Assualt Cannon</label>
 		<description>Brrrrt</description>
+		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/AssaultCannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -160,6 +161,7 @@
 		<defName>GW_SM_Gun_ReaperCannon</defName>
 		<label>Reaper Autocannon</label>
 		<description>Is this heresy?</description>
+		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/ReaperAutocannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -389,6 +391,7 @@
 		<defName>GW_SM_Gun_AstartesPlasmaCannon</defName>
 		<label>Astartes Plasma Cannon</label>
 		<description>Shoulder mounted fire</description>
+		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesPlasmaCannon</texPath>
 			<drawSize>1.3</drawSize>

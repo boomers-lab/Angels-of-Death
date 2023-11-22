@@ -165,6 +165,7 @@
 		<defName>GW_SM_Gun_HeavyFlamer</defName>
 		<label>Heavy Flamer</label>
 		<description>I bet it burns, more? You should really see a doctor.</description>
+		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/Heavy_Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
