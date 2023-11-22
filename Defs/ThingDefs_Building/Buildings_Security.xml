@@ -89,9 +89,9 @@
         <placeWorkers>
             <li>PlaceWorker_TurretTop</li>
         </placeWorkers>
-        <!--<researchPrerequisites>
+        <researchPrerequisites>
             <li>GW_BolterTurrets</li>
-        </researchPrerequisites>-->
+        </researchPrerequisites>
     </ThingDef>
 
     <ThingDef ParentName="BaseWeaponTurret">
@@ -213,9 +213,9 @@
         <placeWorkers>
             <li>PlaceWorker_TurretTop</li>
         </placeWorkers>
-        <!--<researchPrerequisites>
+        <researchPrerequisites>
             <li>GW_LasCannonTurret</li>
-        </researchPrerequisites>-->
+        </researchPrerequisites>
     </ThingDef>
 
     <ThingDef ParentName="BaseWeaponTurret">
