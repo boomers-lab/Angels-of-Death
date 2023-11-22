@@ -314,6 +314,7 @@
 		<defName>GW_SM_Gun_PlasmaCannon</defName>
 		<label>Plasma Cannon</label>
 		<description>No touch. Hot.</description>
+		<equippedAngleOffset>-65</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/PlasmaCannon</texPath>
 			<drawSize>1.4</drawSize>
