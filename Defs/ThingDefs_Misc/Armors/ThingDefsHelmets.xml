@@ -723,7 +723,7 @@
 		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<headgearDrawSettings>
-					<drawPosNorthOffset>(0, -1.0, 0)</drawPosNorthOffset>
+					<drawPosNorthOffset>(0, 0.1, 0)</drawPosNorthOffset>
 					<drawPosSouthOffset>(0, 0.001, -0.07)</drawPosSouthOffset>
 					<drawPosWestOffset>(0, -0.1, 0)</drawPosWestOffset>
 					<drawPosEastOffset>(0, -0.1, 0)</drawPosEastOffset>
