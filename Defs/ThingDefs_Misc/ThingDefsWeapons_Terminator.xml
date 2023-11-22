@@ -11,7 +11,7 @@
 		<graphicData>
 			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>1.7</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -48,6 +48,7 @@
 		<graphicData>
 			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.7</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
