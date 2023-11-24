@@ -473,6 +473,7 @@
 				</capacities>
 				<power>54</power>
 				<cooldownTime>3.5</cooldownTime>
+				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
 				<extraMeleeDamages>
 					<li>
 						<def>Bomb</def>
