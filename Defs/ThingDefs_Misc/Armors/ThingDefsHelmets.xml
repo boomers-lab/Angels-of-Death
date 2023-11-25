@@ -32,8 +32,6 @@
 			<layers>
 				<li>Overhead</li>
 				<li>EyeCover</li>
-				<!--<li MayRequire="ceteam.combatextended">OnHead</li>
-				<li MayRequire="ceteam.combatextended">StrappedHead</li>-->
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -41,7 +39,7 @@
 		</apparel>
     </ThingDef>
 
-	<!--MKX Reiver-->
+		<!--MKX Reiver-->
 	<ThingDef Name="GW_SM_MKXReiverHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
 		<defName>GW_SM_ReiverHelmet_Simple</defName>
 		<label>reiver helmet</label>
@@ -117,7 +115,7 @@
 		</apparel>
 	</ThingDef>
 
-	<!--MKX Phobos-->
+		<!--MKX Phobos-->
 	<ThingDef Name="GW_SM_MKXPhobosHelmet_Base" ParentName="GW_SM_HelmetBase" MayRequire="Grimworld.Framework">
 		<defName>GW_SM_PhobosHelmet_Simple</defName>
 		<label>phobos helmet</label>
@@ -725,8 +723,8 @@
 				<headgearDrawSettings>
 					<drawPosNorthOffset>(0, 0.1, 0)</drawPosNorthOffset>
 					<drawPosSouthOffset>(0, 0.001, -0.07)</drawPosSouthOffset>
-					<drawPosWestOffset>(0, -0.1, 0)</drawPosWestOffset>
-					<drawPosEastOffset>(0, -0.1, 0)</drawPosEastOffset>
+					<drawPosWestOffset>(0, 0.1, 0)</drawPosWestOffset>
+					<drawPosEastOffset>(0, 0.1, 0)</drawPosEastOffset>
 				</headgearDrawSettings>
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>true</hideHead>
