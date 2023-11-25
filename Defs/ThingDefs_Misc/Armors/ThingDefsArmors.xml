@@ -45,7 +45,22 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
+		<comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>4</maskCount>
+                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
 	    <modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
             <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
                 <stats>		  				  
                     <li>
@@ -65,6 +80,297 @@
 	    </modExtensions>
     </ThingDef>
 
+		<!--MKX Reiver-->
+	<ThingDef ParentName="GW_SM_ArmorBase" MayRequire="Grimworld.Framework">
+        <defName>GW_SM_ReiverArmor</defName>
+		<label>reiver power armor</label>
+        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Reiver version.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Reiver/Reiver_torso_south</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>GW_SM_AstartesLight</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>400</Steel>
+			<Uranium>50</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Reiver/Reiver_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Reiver</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+		<!--MKX Phobos-->
+	<ThingDef ParentName="GW_SM_ArmorBase" MayRequire="Grimworld.Framework">
+        <defName>GW_SM_PhobosArmor</defName>
+		<label>phobos power armor</label>
+        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Phobos version.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Phobos/Phobos_torso_south</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>GW_SM_AstartesLight</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.90</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>400</Steel>
+			<Uranium>50</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Phobos/Phobos_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Phobos</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKIV-->
+	<ThingDef ParentName="GW_SM_ArmorBase" MayRequire="Grimworld.Framework">
+        <defName>GW_SM_MaximusArmor</defName>
+		<label>maximus power armor</label>
+        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Maximus version.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Maximus/Maximus_torso_south</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>GW_SM_AstartesHeavy</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>75</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Maximus/Maximus_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Maximus</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKVI-->
+	<ThingDef ParentName="GW_SM_ArmorBase" MayRequire="Grimworld.Framework">
+        <defName>GW_SM_CorvusArmor</defName>
+		<label>corvus power armor</label>
+        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Corvus version.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Corvus/Corvus_torso_south</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>GW_SM_AstartesHeavy</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>75</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Corvus/Corvus_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Corvus</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKVII-->
+	<ThingDef ParentName="GW_SM_ArmorBase" MayRequire="Grimworld.Framework">
+        <defName>GW_SM_AquillaArmor</defName>
+		<label>aquilla power armor</label>
+        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Firstborn version.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_torso_south</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>GW_SM_AstartesHeavy</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>500</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.30</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>75</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Aquilla/Aquilla_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Aquilla</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+        <!--MKX Tacticus-->
+	<ThingDef ParentName="GW_SM_ArmorBase" MayRequire="Grimworld.Framework">
+        <defName>GW_SM_TacticusArmor</defName>
+		<label>tacticus power armor</label>
+        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Primaris Marines version.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_torso_south</texPath>
+		</graphicData>
+		<researchPrerequisites>
+			<li>GW_SM_AstartesHeavy</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>750</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.45</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
+			<EquipDelay>4</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.3</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>75</Uranium>
+			<HP_Ceramite>50</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Tacticus/Tacticus_torso</wornGraphicPath>
+			<tags>
+                <li>GW_Tacticus</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
+		<!--Gravis-->
+	<ThingDef ParentName="GW_SM_ArmorBase" MayRequire="Grimworld.Framework">
+        <defName>GW_SM_Gravis</defName>
+		<label>gravis power armor</label>
+        <description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Worn by most of Primaris Captains.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Gravis_torso_south</texPath>
+		</graphicData>
+		<thingClass>WarHammerShieldBubblez.Apparel_UltramarineShieldBubble</thingClass>
+		<tickerType>Normal</tickerType>
+		<researchPrerequisites>
+			<li>GW_SM_AstartesSuperHeavy</li>
+		</researchPrerequisites>
+        <statBases>
+			<WorkToMake>90000</WorkToMake>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>13</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.3</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>40</Insulation_Heat>
+			<EquipDelay>6</EquipDelay>
+			<EnergyShieldRechargeRate>0.3</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>2.0</EnergyShieldEnergyMax>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.1</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<Plasteel>600</Plasteel>
+			<Steel>750</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>100</HP_Ceramite>
+		</costList>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Gravis/Gravis_torso</wornGraphicPath>
+			<tags>
+				<li>PrestigeCombatGear</li>
+                <li>GW_Gravis</li>
+			</tags>
+		</apparel>
+    </ThingDef>
 
 		<!--Terminator-->
 	<ThingDef ParentName="GW_SM_ArmorBase" MayRequire="Grimworld.Framework">
@@ -106,18 +412,7 @@
                 <li>GW_Terminator</li>
 			</tags>
 		</apparel>
-        <comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>4</maskCount>
-                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
-                <defaultPalette>
-                    <colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-                </defaultPalette>
-            </li>
-        </comps>
-		<modExtensions>
+		<modExtensions Inherit="False">
             <li Class="VFECore.ApparelDrawPosExtension">
                 <apparelDrawSettings>
                     <drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
@@ -128,7 +423,22 @@
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
             </li>
+			<li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
+                <stats>		  				  
+                    <li>
+                        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                    <li>
+                        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                </stats>
+            </li>
 		</modExtensions>
     </ThingDef>
-
 </Defs>
