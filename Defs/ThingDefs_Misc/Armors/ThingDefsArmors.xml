@@ -64,12 +64,6 @@
                     <drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
                     <drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
                 </apparelDrawSettings>
-				<shellPosDrawSettings>
-                    <drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
-                    <drawPosSouthOffset>(0, 0, 0)</drawPosSouthOffset>
-                    <drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
-                    <drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
-                </shellPosDrawSettings>
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
             </li>
@@ -432,12 +426,6 @@
                     <drawPosWestOffset>(0.1, 0.01, 0)</drawPosWestOffset>
                     <drawPosEastOffset>(-0.1, 0.01, 0)</drawPosEastOffset>
                 </apparelDrawSettings>
-				<shellPosDrawSettings>
-                    <drawPosNorthOffset>(0, 0.2, 0)</drawPosNorthOffset>
-                    <drawPosSouthOffset>(0, 0, 0)</drawPosSouthOffset>
-                    <drawPosWestOffset>(0.1, 0.01, 0)</drawPosWestOffset>
-                    <drawPosEastOffset>(-0.1, 0.01, 0)</drawPosEastOffset>
-                </shellPosDrawSettings>
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
             </li>
