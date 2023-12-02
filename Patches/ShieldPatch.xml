@@ -116,7 +116,7 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
-                    <defName>GW_SM_CombatShield4</defName>
+                    <defName>GW_SM_CombatShieldD</defName>
                     <description>A combat shield (variant D).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield4_preview</texPath>
@@ -198,7 +198,7 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
-                    <defName>GW_SM_StormShield4</defName>
+                    <defName>GW_SM_StormShieldD</defName>
                     <description>A storm shield (variant D).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield4_preview</texPath>
@@ -257,6 +257,10 @@
             <xpath>Defs</xpath>
             <value>
                 <ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality" Name="GWShieldBase" Abstract="true">
+                    <graphicData>
+                        <graphicClass>Graphic_Single</graphicClass>
+                        <shaderType>CutoutComplex</shaderType>
+                    </graphicData>
                     <techLevel>Spacer</techLevel>
                     <category>Item</category>
                     <thingCategories Inherit="False">
@@ -315,6 +319,7 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase" Abstract="true">
+                    <label>combat shield</label>
                     <comps>
                         <li Class="GW4KArmor.CompProperties_TriColorMask">
                             <maskCount>3</maskCount>
@@ -478,7 +483,7 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
-                    <defName>GW_SM_CombatShield4</defName>
+                    <defName>GW_SM_CombatShieldD</defName>
                     <description>A combat shield (variant D).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield4_preview</texPath>
@@ -521,6 +526,7 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase" Abstract="true">
+                    <label>storm shield</label>
                     <comps>
                         <li Class="GW4KArmor.CompProperties_TriColorMask">
                             <maskCount>3</maskCount>
@@ -684,7 +690,7 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
-                    <defName>GW_SM_StormShield4</defName>
+                    <defName>GW_SM_StormShieldD</defName>
                     <description>A storm shield (variant D).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield4_preview</texPath>
@@ -732,8 +738,6 @@
                     <description>A primaris shield.</description>
                     <graphicData>
                         <texPath>Things/Shields/Primaris_Shield</texPath>
-                        <graphicClass>Graphic_Single</graphicClass>
-                        <shaderType>CutoutComplex</shaderType>
                     </graphicData>
                     <costStuffCount>90</costStuffCount>
                     <statBases>
