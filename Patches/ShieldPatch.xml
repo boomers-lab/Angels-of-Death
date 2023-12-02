@@ -42,9 +42,9 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase">
-                    <defName>GW_SM_CombatShield1</defName>
+                    <defName>GW_SM_CombatShieldA</defName>
                     <label>combat shield</label>
-                    <description>A combat shield (variant 1).</description>
+                    <description>A combat shield (variant A).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
                         <graphicClass>Graphic_Single</graphicClass>
@@ -100,16 +100,16 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
-                    <defName>GW_SM_CombatShield2</defName>
-                    <description>A combat shield (variant 2).</description>
+                    <defName>GW_SM_CombatShieldB</defName>
+                    <description>A combat shield (variant B).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield2_preview</texPath>
                     </graphicData>
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
-                    <defName>GW_SM_CombatShield3</defName>
-                    <description>A combat shield (variant 3).</description>
+                    <defName>GW_SM_CombatShieldC</defName>
+                    <description>A combat shield (variant C).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield3_preview</texPath>
                     </graphicData>
@@ -117,16 +117,16 @@
 
                 <ThingDef ParentName="GWCombatShieldBase">
                     <defName>GW_SM_CombatShield4</defName>
-                    <description>A combat shield (variant 4).</description>
+                    <description>A combat shield (variant D).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield4_preview</texPath>
                     </graphicData>
                 </ThingDef>
 
                 <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase">
-                    <defName>GW_SM_StormShield1</defName>
+                    <defName>GW_SM_StormShieldA</defName>
                     <label>storm shield</label>
-                    <description>A storm shield (variant 1).</description>
+                    <description>A storm shield (variant A).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield1_preview</texPath>
                         <graphicClass>Graphic_Single</graphicClass>
@@ -182,16 +182,16 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
-                    <defName>GW_SM_StormShield2</defName>
-                    <description>A storm shield (variant 2).</description>
+                    <defName>GW_SM_StormShieldB</defName>
+                    <description>A storm shield (variant B).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield2_preview</texPath>
                     </graphicData>
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
-                    <defName>GW_SM_StormShield3</defName>
-                    <description>A storm shield (variant 3).</description>
+                    <defName>GW_SM_StormShieldC</defName>
+                    <description>A storm shield (variant C).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield3_preview</texPath>
                     </graphicData>
@@ -199,7 +199,7 @@
 
                 <ThingDef ParentName="GWStormShieldBase">
                     <defName>GW_SM_StormShield4</defName>
-                    <description>A storm shield (variant 4).</description>
+                    <description>A storm shield (variant D).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield4_preview</texPath>
                     </graphicData>
@@ -349,8 +349,8 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
-                    <defName>GW_SM_CombatShield1</defName>
-                    <description>A combat shield (variant 1).</description>
+                    <defName>GW_SM_CombatShieldA</defName>
+                    <description>A combat shield (variant A).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
                     </graphicData>
@@ -392,8 +392,8 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
-                    <defName>GW_SM_CombatShield2</defName>
-                    <description>A combat shield (variant 2).</description>
+                    <defName>GW_SM_CombatShieldB</defName>
+                    <description>A combat shield (variant B).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield2_preview</texPath>
                     </graphicData>
@@ -435,8 +435,8 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWCombatShieldBase">
-                    <defName>GW_SM_CombatShield3</defName>
-                    <description>A combat shield (variant 3).</description>
+                    <defName>GW_SM_CombatShieldC</defName>
+                    <description>A combat shield (variant C).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield3_preview</texPath>
                     </graphicData>
@@ -479,7 +479,7 @@
 
                 <ThingDef ParentName="GWCombatShieldBase">
                     <defName>GW_SM_CombatShield4</defName>
-                    <description>A combat shield (variant 4).</description>
+                    <description>A combat shield (variant D).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield4_preview</texPath>
                     </graphicData>
@@ -555,8 +555,8 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
-                    <defName>GW_SM_StormShield1</defName>
-                    <description>A storm shield (variant 1).</description>
+                    <defName>GW_SM_StormShieldA</defName>
+                    <description>A storm shield (variant A).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield1_preview</texPath>
                     </graphicData>
@@ -598,8 +598,8 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
-                    <defName>GW_SM_StormShield2</defName>
-                    <description>A storm shield (variant 2).</description>
+                    <defName>GW_SM_StormShieldB</defName>
+                    <description>A storm shield (variant B).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield2_preview</texPath>
                     </graphicData>
@@ -641,8 +641,8 @@
                 </ThingDef>
 
                 <ThingDef ParentName="GWStormShieldBase">
-                    <defName>GW_SM_StormShield3</defName>
-                    <description>A storm shield (variant 3).</description>
+                    <defName>GW_SM_StormShieldC</defName>
+                    <description>A storm shield (variant C).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield3_preview</texPath>
                     </graphicData>
@@ -685,7 +685,7 @@
 
                 <ThingDef ParentName="GWStormShieldBase">
                     <defName>GW_SM_StormShield4</defName>
-                    <description>A storm shield (variant 4).</description>
+                    <description>A storm shield (variant D).</description>
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield4_preview</texPath>
                     </graphicData>
