@@ -603,7 +603,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_TermSword</defName>
 		<label>Terminator Powersword</label>
-		<description>todo.</description>
+		<description>Very very very very very powerful sword.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/TermSword</texPath>
