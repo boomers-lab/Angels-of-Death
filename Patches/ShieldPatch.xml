@@ -210,7 +210,7 @@
                     <label>primaris shield</label>
                     <description>A primaris shield.</description>
                     <graphicData>
-                        <texPath>Things/Apparel/ArmorUpgrade_Shields/Previews/PrimarisShield1_preview</texPath>
+                        <texPath>Things/Apparel/ArmorUpgrade_Shields/Primaris shields/Previews/PrimarisShield1_preview</texPath>
                         <graphicClass>Graphic_Single</graphicClass>
                         <shaderType>CutoutComplex</shaderType>
                     </graphicData>
