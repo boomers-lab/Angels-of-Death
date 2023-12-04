@@ -320,7 +320,7 @@
 
                 <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase" Abstract="true">
                     <label>combat shield</label>
-                    <comps>
+                    <!--<comps>
                         <li Class="GW4KArmor.CompProperties_TriColorMask">
                             <maskCount>3</maskCount>
                             <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
@@ -330,7 +330,7 @@
                                 <colorC>(180, 65, 74)</colorC>
                             </defaultPalette>
                         </li>
-                    </comps>
+                    </comps>-->
                     <costStuffCount>60</costStuffCount>
                     <statBases>
                         <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
@@ -359,9 +359,6 @@
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
                     </graphicData>
-                    <apparel>
-                        <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/CombatShield1</wornGraphicPath>
-                    </apparel>
                     <comps>
                         <li Class="VFECore.CompProperties_Shield">
                             <shieldTags>
@@ -405,9 +402,6 @@
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield2_preview</texPath>
                     </graphicData>
-                    <apparel>
-                        <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/CombatShield2</wornGraphicPath>
-                    </apparel>
                     <comps>
                         <li Class="VFECore.CompProperties_Shield">
                             <shieldTags>
@@ -451,9 +445,6 @@
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield3_preview</texPath>
                     </graphicData>
-                    <apparel>
-                        <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/CombatShield3</wornGraphicPath>
-                    </apparel>
                     <comps>
                         <li Class="VFECore.CompProperties_Shield">
                             <shieldTags>
@@ -497,9 +488,6 @@
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield4_preview</texPath>
                     </graphicData>
-                    <apparel>
-                        <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/CombatShield4</wornGraphicPath>
-                    </apparel>
                     <comps>
                         <li Class="VFECore.CompProperties_Shield">
                             <shieldTags>
@@ -539,7 +527,7 @@
 
                 <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase" Abstract="true">
                     <label>storm shield</label>
-                    <comps>
+                    <!--<comps>
                         <li Class="GW4KArmor.CompProperties_TriColorMask">
                             <maskCount>3</maskCount>
                             <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
@@ -549,7 +537,7 @@
                                 <colorC>(180, 65, 74)</colorC>
                             </defaultPalette>
                         </li>
-                    </comps>
+                    </comps>-->
                     <costStuffCount>90</costStuffCount>
                     <statBases>
                         <StuffEffectMultiplierArmor>0.6</StuffEffectMultiplierArmor>
@@ -578,9 +566,6 @@
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield1_preview</texPath>
                     </graphicData>
-                    <apparel>
-                        <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/StormShield1</wornGraphicPath>
-                    </apparel>
                     <comps>
                         <li Class="VFECore.CompProperties_Shield">
                             <shieldTags>
@@ -624,9 +609,6 @@
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield2_preview</texPath>
                     </graphicData>
-                    <apparel>
-                        <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/StormShield2</wornGraphicPath>
-                    </apparel>
                     <comps>
                         <li Class="VFECore.CompProperties_Shield">
                             <shieldTags>
@@ -670,9 +652,6 @@
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield3_preview</texPath>
                     </graphicData>
-                    <apparel>
-                        <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/StormShield3</wornGraphicPath>
-                    </apparel>
                     <comps>
                         <li Class="VFECore.CompProperties_Shield">
                             <shieldTags>
@@ -716,9 +695,6 @@
                     <graphicData>
                         <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield4_preview</texPath>
                     </graphicData>
-                    <apparel>
-                        <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/StormShield4</wornGraphicPath>
-                    </apparel>
                     <comps>
                         <li Class="VFECore.CompProperties_Shield">
                             <shieldTags>
@@ -772,7 +748,7 @@
                         <AimingDelayFactor>-0.3</AimingDelayFactor>
                         <MeleeHitChance>-4</MeleeHitChance>
                         <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
-                        <MeleeDodgeChance>-2</MeleeDodgeChance>				
+                        <MeleeDodgeChance>-2</MeleeDodgeChance>
                     </equippedStatOffsets>
                     <apparel>
                         <developmentalStageFilter>Child, Adult</developmentalStageFilter>
