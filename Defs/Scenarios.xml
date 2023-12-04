@@ -35,13 +35,13 @@
 
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>ODZ_40k_AS_UM_MkXHelmet</thingDef>
+                    <thingDef>GW_SM_TacticusHelmet_Simple</thingDef>
                     <count>2</count>
                 </li>
 
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>ODZ_40k_AS_UM_MkXArmor</thingDef>
+                    <thingDef>GW_SM_TacticusArmor</thingDef>
                     <count>2</count>
                 </li>
 
