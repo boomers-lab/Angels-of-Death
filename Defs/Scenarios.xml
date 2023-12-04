@@ -148,11 +148,13 @@
         <defaultFactionType>GW_CrashlandedAngels</defaultFactionType>
         <chemicalAddictionChance>0</chemicalAddictionChance>
         <apparelTags>
+            <li>GW_SM_OnSkin</li>
             <li>GW_Tacticus</li>
         </apparelTags>
         <apparelRequired>
             <li>GW_SM_TacticusArmor</li>
             <li>GW_SM_TacticusHelmet_Simple</li>
+            <li>GW_SM_FibroVest</li>
         </apparelRequired>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <apparelMoney>1000~2000</apparelMoney>
