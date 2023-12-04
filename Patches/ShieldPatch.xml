@@ -737,7 +737,7 @@
                     <label>primaris shield</label>
                     <description>A primaris shield.</description>
                     <graphicData>
-                        <texPath>Things/Shields/Primaris_Shield</texPath>
+                        <texPath>Things/Apparel/ArmorUpgrade_Shields/Primaris shields/Previews/PrimarisShield1_preview</texPath>
                     </graphicData>
                     <costStuffCount>90</costStuffCount>
                     <statBases>
@@ -771,7 +771,7 @@
                                 <li>Hands</li>
                             </coveredBodyPartGroups>
                             <offHandGraphicData>
-                                <texPath>Things/Shields/Primaris_Shield</texPath>
+                                <texPath>Things/Apparel/ArmorUpgrade_Shields/Primaris shields/PrimarisShield1</texPath>
                                 <graphicClass>Graphic_Multi</graphicClass>
                                 <shaderType>CutoutComplex</shaderType>
                                 <drawSize>1.6</drawSize>
