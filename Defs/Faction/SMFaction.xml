@@ -325,7 +325,7 @@
                 </options>
             </li>
 
-                <!-- Base defense, uses all tier 4 ranged units to make it harder to take. When terminators are released, they will be added to the list with a frequency of 1 on each of them -->
+                <!-- Base defense, uses all tier 4 and tier 5 ranged units to make it harder to take -->
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
@@ -343,6 +343,20 @@
                     <GW_SM_SW_RangedTier4>5</GW_SM_SW_RangedTier4>
                     <GW_SM_UM_RangedTier4>5</GW_SM_UM_RangedTier4>
                     <GW_SM_WS_RangedTier4>5</GW_SM_WS_RangedTier4>
+                    <GW_SM_BT_RangedTier5>1</GW_SM_BT_RangedTier5>
+                    <GW_SM_BL_RangedTier5>1</GW_SM_BL_RangedTier5>
+                    <GW_SM_BR_RangedTier5>1</GW_SM_BR_RangedTier5>
+                    <GW_SM_CAR_RangedTier5>1</GW_SM_CAR_RangedTier5>
+                    <GW_SM_DA_RangedTier5>1</GW_SM_DA_RangedTier5>
+                    <GW_SM_IF_RangedTier5>1</GW_SM_IF_RangedTier5>
+                    <GW_SM_IH_RangedTier5>1</GW_SM_IH_RangedTier5>
+                    <GW_SM_LOTD_RangedTier5>1</GW_SM_LOTD_RangedTier5>
+                    <GW_SM_M_RangedTier5>1</GW_SM_M_RangedTier5>
+                    <GW_SM_RG_RangedTier5>1</GW_SM_RG_RangedTier5>
+                    <GW_SM_SL_RangedTier5>1</GW_SM_SL_RangedTier5>
+                    <GW_SM_SW_RangedTier5>1</GW_SM_SW_RangedTier5>
+                    <GW_SM_UM_RangedTier5>1</GW_SM_UM_RangedTier5>
+                    <GW_SM_WS_RangedTier5>1</GW_SM_WS_RangedTier5>
                 </options>
             </li>
         </pawnGroupMakers>
