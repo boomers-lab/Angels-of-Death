@@ -36,9 +36,13 @@
         <weaponMoney>5000~7000</weaponMoney>
         <apparelMoney>8000~10000</apparelMoney>
         <apparelTags>
-            <li>GW_Reiver</li>
             <li>GW_Phobos</li>
         </apparelTags>
+        <apparelRequired>
+            <li>GW_SM_PhobosArmor</li>
+            <li>GW_SM_PhobosHelmet_Simple</li>
+            <li>GW_SM_PhobosShoulderPads_TypeA</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef Name="GW_SM_RangedTier1" ParentName="GW_SM_Light" Abstract="True">
@@ -117,9 +121,13 @@
         <weaponMoney>5000~7000</weaponMoney>
         <apparelMoney>8000~10000</apparelMoney>
         <apparelTags>
-            <li>GW_Corvus</li>
             <li>GW_Aquilla</li>
         </apparelTags>
+        <apparelRequired>
+            <li>GW_SM_AquillaArmor</li>
+            <li>GW_SM_AquillaHelmet_Simple</li>
+            <li>GW_SM_AquillaShoulderPads_TypeA</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef Name="GW_SM_RangedTier2" ParentName="GW_SM_LowerHeavy" Abstract="True">
@@ -198,9 +206,13 @@
         <weaponMoney>9000~10000</weaponMoney>
         <apparelMoney>12000~14000</apparelMoney>
         <apparelTags>
-            <li>GW_Maximus</li>
             <li>GW_Tacticus</li>
         </apparelTags>
+        <apparelRequired>
+            <li>GW_SM_TacticusArmor</li>
+            <li>GW_SM_TacticusHelmet_Simple</li>
+            <li>GW_SM_TacticusShoulderPads_TypeA</li>
+        </apparelRequired>
     </PawnKindDef>
 
     <PawnKindDef Name="GW_SM_RangedTier3" ParentName="GW_SM_UpperHeavy" Abstract="True">
@@ -283,6 +295,8 @@
         </apparelTags>
         <apparelRequired>
             <li>GW_SM_Gravis</li>
+            <li>GW_SM_GravisHelmet_Simple</li>
+            <li>GW_SM_GravisShoulderPads_TypeA</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -366,6 +380,8 @@
         </apparelTags>
         <apparelRequired>
             <li>GW_SM_IndomitusTerminator</li>
+            <li>GW_SM_TerminatorHelmet_Simple</li>
+            <li>GW_SM_TerminatorShoulderPads_TypeA</li>
         </apparelRequired>
     </PawnKindDef>
 
