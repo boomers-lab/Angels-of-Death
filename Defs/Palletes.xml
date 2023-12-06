@@ -6,8 +6,8 @@
             <li>
                 <name>Black Templars</name>
                 <colorA>(57, 56, 61)</colorA>
-                <colorB>(57, 56, 61)</colorB>
-                <colorC>(255, 255, 255)</colorC>
+                <colorB>(255, 255, 255)</colorB>
+                <colorC>(192, 157, 88)</colorC>
             </li>
             <li>
                 <name>Blood Angels</name>
@@ -150,7 +150,7 @@
             <li>
                 <name>Black Templars</name>
                 <colorA>(255, 255, 255)</colorA>
-                <colorB>(255, 255, 255)</colorB>
+                <colorB>(192, 157, 88)</colorB>
                 <colorC>(57, 56, 61)</colorC>
             </li>
             <li>
