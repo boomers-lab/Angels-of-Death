@@ -50,6 +50,10 @@
                 <countRange>10~15</countRange>
             </li>
             <li Class="StockGenerator_MarketValue">
+                <tradeTag>GW_SM_Backpacks</tradeTag>
+                <countRange>10~15</countRange>
+            </li>
+            <li Class="StockGenerator_MarketValue">
                 <tradeTag>HPMedicine</tradeTag>
                 <countRange>10~15</countRange>
             </li>
@@ -155,7 +159,11 @@
             </li>
             <li Class="StockGenerator_MarketValue">
                 <tradeTag>HPPauldrons</tradeTag>
-                <countRange>8~10</countRange>
+                <countRange>5~8</countRange>
+            </li>
+            <li Class="StockGenerator_MarketValue">
+                <tradeTag>GWSMBackpacks</tradeTag>
+                <countRange>5~8</countRange>
             </li>
             <li Class="StockGenerator_MarketValue">
                 <tradeTag>HPMedicine</tradeTag>
