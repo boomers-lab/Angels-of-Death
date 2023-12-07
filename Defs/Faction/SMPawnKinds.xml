@@ -42,6 +42,7 @@
             <li>GW_SM_PhobosArmor</li>
             <li>GW_SM_PhobosHelmet_Simple</li>
             <li>GW_SM_PhobosShoulderPads_TypeA</li>
+            <li>GW_SM_PhobosBackpack</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -127,6 +128,7 @@
             <li>GW_SM_AquillaArmor</li>
             <li>GW_SM_AquillaHelmet_Simple</li>
             <li>GW_SM_AquillaShoulderPads_TypeA</li>
+            <li>GW_SM_AquillaBackpack</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -212,6 +214,7 @@
             <li>GW_SM_TacticusArmor</li>
             <li>GW_SM_TacticusHelmet_Simple</li>
             <li>GW_SM_TacticusShoulderPads_TypeA</li>
+            <li>GW_SM_TacticusBackpack</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -297,6 +300,7 @@
             <li>GW_SM_Gravis</li>
             <li>GW_SM_GravisHelmet_Simple</li>
             <li>GW_SM_GravisShoulderPads_TypeA</li>
+            <li>GW_SM_Gravis</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -382,6 +386,7 @@
             <li>GW_SM_IndomitusTerminator</li>
             <li>GW_SM_TerminatorHelmet_Simple</li>
             <li>GW_SM_TerminatorShoulderPads_TypeA</li>
+            <!--<li>GW_SM_IndomitusTerminator</li>-->
         </apparelRequired>
     </PawnKindDef>
 
