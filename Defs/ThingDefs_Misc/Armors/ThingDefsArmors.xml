@@ -28,7 +28,7 @@
 				<li>EVA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Torso</li>
 				<li>Neck</li>
@@ -334,7 +334,7 @@
 
 		<!--Gravis-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
-        <defName>GW_SM_Gravis</defName>
+        <defName>GW_SM_GravisArmor</defName>
 		<label>gravis power armor</label>
         <description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Worn by most of Primaris Captains.</description>
 		<graphicData>
@@ -380,7 +380,7 @@
 
 		<!--Terminator-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
-        <defName>GW_SM_IndomitusTerminator</defName>
+        <defName>GW_SM_IndomitusTerminatorArmor</defName>
 		<label>Terminator Power Armor</label>
         <description>Terminator armor is massive power armor.</description>
 		<graphicData>
@@ -413,6 +413,9 @@
 		</costList>
 		<apparel>
             <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso</wornGraphicPath>
+			<layers>
+				<li>Backpack</li>
+			</layers>
 			<tags>
 				<li>PrestigeCombatGear</li>
                 <li>GW_Terminator</li>
