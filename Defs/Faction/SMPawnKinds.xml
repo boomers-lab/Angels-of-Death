@@ -300,7 +300,7 @@
             <li>GW_SM_GravisArmor</li>
             <li>GW_SM_GravisHelmet_Simple</li>
             <li>GW_SM_GravisShoulderPads_TypeA</li>
-            <li>GW_SM_Gravis</li>
+            <li>GW_SM_GravisBackpack</li>
         </apparelRequired>
     </PawnKindDef>
 
@@ -386,7 +386,7 @@
             <li>GW_SM_IndomitusTerminatorArmor</li>
             <li>GW_SM_TerminatorHelmet_Simple</li>
             <li>GW_SM_TerminatorShoulderPads_TypeA</li>
-            <!--<li>GW_SM_IndomitusTerminator</li>-->
+            <!--<li>GW_SM_IndomitusTerminatorBackpack</li>-->
         </apparelRequired>
     </PawnKindDef>
 
