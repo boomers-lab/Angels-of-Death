@@ -23,6 +23,9 @@
         <tradeTags>
             <li>HPArmor</li>
         </tradeTags>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.50</ToxicEnvironmentResistance>
+		</equippedStatOffsets>
 		<apparel>
 			<tags>
 				<li>EVA</li>
