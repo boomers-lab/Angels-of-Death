@@ -460,7 +460,7 @@
 			<AccuracyTouch>0.50</AccuracyTouch>
 			<AccuracyShort>0.88</AccuracyShort>
 			<AccuracyMedium>0.92</AccuracyMedium>
-			<AccuracyLong>0.88</AccuracyLong>
+			<AccuracyLong>0.90</AccuracyLong>
 			<RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
 		</statBases>
 			<equippedStatOffsets>
