@@ -66,7 +66,7 @@
         <label>fibrovest</label>
         <description>A fibrolayer vest designed to be worn underneath power armor.</description>
         <recipeMaker>
-            <researchPrerequisite>HP_ImperialFabricationBench</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
         </recipeMaker>
         <graphicData>
             <texPath>Things/OnSkin/FibroLayer/FibroLayer_Male_south</texPath>

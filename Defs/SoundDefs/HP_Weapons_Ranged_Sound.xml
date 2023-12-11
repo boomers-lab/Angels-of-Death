@@ -153,4 +153,39 @@
         </subSounds>
 	</SoundDef>
 	
+  <SoundDef>
+		<defName>GW_SM_Lascannon</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipPath>Weapons/Lascannon</clipPath>
+                    </li>
+                </grains>      
+                <volumeRange>40~40</volumeRange>      
+            </li>
+        </subSounds>
+	</SoundDef>
+
+
+	<SoundDef>
+		<defName>GW_SM_LascannonB</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipPath>Weapons/LascannonB</clipPath>
+                    </li>
+                </grains>      
+                <volumeRange>40~40</volumeRange>      
+            </li>
+        </subSounds>
+	</SoundDef>
+
 </Defs>

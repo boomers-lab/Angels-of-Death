@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ResearchProjectDef Abstract="True" Name="GW_SM_AoDTechBase" ParentName="GW_ImperiumTechBase">
+		<techLevel>Ultra</techLevel>
+    </ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_CodexAstartes</defName>
+		<label>codex astartes</label>
+		<description>Codex astartes.</description>
+        <baseCost>6000</baseCost>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_AstartesFabrication</defName>
+		<label>astartes fabrication</label>
+		<description>Astartes fabrication.</description>
+        <baseCost>8000</baseCost>
+		<prerequisites>
+			<li>GW_SM_CodexAstartes</li>
+		</prerequisites>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>0.40</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_GravWeapons</defName>
+		<label>grav weapons</label>
+		<description>Unlocks grav weapons.</description>
+        <baseCost>4000</baseCost>
+		<prerequisites>
+			<li>GW_SM_CodexAstartes</li>
+		</prerequisites>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.20</researchViewY>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>2</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_AstartesBasicShields</defName>
+		<label>astartes basic shields</label>
+		<description>Astartes basic shields.</description>
+        <baseCost>4000</baseCost>
+		<prerequisites>
+			<li>GW_SM_AstartesFabrication</li>
+		</prerequisites>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>2</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_AstartesAdvancedShields</defName>
+		<label>astartes advanced shields</label>
+		<description>Astartes advanced shields.</description>
+        <baseCost>8000</baseCost>
+		<prerequisites>
+			<li>GW_SM_AstartesBasicShields</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>0.00</researchViewY>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>2</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_AstartesLight</defName>
+		<label>astartes light power armors</label>
+		<description>The weakest Astartes power armors like Phobos.</description>
+        <baseCost>10000</baseCost>
+		<prerequisites>
+			<li>GW_SM_AstartesFabrication</li>
+		</prerequisites>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>2</NumberRequired>
+                    </li>
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_AstartesHeavy</defName>
+		<label>astartes heavy power armors</label>
+		<description>Heavy Astartes power armors like the MK 7.</description>
+        <baseCost>15000</baseCost>
+		<prerequisites>
+			<li>GW_SM_AstartesLight</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>3</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_AstartesSuperHeavy</defName>
+		<label>astartes superheavy armors</label>
+		<description>Superheavy Astartes power armors like Gravis and Terminator.</description>
+        <baseCost>20000</baseCost>
+		<prerequisites>
+			<li>GW_SM_AstartesHeavy</li>
+		</prerequisites>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>5</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+        <!--Roles-->
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_AstartesRoles</defName>
+		<label>astartes roles</label>
+		<description>Astartes roles.</description>
+        <baseCost>3000</baseCost>
+		<prerequisites>
+			<li>GW_SM_CodexAstartes</li>
+		</prerequisites>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+	</ResearchProjectDef>
+
+    <ResearchProjectDef Abstract="True" ParentName="GW_SM_AoDTechBase" Name="GW_SM_AoDRolesBase">
+        <baseCost>7000</baseCost>
+        <prerequisites>
+			<li>GW_SM_AstartesRoles</li>
+		</prerequisites>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>3</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+    </ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDRolesBase">
+		<defName>GW_SM_AstartesApothecarium</defName>
+		<label>astartes apthecarium</label>
+		<description>Astartes apthecarium.</description>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDRolesBase">
+		<defName>GW_SM_AstartesChaplaincy</defName>
+		<label>astartes chaplaincy</label>
+		<description>Astartes chaplaincy.</description>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDRolesBase">
+		<defName>GW_SM_AstartesChampions</defName>
+		<label>astartes champions</label>
+		<description>Astartes champions.</description>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDRolesBase">
+		<defName>GW_SM_AstartesCloseSupport</defName>
+		<label>astartes close support</label>
+		<description>Astartes close support.</description>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>2.05</researchViewY>
+		<modExtensions Inherit="False"> <!--Has long label-->
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+				<longLabel>True</longLabel>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>3</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDRolesBase">
+		<defName>GW_SM_AstartesFireSupport</defName>
+		<label>astartes fire support</label>
+		<description>Astartes fire support.</description>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>2.10</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDRolesBase">
+		<defName>GW_SM_AstartesTechPriesthood</defName>
+		<label>astartes tech-priesthood</label>
+		<description>Astartes tech-priesthood.</description>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>2.70</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDRolesBase">
+		<defName>GW_SM_AstartesLibrarium</defName>
+		<label>astartes librarium</label>
+		<description>Astartes librarium.</description>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_AstartesStyles</defName>
+		<label>astartes styles</label>
+		<description>Unlocks the ability to research new styles of Astartes armors.</description>
+        <baseCost>3000</baseCost>
+		<prerequisites>
+			<li>GW_SM_CodexAstartes</li>
+		</prerequisites>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>4.60</researchViewY>
+	</ResearchProjectDef>
+
+        <!--Styles-->
+    <ResearchProjectDef Abstract="True" ParentName="GW_SM_AoDTechBase" Name="GW_SM_AoDStylesBase">
+        <baseCost>5000</baseCost>
+        <prerequisites>
+			<li>GW_SM_AstartesStyles</li>
+		</prerequisites>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>3</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+    </ResearchProjectDef>
+
+    <!-- x should be between 8 and 10, and y should be between 3.20 and 6.00-->
+
+</Defs>

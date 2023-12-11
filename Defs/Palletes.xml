@@ -6,8 +6,8 @@
             <li>
                 <name>Black Templars</name>
                 <colorA>(57, 56, 61)</colorA>
-                <colorB>(57, 56, 61)</colorB>
-                <colorC>(255, 255, 255)</colorC>
+                <colorB>(255, 255, 255)</colorB>
+                <colorC>(192, 157, 88)</colorC>
             </li>
             <li>
                 <name>Blood Angels</name>
@@ -120,7 +120,7 @@
             <li>
                 <name>Salamanders</name>
                 <colorA>(6, 136, 71)</colorA>
-                <colorB>(6, 136, 71)</colorB>
+                <colorB>(192, 157, 88)</colorB>
                 <colorC>(227, 237, 95)</colorC>
             </li>
             <li>
@@ -150,7 +150,7 @@
             <li>
                 <name>Black Templars</name>
                 <colorA>(255, 255, 255)</colorA>
-                <colorB>(255, 255, 255)</colorB>
+                <colorB>(192, 157, 88)</colorB>
                 <colorC>(57, 56, 61)</colorC>
             </li>
             <li>
@@ -272,6 +272,78 @@
                 <colorA>(126, 170, 194)</colorA>
                 <colorB>(126, 170, 194)</colorB>
                 <colorC>(192, 157, 88)</colorC>
+            </li>
+            <li>
+                <name>Ultramarines</name>
+                <colorA>(56, 93, 162)</colorA>
+                <colorB>(56, 93, 162)</colorB>
+                <colorC>(192, 157, 88)</colorC>
+            </li>
+            <li>
+                <name>White Scars</name>
+                <colorA>(255, 255, 255)</colorA>
+                <colorB>(255, 255, 255)</colorB>
+                <colorC>(180, 65, 74)</colorC>
+            </li>
+        </palettes>
+    </GW4KArmor.PaletteDef>
+
+    <GW4KArmor.PaletteDef>
+        <defName>GW_SM_ShieldChapterPalettes</defName>
+        <palettes>
+            <li>
+                <name>Black Templars</name>
+                <colorA>(255, 255, 255)</colorA>
+                <colorB>(255, 255, 255)</colorB>
+                <colorC>(57, 56, 61)</colorC>
+            </li>
+            <li>
+                <name>Blood Angels</name>
+                <colorA>(183, 42, 42)</colorA>
+                <colorB>(57, 56, 61)</colorB>
+                <colorC>(183, 42, 42)</colorC>
+            </li>
+            <li>
+                <name>Blood Ravens</name>
+                <colorA>(224, 206, 186)</colorA>
+                <colorB>(224, 206, 186)</colorB>
+                <colorC>(57, 56, 61)</colorC>
+            </li>
+            <li>
+                <name>Dark Angels</name>
+                <colorA>(183, 42, 42)</colorA>
+                <colorB>(16, 97, 56)</colorB>
+                <colorC>(16, 97, 56)</colorC>
+            </li>
+            <li>
+                <name>Imperial Fists</name>
+                <colorA>(250, 176, 67)</colorA>
+                <colorB>(250, 176, 67)</colorB>
+                <colorC>(180, 65, 74)</colorC>
+            </li>
+            <li>
+                <name>Iron Hands</name>
+                <colorA>(57, 56, 61)</colorA>
+                <colorB>(57, 56, 61)</colorB>
+                <colorC>(57, 56, 61)</colorC>
+            </li>
+            <li>
+                <name>Raven Guard</name>
+                <colorA>(57, 56, 61)</colorA>
+                <colorB>(57, 56, 61)</colorB>
+                <colorC>(211, 59, 58)</colorC>
+            </li>
+            <li>
+                <name>Salamanders</name>
+                <colorA>(57, 56, 61)</colorA>
+                <colorB>(192, 157, 88)</colorB>
+                <colorC>(6, 136, 71)</colorC>
+            </li>
+            <li>
+                <name>Space Wolves</name>
+                <colorA>(233, 177, 71)</colorA>
+                <colorB>(183, 42, 42)</colorB>
+                <colorC>(126, 170, 194)</colorC>
             </li>
             <li>
                 <name>Ultramarines</name>

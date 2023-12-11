@@ -94,7 +94,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
@@ -158,7 +158,7 @@
 		  <recipeUsers Inherit="False">
 			<li>HP_ImperialFabricationBench</li>
 		  </recipeUsers>		
-		  <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+		  <researchPrerequisite>GW_Chainswords</researchPrerequisite>
 		  <skillRequirements>
 			<Crafting>15</Crafting>
 			</skillRequirements>
@@ -227,7 +227,7 @@
 		  <recipeUsers Inherit="False">
 			<li>HP_ImperialFabricationBench</li>
 		  </recipeUsers>		
-		  <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+		  <researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
 		  <skillRequirements>
 			<Crafting>15</Crafting>
 			</skillRequirements>
@@ -292,7 +292,7 @@
 		  <recipeUsers Inherit="False">
 			<li>HP_ImperialFabricationBench</li>
 		  </recipeUsers>		
-		  <researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+		  <researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
 		  <skillRequirements>
 			<Crafting>15</Crafting>
 			</skillRequirements>
@@ -355,7 +355,7 @@
 		<recipeUsers Inherit="False">
 			<li>HP_ImperialFabricationBench</li>
 		</recipeUsers>		
-		<researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+		<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
 		<skillRequirements>
 			<Crafting>14</Crafting>
 		</skillRequirements>
@@ -432,7 +432,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>13</Crafting>
 			</skillRequirements>
@@ -473,6 +473,7 @@
 				</capacities>
 				<power>54</power>
 				<cooldownTime>3.5</cooldownTime>
+				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
 				<extraMeleeDamages>
 					<li>
 						<def>Bomb</def>
@@ -540,7 +541,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>Odz_Astartes_Melee</researchPrerequisite>
+			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>

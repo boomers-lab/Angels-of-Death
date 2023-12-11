@@ -11,7 +11,7 @@
 		<graphicData>
 			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>1.7</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -48,6 +48,7 @@
 		<graphicData>
 			<texPath>Things/Projectiles/Plasma_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.7</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
@@ -66,7 +67,6 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
 		<thingSetMakerTags>
@@ -87,6 +87,7 @@
 		<defName>GW_SM_Gun_AssualtCannon</defName>
 		<label>Absolo Assualt Cannon</label>
 		<description>Brrrrt</description>
+		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/AssaultCannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -96,7 +97,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_AdvancedBolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -160,6 +161,7 @@
 		<defName>GW_SM_Gun_ReaperCannon</defName>
 		<label>Reaper Autocannon</label>
 		<description>Is this heresy?</description>
+		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/ReaperAutocannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -169,7 +171,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_Autoguns</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -242,7 +244,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_AdvancedBolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -314,6 +316,7 @@
 		<defName>GW_SM_Gun_PlasmaCannon</defName>
 		<label>Plasma Cannon</label>
 		<description>No touch. Hot.</description>
+		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/PlasmaCannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -323,7 +326,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -388,6 +391,7 @@
 		<defName>GW_SM_Gun_AstartesPlasmaCannon</defName>
 		<label>Astartes Plasma Cannon</label>
 		<description>Shoulder mounted fire</description>
+		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesPlasmaCannon</texPath>
 			<drawSize>1.3</drawSize>
@@ -397,7 +401,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PlasmaWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -466,7 +470,7 @@
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
 		<thingSetMakerTags>
@@ -499,7 +503,6 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>13</Crafting>
 			</skillRequirements>
@@ -533,6 +536,7 @@
 				</capacities>
 				<power>44</power>
 				<cooldownTime>2.2</cooldownTime>
+				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
 				<extraMeleeDamages>
 					<li>
 						<def>Bomb</def>
@@ -561,7 +565,6 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>13</Crafting>
 			</skillRequirements>
@@ -600,7 +603,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_TermSword</defName>
 		<label>Terminator Powersword</label>
-		<description>Very very very very very powerful sword.</description>
+		<description>todo.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/TermSword</texPath>
@@ -656,7 +659,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>GW_Astartes_TermWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_PowerMeleeWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>16</Crafting>
 			</skillRequirements>

@@ -35,18 +35,6 @@
 
                 <li Class="ScenPart_StartingThing_Defined">
                     <def>StartingThing_Defined</def>
-                    <thingDef>ODZ_40k_AS_UM_MkXHelmet</thingDef>
-                    <count>2</count>
-                </li>
-
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>ODZ_40k_AS_UM_MkXArmor</thingDef>
-                    <count>2</count>
-                </li>
-
-                <li Class="ScenPart_StartingThing_Defined">
-                    <def>StartingThing_Defined</def>
                     <thingDef>MeleeWeapon_Powersword_GrimWorld</thingDef>
                     <count>1</count>
                     <stuff>HP_Ceramite</stuff>
@@ -121,19 +109,19 @@
         <label>crashlanded angels</label>
         <description>A colony of recently crashlanded ultramarines.</description>
         <isPlayer>true</isPlayer>
-        <basicMemberKind>Colonist</basicMemberKind>
-        <pawnSingular>colonist</pawnSingular>
-        <pawnsPlural>colonists</pawnsPlural>
+        <basicMemberKind>GW_CrashlandedAngel</basicMemberKind>
+        <pawnSingular>crashlanded angel</pawnSingular>
+        <pawnsPlural>crashlanded angels</pawnsPlural>
         <techLevel>Industrial</techLevel>
         <factionNameMaker>NamerFactionOutlander</factionNameMaker>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <allowedCultures><li>Astropolitan</li></allowedCultures>
         <backstoryFilters>
-        <li>
-            <categories>
-                <li>Offworld</li>
-            </categories>
-        </li>
+            <li>
+                <categories>
+                    <li>Offworld</li>
+                </categories>
+            </li>
         </backstoryFilters>
         <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
         <startingResearchTags>
@@ -153,4 +141,43 @@
             <li>GW_SM_AdeptusAstartes</li>
         </permanentEnemyToEveryoneExcept>
     </FactionDef>
+
+    <PawnKindDef ParentName="BasePlayerPawnKind">
+        <defName>GW_CrashlandedAngel</defName>
+        <label>crashlanded angel</label>
+        <defaultFactionType>GW_CrashlandedAngels</defaultFactionType>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <apparelTags>
+            <li>GW_SM_OnSkin</li>
+            <li>GW_Tacticus</li>
+        </apparelTags>
+        <apparelRequired>
+            <li>GW_SM_TacticusArmor</li>
+            <li>GW_SM_TacticusHelmet_Simple</li>
+            <li>GW_SM_TacticusShoulderPads_TypeA</li>
+            <li>GW_SM_FibroVest</li>
+        </apparelRequired>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <apparelMoney>1000~2000</apparelMoney>
+        <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+        <techHediffsChance>0.03</techHediffsChance>
+        <techHediffsMoney>400~800</techHediffsMoney>
+        <techHediffsTags>
+            <li>Advanced</li>
+            <li>ImplantEmpireCommon</li>
+        </techHediffsTags>
+        <techHediffsDisallowTags>
+            <li>PainCauser</li>
+        </techHediffsDisallowTags>
+        <initialResistanceRange>13~21</initialResistanceRange>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
 </Defs>
