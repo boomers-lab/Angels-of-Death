@@ -462,6 +462,9 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged</wornGraphicPath>
 		</apparel>
+		<researchPrerequisites>
+			<li>GW_SM_NightLords</li>
+		</researchPrerequisites>
     </ThingDef>
 
         <!--MKX Tacticus-->
@@ -550,6 +553,9 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged</wornGraphicPath>
 		</apparel>
+		<researchPrerequisites>
+			<li>GW_SM_NightLords</li>
+		</researchPrerequisites>
     </ThingDef>
 
         <!--Gravis-->

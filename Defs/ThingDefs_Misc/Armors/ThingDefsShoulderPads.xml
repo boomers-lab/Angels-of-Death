@@ -758,6 +758,9 @@
                 </defaultPalette>
             </li>
         </comps>
+		<researchPrerequisites>
+			<li>GW_SM_NightLords</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 		<!--Gravis-->
@@ -923,6 +926,9 @@
                 </defaultPalette>
             </li>
         </comps>
+		<researchPrerequisites>
+			<li>GW_SM_NightLords</li>
+		</researchPrerequisites>
 	</ThingDef>
 
     	<!--Terminator-->
