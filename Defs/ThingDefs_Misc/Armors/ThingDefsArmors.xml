@@ -97,9 +97,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Reiver_torso_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesLight</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -138,9 +138,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Phobos_torso_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesLight</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -179,9 +179,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Maximus_torso_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -220,9 +220,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Corvus_torso_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -261,9 +261,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_torso_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -302,9 +302,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_torso_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
 			<MaxHitPoints>750</MaxHitPoints>
@@ -345,9 +345,9 @@
 		</graphicData>
 		<thingClass>WarHammerShieldBubblez.Apparel_UltramarineShieldBubble</thingClass>
 		<tickerType>Normal</tickerType>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesSuperHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>90000</WorkToMake>
 			<MaxHitPoints>1000</MaxHitPoints>
@@ -389,9 +389,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesSuperHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>110000</WorkToMake>
 			<MaxHitPoints>1500</MaxHitPoints>
