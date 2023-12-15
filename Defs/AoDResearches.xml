@@ -298,4 +298,11 @@
 
     <!-- x should be between 8 and 10, and y should be between 3.20 and 6.00-->
 
+	<ResearchProjectDef ParentName="GW_SM_AoDStylesBase">
+		<defName>GW_SM_NightLords</defName>
+		<label>night lords</label>
+		<description>Unlocks the ability to create night lord styled armors.</description>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>6.00</researchViewY>
+	</ResearchProjectDef>
 </Defs>
