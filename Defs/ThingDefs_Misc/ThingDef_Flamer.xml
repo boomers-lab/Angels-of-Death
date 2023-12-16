@@ -106,7 +106,7 @@
 	
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Flamer</defName>
-		<label>Flamer</label>
+		<label>flamer</label>
 		<description>I bet it burns</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Flamer</texPath>
@@ -163,7 +163,7 @@
 	
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_HeavyFlamer</defName>
-		<label>Heavy Flamer</label>
+		<label>heavy flamer</label>
 		<description>I bet it burns, more? You should really see a doctor.</description>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
@@ -221,7 +221,7 @@
 	
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Burner</defName>
-		<label>Burner</label>
+		<label>burner</label>
 		<description>small burns</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Burner</texPath>

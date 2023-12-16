@@ -13,25 +13,25 @@
 		</recipeMaker>
         <costList>
             <Leather_Plain>5</Leather_Plain>
+            <Plasteel>50</Plasteel>
+            <ComponentSpacer>2</ComponentSpacer>
         </costList>	
-        <stuffCategories>
-            <li>Fabric</li>
-        </stuffCategories>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.4</drawSize>
 		</graphicData>
-        <costStuffCount>100</costStuffCount>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>4500</WorkToMake>
             <Mass>1</Mass>
             <EquipDelay>1.5</EquipDelay>
             <Flammability>0</Flammability>
-            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
-            <StuffEffectMultiplierInsulation_Cold>0.50</StuffEffectMultiplierInsulation_Cold>
-            <StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+            <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.43</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.38</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
         </statBases>
 		<thingCategories>
 			<li>Apparel</li>

@@ -384,7 +384,7 @@
 		<!--Terminator-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_IndomitusTerminatorArmor</defName>
-		<label>Terminator Power Armor</label>
+		<label>terminator power armor</label>
         <description>Terminator armor is massive power armor.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
