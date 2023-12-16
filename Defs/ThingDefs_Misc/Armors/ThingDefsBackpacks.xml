@@ -80,9 +80,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Reiver_backpack_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesLight</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -118,9 +118,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Phobos_backpack_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesLight</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -156,9 +156,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Maximus_backpack_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -194,9 +194,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Corvus_backpack_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -232,9 +232,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_backpack_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -270,9 +270,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_backpack_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>750</MaxHitPoints>
@@ -308,9 +308,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_backpack_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesSuperHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>9000</WorkToMake>
 			<MaxHitPoints>1000</MaxHitPoints>
@@ -347,9 +347,9 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_backpack_south</texPath>
 		</graphicData>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesSuperHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>11000</WorkToMake>
 			<MaxHitPoints>1500</MaxHitPoints>

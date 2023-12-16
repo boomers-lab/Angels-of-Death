@@ -99,9 +99,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisites>
-				<li>GW_SM_AstartesLight</li>
-			</researchPrerequisites>
+			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -175,9 +173,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisites>
-				<li>GW_SM_AstartesLight</li>
-			</researchPrerequisites>
+			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
 		</recipeMaker>
 	</ThingDef>
 
@@ -251,9 +247,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisites>
-                <li>GW_SM_AstartesHeavy</li>
-			</researchPrerequisites>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 
@@ -338,9 +332,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisites>
-                <li>GW_SM_AstartesHeavy</li>
-			</researchPrerequisites>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 
@@ -414,9 +406,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisites>
-                <li>GW_SM_AstartesHeavy</li>
-			</researchPrerequisites>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 
@@ -462,6 +452,9 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged</wornGraphicPath>
 		</apparel>
+		<researchPrerequisites>
+			<li>GW_SM_NightLords</li>
+		</researchPrerequisites>
     </ThingDef>
 
         <!--MKX Tacticus-->
@@ -550,6 +543,9 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged</wornGraphicPath>
 		</apparel>
+		<researchPrerequisites>
+			<li>GW_SM_NightLords</li>
+		</researchPrerequisites>
     </ThingDef>
 
         <!--Gravis-->
@@ -579,9 +575,7 @@
         </comps>
 		<description>Special hermetic helmet with improved optics, target scanning system and life support, heavy armor plating and stronger vox/augur cotigator. Worn by most of Primaris Capitains.</description>
 		<recipeMaker>
-			<researchPrerequisites>
-				<li>GW_SM_AstartesSuperHeavy</li>
-			</researchPrerequisites>
+			<researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<ComponentSpacer>5</ComponentSpacer>
@@ -707,9 +701,7 @@
 		</apparel>
 		<description>Terminator armor is massive power armor.</description>
 		<recipeMaker>
-			<researchPrerequisites>
-				<li>GW_SM_AstartesSuperHeavy</li>
-			</researchPrerequisites>
+			<researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
 		</recipeMaker>
         <costList>
 			<ComponentSpacer>8</ComponentSpacer>

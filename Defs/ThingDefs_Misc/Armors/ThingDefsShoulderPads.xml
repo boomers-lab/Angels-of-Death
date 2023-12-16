@@ -84,9 +84,9 @@
 
 	<ThingDef Abstract="True" Name="GW_SM_MKXReiverShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Reiver version.</description>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesLight</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -205,9 +205,9 @@
 
 	<ThingDef Abstract="True" Name="GW_SM_MKXPhobosShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Phobos version.</description>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesLight</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
 		<statBases>
 			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -304,9 +304,9 @@
 
 	<ThingDef Abstract="True" Name="GW_SM_MKIVShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Maximus version.</description>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -403,9 +403,9 @@
 
 	<ThingDef Abstract="True" Name="GW_SM_MKVIShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Corvus version.</description>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -523,9 +523,9 @@
         <!--MKVII-->
 	<ThingDef Abstract="True" Name="GW_SM_MKVIIShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Firstborn version.</description>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
 		<statBases>
 			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -621,9 +621,9 @@
 		<!--MKX Tacticus-->
 	<ThingDef Abstract="True" Name="GW_SM_MKXShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Primaris Marines version.</description>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>10000</WorkToMake>
 			<MaxHitPoints>750</MaxHitPoints>
@@ -758,14 +758,17 @@
                 </defaultPalette>
             </li>
         </comps>
+		<researchPrerequisites>
+			<li>GW_SM_NightLords</li>
+		</researchPrerequisites>
 	</ThingDef>
 
 		<!--Gravis-->
 	<ThingDef Abstract="True" Name="GW_SM_GravisShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Worn by most of Primaris Captains.</description>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesSuperHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>15000</WorkToMake>
 			<MaxHitPoints>1000</MaxHitPoints>
@@ -923,14 +926,17 @@
                 </defaultPalette>
             </li>
         </comps>
+		<researchPrerequisites>
+			<li>GW_SM_NightLords</li>
+		</researchPrerequisites>
 	</ThingDef>
 
     	<!--Terminator-->
 	<ThingDef Abstract="True" Name="GW_SM_TerminatorShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>Terminator armor is massive power armor.</description>
-		<researchPrerequisites>
-			<li>GW_SM_AstartesSuperHeavy</li>
-		</researchPrerequisites>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+        </recipeMaker>
         <statBases>
 			<WorkToMake>20000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
