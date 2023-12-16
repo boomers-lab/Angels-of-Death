@@ -12,8 +12,8 @@
 			</recipeUsers>
 		</recipeMaker>
         <costList>
-            <Leather_Plain>5</Leather_Plain>
-            <Plasteel>50</Plasteel>
+            <Plasteel>100</Plasteel>
+            <HP_Ceramite>20</HP_Ceramite>
             <ComponentSpacer>2</ComponentSpacer>
         </costList>	
 		<graphicData>
