@@ -180,7 +180,7 @@
 			<texPath>Things/Apparel/Armor_Maximus/Maximus_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
@@ -221,7 +221,7 @@
 			<texPath>Things/Apparel/Armor_Corvus/Corvus_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
@@ -262,7 +262,7 @@
 			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
@@ -303,7 +303,7 @@
 			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
@@ -346,7 +346,7 @@
 		<thingClass>WarHammerShieldBubblez.Apparel_UltramarineShieldBubble</thingClass>
 		<tickerType>Normal</tickerType>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>90000</WorkToMake>
@@ -390,7 +390,7 @@
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>110000</WorkToMake>
