@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="BenchBase">
     <defName>HP_ImperialFabricationBench</defName>
-    <label>Astartes Fabrication Workbench</label>
+    <label>astartes fabrication workbench</label>
     <description>A workbench equipped with advanced tools for producing technological armors/weapons for the Imperium.</description>
     <thingClass>Building_WorkTable</thingClass>
     <altitudeLayer>Building</altitudeLayer>
