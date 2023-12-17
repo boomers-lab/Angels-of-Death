@@ -50,7 +50,7 @@
             </li>
         </modExtensions>
 	</ResearchProjectDef>
-
+<!--
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesBasicShields</defName>
 		<label>astartes basic shields</label>
@@ -96,7 +96,7 @@
             </li>
         </modExtensions>
 	</ResearchProjectDef>
-
+-->
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesLight</defName>
 		<label>astartes light power armors</label>
@@ -167,6 +167,7 @@
 	</ResearchProjectDef>
 
         <!--Roles-->
+		<!--
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesRoles</defName>
 		<label>astartes roles</label>
@@ -227,7 +228,7 @@
 		<description>Astartes close support.</description>
 		<researchViewX>9.00</researchViewX>
 		<researchViewY>2.05</researchViewY>
-		<modExtensions Inherit="False"> <!--Has long label-->
+		<modExtensions Inherit="False">
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
 				<longLabel>True</longLabel>
@@ -276,7 +277,7 @@
 		<researchViewX>7.00</researchViewX>
 		<researchViewY>4.60</researchViewY>
 	</ResearchProjectDef>
-
+-->
         <!--Styles-->
     <ResearchProjectDef Abstract="True" ParentName="GW_SM_AoDTechBase" Name="GW_SM_AoDStylesBase">
         <baseCost>5000</baseCost>
