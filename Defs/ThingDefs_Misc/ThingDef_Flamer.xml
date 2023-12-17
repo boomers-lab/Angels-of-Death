@@ -185,7 +185,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>GW_Flamers</researchPrerequisite>
+			<researchPrerequisite>GW_SM_TerminatorWeapons</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
