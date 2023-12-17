@@ -38,7 +38,7 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Chainsword_GrimWorld</defName>
-		<label>chainsword</label>
+		<label>Astartes chainsword</label>
 		<description>Chainswords are not subtle weapons, and wielding one is a statement in its own right: they are horrific tools of war, designed to bite, tear and eviscerate where more primitive blades merely cut and slice.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -170,7 +170,7 @@
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Powersword_GrimWorld</defName>
-		<label>powersword</label>
+		<label>Astartes powersword</label>
 		<description>A power sword is a Power Weapon that has been shaped into a sword of varying lengths and designs crafted from one of any number of different materials, though usually adamantium.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -239,7 +239,7 @@
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Powersword_GrimWorld</defName>
-		<label>relic powersword</label>
+		<label>Astartes relic powersword</label>
 		<description>A power sword is a Power Weapon that has been shaped into a sword of varying lengths and designs crafted from one of any number of different materials, though usually adamantium. Relic Version.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -488,7 +488,7 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_MeleeWeapon_CombatKnife</defName>
-		<label>combat knife</label>
+		<label>Astartes combat knife</label>
 		<description>A knife commonly used by space marines.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>

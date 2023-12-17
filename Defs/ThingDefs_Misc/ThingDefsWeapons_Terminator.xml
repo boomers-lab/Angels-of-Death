@@ -85,7 +85,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_AssualtCannon</defName>
-		<label>absolo assualt cannon</label>
+		<label>Assualt cannon</label>
 		<description>Brrrrt</description>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
@@ -314,7 +314,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_PlasmaCannon</defName>
-		<label>plasma cannon</label>
+		<label>terminator plasma cannon</label>
 		<description>No touch. Hot.</description>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
@@ -489,7 +489,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBluntBase">
 		<defName>GW_SM_Melee_Thunder1hHammer</defName>
-		<label>astartes thunder hammer</label>
+		<label>terminator thunder hammer</label>
 		<description>little Thonk</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
