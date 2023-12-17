@@ -28,28 +28,6 @@
 		<researchViewY>0.40</researchViewY>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
-		<defName>GW_SM_GravWeapons</defName>
-		<label>grav weapons</label>
-		<description>Unlocks grav weapons.</description>
-        <baseCost>4000</baseCost>
-		<prerequisites>
-			<li>GW_SM_CodexAstartes</li>
-		</prerequisites>
-		<researchViewX>7.00</researchViewX>
-		<researchViewY>1.20</researchViewY>
-        <modExtensions>
-            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
-                <StudyLocation>GW_Cogitator</StudyLocation>
-                <ItemStudyRequirements>
-                    <li Class="GW_Frame.StudyRequirement">
-                        <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>2</NumberRequired>
-                    </li>    
-                </ItemStudyRequirements>
-            </li>
-        </modExtensions>
-	</ResearchProjectDef>
 <!--
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesBasicShields</defName>
@@ -166,6 +144,52 @@
         </modExtensions>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_TerminatorWeapons</defName>
+		<label>terminator weapons</label>
+		<description>Unlocks terminator weapons.</description>
+        <baseCost>5000</baseCost>
+		<prerequisites>
+			<li>GW_SM_CodexAstartes</li>
+		</prerequisites>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>2</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_GravWeapons</defName>
+		<label>grav weapons</label>
+		<description>Unlocks grav weapons.</description>
+        <baseCost>4000</baseCost>
+		<prerequisites>
+			<li>GW_SM_CodexAstartes</li>
+		</prerequisites>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>3.60</researchViewY>
+        <modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>2</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
+	</ResearchProjectDef>
+
         <!--Roles-->
 		<!--
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
@@ -265,6 +289,7 @@
 		<researchViewX>9.00</researchViewX>
 		<researchViewY>2.80</researchViewY>
 	</ResearchProjectDef>
+-->
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesStyles</defName>
@@ -277,7 +302,7 @@
 		<researchViewX>7.00</researchViewX>
 		<researchViewY>4.60</researchViewY>
 	</ResearchProjectDef>
--->
+
         <!--Styles-->
     <ResearchProjectDef Abstract="True" ParentName="GW_SM_AoDTechBase" Name="GW_SM_AoDStylesBase">
         <baseCost>5000</baseCost>
