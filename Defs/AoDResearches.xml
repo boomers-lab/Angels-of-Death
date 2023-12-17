@@ -121,8 +121,8 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
-		<defName>GW_SM_AstartesHeavy</defName>
-		<label>astartes heavy power armors</label>
+		<defName>GW_SM_AstartesMedium</defName>
+		<label>astartes medium power armors</label>
 		<description>Heavy Astartes power armors like the MK 7.</description>
         <baseCost>15000</baseCost>
 		<prerequisites>
@@ -144,12 +144,12 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
-		<defName>GW_SM_AstartesSuperHeavy</defName>
-		<label>astartes superheavy armors</label>
+		<defName>GW_SM_AstartesHeavy</defName>
+		<label>astartes heavy armors</label>
 		<description>Superheavy Astartes power armors like Gravis and Terminator.</description>
         <baseCost>20000</baseCost>
 		<prerequisites>
-			<li>GW_SM_AstartesHeavy</li>
+			<li>GW_SM_AstartesMedium</li>
 		</prerequisites>
 		<researchViewX>10.00</researchViewX>
 		<researchViewY>0.70</researchViewY>

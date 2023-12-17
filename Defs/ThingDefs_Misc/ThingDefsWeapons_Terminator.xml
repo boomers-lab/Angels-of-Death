@@ -85,7 +85,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_AssualtCannon</defName>
-		<label>Absolo Assualt Cannon</label>
+		<label>absolo assualt cannon</label>
 		<description>Brrrrt</description>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
@@ -159,7 +159,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_ReaperCannon</defName>
-		<label>Reaper Autocannon</label>
+		<label>reaper autocannon</label>
 		<description>Is this heresy?</description>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
@@ -233,7 +233,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_StormBolter</defName>
-		<label>Umbra Storm Bolter</label>
+		<label>umbra storm bolter</label>
 		<description>I mean at least the hallway is clear.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/StormBolter</texPath>
@@ -314,7 +314,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_PlasmaCannon</defName>
-		<label>Plasma Cannon</label>
+		<label>plasma cannon</label>
 		<description>No touch. Hot.</description>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
@@ -389,7 +389,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_AstartesPlasmaCannon</defName>
-		<label>Astartes Plasma Cannon</label>
+		<label>astartes plasma cannon</label>
 		<description>Shoulder mounted fire</description>
 		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
@@ -489,7 +489,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBluntBase">
 		<defName>GW_SM_Melee_Thunder1hHammer</defName>
-		<label>Astartes Thunder Hammer</label>
+		<label>astartes thunder hammer</label>
 		<description>little Thonk</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -551,7 +551,7 @@
 	
 	<ThingDef ParentName="GW_SM_TermBluntBase">
 		<defName>GW_SM_Melee_TermPowerFist</defName>
-		<label>Power Fist</label>
+		<label>terminator power fist</label>
 		<description>I cast Fist</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -602,7 +602,7 @@
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_TermSword</defName>
-		<label>Terminator Powersword</label>
+		<label>terminator powersword</label>
 		<description>todo.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>

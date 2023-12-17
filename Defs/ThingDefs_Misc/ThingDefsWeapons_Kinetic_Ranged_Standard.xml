@@ -3,7 +3,7 @@
   
   <ThingDef ParentName="BaseBullet">
     <defName>HP_Bullet_Bolter</defName>
-    <label>Bolter Round</label>
+    <label>bolter round</label>
     <graphicData>
       <texPath>Things/Projectiles/Bolter_Projectile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -74,7 +74,7 @@
   
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Bolter_Gun_Bolter</defName>
-    <label>Astartes Bolter</label>
+    <label>astartes bolter</label>
     <description>The Boltgun, also commonly referred to as the Bolter, is the standard weapon of the Adeptus Astartes and Adepta Sororitas. A . 75 caliber weapon, the Boltgun fires a self-propelled explosive 'bolt' which explodes with devastating effect once it has penetrated its target, effectively blowing it apart from the inside.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/Boltgun</texPath>
@@ -154,7 +154,7 @@
   
   <ThingDef ParentName="BaseBullet">
     <defName>HP_Bullet_Executor</defName>
-    <label>Executor Round</label>
+    <label>executor round</label>
     <graphicData>
       <texPath>Things/Projectiles/Bolter_Projectile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -171,7 +171,7 @@
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Executor_Bolt_Rifle</defName>
-    <label>Executor Bolt Rifle</label>
+    <label>executor bolt rifle</label>
     <description>The Executor Bolt Rifle is a variant of the Mark II Cawl Pattern Bolt Rifle primarily used by Heavy Intercessors. It has a longer range, does more damage and is capable of greater armour penetration than the standard pattern Bolt Rifle.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/ExecutorBoltRifle</texPath>
@@ -183,7 +183,7 @@
 	  <recipeUsers Inherit="False">
 		<li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>
-      <researchPrerequisite>GW_Bolters</researchPrerequisite>
+      <researchPrerequisite>GW_AdvancedBolters</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -255,7 +255,7 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>HP_Bullet_HeavyBolter</defName>
-    <label>Bolter Round</label>
+    <label>bolter round</label>
     <graphicData>
       <texPath>Things/Projectiles/Bolter_Projectile</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -270,7 +270,7 @@
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HeavyBolter</defName>
-    <label>Heavy Bolter</label>
+    <label>heavy bolter</label>
     <description>A Heavy Bolter is a powerful bolter weapon that is used for anti-infantry and fire support roles, and is also known as the "Backbreaker" or the "Bruiser" because of its great weight and the amount of damage it can deal. A Heavy Bolter uses the same principles and technology of standard bolters, but unleashes much larger and more explosively powerful bolts and possesses a much larger ammunition capacity and rate of fire.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/HeavyBolter</texPath>
@@ -282,7 +282,7 @@
 	  <recipeUsers Inherit="False">
 		  <li>HP_ImperialFabricationBench</li>
 	  </recipeUsers>
-      <researchPrerequisite>GW_Bolters</researchPrerequisite>
+      <researchPrerequisite>GW_AdvancedBolters</researchPrerequisite>
       <skillRequirements>
         <Crafting>15</Crafting>
       </skillRequirements>
@@ -355,7 +355,7 @@
   
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_AstartesShotgun</defName>
-		<label>Astartes Pattern Shotgun</label>
+		<label>astartes pattern shotgun</label>
 		<description>Boomstick</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesShotgun</texPath>
@@ -437,7 +437,7 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_SniperRifle</defName>
-		<label>Ultra Pattern Sniper Rifle</label>
+		<label>ultra pattern sniper rifle</label>
 		<description>its a long shot</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/SniperRifle</texPath>
@@ -519,7 +519,7 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_HeavyBoltPistol</defName>
-		<label>Heavy Bolt Pistol</label>
+		<label>heavy bolt pistol</label>
 		<description>Boop.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/HeavyBoltPistol</texPath>
@@ -531,7 +531,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Bolters</researchPrerequisite>
+			<researchPrerequisite>GW_AdvancedBolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>

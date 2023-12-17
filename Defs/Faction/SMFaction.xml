@@ -36,6 +36,10 @@
         <factionIconPath>UI/Icons/AdeptusAstartes</factionIconPath>
         <factionNameMaker>GW_Namer_AdeptusAstartes</factionNameMaker>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+        <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+        <colorSpectrum>
+            <li>(0.19, 0.28, 0.40)</li>
+        </colorSpectrum>
         <autoFlee>false</autoFlee>
         <pawnSingular>marine</pawnSingular>
         <pawnsPlural>marines</pawnsPlural>
@@ -49,7 +53,6 @@
             <li>Siege</li>
         </disallowedRaidStrategies>
         <raidLootMaker>GW_SM_RaidLootMaker</raidLootMaker>
-        <settlementTexturePath>UI/Icons/AdeptusAstartes</settlementTexturePath>
         <allowedCultures><li>Astropolitan</li></allowedCultures>
         <maxPawnCostPerTotalPointsCurve>
             <points>

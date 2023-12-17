@@ -38,7 +38,7 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Chainsword_GrimWorld</defName>
-		<label>Chainsword</label>
+		<label>chainsword</label>
 		<description>Chainswords are not subtle weapons, and wielding one is a statement in its own right: they are horrific tools of war, designed to bite, tear and eviscerate where more primitive blades merely cut and slice.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -106,7 +106,7 @@
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Chainsword_GrimWorld</defName>
-		<label>Relic Chainsword</label>
+		<label>relic chainsword</label>
 		<description>Chainswords are not subtle weapons, and wielding one is a statement in its own right: they are horrific tools of war, designed to bite, tear and eviscerate where more primitive blades merely cut and slice. Relic version.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -170,7 +170,7 @@
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Powersword_GrimWorld</defName>
-		<label>Powersword</label>
+		<label>powersword</label>
 		<description>A power sword is a Power Weapon that has been shaped into a sword of varying lengths and designs crafted from one of any number of different materials, though usually adamantium.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -239,7 +239,7 @@
 	  
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Powersword_GrimWorld</defName>
-		<label>Relic Powersword</label>
+		<label>relic powersword</label>
 		<description>A power sword is a Power Weapon that has been shaped into a sword of varying lengths and designs crafted from one of any number of different materials, though usually adamantium. Relic Version.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -304,7 +304,7 @@
 
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>GW_SM_Melee_Powerfist</defName>
-		<label>Astartes Power fist</label>
+		<label>astartes power fist</label>
 		<description>When you really wanna punch someone.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -367,7 +367,7 @@
 	
 	<ThingDef ParentName="GW_SM_RelicWeapon">
 		<defName>GW_SM_Melee_FlameSword</defName>
-		<label>Sword of the Emperor</label>
+		<label>sword of the emperor</label>
 		<description>Are you worthy?</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
@@ -416,7 +416,7 @@
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>GW_SM_Melee_ThunderHammer</defName>
-		<label>Stormlord Thunder Hammer</label>
+		<label>stormlord thunder hammer</label>
 		<description>Thonk</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>

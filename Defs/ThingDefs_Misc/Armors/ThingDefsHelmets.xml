@@ -247,7 +247,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 
@@ -332,7 +332,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 
@@ -406,7 +406,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 
@@ -507,7 +507,7 @@
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisites>
-				<li>GW_SM_AstartesHeavy</li>
+				<li>GW_SM_AstartesMedium</li>
 			</researchPrerequisites>
 		</recipeMaker>
     </ThingDef>
@@ -575,7 +575,7 @@
         </comps>
 		<description>Special hermetic helmet with improved optics, target scanning system and life support, heavy armor plating and stronger vox/augur cotigator. Worn by most of Primaris Capitains.</description>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
 		<costList>
 			<ComponentSpacer>5</ComponentSpacer>
@@ -701,7 +701,7 @@
 		</apparel>
 		<description>Terminator armor is massive power armor.</description>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesSuperHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
         <costList>
 			<ComponentSpacer>8</ComponentSpacer>

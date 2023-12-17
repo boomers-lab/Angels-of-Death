@@ -24,7 +24,7 @@
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HP_Gun_PlasmaGun</defName>
-    <label>Plasma Gun</label>
+    <label>plasma gun</label>
     <description>The Plasma Gun is a rifle-sized Plasma Weapon common to many of the armed forces of the Imperium of Man. It is classified as a special weapon and is carried by a variety of Imperial infantry, including Space Marines, Imperial Guardsmen and Storm Troopers.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -124,7 +124,7 @@
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Plasma_Incinerator</defName>
-    <label>Plasma Incinerator</label>
+    <label>plasma incinerator</label>
     <description>A Plasma Incinerator is a new type of Imperial Plasma Gun developed for use by the Primaris Space Marines by Archmagos Dominus Belisarius Cawl. Imperium-produced Plasma Weapons all fire searing bursts of energy, but the Mark III Belisarius Pattern Plasma Incinerator is the most advanced of its kind, firing a potent armour-melting blast with no risk of overload for the first time since the days of the Horus Heresy.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -227,7 +227,7 @@
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HP_Gun_MeltaGun</defName>
-    <label>Melta Gun</label>
+    <label>melta gun</label>
     <description>The Meltagun, also called a "Fusion Gun," "Melter," or "Cooker," is a powerful, short-ranged anti-armour weapon that produces an intense, energetic beam of heat in the tens of thousands of degrees Centigrade.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -330,7 +330,7 @@
 
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HP_Gun_Multimelta</defName>
-    <label>Multi-Melta</label>
+    <label>multi-melta</label>
     <description>The Multi-Melta is a heavier version of the standard Imperial Meltagun thermal ray weapon that is composed of multiple Meltagun barrels. The Multi-Melta is also known, like other Melta Weapons, as a "Cooker" or "Vape Gun" and is a formidable anti-personnel and anti-armour weapon.</description>
     <techLevel>Spacer</techLevel>
     <graphicData>
@@ -438,7 +438,7 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_PlasmaPistol</defName>
-		<label>Plasma Pistol</label>
+		<label>plasma pistol</label>
 		<description>Smol 4th state of matter.</description>
 		<techLevel>Spacer</techLevel>
 		<graphicData>
@@ -538,7 +538,7 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_InfernoPistol</defName>
-		<label>Inferno Gun</label>
+		<label>inferno gun</label>
 		<description>Smol fires</description>
 		<techLevel>Spacer</techLevel>
 		<graphicData>
