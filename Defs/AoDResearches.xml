@@ -7,8 +7,8 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_CodexAstartes</defName>
 		<label>codex astartes</label>
-		<description>Codex astartes.</description>
-        <baseCost>6000</baseCost>
+		<description>The Codex Astartes is a great and sacred tome of military organisation, strategy and tactics written by Roboute Guilliman, the primarch of the Ultramarines Space Marine Legion. It outlines Guilliman's ideal for the moral behaviour, order of battle and tactical doctrine of a Space Marine Chapter. Its primary purpose was to restructure the Imperium of Man's most potent military forces to prevent another civil war like the Horus Heresy.</description>
+        <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 		</prerequisites>
@@ -19,7 +19,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesFabrication</defName>
 		<label>astartes fabrication</label>
-		<description>Astartes fabrication.</description>
+		<description>Astartes fabrication. First step to unlock Angels of Death weapons and armors!</description>
         <baseCost>8000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
@@ -78,7 +78,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesLight</defName>
 		<label>astartes light power armors</label>
-		<description>The weakest Astartes power armors like Phobos.</description>
+		<description>The weakest Astartes power armors like Phobos. Another variant of the Mk.X is the Mk.X Reiver or Phobos pattern. The suit’s lighter-weight ceramite and streamlined design allow for greater mobility, and its servo-motors are engineered to be completely silent. The design however sacrifices protection for stealth and speed.</description>
         <baseCost>10000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesFabrication</li>
@@ -101,7 +101,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesMedium</defName>
 		<label>astartes medium power armors</label>
-		<description>Medium Astartes power armors like the MK 7.</description>
+		<description>Medium Astartes power armors like the MK 7. Mark X Tacticus armour is a suit that combines the most effective elements of ancestral Horus Heresy patterns of plate with more recent developments in power armour technology. The Mk.X was developed by Magos Belisarius Cawl at the same time as the Primaris Marines. These suits are currently carried into battle by Primaris Space Marines during the unfolding Indomitus Crusade.</description>
         <baseCost>15000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesLight</li>
@@ -123,8 +123,8 @@
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesHeavy</defName>
-		<label>astartes heavy armors</label>
-		<description>Heavy Astartes power armors like Gravis and Terminator.</description>
+		<label>astartes heavy power armors</label>
+		<description>Heavy Astartes power armors like Gravis and Terminator. The Mk.X has a number of different variants, such as the Mk.X "Gravis" heavy armour used by Commanders, Aggressor Squads, Eradicator Squads, and the Jump Pack-capable variant used by Inceptor Squads. The Gravis pattern of Mk.X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Like power armour, Terminator suits have an outer shell of ceramite-bonded plates powered by electrically-motivated fibre bundles. Plates of heavy plasteel further armour the ceramite sections, especially on the front of the suit. This extra armouring provides a level of protection that is far superior to normal Marine armor; not even a Krak missile will penetrate the suit's breastplate.</description>
         <baseCost>20000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
@@ -147,7 +147,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_TerminatorWeapons</defName>
 		<label>terminator weapons</label>
-		<description>Unlocks terminator weapons.</description>
+		<description>Unlocks terminator weapons. Such as power fists, assault cannons, plasma cannon, thunter hammers ect.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
@@ -170,7 +170,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_GravWeapons</defName>
 		<label>grav weapons</label>
-		<description>Unlocks grav weapons.</description>
+		<description>Unlocks grav weapons. Grav-weaponry, also called Graviton Weapons, or just Grav Weapons, are devastating graviton-based personal and vehicular weapons employed by the Imperial Adeptus Astartes and the Collegia Titanica and the military forces of the Leagues of Votann based on ancient and forgotten technology dating back to the time of the Age of Technology.</description>
         <baseCost>4000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
@@ -294,7 +294,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesStyles</defName>
 		<label>astartes styles</label>
-		<description>Unlocks the ability to research new styles of Astartes armors.</description>
+		<description>Unlocks the ability to research new styles of Astartes armors. Here we will put custom chapters like Astral Revenants.</description>
         <baseCost>3000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
@@ -326,8 +326,15 @@
 
 	<ResearchProjectDef ParentName="GW_SM_AoDStylesBase">
 		<defName>GW_SM_NightLords</defName>
-		<label>night lords</label>
-		<description>Unlocks the ability to create night lord styled armors.</description>
+		<label>Astral Revenants</label>
+		<description>Unlocks the ability to create Astral Reventants styled armors. 
+The Astral Revenants, a Space Marine chapter renowned for their expertise in siege tactics and their preference for heavy armors, have a fascinating history that dates back to the Great Crusade and their Night Lords origins.
+Their story begins with the 57th Siege Company, led by the enigmatic Captain Atreus. This company was an anomaly among the Night Lords, as they shied away from the Legion's usual cruelty and favored efficiency and lethality in their operations. The unique character of the 57th Siege Company can be attributed to their indirect interactions with the Imperial Fists, having fought alongside them in numerous battles during the Great Crusade.
+As the Great Crusade unfolded and the Night Lords Legion descended further into darkness and brutality, the 57th Siege Company found it increasingly difficult to align with their Legion's malevolent path. Their loyalty to the Emperor and the principles of the Imperium ultimately outweighed their allegiance to their Legion. This growing dissent led them to side with the Emperor and the loyalist forces during the tumultuous Horus Heresy, despising the twisted path their Legion had taken.
+In the final, climactic Battle of Terra during the Heresy, the Astral Revenants fought valiantly alongside the loyalists to defend the Imperial Palace. However, their disappearance following the battle led many to assume that they had been lost, their fate shrouded in mystery.
+It wasn't until a later era that the Astral Revenants resurfaced, retaining their Night Lords lineage but choosing to forge a new identity. In a covert arrangement, they made a pact with the Imperial Fists, concealing their true origins and officially registering as an Imperial Fist successor chapter.
+As time passed and new technologies and combat doctrines emerged, the Astral Revenants adapted. With the introduction of heavier armor such as Gravis and the deployment of the Primaris Space Marines, they embraced these advancements, leveraging them to great effect in their battles to defend the Imperium against its foes.
+Today, the Astral Revenants stand as a formidable and enigmatic chapter, their history and origins a carefully guarded secret. With their mastery of siege tactics and their willingness to adapt to the changing face of warfare, they continue to serve the Imperium with unwavering dedication, blending their Night Lords heritage with the strategic wisdom they acquired from the Imperial Fists.</description>
 		<researchViewX>8.00</researchViewX>
 		<researchViewY>6.00</researchViewY>
 	</ResearchProjectDef>
