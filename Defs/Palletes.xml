@@ -4,6 +4,12 @@
         <defName>GW_SM_TorsoChapterPalettes</defName>
         <palettes>
             <li>
+                <name>Astra Revanents</name>
+                <colorA>(38, 35, 36)</colorA>
+                <colorB>(171, 53, 53)</colorB>
+                <colorC>(198, 2, 15)</colorC>
+            </li>
+            <li>
                 <name>Black Templars</name>
                 <colorA>(57, 56, 61)</colorA>
                 <colorB>(255, 255, 255)</colorB>
@@ -75,6 +81,12 @@
     <GW4KArmor.PaletteDef>
         <defName>GW_SM_HelmetChapterPalettes</defName>
         <palettes>
+            <li>
+                <name>Astra Revanents</name>
+                <colorA>(38, 35, 36)</colorA>
+                <colorB>(171, 53, 53)</colorB>
+                <colorC>(198, 2, 15)</colorC>
+            </li>
             <li>
                 <name>Black Templars</name>
                 <colorA>(57, 56, 61)</colorA>
@@ -148,6 +160,12 @@
         <defName>GW_SM_ShoulderChapterPalettes</defName>
         <palettes>
             <li>
+                <name>Astra Revanents</name>
+                <colorA>(38, 35, 36)</colorA>
+                <colorB>(171, 53, 53)</colorB>
+                <colorC>(198, 2, 15)</colorC>
+            </li>
+            <li>
                 <name>Black Templars</name>
                 <colorA>(255, 255, 255)</colorA>
                 <colorB>(192, 157, 88)</colorB>
@@ -220,6 +238,12 @@
         <defName>GW_SM_BackpackChapterPalettes</defName>
         <palettes>
             <li>
+                <name>Astra Revanents</name>
+                <colorA>(38, 35, 36)</colorA>
+                <colorB>(171, 53, 53)</colorB>
+                <colorC>(198, 2, 15)</colorC>
+            </li>
+            <li>
                 <name>Black Templars</name>
                 <colorA>(57, 56, 61)</colorA>
                 <colorB>(255, 255, 255)</colorB>
@@ -291,6 +315,12 @@
     <GW4KArmor.PaletteDef>
         <defName>GW_SM_ShieldChapterPalettes</defName>
         <palettes>
+            <li>
+                <name>Astra Revanents</name>
+                <colorA>(38, 35, 36)</colorA>
+                <colorB>(171, 53, 53)</colorB>
+                <colorC>(198, 2, 15)</colorC>
+            </li>
             <li>
                 <name>Black Templars</name>
                 <colorA>(255, 255, 255)</colorA>

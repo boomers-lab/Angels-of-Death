@@ -91,6 +91,7 @@
         </placeWorkers>
         <researchPrerequisites>
             <li>GW_BolterTurrets</li>
+            <li>GW_SM_CodexAstartes</li>
         </researchPrerequisites>
     </ThingDef>
 
@@ -215,6 +216,7 @@
         </placeWorkers>
         <researchPrerequisites>
             <li>GW_LasCannonTurret</li>
+            <li>GW_SM_CodexAstartes</li>
         </researchPrerequisites>
     </ThingDef>
 
