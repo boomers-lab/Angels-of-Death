@@ -461,6 +461,137 @@
 
             <!-- Pawns -->
 
+        <!--Astra Revanents-->
+    <PawnKindDef ParentName="GW_SM_RangedTier1">
+        <defName>GW_SM_AR_RangedTier1</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_MeleeTier1">
+        <defName>GW_SM_AR_MeleeTier1</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_RangedTier2">
+        <defName>GW_SM_AR_RangedTier2</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_MeleeTier2">
+        <defName>GW_SM_AR_MeleeTier2</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_RangedTier3">
+        <defName>GW_SM_AR_RangedTier3</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_MeleeTier3">
+        <defName>GW_SM_AR_MeleeTier3</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_RangedTier4">
+        <defName>GW_SM_AR_RangedTier4</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_MeleeTier4">
+        <defName>GW_SM_AR_MeleeTier4</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_RangedTier5">
+        <defName>GW_SM_AR_RangedTier5</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_MeleeTier5">
+        <defName>GW_SM_AR_MeleeTier5</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>    
+
         <!--Black Templar-->
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_BT_RangedTier1</defName>

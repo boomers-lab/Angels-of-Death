@@ -62,6 +62,25 @@
             </points>
         </maxPawnCostPerTotalPointsCurve>
         <pawnGroupMakers>
+                <!--Astra Revanents-->
+            <li>
+                <kindDef>Combat</kindDef>
+                <commonality>1</commonality>
+                <options>
+                    <GW_SM_AR_RangedTier1>4</GW_SM_AR_RangedTier1>
+                    <GW_SM_AR_MeleeTier1>2</GW_SM_AR_MeleeTier1>
+                    <GW_SM_AR_RangedTier2>5</GW_SM_AR_RangedTier2>
+                    <GW_SM_AR_MeleeTier2>3</GW_SM_AR_MeleeTier2>
+                    <GW_SM_AR_RangedTier3>7</GW_SM_AR_RangedTier3>
+                    <GW_SM_AR_MeleeTier3>5</GW_SM_AR_MeleeTier3>
+                    <GW_SM_AR_RangedTier4>10</GW_SM_AR_RangedTier4>
+                    <GW_SM_AR_MeleeTier4>7</GW_SM_AR_MeleeTier4>
+                    <GW_SM_AR_RangedTier5>5</GW_SM_AR_RangedTier5>
+                    <GW_SM_AR_MeleeTier5>3</GW_SM_AR_MeleeTier5>
+                    <GW_SM_Captain>1</GW_SM_Captain>
+                </options>
+            </li>
+                    
                 <!--Black Templar-->
             <li>
                 <kindDef>Combat</kindDef>
