@@ -351,6 +351,7 @@
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
+                    <GW_SM_AR_RangedTier4>5</GW_SM_AR_RangedTier4>
                     <GW_SM_BT_RangedTier4>5</GW_SM_BT_RangedTier4>
                     <GW_SM_BL_RangedTier4>5</GW_SM_BL_RangedTier4>
                     <GW_SM_BR_RangedTier4>5</GW_SM_BR_RangedTier4>
@@ -365,6 +366,7 @@
                     <GW_SM_SW_RangedTier4>5</GW_SM_SW_RangedTier4>
                     <GW_SM_UM_RangedTier4>5</GW_SM_UM_RangedTier4>
                     <GW_SM_WS_RangedTier4>5</GW_SM_WS_RangedTier4>
+                    <GW_SM_AR_RangedTier5>5</GW_SM_AR_RangedTier5>
                     <GW_SM_BT_RangedTier5>1</GW_SM_BT_RangedTier5>
                     <GW_SM_BL_RangedTier5>1</GW_SM_BL_RangedTier5>
                     <GW_SM_BR_RangedTier5>1</GW_SM_BR_RangedTier5>
