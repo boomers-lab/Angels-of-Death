@@ -31,7 +31,7 @@
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>
-				<li>EyeCover</li>
+				<!--<li>EyeCover</li>--> <!--Commented out to try to fix some weird graphic bugs-->
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -452,9 +452,9 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged</wornGraphicPath>
 		</apparel>
-		<researchPrerequisites>
-			<li>GW_SM_NightLords</li>
-		</researchPrerequisites>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_NightLords</researchPrerequisite>
+		</recipeMaker>
     </ThingDef>
 
         <!--MKX Tacticus-->
