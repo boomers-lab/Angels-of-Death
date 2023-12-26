@@ -31,7 +31,9 @@
 			</bodyPartGroups>
 			<layers>
 				<li>Overhead</li>
-				<!--<li>EyeCover</li>--> <!--Commented out to try to fix some weird graphic bugs-->
+				<li>EyeCover</li>
+				<li MayRequire="ceteam.combatextended">StrappedHead</li>
+				<li MayRequire="ceteam.combatextended">OnHead</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
