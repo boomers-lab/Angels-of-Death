@@ -32,6 +32,8 @@
 			<layers>
 				<li>Overhead</li>
 				<li>EyeCover</li>
+				<li MayRequire="ceteam.combatextended">StrappedHead</li>
+				<li MayRequire="ceteam.combatextended">OnHead</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -452,9 +454,9 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged</wornGraphicPath>
 		</apparel>
-		<researchPrerequisites>
-			<li>GW_SM_NightLords</li>
-		</researchPrerequisites>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_NightLords</researchPrerequisite>
+		</recipeMaker>
     </ThingDef>
 
         <!--MKX Tacticus-->
