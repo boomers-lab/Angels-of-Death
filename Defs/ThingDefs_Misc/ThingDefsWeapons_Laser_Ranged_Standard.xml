@@ -76,6 +76,7 @@
                 <warmupTime>4</warmupTime>
                 <range>40</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <forcedMissRadius>1.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>HP_Plasma_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -181,6 +182,7 @@
                 <warmupTime>4</warmupTime>
                 <range>60</range>
                 <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+                <forcedMissRadius>1.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>HP_Incinerator_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -283,6 +285,7 @@
                 <warmupTime>2</warmupTime>
                 <range>16</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <forcedMissRadius>1.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
                 <soundCast>HP_Melta_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -392,6 +395,7 @@
                 <warmupTime>3</warmupTime>
                 <range>30</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+                <forcedMissRadius>1.9</forcedMissRadius>
                 <burstShotCount>2</burstShotCount>
                 <soundCast>HP_Multi_Melta_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
@@ -497,6 +501,7 @@
 				<warmupTime>4</warmupTime>
 				<range>26</range>
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+                <forcedMissRadius>0.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>HP_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -599,6 +604,7 @@
 				<warmupTime>4</warmupTime>
 				<range>12</range>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+                <forcedMissRadius>0.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>HP_Melta_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
