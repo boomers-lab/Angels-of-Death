@@ -44,6 +44,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Melee/ChainSwordStandard</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5, 1.5</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
@@ -112,6 +113,7 @@
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/ChainSword</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>1.5, 1.5</drawSize>
 		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
@@ -176,6 +178,7 @@
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/PowerSword2</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>1.5, 1.5</drawSize>
 		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
@@ -245,6 +248,7 @@
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/PowerSword</texPath>
 		  <graphicClass>Graphic_Single</graphicClass>
+		  <drawSize>1.5, 1.5</drawSize>
 		  <shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
@@ -310,6 +314,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Fist</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.5, 1.5</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
@@ -373,7 +378,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Melee/FlameSword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5</drawSize>
+			<drawSize>1.5, 1.5</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
@@ -423,7 +428,7 @@
 			<texPath>Things/Weapons/Melee/ThunderHammer</texPath>
 			<shaderType>CutoutComplex</shaderType>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
+			<drawSize>1.5, 1.5</drawSize>
 		</graphicData>
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
@@ -495,6 +500,7 @@
 			<texPath>Things/Weapons/Melee/Combat-knife</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.5, 1.5</drawSize>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
 		<techLevel>Industrial</techLevel>
