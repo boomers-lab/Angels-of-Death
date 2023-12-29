@@ -50,12 +50,13 @@
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.7</drawSize>
 		</graphicData>
+		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>65</damageAmountBase>
 			<stoppingPower>2.4</stoppingPower>
 			<armorPenetrationBase>0.78</armorPenetrationBase>
-			<explosionRadius>4.8</explosionRadius>
+			<explosionRadius>2.8</explosionRadius>
 			<speed>135</speed>
 		</projectile>
 	</ThingDef>
