@@ -14,7 +14,7 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>Bullet</damageDef>
+            <damageDef>Burn</damageDef>
             <damageAmountBase>50</damageAmountBase>
             <stoppingPower>2</stoppingPower>
             <armorPenetrationBase>0.7</armorPenetrationBase>
@@ -81,6 +81,9 @@
                 <soundCast>HP_Plasma_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>	
+                <targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
             </li>
         </verbs>
         <tools>
@@ -117,7 +120,7 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>Bullet</damageDef>
+            <damageDef>Burn</damageDef>
             <damageAmountBase>70</damageAmountBase>
             <stoppingPower>2.5</stoppingPower>
             <explosionRadius>1.6</explosionRadius>
@@ -187,6 +190,9 @@
                 <soundCast>HP_Incinerator_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>	
+                <targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
             </li>
         </verbs>
         <tools>
@@ -223,7 +229,7 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>Bullet</damageDef>
+            <damageDef>Burn</damageDef>
             <damageAmountBase>70</damageAmountBase>
             <stoppingPower>3</stoppingPower>
             <armorPenetrationBase>1.5</armorPenetrationBase>
@@ -329,7 +335,7 @@
         </graphicData>
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
-            <damageDef>Bullet</damageDef>
+            <damageDef>Burn</damageDef>
             <damageAmountBase>70</damageAmountBase>
             <stoppingPower>3</stoppingPower>
             <armorPenetrationBase>1.5</armorPenetrationBase>
@@ -439,7 +445,7 @@
 		</graphicData>
         <thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
+			<damageDef>Burn</damageDef>
 			<damageAmountBase>15</damageAmountBase>
 			<stoppingPower>2</stoppingPower>
 			<armorPenetrationBase>0.7</armorPenetrationBase>
@@ -506,6 +512,9 @@
 				<soundCast>HP_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>	
+                <targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 			</li>
 		</verbs>
 		<tools>
@@ -542,7 +551,7 @@
 		</graphicData>
         <thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
+			<damageDef>Burn</damageDef>
 			<damageAmountBase>18</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<armorPenetrationBase>1.5</armorPenetrationBase>
@@ -609,6 +618,9 @@
 				<soundCast>HP_Melta_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>	
+                <targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 			</li>
 		</verbs>
 		<tools>

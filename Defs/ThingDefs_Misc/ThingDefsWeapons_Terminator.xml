@@ -52,7 +52,7 @@
 		</graphicData>
 		<thingClass>Projectile_Explosive</thingClass>
 		<projectile>
-			<damageDef>Bullet</damageDef>
+			<damageDef>Burn</damageDef>
 			<damageAmountBase>65</damageAmountBase>
 			<stoppingPower>2.4</stoppingPower>
 			<armorPenetrationBase>0.78</armorPenetrationBase>
@@ -448,6 +448,9 @@
 				<soundCast>HP_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 			</li>
 		</verbs>
 		<tools>
