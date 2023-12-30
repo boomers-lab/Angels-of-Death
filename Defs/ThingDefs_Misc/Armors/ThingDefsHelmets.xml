@@ -44,8 +44,8 @@
 				<headgearDrawSettings>
 					<drawPosNorthOffset>(0, 0.1, 0)</drawPosNorthOffset>
 					<drawPosSouthOffset>(0, 0.001, 0)</drawPosSouthOffset>
-					<drawPosWestOffset>(0, 0.2, 0)</drawPosWestOffset>
-					<drawPosEastOffset>(0, 0.2, 0)</drawPosEastOffset>
+					<drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
+					<drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
 				</headgearDrawSettings>
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>true</hideHead>
