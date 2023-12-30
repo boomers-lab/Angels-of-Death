@@ -106,6 +106,9 @@
 			<muzzleFlashScale>12</muzzleFlashScale>
 			<recoilAmount>0.8</recoilAmount>
 			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>10</magazineSize>
@@ -153,6 +156,9 @@
 			<muzzleFlashScale>12</muzzleFlashScale>
 			<recoilAmount>0.8</recoilAmount>
 			<ticksBetweenBurstShots>15</ticksBetweenBurstShots>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>15</magazineSize>
@@ -200,6 +206,9 @@
 			<muzzleFlashScale>12</muzzleFlashScale>
 			<recoilAmount>2.7</recoilAmount>
 			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>5</magazineSize>
@@ -247,6 +256,9 @@
 			<muzzleFlashScale>12</muzzleFlashScale>
 			<recoilAmount>0.8</recoilAmount>
 			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>10</magazineSize>
@@ -586,6 +598,9 @@
 			<muzzleFlashScale>12</muzzleFlashScale>
 			<recoilAmount>4.6</recoilAmount>
 			<ticksBetweenBurstShots>21</ticksBetweenBurstShots>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>45</magazineSize>
@@ -726,6 +741,9 @@
 			<muzzleFlashScale>12</muzzleFlashScale>
 			<recoilAmount>4.6</recoilAmount>
 			<ticksBetweenBurstShots>21</ticksBetweenBurstShots>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>25</magazineSize>
@@ -965,6 +983,9 @@
 			<muzzleFlashScale>12</muzzleFlashScale>
 			<recoilAmount>0.8</recoilAmount>
 			<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>4</magazineSize>
@@ -1012,6 +1033,9 @@
 			<muzzleFlashScale>12</muzzleFlashScale>
 			<recoilAmount>2.7</recoilAmount>
 			<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</Properties>
 		<AmmoUser>
 			<magazineSize>2</magazineSize>
