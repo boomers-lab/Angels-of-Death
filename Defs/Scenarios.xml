@@ -155,6 +155,7 @@
             <li>GW_SM_TacticusArmor</li>
             <li>GW_SM_TacticusHelmet_Simple</li>
             <li>GW_SM_TacticusShoulderPads_TypeA</li>
+            <li>GW_SM_TacticusBackpack</li>
             <li>GW_SM_FibroVest</li>
         </apparelRequired>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
