@@ -729,18 +729,6 @@
 			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
 			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
-		<modExtensions Inherit="False">
-			<li Class="VFECore.ApparelDrawPosExtension">
-				<headgearDrawSettings>
-					<drawPosNorthOffset>(0, 0.1, 0)</drawPosNorthOffset>
-					<drawPosSouthOffset>(0, 0.001, -0.07)</drawPosSouthOffset>
-					<drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
-					<drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
-				</headgearDrawSettings>
-                <isUnifiedApparel>true</isUnifiedApparel>
-				<hideHead>true</hideHead>
-			</li>
-		</modExtensions>
     </ThingDef>
 
     <ThingDef ParentName="GW_SM_TerminatorHelmet">
