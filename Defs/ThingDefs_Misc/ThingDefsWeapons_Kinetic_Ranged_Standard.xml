@@ -120,7 +120,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HP_Bullet_Bolter</defaultProjectile>
-        <warmupTime>2</warmupTime>
+        <warmupTime>3</warmupTime>
         <range>35</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
         <burstShotCount>6</burstShotCount>
@@ -221,7 +221,7 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HP_Bullet_Executor</defaultProjectile>
-        <warmupTime>2</warmupTime>
+        <warmupTime>3</warmupTime>
         <range>45</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
         <burstShotCount>1</burstShotCount>
@@ -321,8 +321,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>HP_Bullet_HeavyBolter</defaultProjectile>
-        <warmupTime>2</warmupTime>
-        <range>35</range>
+        <warmupTime>5</warmupTime>
+        <range>40</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <burstShotCount>10</burstShotCount>
         <soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
@@ -459,8 +459,8 @@
 			<Mass>6.8</Mass>
 			<AccuracyTouch>0.50</AccuracyTouch>
 			<AccuracyShort>0.88</AccuracyShort>
-			<AccuracyMedium>0.92</AccuracyMedium>
-			<AccuracyLong>0.90</AccuracyLong>
+			<AccuracyMedium>0.98</AccuracyMedium>
+			<AccuracyLong>1.0</AccuracyLong>
 			<RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
 		</statBases>
 			<equippedStatOffsets>
@@ -487,7 +487,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_NeedleBullet</defaultProjectile>
-				<warmupTime>1.2</warmupTime>
+				<warmupTime>3</warmupTime>
 				<range>55</range>
 				<soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -565,7 +565,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_HeavyBoltPistol_Bullet</defaultProjectile>
-				<warmupTime>2</warmupTime>
+				<warmupTime>1</warmupTime>
 				<range>16</range>
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 				<burstShotCount>1</burstShotCount>

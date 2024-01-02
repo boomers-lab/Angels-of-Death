@@ -106,14 +106,14 @@
 		<statBases>
 			<WorkToMake>48000</WorkToMake>
 			<Mass>12</Mass>
-			<AccuracyTouch>0.45</AccuracyTouch>
-			<AccuracyShort>0.50</AccuracyShort>
-			<AccuracyMedium>0.60</AccuracyMedium>
-			<AccuracyLong>0.55</AccuracyLong>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.83</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
 			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.40</MoveSpeed>
+			<MoveSpeed>-0.70</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>550</Steel>
@@ -134,7 +134,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_Term_CannonBullet</defaultProjectile>
-				<warmupTime>3</warmupTime>
+				<warmupTime>5</warmupTime>
 				<range>55</range>
 				<ticksBetweenBurstShots>18</ticksBetweenBurstShots>
 				<burstShotCount>12</burstShotCount>
@@ -187,7 +187,7 @@
 			<RangedWeapon_Cooldown>4.0</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.42</MoveSpeed>
+			<MoveSpeed>-0.50</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>575</Steel>
@@ -260,7 +260,7 @@
 			<RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.24</MoveSpeed>
+			<MoveSpeed>-0.20</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>355</Steel>
@@ -281,10 +281,10 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_Term_StormBullet</defaultProjectile>
-				<warmupTime>3</warmupTime>
+				<warmupTime>1</warmupTime>
 				<range>28</range>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
-				<burstShotCount>4</burstShotCount>
+				<burstShotCount>5</burstShotCount>
 				<soundCast>HP_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
@@ -364,7 +364,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_Term_PlasmaCBullet</defaultProjectile>
-				<warmupTime>3</warmupTime>
+				<warmupTime>5</warmupTime>
 				<range>75</range>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
 				<burstShotCount>1</burstShotCount>
@@ -418,7 +418,7 @@
 			<RangedWeapon_Cooldown>5.4</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.45</MoveSpeed>
+			<MoveSpeed>-0.75</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>575</Steel>
@@ -440,7 +440,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_Term_PlasmaCBullet</defaultProjectile>
-				<warmupTime>3</warmupTime>
+				<warmupTime>5</warmupTime>
 				<range>65</range>
 				<ticksBetweenBurstShots>12</ticksBetweenBurstShots>
 				<forcedMissRadius>2.9</forcedMissRadius>

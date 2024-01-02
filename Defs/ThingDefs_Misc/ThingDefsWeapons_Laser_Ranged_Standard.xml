@@ -73,7 +73,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>VFEP_Bullet_PlasmaShot</defaultProjectile>
-                <warmupTime>4</warmupTime>
+                <warmupTime>3</warmupTime>
                 <range>40</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <forcedMissRadius>1.9</forcedMissRadius>
@@ -182,7 +182,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>VFEP_Bullet_Plasma_IncineratorShot</defaultProjectile>
-                <warmupTime>4</warmupTime>
+                <warmupTime>3</warmupTime>
                 <range>60</range>
                 <ticksBetweenBurstShots>15</ticksBetweenBurstShots>
                 <forcedMissRadius>1.9</forcedMissRadius>
@@ -230,10 +230,10 @@
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>70</damageAmountBase>
+            <damageAmountBase>90</damageAmountBase>
             <stoppingPower>3</stoppingPower>
-            <armorPenetrationBase>1.5</armorPenetrationBase>
-            <explosionRadius>1.6</explosionRadius>
+            <armorPenetrationBase>2.5</armorPenetrationBase>
+            <explosionRadius>0.5</explosionRadius>
             <speed>80</speed>
         </projectile>
     </ThingDef>
@@ -288,7 +288,7 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>HP_Bullet_MeltaGun</defaultProjectile>
-                <warmupTime>2</warmupTime>
+                <warmupTime>3</warmupTime>
                 <range>16</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <forcedMissRadius>1.9</forcedMissRadius>
@@ -336,10 +336,9 @@
         <thingClass>Projectile_Explosive</thingClass>
         <projectile>
             <damageDef>Burn</damageDef>
-            <damageAmountBase>70</damageAmountBase>
-            <stoppingPower>3</stoppingPower>
-            <armorPenetrationBase>1.5</armorPenetrationBase>
-            <explosionRadius>1.6</explosionRadius>
+            <damageAmountBase>150</damageAmountBase>
+            <stoppingPower>4</stoppingPower>
+            <armorPenetrationBase>3.5</armorPenetrationBase>
             <speed>80</speed>
         </projectile>
     </ThingDef>
@@ -358,7 +357,7 @@
         <statBases>
             <WorkToMake>50000</WorkToMake>
             <Mass>7.5</Mass>
-            <AccuracyTouch>0.100</AccuracyTouch>
+            <AccuracyTouch>1.0</AccuracyTouch>
             <AccuracyShort>0.90</AccuracyShort>
             <AccuracyMedium>0.50</AccuracyMedium>
             <AccuracyLong>0.35</AccuracyLong>
@@ -398,8 +397,8 @@
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
                 <defaultProjectile>HP_Bullet_MultiMelta</defaultProjectile>
-                <warmupTime>3</warmupTime>
-                <range>30</range>
+                <warmupTime>5</warmupTime>
+                <range>45</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <forcedMissRadius>1.9</forcedMissRadius>
                 <burstShotCount>2</burstShotCount>
@@ -504,7 +503,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_PlasmaPistol_Bullet</defaultProjectile>
-				<warmupTime>4</warmupTime>
+				<warmupTime>1</warmupTime>
 				<range>26</range>
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <forcedMissRadius>0.9</forcedMissRadius>
@@ -555,7 +554,7 @@
 			<damageAmountBase>18</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<armorPenetrationBase>1.5</armorPenetrationBase>
-            <explosionRadius>0.9</explosionRadius>
+            <explosionRadius>0.4</explosionRadius>
 			<speed>80</speed>
 		</projectile>
 	</ThingDef>
@@ -574,10 +573,10 @@
 		<statBases>
 			<WorkToMake>26000</WorkToMake>
 			<Mass>4.8</Mass>
-			<AccuracyTouch>0.60</AccuracyTouch>
-			<AccuracyShort>0.75</AccuracyShort>
-			<AccuracyMedium>0.90</AccuracyMedium>
-			<AccuracyLong>0.80</AccuracyLong>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.80</AccuracyShort>
+			<AccuracyMedium>0.40</AccuracyMedium>
+			<AccuracyLong>0.20</AccuracyLong>
 			<RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
 		</statBases>
 		<recipeMaker>
@@ -610,7 +609,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_InfernoPistol_Bullet</defaultProjectile>
-				<warmupTime>4</warmupTime>
+				<warmupTime>1</warmupTime>
 				<range>12</range>
 				<ticksBetweenBurstShots>6</ticksBetweenBurstShots>
                 <forcedMissRadius>0.9</forcedMissRadius>
