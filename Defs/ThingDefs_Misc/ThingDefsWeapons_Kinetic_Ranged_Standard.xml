@@ -46,7 +46,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>24</damageAmountBase>
+			<damageAmountBase>50</damageAmountBase>
 			<armorPenetrationBase>0.92</armorPenetrationBase>
 			<speed>95</speed>
 		</projectile>
@@ -253,21 +253,6 @@
 
 <!-- ====================== HeavyBolter  ===================== -->
 
-  <ThingDef ParentName="BaseBullet">
-    <defName>HP_Bullet_HeavyBolter</defName>
-    <label>bolter round</label>
-    <graphicData>
-      <texPath>Things/Projectiles/Bolter_Projectile</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>45</damageAmountBase>
-      <stoppingPower>1</stoppingPower>
-      <speed>50</speed>
-    </projectile>
-  </ThingDef>
-
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HeavyBolter</defName>
     <label>heavy bolter</label>
@@ -356,7 +341,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_AstartesShotgun</defName>
 		<label>astartes pattern shotgun</label>
-		<description>Boomstick</description>
+		<description>While not as iconic or widespread amongst Space Marines as the Astartes boltgun, the Astartes Assault Shotgun is a powerful and versatile weapon commonly used by their Scouts. These bulky, clipped Shotguns can fire in single shots and in both semi- and fully automatic modes, and can use an array of specialty ammunition ranging from armour-piercing penetrator rounds to the powerful manstopper rounds.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesShotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -375,14 +360,14 @@
 		<statBases>
 			<WorkToMake>52000</WorkToMake>
 			<Mass>8</Mass>
-			<AccuracyTouch>0.90</AccuracyTouch>
-			<AccuracyShort>0.87</AccuracyShort>
+			<AccuracyTouch>0.97</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
 			<AccuracyMedium>0.45</AccuracyMedium>
-			<AccuracyLong>0.35</AccuracyLong>
+			<AccuracyLong>0.25</AccuracyLong>
 			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
 		</statBases>
-			<equippedStatOffsets>
-			<MoveSpeed>-0.25</MoveSpeed>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.10</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>250</Steel>
@@ -438,7 +423,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_SniperRifle</defName>
 		<label>ultra pattern sniper rifle</label>
-		<description>its a long shot</description>
+		<description>A Sniper Rifle is a high-powered and highly accurate projectile or directed energy weapon that is used to attack distant foes and lightly armoured targets at extreme ranges with unerring accuracy. Capable of firing powerful shots with lethal precision, sniper rifles can fell even the sturdiest enemy.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -487,7 +472,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_SM_NeedleBullet</defaultProjectile>
-				<warmupTime>3</warmupTime>
+				<warmupTime>5</warmupTime>
 				<range>55</range>
 				<soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
@@ -520,7 +505,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_HeavyBoltPistol</defName>
 		<label>heavy bolt pistol</label>
-		<description>Boop.</description>
+		<description>A Bolt Pistol is a smaller version of the Bolter in standard use by the Space Marines and other Imperial forces such as the Orders Militant of the Adepta Sororitas and certain members of the Astra Militarum and the Imperial Navy. Powerful and utilitarian side arms, Bolt Pistols have seen service within many of the Imperium's military forces since its inception in the 30th Millennium. The current standard pattern in use amongst the Space Marines is the Mark III.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/HeavyBoltPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
