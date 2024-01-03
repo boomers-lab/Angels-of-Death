@@ -48,7 +48,6 @@
 					<drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
 				</headgearDrawSettings>
                 <isUnifiedApparel>true</isUnifiedApparel>
-				<hideHead>true</hideHead>
 			</li>
 		</modExtensions>
     </ThingDef>
@@ -733,12 +732,11 @@
 			<li Class="VFECore.ApparelDrawPosExtension">
 				<headgearDrawSettings>
 					<drawPosNorthOffset>(0, 0.1, 0)</drawPosNorthOffset>
-					<drawPosSouthOffset>(0, 0.001, -0.07)</drawPosSouthOffset>
+					<drawPosSouthOffset>(0, 0.001, 0)</drawPosSouthOffset>
 					<drawPosWestOffset>(0, 0, 0)</drawPosWestOffset>
 					<drawPosEastOffset>(0, 0, 0)</drawPosEastOffset>
 				</headgearDrawSettings>
                 <isUnifiedApparel>true</isUnifiedApparel>
-				<hideHead>true</hideHead>
 			</li>
 		</modExtensions>
     </ThingDef>
