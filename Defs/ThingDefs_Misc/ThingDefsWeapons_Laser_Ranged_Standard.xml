@@ -40,7 +40,7 @@
             <AccuracyTouch>0.90</AccuracyTouch>
             <AccuracyShort>0.85</AccuracyShort>
             <AccuracyMedium>0.75</AccuracyMedium>
-            <AccuracyLong>0.60</AccuracyLong>
+            <AccuracyLong>0.70</AccuracyLong>
             <RangedWeapon_Cooldown>1</RangedWeapon_Cooldown>
         </statBases>
         <recipeMaker>
@@ -149,9 +149,6 @@
             <AccuracyLong>0.80</AccuracyLong>
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
         </statBases>
-        <equippedStatOffsets>
-            <MoveSpeed>-0.05</MoveSpeed>
-        </equippedStatOffsets>
         <recipeMaker>
             <recipeUsers Inherit="False">
                 <li>HP_ImperialFabricationBench</li>
@@ -233,7 +230,7 @@
             <damageAmountBase>90</damageAmountBase>
             <stoppingPower>3</stoppingPower>
             <armorPenetrationBase>2.5</armorPenetrationBase>
-            <explosionRadius>0.5</explosionRadius>
+            <explosionRadius>0</explosionRadius>
             <speed>80</speed>
         </projectile>
     </ThingDef>
