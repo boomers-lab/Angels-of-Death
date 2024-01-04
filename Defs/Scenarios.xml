@@ -3,9 +3,9 @@
     <ScenarioDef>
         <defName>HP_CrashlandedAngels</defName>
         <label>Crashlanded Angels</label>
-        <description>Your squad barely survived a space battle.\nOut of the entire five-man team, only two of you survived.\nYou have to cope.\nFor the Emperor.</description>
+        <description>Due to a cosmic disaster, a group of elite space marines crashes onto a distant and unknown planet. Owing to severe damage to their ship, they are forced to make an emergency landing on the surface of this alien world.\n\nAs cosmic warriors, they find themselves in a situation vastly different from their typical missions. The planet they land on is inhabited by various factions of settlers, indigenous tribes, and wild beasts. Unfortunately, their presence as space invaders immediately triggers hostility from all factions on the planet.With limited resources and incomplete equipment, the marines must survive on this hostile planet.\n\nThey must gather resources, construct shelters, develop technology, and defend themselves against attacks from hostile factions and wild creatures.</description>
         <scenario>
-            <summary>Two surviving space marines thriving in a hostile world.</summary>
+            <summary>Two space marines flourish in a hostile world, all factions are persistently hostile, launching raids every 10 days.</summary>
             <playerFaction>
                 <def>PlayerFaction</def>
                 <factionDef>GW_CrashlandedAngels</factionDef>
