@@ -67,7 +67,6 @@
                     <drawPosWestOffset>(0, 0, -0.1)</drawPosWestOffset>
                     <drawPosEastOffset>(0, 0, -0.1)</drawPosEastOffset>
                 </apparelDrawSettings>
-				<showBodyInBedAlways>true</showBodyInBedAlways>
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
             </li>
@@ -433,7 +432,6 @@
                     <drawPosWestOffset>(0, 0.1, 0)</drawPosWestOffset>
                     <drawPosEastOffset>(0, 0.1, 0)</drawPosEastOffset>
                 </apparelDrawSettings>
-				<showBodyInBedAlways>true</showBodyInBedAlways>
                 <isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
             </li>
