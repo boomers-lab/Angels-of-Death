@@ -93,7 +93,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_ReiverArmor</defName>
 		<label>reiver power armor</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Reiver version.</description>
+        <description>Mark X Reiver Power Armour.\n\nThe Reiver Armor refers to a specialized type of combat armor worn by the Reiver units of the Primaris Space Marines. Reivers are a type of close-combat specialists adept at shock-assault tactics and disrupting enemy formations.\n\nKey features of Reiver Armor include:\n\nIntimidating Appearance: Reiver Armor is designed to be visually imposing, featuring a skull-faced helmet and additional elements that evoke fear and terror in enemies. This psychological warfare aspect aids in the disruption of enemy morale.\n\nIntegrated Equipment: The armor is equipped with a Grapnel Launcher, which allows Reivers to scale terrain and buildings quickly, granting them tactical advantages and surprising attack positions. It also includes a grav-chute that enables Reivers to perform deep strikes from high altitudes, swiftly descending into combat zones.\n\nSpecialized Armaments: Reiver units are armed with heavy close-combat weaponry like combat knives and bolt carbines. These weapons, combined with their combat training, allow them to excel in close-quarters engagements, making them a formidable force in melee combat.\n\nShock Assault Tactics: Reivers are trained extensively in shock assault tactics, utilizing their intimidating appearance, agility, and specialized equipment to create chaos among enemy ranks. They excel at disrupting enemy formations and instilling fear in adversaries.\n\nReiver Armor and its associated tactics make Reiver units a highly adaptable force on the battlefield. They are particularly effective in swift and brutal close-quarters engagements, capable of striking fear into the hearts of their foes and causing significant disruption to enemy lines.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Reiver_torso_south</texPath>
 		</graphicData>
@@ -102,7 +102,7 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>800</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
@@ -113,7 +113,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.3</MoveSpeed>
+			<MoveSpeed>1.0</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -134,7 +134,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_PhobosArmor</defName>
 		<label>phobos power armor</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Phobos version.</description>
+        <description>Mark X Phobos Power Armour.\n\n The Phobos armor refers specifically to the lightweight and stealth-oriented Power Armor utilized by the Primaris Space Marines. This armor variant is part of the Phobos Pattern, designed for specialized units like Infiltrators and Incursors. \n\nThe Phobos Armor differs from the standard Adeptus Astartes Power Armor in several ways:\n\nStealth and Infiltration: Phobos Armor is tailored for covert operations, emphasizing stealth and agility. It features a sleeker design that allows Primaris Space Marines to move more quietly and remain hidden from enemy detection systems.\n\nEnhanced Mobility: This armor pattern prioritizes mobility and agility, enabling the wearer to navigate challenging terrain and engage in swift, precise movements during infiltration missions. Its lighter construction provides greater freedom of movement.\n\nAdvanced Technology: Phobos Armor integrates sophisticated sensor systems, camo cloaks, and enhanced visors that offer improved situational awareness, target acquisition, and reconnaissance capabilities. This tech assists Primaris operatives in executing stealthy operations more effectively.\n\nRole and Deployment: Primaris Space Marine units equipped with Phobos Armor specialize in reconnaissance, sabotage, and infiltration missions. These units are adept at striking from unexpected angles, gathering intelligence, disrupting enemy lines, and targeting priority objectives.\n\nPhobos Armor plays a vital role within the Space Marine forces by complementing their combat effectiveness with specialized stealth capabilities. It allows Primaris operatives to operate behind enemy lines or in environments where traditional Space Marine units might struggle, contributing to the overall flexibility and adaptability of the Space Marine armies in the grim darkness of the 41st millennium.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Phobos_torso_south</texPath>
 		</graphicData>
@@ -143,7 +143,7 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>800</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
@@ -154,7 +154,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.3</MoveSpeed>
+			<MoveSpeed>1.0</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -175,7 +175,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_MaximusArmor</defName>
 		<label>maximus power armor</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Maximus version.</description>
+        <description>Mark IV Maximus Power Armour.\n\nThe Maximus is a type of armor used by the Space Marines in the Warhammer 40,000 universe. It's an older pattern of Power Armor primarily associated with the era of the Great Crusade and the Horus Heresy.\n\nKey characteristics of the Mark IV Power Armor include:\n\nAncient Design: This armor pattern predates the more commonly used Mark VII and later patterns. It was widely used during the time of the Great Crusade, serving the Space Marine Legions before the galaxy-spanning conflict of the Horus Heresy.\n\nHeavily Articulated: The Mark IV Power Armor is a relatively sophisticated design, offering a balance between protection and mobility. It's more heavily articulated than earlier iterations, providing enhanced flexibility and protection on the battlefield.\n\nDistinctive Appearance: The Mark IV armor has a distinct appearance, featuring angular lines, reinforced plating, and a characteristic helmet design with a pronounced crest. It's recognizable for its unique aesthetic compared to later Marks.\n\nVariants and Customizations: Over time, various sub-patterns and customizations of the Mark IV armor emerged within different Space Marine Legions, reflecting their specific needs, preferences, and technological modifications.\n\nIn Warhammer 40,000 lore, the Mark IV Power Armor holds historical significance, as it was the standard armor used by many Space Marine Legions before the events of the Horus Heresy. It's still revered and used in limited quantities by certain Chapters or in ceremonial and revered roles within Space Marine organizations in the 41st millennium.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Maximus_torso_south</texPath>
 		</graphicData>
@@ -184,7 +184,7 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>1000</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
@@ -195,7 +195,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.3</MoveSpeed>
+			<MoveSpeed>0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -216,7 +216,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_CorvusArmor</defName>
 		<label>corvus power armor</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Corvus version.</description>
+        <description>Mark VI Corvus Power Armour.\n\nThe Corvus , is a type of advanced armor used by the Space Marines in the Warhammer 40,000 universe. It's one of the earlier patterns introduced after the Horus Heresy and is known for its versatility and widespread use among various Space Marine Chapters.\n\nKey features of the Mark VI Power Armor (Corvus Pattern) include:\n\nEnhanced Mobility: The Mark VI armor is designed to offer a good balance between protection and mobility. It allows Space Marines greater agility and maneuverability on the battlefield compared to earlier Marks.\n\nIntegrated Systems: This pattern integrates more advanced systems and technologies compared to its predecessors. It includes improved auto-senses, internal communication systems, and other enhancements that aid in combat effectiveness and situational awareness.\n\nDistinctive Helmet: The Mark VI helmet has a distinct beak-like shape and a wider field of vision, providing better awareness and visibility for the wearer.\n\nWidespread Use: Following its introduction, the Mark VI Power Armor became a common pattern used by numerous Space Marine Chapters throughout the Imperium of Man. Its versatility and balance between protection and mobility made it popular among various combat doctrines and operational styles.\n\nIn Warhammer 40,000 lore, the Mark VI Power Armor, along with subsequent Marks, became a standard part of the Space Marine armory. While newer Marks were developed over time, the Mark VI Corvus Pattern remained a respected and widely used variant, with many Chapters still utilizing it in the 41st millennium.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Corvus_torso_south</texPath>
 		</graphicData>
@@ -225,7 +225,7 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>1000</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
@@ -236,7 +236,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.3</MoveSpeed>
+			<MoveSpeed>0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -257,7 +257,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_AquillaArmor</defName>
 		<label>aquilla power armor</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Firstborn version.</description>
+        <description>Mark VII Aquilla Power Armour.\n\nThe Aquila Pattern Armor, is a highly advanced and iconic type of armor used by the Space Marines in the Warhammer 40,000 universe. It represents a significant technological advancement in the Imperium's arsenal of war gear.\n\nKey characteristics of the Mark VII Power Armor include:\n\nEnhanced Protection: The Mark VII armor provides superior protection compared to its predecessors. It features improved plating and defensive capabilities, making it highly resilient against various battlefield threats.\n\nVersatility and Adaptability: It offers a good balance between protection and mobility, allowing Space Marines to operate effectively across different combat environments. It's adaptable for various combat doctrines and mission types.\n\nIntegrated Systems: The Mark VII armor includes advanced built-in systems, such as auto-senses, life support systems, and enhanced communications equipment, contributing to the wearer's situational awareness and combat efficiency.\n\nIconic Appearance: The Mark VII armor is known for its distinctive appearance, particularly its Aquila, or eagle, motifs displayed prominently on the chest plate, symbolizing the Imperium's authority and the Space Marines' devotion to the Emperor.\n\nStandardization: After its introduction, the Mark VII Power Armor became one of the most prevalent and standardized armor patterns across many Space Marine Chapters throughout the Imperium.\n\nIn Warhammer 40,000 lore, the Mark VII Power Armor is revered for its effectiveness and widespread use. Despite subsequent armor developments and iterations, the Mark VII remains a symbol of the Space Marines' resilience and martial prowess, often seen as a symbol of honor and devotion within the ranks of the Adeptus Astartes.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_torso_south</texPath>
 		</graphicData>
@@ -266,7 +266,7 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>1000</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
@@ -277,7 +277,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.3</MoveSpeed>
+			<MoveSpeed>0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -298,7 +298,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_TacticusArmor</defName>
 		<label>tacticus power armor</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Primaris Marines version.</description>
+        <description>Mark X Tacticus Power Armour.\n\nThe Tacticus Power Armor is another variant of the iconic power armor used by the Space Marines. It's an advanced iteration introduced in more recent lore and editions of the game.\n\nKey characteristics of the Mark X Tacticus Power Armor include:\n\nVersatility and Flexibility: The Tacticus Pattern is designed to be highly adaptable, allowing Space Marines to fulfill various combat roles. It offers a balanced combination of protection, agility, and versatility.\n\nCustomizable Configuration: This armor pattern is modular and allows for different configurations and loadouts, enabling Space Marines to customize their gear for specific missions or combat situations. It can be outfitted for different battlefield roles, including assault, reconnaissance, or support.\n\nIntegrated Systems: Similar to other Marks, the Mark X Tacticus Armor integrates advanced systems and technologies, such as improved auto-senses, communication equipment, and environmental support systems, enhancing the wearer's combat capabilities and survivability.\n\nStandard Issue: The Mark X Tacticus Armor is often considered the standard armor pattern used by many Space Marine Chapters in the 41st millennium due to its adaptability and effectiveness across a wide range of combat scenarios.\n\nIntroduced as part of ongoing developments and expansions in the Warhammer 40,000 lore, the Mark X Tacticus Power Armor represents a versatile and adaptable armor pattern used by the Adeptus Astartes, offering flexibility and customization options to suit various combat doctrines and mission requirements.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_torso_south</texPath>
 		</graphicData>
@@ -307,7 +307,7 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>750</MaxHitPoints>
+			<MaxHitPoints>1000</MaxHitPoints>
 			<Mass>11</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
@@ -318,7 +318,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.3</MoveSpeed>
+			<MoveSpeed>0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -339,7 +339,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_GravisArmor</defName>
 		<label>gravis power armor</label>
-        <description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Worn by most of Primaris Captains.</description>
+        <description>Mark X Gravis Power Armour.\n\nThe Gravis is a variant of power armor used by the Space Marines in the Warhammer 40,000 universe. Introduced in more recent lore, it represents a highly advanced iteration of the iconic armor worn by the Adeptus Astartes.\n\nKey characteristics of the Mark X Gravis Power Armor include:\n\nEnhanced Durability: The Gravis Pattern is designed to provide increased protection and durability compared to earlier Marks. It offers formidable defense against various battlefield threats, making the wearer significantly more resilient.\n\nHeavy Assault Configuration: Gravis Armor emphasizes heavy assault roles, allowing Space Marines to carry heavier weaponry into battle. It supports the use of heavier weapons and equipment, enabling Marines to unleash devastating firepower while remaining well-protected.\n\nIntegrated Systems: The Mark X Gravis Armor integrates advanced systems, such as improved life-support mechanisms, auto-senses, and enhanced communication arrays. These systems enhance the wearer's combat performance and situational awareness on the battlefield.\n\nAdaptability and Customization: Similar to other Marks, the Mark X Gravis Armor can be customized and configured for various combat roles and specialties within different Space Marine Chapters, reflecting their specific needs and preferences.\n\nIntroduced in more recent editions and lore updates of Warhammer 40,000, the Mark X Gravis Power Armor represents a significant advancement in the arsenal of the Adeptus Astartes, catering to heavy assault roles and providing enhanced protection and adaptability on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_torso_south</texPath>
 		</graphicData>
@@ -350,7 +350,7 @@
         </recipeMaker>
         <statBases>
 			<WorkToMake>90000</WorkToMake>
-			<MaxHitPoints>1000</MaxHitPoints>
+			<MaxHitPoints>1200</MaxHitPoints>
 			<Mass>13</Mass>
 			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
@@ -363,7 +363,7 @@
 			<EnergyShieldEnergyMax>2.0</EnergyShieldEnergyMax>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.1</MoveSpeed>
+			<MoveSpeed>-0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -385,7 +385,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_IndomitusTerminatorArmor</defName>
 		<label>terminator power armor</label>
-        <description>Terminator armor is massive power armor.</description>
+        <description>Terminator Power Armour.\n\nAlso known as Tactical Dreadnought Armor, is an exceptionally resilient and heavily armored type of battle suit used by elite warriors within the Warhammer 40,000 universe. It's primarily worn by the Space Marine Terminators, representing some of the most formidable and revered warriors among the Adeptus Astartes.\n\nKey characteristics of Terminator Armor include:\n\nHeavy Protection: Terminator Armor is incredibly durable, featuring thick plating and powerful energy shields that offer exceptional protection against various forms of attacks, from small arms fire to heavy weaponry.\n\nEnhanced Strength: Despite its bulkiness, Terminator Armor augments the strength of its wearer, enabling Space Marine Terminators to wield heavy weapons and engage in close combat with immense power.\n\nSlowness and Resilience: While Terminator Armor provides incredible defense and strength, it's relatively slow compared to other armors. However, its resilience allows Terminators to endure significant amounts of damage while advancing relentlessly.\n\nTeleportation Capability: Some Terminator units are equipped with teleportation devices, enabling them to perform deep strikes onto the battlefield, appearing suddenly to deliver devastating strikes to enemy lines.\n\nIconic Appearance: Terminator Armor is easily recognizable due to its bulky design, servo-assisted components, and distinct Terminator helmets, showcasing the warriors' intimidating and imposing presence on the battlefield.\n\nTerminator Armor is often reserved for elite warriors and veterans within Space Marine Chapters due to its rarity and the prestige associated with wearing such formidable battle gear. These warriors are deployed in critical missions where their incredible resilience and firepower are essential, making them a formidable force in the grim and brutal warfare of the Warhammer 40,000 universe.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
 		</graphicData>
@@ -405,7 +405,7 @@
 			<EquipDelay>7</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.1</MoveSpeed>
+			<MoveSpeed>-0.4</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>13</ComponentSpacer>
