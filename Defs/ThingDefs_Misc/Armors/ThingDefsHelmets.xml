@@ -2,6 +2,7 @@
 <Defs>
 	<ThingDef Abstract="true" Name="GW_SM_HelmetBase" ParentName="ArmorHelmetMakeableBase">
 		<techLevel>Spacer</techLevel>
+		<description>Space Marine helmets in Warhammer 40,000 are a crucial component of their power armor, providing protection, advanced sensory systems, and a distinct appearance that embodies the iconic look of these elite warriors.\n\nKey aspects and functionalities of Space Marine helmets include:\n\nProtection: Helmets are heavily armored, offering significant protection to the Space Marine's head, which is crucial in the midst of intense battles where they face various threats.\n\nSensory Augmentation: Space Marine helmets are equipped with sophisticated sensor arrays, enhancing the wearer's situational awareness. These systems include auto-senses, targeting reticules, infrared and night vision, motion sensors, and other advanced features that provide vital information about the battlefield.\n\nCommunications: Helmets incorporate communication systems that allow Space Marines to communicate with their squadmates, command structure, and vehicles. This enables coordinated tactics and battlefield awareness within the unit.\n\nAesthetic Variation: The appearance of Space Marine helmets can differ based on the specific chapter, unit type, or rank within the Space Marine hierarchy. Each chapter typically has its distinct helmet design, featuring chapter-specific iconography, crests, or markings that represent their unique heraldry and traditions.\n\nSpecialized Roles: Some specialized Space Marine units, such as Chaplains, Librarians, or Sergeants, may have unique helmets that reflect their roles within the chapter, showcasing their specialization or rank.\n\nSpace Marine helmets play a critical role not only in protecting the wearer but also in enhancing their combat capabilities through advanced sensory systems and communication technology. The distinct appearance of these helmets contributes to the iconic and intimidating presence of the Adeptus Astartes on the battlefield.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -76,9 +77,9 @@
 				</defaultPalette>
 			</li>
 		</comps>
-		<description>Special hermetic helmet with improved optics, target scanning system and life support. Reiver version.</description>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -89,7 +90,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>2</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
@@ -150,9 +151,9 @@
 				</defaultPalette>
 			</li>
 		</comps>
-		<description>Special hermetic helmet with improved optics, target scanning system and life support. Phobos version.</description>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -163,7 +164,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>20000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
+			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>2</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.30</ArmorRating_Sharp>
@@ -224,9 +225,9 @@
 				</defaultPalette>
             </li>
         </comps>
-		<description>Special hermetic helmet with improved optics, target scanning system and life support. Maximus version.</description>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -237,7 +238,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
+			<MaxHitPoints>700</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
@@ -309,9 +310,9 @@
 				</defaultPalette>
             </li>
         </comps>
-		<description>Special hermetic helmet with improved optics, target scanning system and life support. Corvus version.</description>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -322,7 +323,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
+			<MaxHitPoints>700</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
@@ -383,9 +384,9 @@
 				</defaultPalette>
             </li>
         </comps>
-		<description>Special hermetic helmet with improved optics, target scanning system and life support. Primaris Marine version. Worn by most of Firstborn battle brothers.</description>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -396,7 +397,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
+			<MaxHitPoints>700</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
@@ -482,10 +483,9 @@
 				</defaultPalette>
             </li>
         </comps>
-		<description>Special hermetic helmet with improved optics, target scanning system and life support. This is the tacticus version.</description>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<ShootingAccuracyPawn>1</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>1</ComponentSpacer>
@@ -496,7 +496,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>25000</WorkToMake>
-			<MaxHitPoints>300</MaxHitPoints>
+			<MaxHitPoints>700</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
@@ -574,7 +574,6 @@
 				</defaultPalette>
             </li>
         </comps>
-		<description>Special hermetic helmet with improved optics, target scanning system and life support, heavy armor plating and stronger vox/augur cotigator. Worn by most of Primaris Capitains.</description>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
@@ -587,7 +586,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>55000</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>900</MaxHitPoints>
 			<Mass>4</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
@@ -598,8 +597,8 @@
 			<EquipDelay>3</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.5</AimingDelayFactor>
-			<ShootingAccuracyPawn>3</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>0.75</SocialImpact>
 		</equippedStatOffsets>
     </ThingDef>
@@ -700,7 +699,6 @@
 			</tags>
             <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple</wornGraphicPath>
 		</apparel>
-		<description>Terminator armor is massive power armor.</description>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
@@ -713,7 +711,7 @@
 		</costList>
 		<statBases>
 			<WorkToMake>5500</WorkToMake>
-			<MaxHitPoints>500</MaxHitPoints>
+			<MaxHitPoints>1000</MaxHitPoints>
 			<Mass>5</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>2.0</ArmorRating_Sharp>
@@ -724,8 +722,8 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<AimingDelayFactor>-0.6</AimingDelayFactor>
-			<ShootingAccuracyPawn>5</ShootingAccuracyPawn>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
 		</equippedStatOffsets>
 		<modExtensions Inherit="False">

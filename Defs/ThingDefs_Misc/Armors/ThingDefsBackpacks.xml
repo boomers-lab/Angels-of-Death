@@ -9,6 +9,7 @@
             <!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
     <ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
+		<description>In the Warhammer 40,000 universe, Space Marine backpacks, also known as "power packs" or "jump packs" in certain configurations, are critical components of a Space Marine's armor. These backpacks serve various functions and are essential for the mobility, life support, and combat capabilities of the Adeptus Astartes.\n\nKey features and functionalities of Space Marine backpacks include:\n\nPower Supply: The backpacks serve as power packs, providing energy to the Space Marine's armor systems, including the various servos, sensors, and energy weapons incorporated into their armor.\n\nLife Support Systems: They contain life support equipment, providing the Space Marine with a self-contained environment for survival in hostile environments, including the vacuum of space or toxic atmospheres.\n\nMobility and Jump Packs: Some Space Marine units, such as Assault Marines or Vanguard Veterans, are equipped with jump packs. These specialized backpacks allow for rapid aerial maneuverability, enabling the Marines to make high-speed, short-range flights or perform devastating aerial assaults on the enemy.\n\nCommunications and Sensor Arrays: Backpacks often contain communication devices and advanced sensor arrays, enhancing the Space Marine's situational awareness and facilitating communication with their squadmates and command structure.\n\nAesthetic Variation: Space Marine backpacks may vary in design and appearance based on the particular chapter, unit type, or role of the Space Marine. Different chapters may have distinct iconography or modifications on their backpacks to reflect their chapter's heraldry or specialized equipment.\n\nThese backpacks are a vital part of a Space Marine's equipment, providing them with the necessary power, survival capabilities, and sometimes specialized mobility options crucial for their missions and combat effectiveness within the grim and dangerous battles of the 41st millennium.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -76,7 +77,6 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
         <defName>GW_SM_ReiverBackpack</defName>
 		<label>reiver backpack</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Reiver version.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Reiver_backpack_south</texPath>
 		</graphicData>
@@ -114,7 +114,6 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
         <defName>GW_SM_PhobosBackpack</defName>
 		<label>phobos backpack</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Phobos version.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Phobos_backpack_south</texPath>
 		</graphicData>
@@ -152,7 +151,6 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
         <defName>GW_SM_MaximusBackpack</defName>
 		<label>maximus backpack</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Maximus version.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Maximus_backpack_south</texPath>
 		</graphicData>
@@ -190,7 +188,6 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
         <defName>GW_SM_CorvusBackpack</defName>
 		<label>corvus backpack</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is the Corvus version.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Corvus_backpack_south</texPath>
 		</graphicData>
@@ -228,7 +225,6 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
         <defName>GW_SM_AquillaBackpack</defName>
 		<label>aquilla backpack</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Firstborn version.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_backpack_south</texPath>
 		</graphicData>
@@ -266,7 +262,6 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
         <defName>GW_SM_TacticusBackpack</defName>
 		<label>tacticus backpack</label>
-        <description>Power armour is an advanced form of powered combat armour, worn primarily by the Space Marines and the Chaos Space Marines, though suits have been created to be worn by mere mortals. It is a completely enclosed suit of combat armour composed of shaped adamantium and plasteel plates, encased in a ceramite ablative layer. This is Primaris Marines version.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_backpack_south</texPath>
 		</graphicData>
@@ -304,7 +299,6 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
         <defName>GW_SM_GravisBackpack</defName>
 		<label>gravis backpack</label>
-        <description>The Gravis pattern of Mk X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Worn by most of Primaris Captains.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_backpack_south</texPath>
 		</graphicData>

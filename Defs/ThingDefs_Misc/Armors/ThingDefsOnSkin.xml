@@ -64,7 +64,7 @@
     <ThingDef ParentName="HP_AoD_OnSkinBase">
         <defName>GW_SM_FibroVest</defName>
         <label>fibrovest</label>
-        <description>A fibrolayer vest designed to be worn underneath power armor.</description>
+        <description>Space Marine power armor is equipped with internal padding and environmental seals designed to provide comfort, support, and protection to the wearer. The inner lining of the armor serves several purposes:\n\nComfort and Support: The padding helps cushion the Space Marine's body, reducing discomfort from wearing the heavy and formidable power armor for extended periods. It also helps distribute the weight of the armor more evenly.\n\nEnvironmental Seals: The inner layer may contain seals and environmental systems that regulate temperature, provide life support functions, filter toxins from the air, and maintain a controlled atmosphere, allowing the Space Marine to survive in hostile environments, such as vacuum or toxic atmospheres.\n\nInterface and Feedback Systems: Some depictions of Space Marine armor suggest the inclusion of neural interfacing or feedback systems within the inner layers. These interfaces might connect to the Space Marine's black carapace, a part of their biology that allows direct neural connection to their power armor.\n\nWhile the specific details of the layers between the Space Marine's skin and armor are not extensively described in the lore, it's generally understood that the inner layers serve practical and protective purposes, ensuring the wearer's comfort and survivability in various combat environments.</description>
         <recipeMaker>
             <researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
         </recipeMaker>
