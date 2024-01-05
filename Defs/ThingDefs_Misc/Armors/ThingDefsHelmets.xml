@@ -60,6 +60,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_simple_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_simple_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Reiver</li>
@@ -111,6 +112,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_skull_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_skull_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_skull</wornGraphicPath>
 		</apparel>
@@ -122,6 +124,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_studs_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_studs_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Reiver/Helmets/Reiver_helmet_studs</wornGraphicPath>
 		</apparel>
@@ -134,6 +137,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_simple_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_simple_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Phobos</li>
@@ -185,6 +189,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_skull_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_skull_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_skull</wornGraphicPath>
 		</apparel>
@@ -196,6 +201,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_reinforced_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_reinforced_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Phobos/Helmets/Phobos_helmet_reinforced</wornGraphicPath>
 		</apparel>
@@ -208,6 +214,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_simple_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_simple_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Maximus</li>
@@ -259,6 +266,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_skull_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_skull_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_skull</wornGraphicPath>
 		</apparel>
@@ -270,6 +278,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_studs_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_studs_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_studs</wornGraphicPath>
 		</apparel>
@@ -281,6 +290,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_withlaurels_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_withlaurels_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_withlaurels</wornGraphicPath>
 		</apparel>
@@ -293,6 +303,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_simple_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_simple_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Corvus</li>
@@ -344,6 +355,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_skull_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_skull_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_skull</wornGraphicPath>
 		</apparel>
@@ -355,6 +367,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels</wornGraphicPath>
 		</apparel>
@@ -367,6 +380,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_simple_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_simple_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Aquilla</li>
@@ -418,6 +432,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_skull_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_skull_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_skull</wornGraphicPath>
 		</apparel>
@@ -429,6 +444,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_studs_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_studs_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_studs</wornGraphicPath>
 		</apparel>
@@ -440,6 +456,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_withlaurels_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_withlaurels_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_withlaurels</wornGraphicPath>
 		</apparel>
@@ -451,6 +468,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged</wornGraphicPath>
 		</apparel>
@@ -466,6 +484,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Tacticus</li>
@@ -519,6 +538,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_skull_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_skull_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_skull</wornGraphicPath>
 		</apparel>
@@ -530,6 +550,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_withlaurels_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_withlaurels_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_withlaurels</wornGraphicPath>
 		</apparel>
@@ -541,6 +562,7 @@
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged_south</uiIconPath>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged</wornGraphicPath>
 		</apparel>
@@ -556,6 +578,7 @@
         <graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>PrestigeCombatGear</li>
@@ -609,6 +632,7 @@
         <graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull_south</uiIconPath>
         <apparel>
             <wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull</wornGraphicPath>
 		</apparel>
@@ -620,6 +644,7 @@
         <graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels_south</uiIconPath>
         <apparel>
             <wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels</wornGraphicPath>
 		</apparel>
@@ -631,6 +656,7 @@
         <graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor_south</uiIconPath>
         <apparel>
             <wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor</wornGraphicPath>
 		</apparel>
@@ -658,6 +684,7 @@
         <graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed_south</uiIconPath>
         <apparel>
             <wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed</wornGraphicPath>
 		</apparel>
@@ -669,6 +696,7 @@
         <graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged_south</uiIconPath>
         <apparel>
             <wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged</wornGraphicPath>
 		</apparel>
@@ -681,6 +709,7 @@
         <graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple_south</uiIconPath>
 		<comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
                 <maskCount>8</maskCount>
@@ -745,6 +774,7 @@
         <graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses_south</texPath>
 		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses_south</uiIconPath>
         <apparel>
             <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses</wornGraphicPath>
 		</apparel>
