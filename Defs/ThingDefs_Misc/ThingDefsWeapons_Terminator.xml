@@ -113,7 +113,7 @@
 			<RangedWeapon_Cooldown>3.5</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.70</MoveSpeed>
+			<MoveSpeed>-0.30</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>550</Steel>
@@ -260,7 +260,7 @@
 			<RangedWeapon_Cooldown>2.6</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.20</MoveSpeed>
+			<MoveSpeed>-0.10</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>355</Steel>
@@ -342,7 +342,7 @@
 			<RangedWeapon_Cooldown>5.4</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.55</MoveSpeed>
+			<MoveSpeed>-0.50</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>625</Steel>
@@ -418,7 +418,7 @@
 			<RangedWeapon_Cooldown>5.4</RangedWeapon_Cooldown>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.75</MoveSpeed>
+			<MoveSpeed>-0.50</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<Steel>575</Steel>

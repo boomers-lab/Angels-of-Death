@@ -123,6 +123,10 @@
 		  <WorkToMake>34000</WorkToMake>
 		  <Mass>5.8</Mass>
 		</statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>0.10</MoveSpeed>
+			<Beauty>10</Beauty> 
+        </equippedStatOffsets>
 		<relicChance>5</relicChance>
 		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
@@ -383,6 +387,10 @@
 		<statBases>
 			<Mass>18</Mass>
 		</statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>0.50</MoveSpeed>
+			<Beauty>50</Beauty> 
+        </equippedStatOffsets>
 		<tools>
 			<li>
 				<label>pommel</label>
@@ -443,6 +451,9 @@
 			<WorkToMake>48000</WorkToMake>
 			<Mass>12</Mass>
 		</statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>-0.20</MoveSpeed> 
+        </equippedStatOffsets>
 		<tradeTags>
 			<li>HPMelee</li>
 		</tradeTags>
@@ -512,6 +523,9 @@
 			<WorkToMake>15000</WorkToMake>
 			<Mass>4</Mass>
 		</statBases>
+		<equippedStatOffsets>
+            <MoveSpeed>0.20</MoveSpeed>
+        </equippedStatOffsets>
 		<costStuffCount>70</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>

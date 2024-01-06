@@ -622,7 +622,7 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>0.75</SocialImpact>
+			<SocialImpact>0.35</SocialImpact>
 		</equippedStatOffsets>
     </ThingDef>
 
@@ -753,7 +753,7 @@
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
-			<SocialImpact>1.00</SocialImpact>
+			<SocialImpact>0.50</SocialImpact>
 		</equippedStatOffsets>
 		<modExtensions Inherit="False">
 			<li Class="VFECore.ApparelDrawPosExtension">

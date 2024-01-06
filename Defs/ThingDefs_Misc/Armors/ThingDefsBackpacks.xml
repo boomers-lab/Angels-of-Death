@@ -95,6 +95,9 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.8</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
 			<Plasteel>50</Plasteel>
@@ -132,6 +135,9 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.8</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
 			<Plasteel>50</Plasteel>
@@ -169,6 +175,9 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
 			<Plasteel>70</Plasteel>
@@ -206,6 +215,9 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
 			<Plasteel>70</Plasteel>
@@ -243,6 +255,9 @@
 			<Insulation_Heat>10</Insulation_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
 			<Plasteel>70</Plasteel>
@@ -280,6 +295,9 @@
 			<Insulation_Heat>15</Insulation_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
 			<Plasteel>100</Plasteel>
@@ -317,6 +335,9 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>3</EquipDelay>
 		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>4</ComponentSpacer>
 			<Plasteel>150</Plasteel>
