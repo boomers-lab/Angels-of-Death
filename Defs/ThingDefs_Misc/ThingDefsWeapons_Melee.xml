@@ -59,12 +59,12 @@
 			<Mass>6</Mass>
 		</statBases>
 		<relicChance>2</relicChance>
-		<costStuffCount>100</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
 			<Plasteel>40</Plasteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
+		<costStuffCount>100</costStuffCount>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -336,10 +336,13 @@
 		</statBases>
 		<relicChance>2</relicChance>
 		<costList>
-			<Steel>90</Steel>
 			<Plasteel>34</Plasteel>
 			<ComponentIndustrial>6</ComponentIndustrial>
 		</costList>
+		<costStuffCount>90</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
 		<tools>
 			<li>
 				<label>fist</label>
@@ -464,10 +467,13 @@
 		<relicChance>2</relicChance>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Steel>175</Steel>
 			<Plasteel>85</Plasteel>
 			<ComponentIndustrial>15</ComponentIndustrial>
 		</costList>
+		<costStuffCount>175</costStuffCount>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
 		<tools>
 			<li>
 				<label>handle</label>
