@@ -22,7 +22,7 @@
     <ThingDef ParentName="AutocannonTurret">
         <defName>GW_SM_Building_HeavyBolter</defName>
         <label>astartes bolter turret</label>
-        <description>An automatic bolter turret.</description>
+        <description>The Adeptus Astartes Heavy Bolter Turret stands as a testament to the advanced weaponry and fortification technology of the Space Marines. A formidable defensive emplacement, this turret combines the devastating firepower of the Heavy Bolter with the durability and precision typical of Adeptus Astartes engineering.</description>
         <thingClass>Building_TurretGun</thingClass>
         <drawerType>MapMeshAndRealTime</drawerType>
         <uiIconPath>Things/Building/Emplacement/AstartesTurret_HeavyBolter_UI</uiIconPath>
@@ -98,7 +98,7 @@
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>GW_SM_BuildingGun_HeavyBolter</defName>
         <label>heavy bolter turret</label>
-        <description>An automated bolter turret.</description>
+        <description>The Adeptus Astartes Heavy Bolter Turret stands as a testament to the advanced weaponry and fortification technology of the Space Marines. A formidable defensive emplacement, this turret combines the devastating firepower of the Heavy Bolter with the durability and precision typical of Adeptus Astartes engineering.</description>
         <recoilPower>3</recoilPower>
         <graphicData>
             <texPath>Things/Building/Emplacement/AstartesTurret_Bolter_Top</texPath>
@@ -153,7 +153,7 @@
     <ThingDef ParentName="AutocannonTurret">
         <defName>GW_SM_Building_Lascannon</defName>
         <label>astartes lascannon turret</label>
-        <description>An automatic lascannon turret</description>
+        <description>The Adeptus Astartes Lascannon Turret epitomizes the pinnacle of heavy weapon emplacements, incorporating the devastating firepower of the Lascannon with the precision engineering of the Space Marines. This imposing defensive structure serves as a bastion of defense, capable of obliterating armored targets with concentrated energy beams.</description>
         <thingClass>Building_TurretGun</thingClass>
         <drawerType>MapMeshAndRealTime</drawerType>
         <uiIconPath>Things/Building/Emplacement/AstartesTurret_Lascannon_UI</uiIconPath>
@@ -223,7 +223,7 @@
     <ThingDef ParentName="BaseWeaponTurret">
         <defName>GW_SM_BuildingGun_Lascannon</defName>
         <label>lascannon turret</label>
-        <description>An automated lascannon.</description>
+        <description>The Adeptus Astartes Lascannon Turret epitomizes the pinnacle of heavy weapon emplacements, incorporating the devastating firepower of the Lascannon with the precision engineering of the Space Marines. This imposing defensive structure serves as a bastion of defense, capable of obliterating armored targets with concentrated energy beams.</description>
         <recoilPower>3</recoilPower>
         <graphicData>
             <texPath>Things/Building/Emplacement/AstartesTurret_Las_Top</texPath>
