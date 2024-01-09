@@ -195,7 +195,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0,4</MoveSpeed>
+			<MoveSpeed>-0.4</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -236,7 +236,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0,4</MoveSpeed>
+			<MoveSpeed>-0.4</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -277,7 +277,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0,4</MoveSpeed>
+			<MoveSpeed>-0.4</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -318,7 +318,7 @@
 			<EquipDelay>4</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0,4</MoveSpeed>
+			<MoveSpeed>-0.4</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -363,7 +363,7 @@
 			<EnergyShieldEnergyMax>2.0</EnergyShieldEnergyMax>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0,6</MoveSpeed>
+			<MoveSpeed>-0.6</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
