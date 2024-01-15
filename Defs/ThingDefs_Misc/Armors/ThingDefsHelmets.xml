@@ -31,10 +31,10 @@
 				<li>FullHead</li>
 			</bodyPartGroups>
 			<layers>
-				<li>Overhead</li>
+				<li>EyeCover</li>
 				<li MayRequire="ceteam.combatextended">StrappedHead</li>
 				<li MayRequire="ceteam.combatextended">OnHead</li>
-				<li>EyeCover</li> <!--Needs to be last for the tool to properly label this a helmet-->
+				<li>Overhead</li> <!--Needs to be last for the tool to properly label this a helmet-->
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
