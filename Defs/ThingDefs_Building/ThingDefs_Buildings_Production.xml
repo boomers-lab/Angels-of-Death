@@ -3,7 +3,7 @@
 
   <ThingDef ParentName="BenchBase">
     <defName>HP_ImperialFabricationBench</defName>
-    <label>astartes fabrication workbench</label>
+    <label>astartes workbench</label>
     <description>The Adeptus Astartes Fabrication Bench stands as the pinnacle of crafting excellence within the Adeptus Astartes' arsenal. This intricate workbench integrates advanced technology and arcane craftsmanship, empowering skilled individuals to manufacture and assemble a vast array of specialized Astartes equipment and weaponry.</description>
     <thingClass>Building_WorkTable</thingClass>
     <altitudeLayer>Building</altitudeLayer>
