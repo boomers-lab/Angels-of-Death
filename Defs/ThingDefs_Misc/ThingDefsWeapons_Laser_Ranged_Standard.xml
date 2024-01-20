@@ -236,7 +236,6 @@
             <damageAmountBase>90</damageAmountBase>
             <stoppingPower>3</stoppingPower>
             <armorPenetrationBase>2.5</armorPenetrationBase>
-            <explosionRadius>0</explosionRadius>
             <speed>80</speed>
         </projectile>
     </ThingDef>
@@ -563,7 +562,6 @@
 			<damageAmountBase>18</damageAmountBase>
 			<stoppingPower>3</stoppingPower>
 			<armorPenetrationBase>1.5</armorPenetrationBase>
-            <explosionRadius>0</explosionRadius>
 			<speed>80</speed>
 		</projectile>
 	</ThingDef>
