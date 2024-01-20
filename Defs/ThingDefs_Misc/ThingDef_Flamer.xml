@@ -168,7 +168,6 @@
 		<defName>GW_SM_Gun_HeavyFlamer</defName>
 		<label>heavy flamer</label>
 		<description>In the Warhammer 40,000 universe, the Heavy Flamer is a larger and more potent variant of the standard Flamer, renowned for its increased range, greater fuel capacity, and heightened destructive capabilities.\n\nThe Heavy Flamer functions similarly to the standard Flamer but with significantly enhanced firepower. It projects a torrent of ignited, superheated promethium fuel over a wider area and at greater distances, engulfing enemy infantry and clearing larger swathes of the battlefield in searing flames.\n\nDesigned to be mounted on heavy weapons platforms, vehicles, or wielded by specialized infantry units, the Heavy Flamer is highly effective in clearing entrenched enemies, purging heretical strongholds, or defending against swarms of adversaries. Its ability to unleash devastating firestorms makes it a terrifying and effective tool in close-quarter engagements.\n\nDeployed by various factions such as the Adeptus Astartes, Imperial Guard, and Chaos forces, the Heavy Flamer stands as a symbol of overwhelming firepower and unyielding destruction within the grim and relentless conflicts of the Warhammer 40,000 universe.</description>
-		<equippedAngleOffset>-60</equippedAngleOffset>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/Heavy_Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -221,6 +220,24 @@
 				<muzzleFlashScale>14</muzzleFlashScale>
 			</li>
 		</verbs>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<angleOffset>-60</angleOffset>
+					</north>
+					<east>
+						<angleOffset>-60</angleOffset>
+					</east>
+					<south>
+						<angleOffset>-60</angleOffset>
+					</south>
+					<west>
+						<angleOffset>-60</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
 	</ThingDef>
 	
 	<!--===== Burner =====-->

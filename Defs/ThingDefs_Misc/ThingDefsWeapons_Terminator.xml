@@ -88,7 +88,24 @@
 		<defName>GW_SM_Gun_AssualtCannon</defName>
 		<label>Assualt cannon</label>
 		<description>The Assault Cannon is a rapid-firing, high-caliber weapon known for its devastating firepower. It's often used for anti-infantry purposes or against lightly armored vehicles due to its ability to unleash a storm of shells upon its targets.\n\nThe weapon usually fires explosive shells or high-velocity rounds, creating a swath of destruction on the battlefield. It's characterized by its high rate of fire, making it a formidable asset against hordes of enemies or even heavier adversaries.\n\nThe lore often depicts the Assault Cannon as a signature weapon carried by Terminator-armored Space Marines, demonstrating its status as a powerful and iconic firearm in the Warhammer 40,000 universe.</description>
-		<equippedAngleOffset>-60</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<angleOffset>-60</angleOffset>
+					</north>
+					<east>
+						<angleOffset>-60</angleOffset>
+					</east>
+					<south>
+						<angleOffset>-60</angleOffset>
+					</south>
+					<west>
+						<angleOffset>-60</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/AssaultCannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -162,7 +179,24 @@
 		<defName>GW_SM_Gun_ReaperCannon</defName>
 		<label>reaper autocannon</label>
 		<description>In the Warhammer 40,000 universe, the Reaper Autocannon is a heavy weapon known for its devastating firepower and its use primarily by various factions, including Space Marines and Chaos Space Marines.\n\nThe Reaper Autocannon is a large caliber weapon capable of firing high-explosive shells or armor-piercing ammunition at a rapid rate. It is designed to deal significant damage to both infantry and armored targets, making it a versatile weapon on the battlefield.\n\nKnown for its immense destructive potential, the Reaper Autocannon delivers a hail of shells or projectiles with deadly accuracy, making it a formidable asset against both heavily armored vehicles and massed infantry formations. It is often employed to provide long-range fire support or to engage enemy targets from a distance.\n\nThe weapon's lore portrays it as a heavy and imposing firearm, typically wielded by elite troops or heavy support units. Its reputation for delivering overwhelming firepower underscores its importance in battles within the grim and war-torn universe of Warhammer 40,000.</description>
-		<equippedAngleOffset>-60</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<angleOffset>-60</angleOffset>
+					</north>
+					<east>
+						<angleOffset>-60</angleOffset>
+					</east>
+					<south>
+						<angleOffset>-60</angleOffset>
+					</south>
+					<west>
+						<angleOffset>-60</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/ReaperAutocannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -317,7 +351,24 @@
 		<defName>GW_SM_Gun_PlasmaCannon</defName>
 		<label>terminator plasma cannon</label>
 		<description>In the Warhammer 40,000 universe, the Plasma Cannon is a heavy and potent weapon used by various factions, notably by Space Marines, Chaos Space Marines, and other technologically advanced forces.\n\nThe Plasma Cannon is a high-powered energy weapon that harnesses superheated plasma to devastate its targets. It fires bursts of superheated plasma energy, making it highly effective against armored units, vehicles, and heavily armored infantry.\n\nKnown for its destructive potential, the Plasma Cannon deals considerable damage upon impact, often capable of causing widespread destruction due to the volatile nature of plasma. However, its power comes with the risk of overheating and potential malfunction, posing a danger to the wielder if not handled properly.\n\nIn the lore, the Plasma Cannon is often wielded by elite units or specialized heavy support teams due to its immense firepower and ability to neutralize heavily armored targets. Its reputation for dealing significant damage in combat makes it a feared and respected weapon on the battlefield within the grim and war-torn setting of Warhammer 40,000.</description>
-		<equippedAngleOffset>-60</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<angleOffset>-60</angleOffset>
+					</north>
+					<east>
+						<angleOffset>-60</angleOffset>
+					</east>
+					<south>
+						<angleOffset>-60</angleOffset>
+					</south>
+					<west>
+						<angleOffset>-60</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/PlasmaCannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -393,7 +444,24 @@
 		<defName>GW_SM_Gun_AstartesPlasmaCannon</defName>
 		<label>astartes plasma cannon</label>
 		<description>In the Warhammer 40,000 universe, the Plasma Cannon is a heavy and potent weapon used by various factions, notably by Space Marines, Chaos Space Marines, and other technologically advanced forces.\n\nThe Plasma Cannon is a high-powered energy weapon that harnesses superheated plasma to devastate its targets. It fires bursts of superheated plasma energy, making it highly effective against armored units, vehicles, and heavily armored infantry.\n\nKnown for its destructive potential, the Plasma Cannon deals considerable damage upon impact, often capable of causing widespread destruction due to the volatile nature of plasma. However, its power comes with the risk of overheating and potential malfunction, posing a danger to the wielder if not handled properly.\n\nIn the lore, the Plasma Cannon is often wielded by elite units or specialized heavy support teams due to its immense firepower and ability to neutralize heavily armored targets. Its reputation for dealing significant damage in combat makes it a feared and respected weapon on the battlefield within the grim and war-torn setting of Warhammer 40,000.</description>
-		<equippedAngleOffset>-60</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<angleOffset>-60</angleOffset>
+					</north>
+					<east>
+						<angleOffset>-60</angleOffset>
+					</east>
+					<south>
+						<angleOffset>-60</angleOffset>
+					</south>
+					<west>
+						<angleOffset>-60</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesPlasmaCannon</texPath>
 			<drawSize>1.3</drawSize>
@@ -569,6 +637,24 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1.5, 1.5</drawSize>
 		</graphicData>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponCarryDrawOffsets>
+					<north>
+						<drawOffset>(0.15,0,-0.18)</drawOffset>
+					</north>
+					<east>
+						<drawOffset>(0,0,-0.18)</drawOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.15,0,-0.18)</drawOffset>
+					</south>
+					<west>
+						<drawOffset>(0,-0.1,-0.18)</drawOffset>
+					</west>
+				</weaponCarryDrawOffsets>
+			</li>
+		</modExtensions>
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>

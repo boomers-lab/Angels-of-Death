@@ -126,13 +126,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="MeleeWeapon_Relic_Chainsword_GrimWorld"]</xpath>
+		<xpath>Defs/ThingDef[defName="MeleeWeapon_Relic_Chainsword_GrimWorld"]/equippedStatOffsets</xpath>
 		<value>
-			<equippedStatOffsets>
-				<MeleeCritChance>0.21</MeleeCritChance>
-				<MeleeParryChance>0.45</MeleeParryChance>
-				<MeleeDodgeChance>0.35</MeleeDodgeChance>
-			</equippedStatOffsets>
+			<MeleeCritChance>0.21</MeleeCritChance>
+			<MeleeParryChance>0.45</MeleeParryChance>
+			<MeleeDodgeChance>0.35</MeleeDodgeChance>
 		</value>
 	</Operation>
 
@@ -357,13 +355,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GW_SM_Melee_FlameSword"]</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_Melee_FlameSword"]/equippedStatOffsets</xpath>
 		<value>
-			<equippedStatOffsets>
-				<MeleeCritChance>0.85</MeleeCritChance>
-				<MeleeParryChance>0.64</MeleeParryChance>
-				<MeleeDodgeChance>0.37</MeleeDodgeChance>
-			</equippedStatOffsets>
+			<MeleeCritChance>0.85</MeleeCritChance>
+			<MeleeParryChance>0.64</MeleeParryChance>
+			<MeleeDodgeChance>0.37</MeleeDodgeChance>
 		</value>
 	</Operation>
 
@@ -595,13 +591,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GW_SM_Melee_ThunderHammer"]</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_Melee_ThunderHammer"]/equippedStatOffsets</xpath>
 		<value>
-			<equippedStatOffsets>
-				<MeleeCritChance>1.16</MeleeCritChance>
-				<MeleeParryChance>0.23</MeleeParryChance>
-				<MeleeDodgeChance>0.20</MeleeDodgeChance>
-			</equippedStatOffsets>
+			<MeleeCritChance>1.16</MeleeCritChance>
+			<MeleeParryChance>0.23</MeleeParryChance>
+			<MeleeDodgeChance>0.20</MeleeDodgeChance>
 		</value>
 	</Operation>
 
@@ -731,13 +725,11 @@
 	</Operation>
 
 	<Operation Class="PatchOperationAdd">
-		<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]</xpath>
+		<xpath>Defs/ThingDef[defName="GW_SM_MeleeWeapon_CombatKnife"]/equippedStatOffsets</xpath>
 		<value>
-			<equippedStatOffsets>
-				<MeleeCritChance>0.23</MeleeCritChance>
-				<MeleeParryChance>0.45</MeleeParryChance>
-				<MeleeDodgeChance>0.35</MeleeDodgeChance>
-			</equippedStatOffsets>
+			<MeleeCritChance>0.23</MeleeCritChance>
+			<MeleeParryChance>0.45</MeleeParryChance>
+			<MeleeDodgeChance>0.35</MeleeDodgeChance>
 		</value>
 	</Operation>
 
