@@ -319,6 +319,24 @@
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<uiIconScale>1.2</uiIconScale>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponCarryDrawOffsets>
+					<north>
+						<drawOffset>(0.15,0,-0.18)</drawOffset>
+					</north>
+					<east>
+						<drawOffset>(0,0,-0.18)</drawOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.15,0,-0.18)</drawOffset>
+					</south>
+					<west>
+						<drawOffset>(0,-0.1,-0.18)</drawOffset>
+					</west>
+				</weaponCarryDrawOffsets>
+			</li>
+		</modExtensions>		
 		<techLevel>Spacer</techLevel>
 			<thingSetMakerTags>
 				<li>RewardStandardQualitySuper</li>
