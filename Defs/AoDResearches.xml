@@ -20,7 +20,7 @@
 		<defName>GW_SM_AstartesFabrication</defName>
 		<label>astartes fabrication</label>
 		<description>Astartes fabrication. First step to unlock Angels of Death weapons and armors!</description>
-        <baseCost>8000</baseCost>
+        <baseCost>4000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
 		</prerequisites>
@@ -295,7 +295,7 @@
 		<defName>GW_SM_AstartesStyles</defName>
 		<label>astartes styles</label>
 		<description>Unlocks the ability to research new styles of Astartes armors. Here we will put custom chapters like Astral Revenants.</description>
-        <baseCost>3000</baseCost>
+        <baseCost>1000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
 		</prerequisites>
