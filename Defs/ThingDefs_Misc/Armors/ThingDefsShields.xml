@@ -263,7 +263,7 @@
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
-        <comps>
+        <!--<comps>
             <li Class="GW4KArmor.CompProperties_TriColorMask">
                 <maskCount>3</maskCount>
                 <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
@@ -273,7 +273,7 @@
                     <colorC>(180, 65, 74)</colorC>
                 </defaultPalette>
             </li>
-        </comps>
+        </comps>-->
         <apparel>
             <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Primaris shields/PrimarisShield1</wornGraphicPath>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
