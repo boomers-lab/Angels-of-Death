@@ -28,7 +28,6 @@
 		<researchViewY>0.40</researchViewY>
 	</ResearchProjectDef>
 
-<!--
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesBasicShields</defName>
 		<label>astartes basic shields</label>
@@ -74,7 +73,7 @@
             </li>
         </modExtensions>
 	</ResearchProjectDef>
--->
+
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesLight</defName>
 		<label>astartes light power armors</label>
