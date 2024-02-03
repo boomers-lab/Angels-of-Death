@@ -434,7 +434,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_Bolters</researchPrerequisite>
+			<researchPrerequisite>GW_AdvancedBolters</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
