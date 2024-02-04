@@ -19,6 +19,7 @@
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
 		</recipeMaker>
+		<uiIconScale>1.6</uiIconScale>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>

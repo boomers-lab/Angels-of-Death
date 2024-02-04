@@ -47,6 +47,7 @@
             <MaxHitPoints>125</MaxHitPoints>
         </statBases>
         <smeltable>true</smeltable>	
+		<uiIconScale>1.6</uiIconScale>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedShield</unfinishedThingDef>
             <recipeUsers>

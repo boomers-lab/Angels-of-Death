@@ -15,7 +15,8 @@
             <Plasteel>100</Plasteel>
             <HP_Ceramite>20</HP_Ceramite>
             <ComponentSpacer>2</ComponentSpacer>
-        </costList>	
+        </costList>
+		<uiIconScale>1.6</uiIconScale>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
