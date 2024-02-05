@@ -26,9 +26,10 @@
     </costList>
     <comps>
       <li Class="CompProperties_AffectedByFacilities">
-        <linkableFacilities>
-          <li>ToolCabinet</li>
-        </linkableFacilities>
+          <linkableFacilities>
+              <li>ToolCabinet</li>
+              <li>GW_VehicleToolCabinet</li>
+          </linkableFacilities>
       </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
