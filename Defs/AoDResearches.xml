@@ -20,7 +20,7 @@
 		<defName>GW_SM_AstartesFabrication</defName>
 		<label>astartes fabrication</label>
 		<description>Astartes fabrication. First step to unlock Angels of Death weapons and armors!</description>
-        <baseCost>4000</baseCost>
+        <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
 		</prerequisites>
@@ -30,9 +30,9 @@
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesBasicShields</defName>
-		<label>astartes basic shields</label>
+		<label>astartes shields</label>
 		<description>Astartes basic shields.</description>
-        <baseCost>4000</baseCost>
+        <baseCost>3500</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesFabrication</li>
 		</prerequisites>
@@ -52,33 +52,10 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
-		<defName>GW_SM_AstartesAdvancedShields</defName>
-		<label>astartes advanced shields</label>
-		<description>Astartes advanced shields.</description>
-        <baseCost>8000</baseCost>
-		<prerequisites>
-			<li>GW_SM_AstartesBasicShields</li>
-		</prerequisites>
-		<researchViewX>9.00</researchViewX>
-		<researchViewY>0.00</researchViewY>
-        <modExtensions>
-            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
-                <StudyLocation>GW_Cogitator</StudyLocation>
-                <ItemStudyRequirements>
-                    <li Class="GW_Frame.StudyRequirement">
-                        <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>2</NumberRequired>
-                    </li>    
-                </ItemStudyRequirements>
-            </li>
-        </modExtensions>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesLight</defName>
 		<label>astartes light power armors</label>
 		<description>The weakest Astartes power armors like Phobos. Another variant of the Mk.X is the Mk.X Reiver or Phobos pattern. The suit’s lighter-weight ceramite and streamlined design allow for greater mobility, and its servo-motors are engineered to be completely silent. The design however sacrifices protection for stealth and speed.</description>
-        <baseCost>10000</baseCost>
+        <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesFabrication</li>
 		</prerequisites>
@@ -101,7 +78,7 @@
 		<defName>GW_SM_AstartesMedium</defName>
 		<label>astartes medium power armors</label>
 		<description>Medium Astartes power armors like the MK 7. Mark X Tacticus armour is a suit that combines the most effective elements of ancestral Horus Heresy patterns of plate with more recent developments in power armour technology. The Mk.X was developed by Magos Belisarius Cawl at the same time as the Primaris Marines. These suits are currently carried into battle by Primaris Space Marines during the unfolding Indomitus Crusade.</description>
-        <baseCost>15000</baseCost>
+        <baseCost>6500</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesLight</li>
 		</prerequisites>
@@ -124,7 +101,7 @@
 		<defName>GW_SM_AstartesHeavy</defName>
 		<label>astartes heavy power armors</label>
 		<description>Heavy Astartes power armors like Gravis and Terminator. The Mk.X has a number of different variants, such as the Mk.X "Gravis" heavy armour used by Commanders, Aggressor Squads, Eradicator Squads, and the Jump Pack-capable variant used by Inceptor Squads. The Gravis pattern of Mk.X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Like power armour, Terminator suits have an outer shell of ceramite-bonded plates powered by electrically-motivated fibre bundles. Plates of heavy plasteel further armour the ceramite sections, especially on the front of the suit. This extra armouring provides a level of protection that is far superior to normal Marine armor; not even a Krak missile will penetrate the suit's breastplate.</description>
-        <baseCost>20000</baseCost>
+        <baseCost>7800</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
 		</prerequisites>
@@ -147,7 +124,7 @@
 		<defName>GW_SM_TerminatorWeapons</defName>
 		<label>terminator weapons</label>
 		<description>Unlocks terminator weapons. Such as power fists, assault cannons, plasma cannon, thunter hammers ect.</description>
-        <baseCost>5000</baseCost>
+        <baseCost>4000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
 		</prerequisites>
@@ -294,7 +271,7 @@
 		<defName>GW_SM_AstartesStyles</defName>
 		<label>astartes styles</label>
 		<description>Unlocks the ability to research new styles of Astartes armors. Here we will put custom chapters like Astral Revenants.</description>
-        <baseCost>1000</baseCost>
+        <baseCost>100</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
 		</prerequisites>
@@ -304,7 +281,7 @@
 
         <!--Styles-->
     <ResearchProjectDef Abstract="True" ParentName="GW_SM_AoDTechBase" Name="GW_SM_AoDStylesBase">
-        <baseCost>5000</baseCost>
+        <baseCost>2000</baseCost>
         <prerequisites>
 			<li>GW_SM_AstartesStyles</li>
 		</prerequisites>

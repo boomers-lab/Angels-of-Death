@@ -207,7 +207,7 @@
             </tags>
         </apparel>
         <recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesAdvancedShields</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
         </recipeMaker>
         <modExtensions>
           <li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
@@ -299,7 +299,7 @@
             <MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
         </equippedStatOffsets>
         <recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesAdvancedShields</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
         </recipeMaker>
         <modExtensions>
           <li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
