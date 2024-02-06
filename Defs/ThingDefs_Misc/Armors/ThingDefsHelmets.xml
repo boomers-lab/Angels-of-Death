@@ -23,6 +23,7 @@
         </tradeTags>
 		<apparel>
 			<tags>
+				<li>Spacer</li>
 				<li>EVA</li>
 			</tags>
 			<useWornGraphicMask>true</useWornGraphicMask>
