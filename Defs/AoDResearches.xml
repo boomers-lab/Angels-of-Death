@@ -285,6 +285,17 @@
         <prerequisites>
 			<li>GW_SM_AstartesStyles</li>
 		</prerequisites>
+		<modExtensions>
+            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
+                <StudyLocation>GW_Cogitator</StudyLocation>
+                <ItemStudyRequirements>
+                    <li Class="GW_Frame.StudyRequirement">
+                        <StudyObject>GW_STC_Fragment</StudyObject>
+                        <NumberRequired>3</NumberRequired>
+                    </li>    
+                </ItemStudyRequirements>
+            </li>
+        </modExtensions>
     </ResearchProjectDef>
 
     <!-- x should be between 8 and 10, and y should be between 3.20 and 6.00-->
