@@ -285,7 +285,7 @@
         <prerequisites>
 			<li>GW_SM_AstartesStyles</li>
 		</prerequisites>
-        <modExtensions>
+		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
