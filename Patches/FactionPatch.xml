@@ -39,5 +39,19 @@
             </operations>
         </match>
     </Operation>
-</Patch>
 
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/QuestScriptDef[defName="Util_ChooseRandomQuestHelperKind"]</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/QuestScriptDef[defName="Util_ChooseRandomQuestHelperKind"]/root/nodes/li/choices</xpath>
+            <value>
+                <li>
+                    <factionDef>GW_SM_AdeptusAstartes</factionDef>
+                    <pawnKinds>
+                        <li>GW_SM_UM_RangedTier1</li>
+                    </pawnKinds>
+                </li>
+            </value>
+        </match>
+    </Operation>
+</Patch>
