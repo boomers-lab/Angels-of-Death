@@ -281,7 +281,7 @@
 
         <!--Styles-->
     <ResearchProjectDef Abstract="True" ParentName="GW_SM_AoDTechBase" Name="GW_SM_AoDStylesBase">
-        <baseCost>2000</baseCost>
+        <baseCost>5000</baseCost>
         <prerequisites>
 			<li>GW_SM_AstartesStyles</li>
 		</prerequisites>

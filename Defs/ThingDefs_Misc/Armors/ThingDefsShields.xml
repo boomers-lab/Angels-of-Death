@@ -47,7 +47,6 @@
             <MaxHitPoints>125</MaxHitPoints>
         </statBases>
         <smeltable>true</smeltable>	
-		<uiIconScale>1.6</uiIconScale>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedShield</unfinishedThingDef>
             <recipeUsers>
@@ -280,6 +279,7 @@
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
             <tags>
                 <li>40kPrimaris_Shield</li>
+
             </tags>
         </apparel>
         <costStuffCount>90</costStuffCount>
