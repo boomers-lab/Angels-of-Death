@@ -17,6 +17,10 @@
                 <thingDef>MealSimple</thingDef>
                 <countRange>200~300</countRange>
             </li>
+			<li Class="StockGenerator_SingleDef">
+                <thingDef>GW_STC_Fragment</thingDef>
+                <countRange>2~5</countRange>
+            </li>
             <li Class="StockGenerator_SingleDef">
                 <thingDef>MedicineUltratech</thingDef>
                 <countRange>25~30</countRange>
