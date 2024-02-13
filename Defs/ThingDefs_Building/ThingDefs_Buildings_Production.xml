@@ -11,6 +11,9 @@
             <ComponentSpacer>2</ComponentSpacer>
             <HP_Ceramite>30</HP_Ceramite>
         </costList>
+        <recipes>
+            <li>GW_Make_ComponentRelic</li>
+        </recipes>
         <graphicData>
             <texPath>Things/Building/Production/AstartesWeaponBench/40KBenches_Astartes_Weapon</texPath>
         </graphicData>
@@ -30,6 +33,9 @@
             <ComponentSpacer>2</ComponentSpacer>
             <HP_Ceramite>30</HP_Ceramite>
         </costList>
+        <recipes>
+            <li>GW_Make_ComponentRelic</li>
+        </recipes>
         <graphicData>
             <texPath>Things/Building/Production/AstartesArmorBench/40KBenches_Astartes_Armor</texPath>
         </graphicData>
