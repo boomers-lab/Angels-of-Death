@@ -5,11 +5,11 @@
         <label>astartes weapons workbench</label>
         <description>The Adeptus Astartes Fabrication Bench stands as the pinnacle of crafting excellence within the Adeptus Astartes' arsenal. This intricate workbench integrates advanced technology and arcane craftsmanship, empowering skilled individuals to manufacture and assemble a vast array of specialized Astartes equipment and weaponry.</description>
         <costList>
-            <Steel>200</Steel>
-            <Plasteel>100</Plasteel>
-            <ComponentIndustrial>12</ComponentIndustrial>
-            <ComponentSpacer>2</ComponentSpacer>
-            <HP_Ceramite>30</HP_Ceramite>
+            <Steel>100</Steel>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <HP_Ceramite>15</HP_Ceramite>
         </costList>
         <recipes>
             <li>GW_Make_ComponentRelic</li>
@@ -24,14 +24,14 @@
 
     <ThingDef ParentName="GrimworldFabricationBenchBase">
         <defName>GW_SM_ArmorBench</defName>
-        <label>astartes armor workbench</label>
+        <label>astartes armors workbench</label>
         <description>The Adeptus Astartes Fabrication Bench stands as the pinnacle of crafting excellence within the Adeptus Astartes' arsenal. This intricate workbench integrates advanced technology and arcane craftsmanship, empowering skilled individuals to manufacture and assemble a vast array of specialized Astartes equipment and weaponry.</description>
         <costList>
-            <Steel>200</Steel>
-            <Plasteel>100</Plasteel>
-            <ComponentIndustrial>12</ComponentIndustrial>
-            <ComponentSpacer>2</ComponentSpacer>
-            <HP_Ceramite>30</HP_Ceramite>
+            <Steel>100</Steel>
+            <Plasteel>50</Plasteel>
+            <ComponentIndustrial>6</ComponentIndustrial>
+            <ComponentSpacer>1</ComponentSpacer>
+            <HP_Ceramite>15</HP_Ceramite>
         </costList>
         <recipes>
             <li>GW_Make_ComponentRelic</li>
