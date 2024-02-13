@@ -50,7 +50,7 @@
         <recipeMaker>
             <unfinishedThingDef>UnfinishedShield</unfinishedThingDef>
             <recipeUsers>
-                <li>HP_ImperialFabricationBench</li>
+                <li>GW_SM_ArmorBench</li>
             </recipeUsers>		
         </recipeMaker>
         <tradeTags>
@@ -92,7 +92,7 @@
         </comps>
         <costStuffCount>60</costStuffCount>
         <statBases>
-            <StuffEffectMultiplierArmor>1.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>9</StuffEffectMultiplierArmor>
             <Mass>7</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
@@ -184,7 +184,7 @@
         </comps>
         <costStuffCount>90</costStuffCount>
         <statBases>
-            <StuffEffectMultiplierArmor>1.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>9.5</StuffEffectMultiplierArmor>
             <Mass>12</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
@@ -284,7 +284,7 @@
         </apparel>
         <costStuffCount>90</costStuffCount>
         <statBases>
-            <StuffEffectMultiplierArmor>1.2</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>9.5</StuffEffectMultiplierArmor>
             <Mass>12</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>

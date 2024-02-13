@@ -22,7 +22,7 @@
 				<Crafting>15</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="false">
-				<li>HP_ImperialFabricationBench</li>
+				<li>GW_SM_ArmorBench</li>
 			</recipeUsers>
 		</recipeMaker>
 		<graphicData>
