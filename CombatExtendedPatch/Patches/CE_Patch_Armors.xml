@@ -686,8 +686,8 @@
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="GW_SM_IndomitusTerminatorArmor"]/equippedStatOffsets</xpath>
 		<value>
-			<CarryWeight>180</CarryWeight>
-			<CarryBulk>85</CarryBulk>
+			<CarryWeight>250</CarryWeight>
+			<CarryBulk>120</CarryBulk>
 		</value>
 	</Operation>
 

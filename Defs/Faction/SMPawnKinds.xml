@@ -305,7 +305,7 @@
     </PawnKindDef>
 
     <PawnKindDef Name="GW_SM_RangedTier4" ParentName="GW_SM_Gravis" Abstract="True">
-        <label>Agressor marine</label>
+        <label>Aggressor marine</label>
         <weaponTags>
             <li>GW_SM_Ranged</li>
         </weaponTags>
@@ -345,7 +345,7 @@
     </PawnKindDef>
 
     <PawnKindDef Name="GW_SM_MeleeTier4" ParentName="GW_SM_Gravis" Abstract="True">
-        <label>Agressor marine</label>
+        <label>Aggressor marine</label>
         <weaponTags>
             <li>GW_SM_Melee</li>
         </weaponTags>
