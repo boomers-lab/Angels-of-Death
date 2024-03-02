@@ -129,7 +129,7 @@
 			<li>GW_SM_CodexAstartes</li>
 		</prerequisites>
 		<researchViewX>7.00</researchViewX>
-		<researchViewY>2.80</researchViewY>
+		<researchViewY>3.55</researchViewY>
         <modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -152,7 +152,7 @@
 			<li>GW_SM_CodexAstartes</li>
 		</prerequisites>
 		<researchViewX>7.00</researchViewX>
-		<researchViewY>3.60</researchViewY>
+		<researchViewY>4.10</researchViewY>
         <modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -267,44 +267,4 @@
 	</ResearchProjectDef>
 -->
 
-	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
-		<defName>GW_SM_AstartesStyles</defName>
-		<label>astartes styles</label>
-		<description>Unlocks the ability to research new styles of Astartes armors. Here we will put custom chapters like Astral Revenants.</description>
-        <baseCost>100</baseCost>
-		<prerequisites>
-			<li>GW_SM_CodexAstartes</li>
-		</prerequisites>
-		<researchViewX>7.00</researchViewX>
-		<researchViewY>4.60</researchViewY>
-	</ResearchProjectDef>
-
-        <!--Styles-->
-    <ResearchProjectDef Abstract="True" ParentName="GW_SM_AoDTechBase" Name="GW_SM_AoDStylesBase">
-        <baseCost>5000</baseCost>
-        <prerequisites>
-			<li>GW_SM_AstartesStyles</li>
-		</prerequisites>
-		<modExtensions>
-            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
-                <StudyLocation>GW_Cogitator</StudyLocation>
-                <ItemStudyRequirements>
-                    <li Class="GW_Frame.StudyRequirement">
-                        <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>3</NumberRequired>
-                    </li>    
-                </ItemStudyRequirements>
-            </li>
-        </modExtensions>
-    </ResearchProjectDef>
-
-    <!-- x should be between 8 and 10, and y should be between 3.20 and 6.00-->
-
-	<ResearchProjectDef ParentName="GW_SM_AoDStylesBase">
-		<defName>GW_SM_NightLords</defName>
-		<label>Astral Revenants</label>
-		<description>The Astral Revenants, a Space Marine chapter renowned for their expertise in siege tactics and their preference for heavy armors, have a fascinating history that dates back to the Great Crusade and their Night Lords origins.\n\nTheir story begins with the 57th Siege Company, led by the enigmatic Captain Atreus. This company was an anomaly among the Night Lords, as they shied away from the Legion's usual cruelty and favored efficiency and lethality in their operations. The unique character of the 57th Siege Company can be attributed to their indirect interactions with the Imperial Fists, having fought alongside them in numerous battles during the Great Crusade.\n\nAs the Great Crusade unfolded and the Night Lords Legion descended further into darkness and brutality, the 57th Siege Company found it increasingly difficult to align with their Legion's malevolent path. Their loyalty to the Emperor and the principles of the Imperium ultimately outweighed their allegiance to their Legion. This growing dissent led them to side with the Emperor and the loyalist forces during the tumultuous Horus Heresy, despising the twisted path their Legion had taken.\n\nIn the final, climactic Battle of Terra during the Heresy, the Astral Revenants fought valiantly alongside the loyalists to defend the Imperial Palace. However, their disappearance following the battle led many to assume that they had been lost, their fate shrouded in mystery.\n\nIt wasn't until a later era that the Astral Revenants resurfaced, retaining their Night Lords lineage but choosing to forge a new identity. In a covert arrangement, they made a pact with the Imperial Fists, concealing their true origins and officially registering as an Imperial Fist successor chapter.\n\nAs time passed and new technologies and combat doctrines emerged, the Astral Revenants adapted. With the introduction of heavier armor such as Gravis and the deployment of the Primaris Space Marines, they embraced these advancements, leveraging them to great effect in their battles to defend the Imperium against its foes.\n\nToday, the Astral Revenants stand as a formidable and enigmatic chapter, their history and origins a carefully guarded secret. With their mastery of siege tactics and their willingness to adapt to the changing face of warfare, they continue to serve the Imperium with unwavering dedication, blending their Night Lords heritage with the strategic wisdom they acquired from the Imperial Fists.</description>
-		<researchViewX>8.00</researchViewX>
-		<researchViewY>6.00</researchViewY>
-	</ResearchProjectDef>
 </Defs>

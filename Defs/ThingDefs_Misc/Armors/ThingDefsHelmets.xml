@@ -474,7 +474,7 @@
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_NightLords</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 
@@ -568,7 +568,7 @@
 			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged</wornGraphicPath>
 		</apparel>
 		<researchPrerequisites>
-			<li>GW_SM_NightLords</li>
+			<li>GW_SM_AstartesMedium</li>
 		</researchPrerequisites>
     </ThingDef>
 
@@ -701,6 +701,9 @@
         <apparel>
             <wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged</wornGraphicPath>
 		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+		</recipeMaker>
     </ThingDef>
 
 		<!--Terminator-->
