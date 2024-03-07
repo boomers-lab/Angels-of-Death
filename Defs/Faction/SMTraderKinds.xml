@@ -67,7 +67,7 @@
                 <countRange>10~15</countRange>
             </li>
             <li Class="StockGenerator_MarketValue">
-                <tradeTag>GW_SM_Backpacks</tradeTag>
+                <tradeTag>GWSMBackpacks</tradeTag>
                 <countRange>10~15</countRange>
             </li>
             <li Class="StockGenerator_MarketValue">
