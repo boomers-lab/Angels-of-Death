@@ -61,6 +61,10 @@
             <HP_Ceramite>30</HP_Ceramite>
             <ComponentIndustrial>6</ComponentIndustrial>
         </costList>
+        <stuffCategories>
+              <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
         <comps>
             <li Class="CompProperties_Forbiddable"/>
             <li Class="CompProperties_Refuelable">
@@ -191,6 +195,10 @@
             <Plasteel>60</Plasteel>
             <ComponentIndustrial>18</ComponentIndustrial>
         </costList>
+        <stuffCategories>
+              <li>Metallic</li>
+        </stuffCategories>
+        <costStuffCount>100</costStuffCount>
         <comps>
             <li Class="CompProperties_Explosive">   <!--Explosion added due to electrical use-->
                 <wickTicks>240</wickTicks>
