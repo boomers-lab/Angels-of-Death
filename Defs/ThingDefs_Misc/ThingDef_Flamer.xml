@@ -283,7 +283,7 @@
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
-		</>
+		</recipeMaker>
 		<costList>
 			<Plasteel>85</Plasteel>
 			<Steel>115</Steel>
