@@ -124,6 +124,8 @@
 			</li>
 		</tools>
 		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<workSkill>Crafting</workSkill>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
@@ -184,6 +186,8 @@
 			</li>
 		</tools>
 		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<workSkill>Crafting</workSkill>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
@@ -270,6 +274,8 @@
 			</li>
 		</tools>
 		<recipeMaker>
+			<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+			<workSkill>Crafting</workSkill>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
@@ -277,7 +283,7 @@
 			<skillRequirements>
 				<Crafting>12</Crafting>
 			</skillRequirements>
-		</recipeMaker>
+		</>
 		<costList>
 			<Plasteel>85</Plasteel>
 			<Steel>115</Steel>
