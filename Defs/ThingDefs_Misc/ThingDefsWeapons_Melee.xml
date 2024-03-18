@@ -553,8 +553,7 @@
 		<costStuffCount>70</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>40</Plasteel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<Plasteel>100</Plasteel>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
