@@ -18,7 +18,7 @@
             <damageAmountBase>50</damageAmountBase>
             <stoppingPower>2</stoppingPower>
             <armorPenetrationBase>0.7</armorPenetrationBase>
-            <explosionRadius>1.6</explosionRadius>
+            <explosionRadius>2.2</explosionRadius>
             <speed>120</speed>
         </projectile>
     </ThingDef>
@@ -126,7 +126,7 @@
             <damageDef>Burn</damageDef>
             <damageAmountBase>70</damageAmountBase>
             <stoppingPower>2.5</stoppingPower>
-            <explosionRadius>2.0</explosionRadius>
+            <explosionRadius>2.4</explosionRadius>
             <armorPenetrationBase>0.85</armorPenetrationBase>
             <speed>120</speed>
         </projectile>
@@ -342,7 +342,6 @@
             <stoppingPower>4</stoppingPower>
             <armorPenetrationBase>3.5</armorPenetrationBase>
             <speed>80</speed>
-			<explosionRadius>0.5</explosionRadius>
         </projectile>
     </ThingDef>
 
