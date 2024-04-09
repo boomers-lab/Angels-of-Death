@@ -18,20 +18,16 @@ namespace GrimWorld
         {
             var harmony = new Harmony("com.example.patch");
             harmony.PatchAll();
+            
         }
     }
 
-    [HarmonyPatch(typeof(Pawn_DraftController), nameof(Pawn_DraftController.DraftControllerTick))]
-    public static class OnPawnDraftRenderer {
-        public static int draftShieldStateUpdateCounter = 0;
-        public static void Postfix(Pawn_DraftController __instance) {
-            draftShieldStateUpdateCounter++;
-
-            if(draftShieldStateUpdateCounter >= 60) { 
-                __instance.pawn.apparel.Notify_ApparelChanged();
-                draftShieldStateUpdateCounter = 0;
-
-            }
+    [HarmonyPatch(typeof(Pawn), nameof(Pawn.TickRare))]
+    public static class OnApparelTrackerTick
+    {
+        public static void Postfix(Pawn __instance)
+        {
+            __instance.apparel.Notify_ApparelChanged();
         }
     }
 
@@ -42,12 +38,13 @@ namespace GrimWorld
         {
             if (apparel.HasThingCategory(DefDatabase<ThingCategoryDef>.GetNamed("GW_Shield")))
             {
-                if (!apparel.Wearer.Drafted) {
+                if (!apparel.Wearer.Drafted)
+                {
                     rec = new ApparelGraphicRecord();
                     return false;
                 }
             }
-            
+
             rec = new ApparelGraphicRecord(null, null);
             return true;
         }

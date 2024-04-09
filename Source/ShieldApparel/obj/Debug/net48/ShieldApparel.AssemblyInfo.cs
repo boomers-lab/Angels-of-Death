@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShieldApparel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39b04c1a3ccdf6a06084d40af323dcea150db626")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShieldApparel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShieldApparel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
