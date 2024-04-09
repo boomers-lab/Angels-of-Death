@@ -657,11 +657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/Angels-of-Death-main/Source/ShieldApparel/ShieldApparel.csproj",
+      "projectUniqueName": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/Angels-of-Death/Source/ShieldApparel/ShieldApparel.csproj",
       "projectName": "ShieldApparel",
-      "projectPath": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/Angels-of-Death-main/Source/ShieldApparel/ShieldApparel.csproj",
+      "projectPath": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/Angels-of-Death/Source/ShieldApparel/ShieldApparel.csproj",
       "packagesPath": "/home/yakhmet/.nuget/packages/",
-      "outputPath": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/Angels-of-Death-main/Source/ShieldApparel/obj/",
+      "outputPath": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/Angels-of-Death/Source/ShieldApparel/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/yakhmet/.nuget/NuGet/NuGet.Config"
