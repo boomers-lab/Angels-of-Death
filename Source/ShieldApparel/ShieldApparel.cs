@@ -27,6 +27,8 @@ namespace GrimWorld
     {
         public static void Postfix(Pawn __instance)
         {
+            if(__instance.apparel == null) return;
+            
             __instance.apparel.Notify_ApparelChanged();
         }
     }
