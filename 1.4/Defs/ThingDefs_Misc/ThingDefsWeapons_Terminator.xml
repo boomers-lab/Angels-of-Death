@@ -749,7 +749,7 @@
 					<li>Cut</li>
 				</capacities>
 				<power>80</power>
-				<cooldownTime>2</cooldownTime>
+				<cooldownTime>1.9</cooldownTime>
 				<armorPenetration>1.05</armorPenetration>
 				<soundMeleeHit>PowerSword</soundMeleeHit>
 				<soundMeleeMiss>Smite</soundMeleeMiss>

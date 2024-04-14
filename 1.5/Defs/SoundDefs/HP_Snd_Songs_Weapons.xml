@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+	<SoundDef>
+		<defName>GW_SM_ThunderHammer</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>1</maxSimultaneous>  
+		<subSounds>
+			<li>
+				<grains>
+					<li Class="AudioGrain_Folder">
+					<clipFolderPath>Weapons/BigZapHammer</clipFolderPath>
+					</li>
+				</grains>      
+				<volumeRange>
+					<min>20.0</min>        
+					<max>25.0</max>
+				</volumeRange>      
+				<pitchRange>
+					<min>0.9</min>        
+					<max>1.0</max>
+				</pitchRange>      
+				<sustainLoop>false</sustainLoop>
+			</li>
+		</subSounds>
+	</SoundDef>
+</Defs>

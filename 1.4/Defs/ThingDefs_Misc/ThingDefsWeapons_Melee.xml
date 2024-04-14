@@ -75,7 +75,7 @@
 					<li>Blunt</li>
 				</capacities>
 			<power>10</power>
-			<cooldownTime>2</cooldownTime>		
+			<cooldownTime>0.75</cooldownTime>		
 			</li>
 			<li>
 				<label>edge</label>
@@ -83,7 +83,7 @@
 					<li>Cut</li>
 				</capacities>
 				<power>35</power>
-				<cooldownTime>2</cooldownTime>
+				<cooldownTime>1</cooldownTime>
 				<soundMeleeHit>ChainSword</soundMeleeHit>
 				<soundMeleeMiss>Smite</soundMeleeMiss>
 			</li>
@@ -144,7 +144,7 @@
 			  <li>Blunt</li>
 			</capacities>
 			<power>20</power>
-			<cooldownTime>2</cooldownTime>		
+			<cooldownTime>0.75</cooldownTime>		
 		  </li>
 		  <li>
 			<label>edge</label>
@@ -152,7 +152,7 @@
 			  <li>Cut</li>
 			</capacities>
 			<power>45</power>
-			<cooldownTime>2</cooldownTime>
+			<cooldownTime>1</cooldownTime>
 			<soundMeleeHit>ChainSword</soundMeleeHit>
 			<soundMeleeMiss>Smite</soundMeleeMiss>
 		  </li>
@@ -369,7 +369,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>48</power>
-				<cooldownTime>2</cooldownTime>
+				<cooldownTime>2.25</cooldownTime>
 				<extraMeleeDamages>
 					<li>
 						<def>Bomb</def>
@@ -500,7 +500,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>15</power>
-				<cooldownTime>3</cooldownTime>
+				<cooldownTime>1.75</cooldownTime>
 			</li>
 			<li>
 				<label>head</label>
@@ -508,8 +508,8 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>54</power>
-				<cooldownTime>3.5</cooldownTime>
+					<power>54</power>
+					<cooldownTime>2</cooldownTime>
 				<soundMeleeHit>GW_SM_ThunderHammer</soundMeleeHit>
 				<extraMeleeDamages>
 					<li>
@@ -553,7 +553,8 @@
 		<costStuffCount>70</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>100</Plasteel>
+			<Plasteel>40</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -565,7 +566,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>8</power>
-				<cooldownTime>2</cooldownTime>		
+				<cooldownTime>0.35</cooldownTime>		
 			</li>
 			<li>
 				<label>edge</label>
@@ -573,7 +574,7 @@
 					<li>Cut</li>
 				</capacities>
 				<power>30</power>
-				<cooldownTime>2</cooldownTime>
+				<cooldownTime>0.5</cooldownTime>
 				<soundMeleeMiss>Smite</soundMeleeMiss>
 			</li>
 		</tools>

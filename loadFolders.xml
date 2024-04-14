@@ -3,7 +3,13 @@
 	<v1.4>
 		<li>/</li>
 		<li>1.4</li>
-        <li IfModActive="ceteam.combatextended">CombatExtendedPatch</li>
-		<li IfModActive="kentington.saveourship2">Mods/SaveOurShip</li>
+        <li IfModActive="ceteam.combatextended">1.4/Mods/CombatExtendedPatch</li>
+		<li IfModActive="kentington.saveourship2">1.4/Mods/SaveOurShip</li>
 	</v1.4>
+	<v1.5>
+		<li>/</li>
+		<li>1.5</li>
+        <li IfModActive="ceteam.combatextended">1.5/Mods/CombatExtendedPatch</li>
+		<li IfModActive="kentington.saveourship2">1.5/Mods/SaveOurShip</li>
+	</v1.5>
 </loadFolders>
