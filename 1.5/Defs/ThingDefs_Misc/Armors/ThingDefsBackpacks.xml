@@ -33,17 +33,17 @@
         </tradeTags>
 		<apparel>
 			<drawData>
-				<dataNorth>
-					<offset>(0.0, 0.4, 0.0)</offset>
-				</dataNorth>
+				<defaultData>
+					<layer>72</layer>
+				</defaultData>
 				<dataSouth>
-					<offset>(0.0, -0.1, 0.0)</offset>
+					<layer>-1</layer>
 				</dataSouth>
                 <dataWest>
-                    <offset>(0.0, 0.15, -0.1)</offset>
+                    <offset>(0.0, 0.0, -0.1)</offset>
                 </dataWest>
                 <dataEast>
-                    <offset>(0.0, 0.15, -0.1)</offset>
+                    <offset>(0.0, 0.0, -0.1)</offset>
                 </dataEast>
                 <!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->

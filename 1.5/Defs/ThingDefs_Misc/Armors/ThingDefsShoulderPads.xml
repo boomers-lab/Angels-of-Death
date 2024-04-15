@@ -958,6 +958,11 @@
 			<HP_Ceramite>40</HP_Ceramite>
 		</costList>
 		<apparel>
+			<drawData>
+				<defaultData>
+					<offset>(0.0, 0.0, -0.1)</offset>
+				</defaultData>
+            </drawData>
 			<tags>
 				<li>PrestigeCombatGear</li>
 				<li>GW_Terminator</li>
