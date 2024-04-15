@@ -345,9 +345,9 @@
     </ThingDef>
 
 		<!--Gravis-->
-	<ThingDef ParentName="GW_SM_ArmorBase">
+	<ThingDef Name="GW_SM_GravisArmorBase" ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_GravisArmor</defName>
-		<label>gravis power armor</label>
+		<label>gravis power armor (a)</label>
         <description>The Mark X Gravis Power Armour is a recent and advanced variant used by Space Marines:\n\nEnhanced Durability: Designed for increased protection, making the wearer significantly more resilient against various threats.\n\nHeavy Assault Configuration: Emphasizes heavy assault roles, allowing Space Marines to carry and utilize heavier weaponry while remaining well-protected.\n\nIntegrated Systems: Features advanced systems like improved life support, auto-senses, and enhanced communication arrays, enhancing combat performance and situational awareness.\n\nAdaptability and Customization: Like other Marks, it can be customized for various combat roles and specialties within different Space Marine Chapters.\n\nIntroduced in recent lore updates, the Mark X Gravis Power Armour is a significant advancement, catering to heavy assault roles with enhanced protection and adaptability on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_torso_south</texPath>
@@ -379,6 +379,14 @@
 			<HP_Ceramite>100</HP_Ceramite>
 		</costList>
 		<apparel>
+			<drawData>
+				<dataWest>
+					<layer>65</layer>
+				</dataWest>
+				<dataEast>
+					<layer>65</layer>
+				</dataEast>
+            </drawData>
             <wornGraphicPath>Things/Apparel/Armor_Gravis/Gravis_torso</wornGraphicPath>
 			<tags>
 				<li>PrestigeCombatGear</li>
@@ -386,6 +394,17 @@
 			</tags>
 		</apparel>
     </ThingDef>
+
+	<ThingDef ParentName="GW_SM_GravisArmorBase">
+		<defName>GW_SM_GravisArmorNeckPlate</defName>
+		<label>gravis power armor (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Gravis/Gravis_necktorso_south</texPath>
+		</graphicData>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Gravis/Gravis_necktorso</wornGraphicPath>
+		</apparel>
+	</ThingDef>
 
 		<!--Terminator-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
@@ -421,20 +440,14 @@
 			<HP_Ceramite>150</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso</wornGraphicPath>
-			<drawData Inherit="False">
-				<dataNorth>
-					<offset>(0.0, 0.2, 0.0)</offset>
-				</dataNorth>
-                <dataWest>
-                    <offset>(0.0, 0.1, 0.0)</offset>
-                </dataWest>
-                <dataEast>
-                    <offset>(0.0, 0.1, 0.0)</offset>
-                </dataEast>
+			<drawData>
+				<defaultData>
+					<layer>70</layer>
+				</defaultData>
                 <!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
             </drawData>
+            <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso</wornGraphicPath>
 			<layers>
 				<li>Backpack</li>
 			</layers>
