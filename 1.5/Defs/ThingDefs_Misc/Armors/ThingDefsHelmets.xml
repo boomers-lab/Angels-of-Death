@@ -731,6 +731,9 @@
 				<defaultData>
 					<offset>(-0.01, 0.0, -0.08)</offset>
 				</defaultData>
+				<dataSouth>
+					<layer>71</layer>
+				</dataSouth>
             </drawData>
 			<tags>
 				<li>PrestigeCombatGear</li>
