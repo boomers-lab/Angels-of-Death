@@ -642,8 +642,8 @@
 		</costList>
 		<apparel>
 			<drawData>
-                <scale>1.5</scale>
-                <childScale>1.5</childScale>
+                <scale>1.25</scale>
+                <childScale>1.25</childScale>
             </drawData>
 			<tags>
 				<li>GW_Tacticus</li>
