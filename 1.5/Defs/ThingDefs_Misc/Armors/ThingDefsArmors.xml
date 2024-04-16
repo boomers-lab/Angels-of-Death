@@ -441,9 +441,6 @@
 		</costList>
 		<apparel>
 			<drawData>
-				<defaultData>
-					<layer>70</layer>
-				</defaultData>
                 <!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
             </drawData>
