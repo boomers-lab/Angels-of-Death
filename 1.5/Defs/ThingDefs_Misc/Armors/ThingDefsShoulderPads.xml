@@ -42,8 +42,8 @@
 				<defaultData>
 					<layer>75</layer> <!--70-77 is over helmet and under gun-->
 				</defaultData>
-                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
-                <childScale>1.5</childScale>-->
+                <scale>1.10</scale>
+                <childScale>1.10</childScale>
             </drawData>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -641,6 +641,10 @@
 			<HP_Ceramite>30</HP_Ceramite>
 		</costList>
 		<apparel>
+			<drawData>
+                <scale>1.10</scale>
+                <childScale>1.10</childScale>
+            </drawData>
 			<tags>
 				<li>GW_Tacticus</li>
 			</tags>
