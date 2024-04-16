@@ -641,6 +641,10 @@
 			<HP_Ceramite>30</HP_Ceramite>
 		</costList>
 		<apparel>
+			<drawData>
+                <scale>1.5</scale>
+                <childScale>1.5</childScale>
+            </drawData>
 			<tags>
 				<li>GW_Tacticus</li>
 			</tags>
