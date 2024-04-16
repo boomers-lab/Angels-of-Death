@@ -728,9 +728,12 @@
         </comps>
 		<apparel>
 			<drawData>
-				<defaultData>
+				<dataWest>
 					<offset>(-0.01, 0.0, -0.08)</offset>
-				</defaultData>
+				</dataWest>
+				<dataEast>
+					<offset>(-0.01, 0.0, -0.08)</offset>
+				</dataEast>
             </drawData>
 			<tags>
 				<li>PrestigeCombatGear</li>
