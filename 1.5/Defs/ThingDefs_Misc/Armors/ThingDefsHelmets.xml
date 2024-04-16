@@ -27,12 +27,6 @@
 				<li>EVA</li>
 			</tags>
 			<drawData>
-				<dataNorth>
-					<offset>(0.0, 0.1, 0.0)</offset>
-				</dataNorth>
-				<dataSouth>
-					<offset>(0.0, 0.001, 0.0)</offset>
-				</dataSouth>
                 <!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
             </drawData>
