@@ -58,6 +58,7 @@
 			<armorPenetrationBase>0.78</armorPenetrationBase>
 			<explosionRadius>2.8</explosionRadius>
 			<speed>135</speed>
+			<explosionEffect>GW_PlasmaEffecter</explosionEffect>
 		</projectile>
 	</ThingDef>
 	
@@ -423,6 +424,9 @@
 				<soundCast>HP_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
 			</li>
 		</verbs>
 		<tools>
