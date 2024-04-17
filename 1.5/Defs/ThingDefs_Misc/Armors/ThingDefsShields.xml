@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+  <ThingCategoryDef>
+    <defName>GW_Shield</defName>
+    <label>Grimworld Shield</label>
+  </ThingCategoryDef>
     <ApparelLayerDef>
 		<defName>GW_Shield</defName>
 		<label>shield</label>
@@ -26,6 +30,7 @@
         <techLevel>Spacer</techLevel>
         <thingCategories>
             <li>ApparelMisc</li>
+            <li>GW_Shield</li>
         </thingCategories>
         <stuffCategories><li>Metallic</li></stuffCategories>
         <possessionCount>1</possessionCount>
