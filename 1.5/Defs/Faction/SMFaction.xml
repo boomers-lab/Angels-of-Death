@@ -351,6 +351,10 @@
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
+                    <!--UM tier 1-3 is used to fill in point gaps and give certain quests weaker pawns to use when point levels are lower-->
+                    <GW_SM_UM_RangedTier1>1</GW_SM_UM_RangedTier1>
+                    <GW_SM_UM_RangedTier2>1</GW_SM_UM_RangedTier2>
+                    <GW_SM_UM_RangedTier3>1</GW_SM_UM_RangedTier3>
                     <GW_SM_AR_RangedTier4>5</GW_SM_AR_RangedTier4>
                     <GW_SM_BT_RangedTier4>5</GW_SM_BT_RangedTier4>
                     <GW_SM_BL_RangedTier4>5</GW_SM_BL_RangedTier4>
@@ -366,21 +370,22 @@
                     <GW_SM_SW_RangedTier4>5</GW_SM_SW_RangedTier4>
                     <GW_SM_UM_RangedTier4>5</GW_SM_UM_RangedTier4>
                     <GW_SM_WS_RangedTier4>5</GW_SM_WS_RangedTier4>
-                    <GW_SM_AR_RangedTier5>5</GW_SM_AR_RangedTier5>
-                    <GW_SM_BT_RangedTier5>1</GW_SM_BT_RangedTier5>
-                    <GW_SM_BL_RangedTier5>1</GW_SM_BL_RangedTier5>
-                    <GW_SM_BR_RangedTier5>1</GW_SM_BR_RangedTier5>
-                    <GW_SM_CAR_RangedTier5>1</GW_SM_CAR_RangedTier5>
-                    <GW_SM_DA_RangedTier5>1</GW_SM_DA_RangedTier5>
-                    <GW_SM_IF_RangedTier5>1</GW_SM_IF_RangedTier5>
-                    <GW_SM_IH_RangedTier5>1</GW_SM_IH_RangedTier5>
-                    <GW_SM_LOTD_RangedTier5>1</GW_SM_LOTD_RangedTier5>
-                    <GW_SM_M_RangedTier5>1</GW_SM_M_RangedTier5>
-                    <GW_SM_RG_RangedTier5>1</GW_SM_RG_RangedTier5>
-                    <GW_SM_SL_RangedTier5>1</GW_SM_SL_RangedTier5>
-                    <GW_SM_SW_RangedTier5>1</GW_SM_SW_RangedTier5>
-                    <GW_SM_UM_RangedTier5>1</GW_SM_UM_RangedTier5>
-                    <GW_SM_WS_RangedTier5>1</GW_SM_WS_RangedTier5>
+                    <GW_SM_AR_RangedTier5>3</GW_SM_AR_RangedTier5>
+                    <GW_SM_BT_RangedTier5>3</GW_SM_BT_RangedTier5>
+                    <GW_SM_BL_RangedTier5>3</GW_SM_BL_RangedTier5>
+                    <GW_SM_BR_RangedTier5>3</GW_SM_BR_RangedTier5>
+                    <GW_SM_CAR_RangedTier5>3</GW_SM_CAR_RangedTier5>
+                    <GW_SM_DA_RangedTier5>3</GW_SM_DA_RangedTier5>
+                    <GW_SM_IF_RangedTier5>3</GW_SM_IF_RangedTier5>
+                    <GW_SM_IH_RangedTier5>3</GW_SM_IH_RangedTier5>
+                    <GW_SM_LOTD_RangedTier5>3</GW_SM_LOTD_RangedTier5>
+                    <GW_SM_M_RangedTier5>3</GW_SM_M_RangedTier5>
+                    <GW_SM_RG_RangedTier5>3</GW_SM_RG_RangedTier5>
+                    <GW_SM_SL_RangedTier5>3</GW_SM_SL_RangedTier5>
+                    <GW_SM_SW_RangedTier5>3</GW_SM_SW_RangedTier5>
+                    <GW_SM_UM_RangedTier5>3</GW_SM_UM_RangedTier5>
+                    <GW_SM_WS_RangedTier5>3</GW_SM_WS_RangedTier5>
+
                 </options>
             </li>
         </pawnGroupMakers>
