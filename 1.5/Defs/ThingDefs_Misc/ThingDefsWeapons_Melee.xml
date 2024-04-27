@@ -553,7 +553,7 @@
 		<costStuffCount>70</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Plasteel>40</Plasteel>
+			<Steel>45</Steel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<stuffCategories>
@@ -581,6 +581,7 @@
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
+				<li>TableMachining</li>
 			</recipeUsers>		
 			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
 			<skillRequirements>
