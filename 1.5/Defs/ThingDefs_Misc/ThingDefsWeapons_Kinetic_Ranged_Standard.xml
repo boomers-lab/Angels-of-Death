@@ -108,6 +108,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>GW_SM_Ranged</li>
+	  <li>GW_SM_ScoutBolter</li>
     </weaponTags>
     <weaponClasses>
       <li>RangedHeavy</li>
@@ -209,6 +210,7 @@
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
       <li>GW_SM_Ranged</li>
+	  <li>GW_SM_ScoutSniper</li>
     </weaponTags>
     <weaponClasses>
       <li>RangedHeavy</li>
@@ -378,6 +380,7 @@
 		<weaponTags>
 			<li>IndustrialGunAdvanced</li>
 			<li>GW_SM_Ranged</li>
+			<li>GW_SM_ScoutShotgun</li>
 		</weaponTags>
 		<weaponClasses>
 			<li>RangedHeavy</li>

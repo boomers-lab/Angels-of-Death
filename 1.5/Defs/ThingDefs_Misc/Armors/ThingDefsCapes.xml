@@ -100,7 +100,7 @@
 			</li>
 		</comps>
         <recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
 		</recipeMaker>
     </ThingDef>
 </Defs>

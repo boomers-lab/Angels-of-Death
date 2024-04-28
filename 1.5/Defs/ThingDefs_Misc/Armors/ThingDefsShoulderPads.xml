@@ -87,7 +87,7 @@
 
 	<ThingDef Abstract="True" Name="GW_SM_ScoutShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>

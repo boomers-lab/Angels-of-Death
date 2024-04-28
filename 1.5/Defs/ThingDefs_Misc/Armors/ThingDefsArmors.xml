@@ -108,7 +108,7 @@
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_torso</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+            <researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>20000</WorkToMake>
