@@ -47,6 +47,107 @@
 		</apparel>
     </ThingDef>
 
+		<!-- Scout-->
+	<ThingDef Name="GW_SM_ScoutHelmet_Base" ParentName="GW_SM_HelmetBase">
+		<defName>GW_SM_ScoutHelmet_A</defName>
+		<label>scout helmet (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetA</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetA</uiIconPath>
+		<apparel>
+			<tags Inherit="False">
+				<!--<li>Spacer</li>-->
+				<li>GW_Scout</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetA</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>2</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.1</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>50</Plasteel>
+			<Steel>30</Steel>
+			<Uranium>10</Uranium>
+			<HP_Ceramite>5</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>400</MaxHitPoints>
+			<Mass>1.5</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutHelmet_Base">
+		<defName>GW_SM_ScoutHelmet_B</defName>
+		<label>scout helmet (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetB</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetB</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetB</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutHelmet_Base">
+		<defName>GW_SM_ScoutHelmet_C</defName>
+		<label>scout helmet (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetC</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetC</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetC</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutHelmet_Base">
+		<defName>GW_SM_ScoutHelmet_D</defName>
+		<label>scout helmet (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetD</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetD</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetD</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_ScoutHelmet_Base">
+		<defName>GW_SM_ScoutHelmet_E</defName>
+		<label>scout helmet (e)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetE</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetE</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Helmet/Scout_helmetE</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+
 		<!--MKX Reiver-->
 	<ThingDef Name="GW_SM_MKXReiverHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_ReiverHelmet_Simple</defName>

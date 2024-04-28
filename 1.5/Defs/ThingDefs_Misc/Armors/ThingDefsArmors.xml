@@ -98,6 +98,68 @@
 	    </modExtensions>
     </ThingDef>
 
+		<!--Scout-->
+	<ThingDef ParentName="GW_SM_ArmorBase">
+		<defName>GW_SM_Scout</defName>
+		<label>scout armor</label>
+        <description>.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_torso</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>20000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>9</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.7</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0</ToxicEnvironmentResistance>
+			<MoveSpeed>0.2</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>6</ComponentSpacer>
+			<Plasteel>300</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>40</Uranium>
+			<HP_Ceramite>25</HP_Ceramite>
+		</costList>
+		<comps Inherit="False">
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>9</maskCount>
+                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+        </comps>
+		<apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Scouts/Scout_torso</wornGraphicPath>
+			<tags Inherit="False">
+				<!--<li>Spacer</li>-->
+                <li>GW_Scout</li>
+			</tags>
+		</apparel>
+    </ThingDef>
+
 		<!--MKX Reiver-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_ReiverArmor</defName>
