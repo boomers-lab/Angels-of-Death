@@ -158,9 +158,6 @@
 				<!--<li>Spacer</li>-->
                 <li>GW_Scout</li>
 			</tags>
-			<layers Inherit="False">
-				<li>Middle</li>
-			</layers>
 		</apparel>
     </ThingDef>
 

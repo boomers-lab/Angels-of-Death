@@ -48,12 +48,15 @@
                 <!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
             </drawData>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+            </wornGraphicData>
             <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
             <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
             <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
             <shellRenderedBehindHead>true</shellRenderedBehindHead>
             <layers>
-                <li>Shell</li>
+                <li>Belt</li>
             </layers>
             <tags>
                 <li>GW_SM_Cape</li>
