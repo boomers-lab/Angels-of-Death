@@ -43,7 +43,6 @@
                 </dataEast>
                 <dataSouth>
                     <layer>0</layer>
-                    <offset>(0.0, 0.0, -0.2)</offset>
                 </dataSouth>
                 <!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
