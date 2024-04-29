@@ -415,7 +415,6 @@
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_torso_south</texPath>
 		</graphicData>
-		<tickerType>Normal</tickerType>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
         </recipeMaker>
