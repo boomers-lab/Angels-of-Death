@@ -443,10 +443,10 @@
 		<apparel>
 			<drawData>
 				<dataWest>
-					<layer>65</layer>
+					<layer>70</layer>
 				</dataWest>
 				<dataEast>
-					<layer>65</layer>
+					<layer>70</layer>
 				</dataEast>
             </drawData>
             <wornGraphicPath>Things/Apparel/Armor_Gravis/Gravis_torso</wornGraphicPath>
