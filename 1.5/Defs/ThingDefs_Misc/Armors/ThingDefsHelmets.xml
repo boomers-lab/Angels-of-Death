@@ -675,14 +675,6 @@
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple_south</uiIconPath>
 		<apparel>
-			<drawData>
-				<dataEast>
-					<layer>64</layer>
-				</dataEast>
-				<dataWest>
-					<layer>64</layer>
-				</dataWest>
-            </drawData>
 			<tags>
 				<li>PrestigeCombatGear</li>
 				<li>GW_Gravis</li>
