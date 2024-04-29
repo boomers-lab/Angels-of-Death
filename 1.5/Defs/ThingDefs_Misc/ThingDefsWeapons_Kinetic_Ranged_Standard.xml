@@ -638,7 +638,7 @@
 			<researchPrerequisite>GW_Launchers</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 			<recipeUsers Inherit="False">
-				<li>HP_SM_MilitarumFabricationBench</li>
+				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
 			<skillRequirements>
 				<Crafting>12</Crafting>
