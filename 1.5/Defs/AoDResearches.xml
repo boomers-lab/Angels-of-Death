@@ -31,7 +31,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesBasicShields</defName>
 		<label>astartes shields</label>
-		<description>Astartes basic shields.</description>
+		<description>Astartes shields are iconic symbols of the Space Marines' resilience and martial prowess in the Warhammer 40,000 universe. Crafted from the most durable materials and adorned with revered chapter insignias, these shields provide unparalleled protection on the battlefield. Wielded alongside deadly weaponry, they serve as bulwarks against enemy fire, enabling Space Marines to advance with unwavering determination and strike fear into the hearts of their adversaries.</description>
         <baseCost>3500</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesFabrication</li>
