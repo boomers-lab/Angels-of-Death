@@ -65,7 +65,7 @@
         </apparel>
         <statBases>
             <WorkToMake>15000</WorkToMake>
-            <MaxHitPoints>125</MaxHitPoints>
+            <MaxHitPoints>550</MaxHitPoints>
         </statBases>
         <smeltable>true</smeltable>	
         <recipeMaker>
@@ -107,7 +107,7 @@
         </comps>
         <costStuffCount>60</costStuffCount>
         <statBases>
-            <StuffEffectMultiplierArmor>9</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
             <Mass>7</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
@@ -199,7 +199,7 @@
         </comps>
         <costStuffCount>90</costStuffCount>
         <statBases>
-            <StuffEffectMultiplierArmor>9.5</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
             <Mass>12</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
@@ -299,7 +299,7 @@
         </apparel>
         <costStuffCount>90</costStuffCount>
         <statBases>
-            <StuffEffectMultiplierArmor>9.5</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
             <Mass>12</Mass>
             <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
             <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
