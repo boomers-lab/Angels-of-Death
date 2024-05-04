@@ -391,11 +391,9 @@
 			<EquipDelay>3</EquipDelay>			
 			<JumpRange>23.9</JumpRange>
 		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>0.4</MoveSpeed>
-		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>4</ComponentSpacer>
+			<ComponentIndustrial>10</ComponentIndustrial>
 			<Plasteel>150</Plasteel>
 			<Steel>200</Steel>
 			<Uranium>30</Uranium>
@@ -409,7 +407,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<onlyManualCast>True</onlyManualCast>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-				<warmupTime>0.5</warmupTime>
+				<warmupTime>1</warmupTime>
 				<warmupEffecter>JumpWarmupEffect</warmupEffecter>
 				<requireLineOfSight>true</requireLineOfSight>
 				<flightEffecterDef>JumpFlightEffect</flightEffecterDef>
@@ -423,7 +421,7 @@
 		</verbs>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">
-				<maxCharges>5</maxCharges>
+				<maxCharges>2</maxCharges>
 				<ammoDef>Chemfuel</ammoDef>
 				<ammoCountPerCharge>20</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
@@ -456,7 +454,7 @@
 		</pawnFlyer>
 		<modExtensions>
 			<li Class="ExplosiveJump.PawnFlyerExtension">
-				<radius>5</radius>
+				<radius>2.5</radius>
 				<damageDef>Bomb</damageDef>
 				<damageAmount>15</damageAmount>
 				<armorPen>1.0</armorPen>
