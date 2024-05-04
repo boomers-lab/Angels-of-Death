@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ApparelLayerDef> <!--It's the same as CEs so they will act interchangably-->
+	<ApparelLayerDef><!--It's the same as CEs so they will act interchangably-->
 		<defName>Backpack</defName>
 		<label>backpack</label>
 		<drawOrder>220</drawOrder>
 	</ApparelLayerDef>
 
-            <!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
-    <ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="ArmorMachineableBase">
-        <techLevel>Spacer</techLevel>
+	<!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
+	<ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="ArmorMachineableBase">
+		<techLevel>Spacer</techLevel>
 		<description>In Warhammer 40,000, Space Marine backpacks, or "power packs," are critical components of Adeptus Astartes armor. They serve for power supply, life support, and mobility:\n\nPower Supply: Energizes armor systems, including servos and weapons.\n\nLife Support: Enables survival in hostile environments like space or toxic atmospheres.\n\n\Mobility and Jump Packs: Used by units like Assault Marines for rapid aerial maneuverability and devastating assaults.\n\nCommunications and Sensors: House devices for enhanced situational awareness and squad-level communication.\n\nAesthetic Variation: Designs vary based on chapter, reflecting heraldry or specialized equipment.\n\nEssential for combat effectiveness, these backpacks are crucial in the grim battles of the 41st millennium.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -28,28 +28,28 @@
 		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>
-        <tradeTags>
-            <li>GWSMBackpacks</li>
-        </tradeTags>
+		<tradeTags>
+			<li>GWSMBackpacks</li>
+		</tradeTags>
 		<apparel>
 			<drawData>
 				<dataSouth>
 					<layer>-1</layer>
 				</dataSouth>
-                <dataWest>
-                    <offset>(0.0, 0.0, -0.1)</offset>
+				<dataWest>
+					<offset>(0.0, 0.0, -0.1)</offset>
 					<layer>72</layer>
-                </dataWest>
-                <dataEast>
-                    <offset>(0.0, 0.0, -0.1)</offset>
+				</dataWest>
+				<dataEast>
+					<offset>(0.0, 0.0, -0.1)</offset>
 					<layer>72</layer>
-                </dataEast>
+				</dataEast>
 				<dataNorth>
 					<layer>100</layer>
 				</dataNorth>
-                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
+				<!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
-            </drawData>
+			</drawData>
 			<tags>
 				<li>Spacer</li>
 			</tags>
@@ -68,35 +68,35 @@
 			</defaultOutfitTags>
 		</apparel>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>2</maskCount>
-                <palettePresets>GW_SM_BackpackChapterPalettes</palettePresets>
-                <defaultPalette>
-                    <colorA>(250, 176, 67)</colorA>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>2</maskCount>
+				<palettePresets>GW_SM_BackpackChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
-                </defaultPalette>
-            </li>
-        </comps>
-	    <modExtensions>
+				</defaultPalette>
+			</li>
+		</comps>
+		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
-                <isUnifiedApparel>true</isUnifiedApparel>
+				<isUnifiedApparel>true</isUnifiedApparel>
 				<hideHead>false</hideHead>
-            </li>
-        </modExtensions>
-    </ThingDef>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
-		<!--MKX Reiver-->
+	<!--MKX Reiver-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
-        <defName>GW_SM_ReiverBackpack</defName>
+		<defName>GW_SM_ReiverBackpack</defName>
 		<label>reiver backpack</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Reiver_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>2</Mass>
@@ -119,24 +119,24 @@
 			<HP_Ceramite>5</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Reiver/Reiver_backpack</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Reiver/Reiver_backpack</wornGraphicPath>
 			<tags>
-                <li>GW_Reiver</li>
+				<li>GW_Reiver</li>
 			</tags>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-		<!--MKX Phobos-->
+	<!--MKX Phobos-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
-        <defName>GW_SM_PhobosBackpack</defName>
+		<defName>GW_SM_PhobosBackpack</defName>
 		<label>phobos backpack</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Phobos_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>2</Mass>
@@ -159,24 +159,24 @@
 			<HP_Ceramite>5</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Phobos/Phobos_backpack</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Phobos/Phobos_backpack</wornGraphicPath>
 			<tags>
-                <li>GW_Phobos</li>
+				<li>GW_Phobos</li>
 			</tags>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-        <!--MKIV-->
+	<!--MKIV-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
-        <defName>GW_SM_MaximusBackpack</defName>
+		<defName>GW_SM_MaximusBackpack</defName>
 		<label>maximus backpack</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Maximus_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>3</Mass>
@@ -199,24 +199,24 @@
 			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Maximus/Maximus_backpack</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Maximus/Maximus_backpack</wornGraphicPath>
 			<tags>
-                <li>GW_Maximus</li>
+				<li>GW_Maximus</li>
 			</tags>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-        <!--MKVI-->
+	<!--MKVI-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
-        <defName>GW_SM_CorvusBackpack</defName>
+		<defName>GW_SM_CorvusBackpack</defName>
 		<label>corvus backpack</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Corvus_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>3</Mass>
@@ -239,24 +239,24 @@
 			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Corvus/Corvus_backpack</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Corvus/Corvus_backpack</wornGraphicPath>
 			<tags>
-                <li>GW_Corvus</li>
+				<li>GW_Corvus</li>
 			</tags>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-        <!--MKVII-->
+	<!--MKVII-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
-        <defName>GW_SM_AquillaBackpack</defName>
+		<defName>GW_SM_AquillaBackpack</defName>
 		<label>aquilla backpack</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>3</Mass>
@@ -279,24 +279,24 @@
 			<HP_Ceramite>10</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Aquilla/Aquilla_backpack</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Aquilla_backpack</wornGraphicPath>
 			<tags>
-                <li>GW_Aquilla</li>
+				<li>GW_Aquilla</li>
 			</tags>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-        <!--MKX Tacticus-->
+	<!--MKX Tacticus-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
-        <defName>GW_SM_TacticusBackpack</defName>
+		<defName>GW_SM_TacticusBackpack</defName>
 		<label>tacticus backpack</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>2500</WorkToMake>
 			<MaxHitPoints>750</MaxHitPoints>
 			<Mass>3</Mass>
@@ -319,24 +319,24 @@
 			<HP_Ceramite>15</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Tacticus/Tacticus_backpack</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Tacticus_backpack</wornGraphicPath>
 			<tags>
-                <li>GW_Tacticus</li>
+				<li>GW_Tacticus</li>
 			</tags>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-		<!--Gravis-->
+	<!--Gravis-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
-        <defName>GW_SM_GravisBackpack</defName>
+		<defName>GW_SM_GravisBackpack</defName>
 		<label>gravis backpack</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_backpack_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
-        </recipeMaker>
-        <statBases>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
 			<WorkToMake>9000</WorkToMake>
 			<MaxHitPoints>1000</MaxHitPoints>
 			<Mass>4</Mass>
@@ -359,15 +359,115 @@
 			<HP_Ceramite>20</HP_Ceramite>
 		</costList>
 		<apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Gravis/Gravis_backpack</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Gravis_backpack</wornGraphicPath>
 			<tags>
 				<li>PrestigeCombatGear</li>
-                <li>GW_Gravis</li>
+				<li>GW_Gravis</li>
 			</tags>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
+	
+	<!--JumpyExplody-->
+	<ThingDef ParentName="GW_SM_BackpackBase">
+		<defName>GW_SM_AssaultJumpPack</defName>
+		<label>Assault Jump-pack</label>
+		<graphicData>
+			<texPath>Things/Apparel/AssaultJump_pack/Display/Assault_backpack1</texPath>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>9000</WorkToMake>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>0.1</Flammability>
+			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
+			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.65</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>			
+			<JumpRange>23.9</JumpRange>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>4</ComponentSpacer>
+			<Plasteel>150</Plasteel>
+			<Steel>200</Steel>
+			<Uranium>30</Uranium>
+			<HP_Ceramite>20</HP_Ceramite>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>ExplosiveJump.Verb_JumpExplosive</verbClass>
+				<label>jump</label>
+				<violent>false</violent>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+				<warmupTime>0.5</warmupTime>
+				<warmupEffecter>JumpWarmupEffect</warmupEffecter>
+				<requireLineOfSight>true</requireLineOfSight>
+				<flightEffecterDef>JumpFlightEffect</flightEffecterDef>
+				<soundLanding>JumpPackLand</soundLanding>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+					<canTargetPawns>false</canTargetPawns>
+					<canTargetBuildings>false</canTargetBuildings>
+				</targetParams>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CompProperties_ApparelReloadable">
+				<maxCharges>5</maxCharges>
+				<ammoDef>Chemfuel</ammoDef>
+				<ammoCountPerCharge>20</ammoCountPerCharge>
+				<baseReloadTicks>60</baseReloadTicks>
+				<soundReload>Standard_Reload</soundReload>
+				<hotKey>Misc4</hotKey>
+				<chargeNoun>jump</chargeNoun>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/AssaultJump_pack/Assault_backpack1</wornGraphicPath>
+			<tags>
+				<li>PrestigeCombatGear</li>
+				<li>GW_Gravis</li>
+			</tags>
+		</apparel>		
+		<tickerType>Normal</tickerType>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+			<li Class="ExplosiveJump.PawnFlyerExtension">
+				<pawnFlyerDef>JumpyExplody</pawnFlyerDef>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="PawnFlyerBase">
+		<defName>JumpyExplody</defName>
+		<thingClass>ExplosiveJump.PawnFlyer_ExplosiveLanding</thingClass>
+		<pawnFlyer>
+			<flightDurationMin>0.2</flightDurationMin>
+			<flightSpeed>13</flightSpeed>
+		</pawnFlyer>
+		<modExtensions>
+			<li Class="ExplosiveJump.PawnFlyerExtension">
+				<radius>5</radius>
+				<damageDef>Bomb</damageDef>
+				<damageAmount>15</damageAmount>
+				<armorPen>1.0</armorPen>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
-		<!--Terminator--> <!--Uncomment this if the terminator backpack is separated from the torso.-->
+	<!--Terminator--><!--Uncomment this if the terminator backpack is separated from the torso.-->
 	<!--<ThingDef ParentName="GW_SM_BackpackBase">
         <defName>GW_SM_IndomitusTerminatorBackpack</defName>
 		<label>terminator backpack</label>
