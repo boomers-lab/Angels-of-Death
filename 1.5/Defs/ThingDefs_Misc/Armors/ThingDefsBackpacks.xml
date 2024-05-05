@@ -376,12 +376,12 @@
 			<texPath>Things/Apparel/AssaultJump_pack/Display/Assault_backpack1</texPath>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_Jump_Packs</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
 			<MaxHitPoints>1000</MaxHitPoints>
-			<Mass>4</Mass>
+			<Mass>8</Mass>
 			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
