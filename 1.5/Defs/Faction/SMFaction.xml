@@ -408,6 +408,17 @@
                 </options>
             </li>
 
+            <!-- Peaceful. Probably not something that's going to be used a lot -->
+            <li>
+                <kindDef>Peaceful</kindDef>
+                <options>
+                    <GW_SM_UM_SniperScout>1</GW_SM_UM_SniperScout>
+                    <GW_SM_UM_RangedTier1>1</GW_SM_UM_RangedTier1>
+                    <GW_SM_UM_RangedTier2>1</GW_SM_UM_RangedTier2>
+                    <GW_SM_UM_RangedTier3>1</GW_SM_UM_RangedTier3>
+                </options>
+            </li>
+
                 <!-- Base defense, uses all tier 4 and tier 5 ranged units to make it harder to take -->
             <li>
                 <kindDef>Settlement</kindDef>
