@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef Name="GW_SM_CapeBase" ParentName="ApparelMakeableBase" Abstract="True">
+        <possessionCount>1</possessionCount>
+        <costStuffCount>80</costStuffCount>
+        <graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+        <stuffCategories>
+            <li>Fabric</li>
+            <li>Leathery</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>2</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <tradeTags>
+            <li>HPUtility</li>
+        </tradeTags>
+        <apparel>
+            <bodyPartGroups>
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Shoulders</li>
+                <li>Arms</li>
+                <li>Legs</li>
+            </bodyPartGroups>
+            <drawData>
+				<dataNorth>
+					<layer>100</layer>
+				</dataNorth>
+                <dataWest>
+                    <offset>(0.0, 0.0, -0.2)</offset>
+                </dataWest>
+                <dataEast>
+                    <offset>(0.0, 0.0, -0.2)</offset>
+                </dataEast>
+                <dataSouth>
+                    <layer>0</layer>
+                </dataSouth>
+                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
+                <childScale>1.5</childScale>-->
+            </drawData>
+            <wornGraphicData>
+                <renderUtilityAsPack>true</renderUtilityAsPack>
+            </wornGraphicData>
+            <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+            <shellRenderedBehindHead>true</shellRenderedBehindHead>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <tags>
+                <li>GW_SM_Cape</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <recipeUsers Inherit="False">
+                <li>GW_SM_ArmorBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+	    </modExtensions>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_SM_CapeBase">
+        <defName>GW_SM_ScoutCape</defName>
+        <label>scout cape</label>
+        <description>.</description>
+        <graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_cape</texPath>
+		</graphicData>
+        <uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_cape</uiIconPath>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Scouts/Cape/Scout_cape</wornGraphicPath>
+            <tags>
+                <li>GW_SM_ScoutCape</li>
+            </tags>
+        </apparel>
+        <comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>14</maskCount>
+				<palettePresets>GW_SM_BackpackChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+        <recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
+		</recipeMaker>
+    </ThingDef>
+</Defs>

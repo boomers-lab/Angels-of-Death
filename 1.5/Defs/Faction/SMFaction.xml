@@ -68,6 +68,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_AR_SniperScout>1</GW_SM_AR_SniperScout>
+                    <GW_SM_AR_ShotgunScout>1</GW_SM_AR_ShotgunScout>
+                    <GW_SM_AR_BolterScout>1</GW_SM_AR_BolterScout>
+                    <GW_SM_AR_PlasmaScout>1</GW_SM_AR_PlasmaScout>
                     <GW_SM_AR_RangedTier1>4</GW_SM_AR_RangedTier1>
                     <GW_SM_AR_MeleeTier1>2</GW_SM_AR_MeleeTier1>
                     <GW_SM_AR_RangedTier2>5</GW_SM_AR_RangedTier2>
@@ -87,6 +91,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_BT_SniperScout>1</GW_SM_BT_SniperScout>
+                    <GW_SM_BT_ShotgunScout>1</GW_SM_BT_ShotgunScout>
+                    <GW_SM_BT_BolterScout>1</GW_SM_BT_BolterScout>
+                    <GW_SM_BT_PlasmaScout>1</GW_SM_BT_PlasmaScout>
                     <GW_SM_BT_RangedTier1>4</GW_SM_BT_RangedTier1>
                     <GW_SM_BT_MeleeTier1>2</GW_SM_BT_MeleeTier1>
                     <GW_SM_BT_RangedTier2>5</GW_SM_BT_RangedTier2>
@@ -106,6 +114,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_BL_SniperScout>1</GW_SM_BL_SniperScout>
+                    <GW_SM_BL_ShotgunScout>1</GW_SM_BL_ShotgunScout>
+                    <GW_SM_BL_BolterScout>1</GW_SM_BL_BolterScout>
+                    <GW_SM_BL_PlasmaScout>1</GW_SM_BL_PlasmaScout>
                     <GW_SM_BL_RangedTier1>4</GW_SM_BL_RangedTier1>
                     <GW_SM_BL_MeleeTier1>2</GW_SM_BL_MeleeTier1>
                     <GW_SM_BL_RangedTier2>5</GW_SM_BL_RangedTier2>
@@ -125,6 +137,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_BR_SniperScout>1</GW_SM_BR_SniperScout>
+                    <GW_SM_BR_ShotgunScout>1</GW_SM_BR_ShotgunScout>
+                    <GW_SM_BR_BolterScout>1</GW_SM_BR_BolterScout>
+                    <GW_SM_BR_PlasmaScout>1</GW_SM_BR_PlasmaScout>
                     <GW_SM_BR_RangedTier1>4</GW_SM_BR_RangedTier1>
                     <GW_SM_BR_MeleeTier1>2</GW_SM_BR_MeleeTier1>
                     <GW_SM_BR_RangedTier2>5</GW_SM_BR_RangedTier2>
@@ -144,6 +160,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_CAR_SniperScout>1</GW_SM_CAR_SniperScout>
+                    <GW_SM_CAR_ShotgunScout>1</GW_SM_CAR_ShotgunScout>
+                    <GW_SM_CAR_BolterScout>1</GW_SM_CAR_BolterScout>
+                    <GW_SM_CAR_PlasmaScout>1</GW_SM_CAR_PlasmaScout>
                     <GW_SM_CAR_RangedTier1>4</GW_SM_CAR_RangedTier1>
                     <GW_SM_CAR_MeleeTier1>2</GW_SM_CAR_MeleeTier1>
                     <GW_SM_CAR_RangedTier2>5</GW_SM_CAR_RangedTier2>
@@ -163,6 +183,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_DA_SniperScout>1</GW_SM_DA_SniperScout>
+                    <GW_SM_DA_ShotgunScout>1</GW_SM_DA_ShotgunScout>
+                    <GW_SM_DA_BolterScout>1</GW_SM_DA_BolterScout>
+                    <GW_SM_DA_PlasmaScout>1</GW_SM_DA_PlasmaScout>
                     <GW_SM_DA_RangedTier1>4</GW_SM_DA_RangedTier1>
                     <GW_SM_DA_MeleeTier1>2</GW_SM_DA_MeleeTier1>
                     <GW_SM_DA_RangedTier2>5</GW_SM_DA_RangedTier2>
@@ -182,6 +206,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_IF_SniperScout>1</GW_SM_IF_SniperScout>
+                    <GW_SM_IF_ShotgunScout>1</GW_SM_IF_ShotgunScout>
+                    <GW_SM_IF_BolterScout>1</GW_SM_IF_BolterScout>
+                    <GW_SM_IF_PlasmaScout>1</GW_SM_IF_PlasmaScout>
                     <GW_SM_IF_RangedTier1>4</GW_SM_IF_RangedTier1>
                     <GW_SM_IF_MeleeTier1>2</GW_SM_IF_MeleeTier1>
                     <GW_SM_IF_RangedTier2>5</GW_SM_IF_RangedTier2>
@@ -201,6 +229,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_IH_SniperScout>1</GW_SM_IH_SniperScout>
+                    <GW_SM_IH_ShotgunScout>1</GW_SM_IH_ShotgunScout>
+                    <GW_SM_IH_BolterScout>1</GW_SM_IH_BolterScout>
+                    <GW_SM_IH_PlasmaScout>1</GW_SM_IH_PlasmaScout>
                     <GW_SM_IH_RangedTier1>4</GW_SM_IH_RangedTier1>
                     <GW_SM_IH_MeleeTier1>2</GW_SM_IH_MeleeTier1>
                     <GW_SM_IH_RangedTier2>5</GW_SM_IH_RangedTier2>
@@ -220,6 +252,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_LOTD_SniperScout>1</GW_SM_LOTD_SniperScout>
+                    <GW_SM_LOTD_ShotgunScout>1</GW_SM_LOTD_ShotgunScout>
+                    <GW_SM_LOTD_BolterScout>1</GW_SM_LOTD_BolterScout>
+                    <GW_SM_LOTD_PlasmaScout>1</GW_SM_LOTD_PlasmaScout>
                     <GW_SM_LOTD_RangedTier1>4</GW_SM_LOTD_RangedTier1>
                     <GW_SM_LOTD_MeleeTier1>2</GW_SM_LOTD_MeleeTier1>
                     <GW_SM_LOTD_RangedTier2>5</GW_SM_LOTD_RangedTier2>
@@ -239,6 +275,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_M_SniperScout>1</GW_SM_M_SniperScout>
+                    <GW_SM_M_ShotgunScout>1</GW_SM_M_ShotgunScout>
+                    <GW_SM_M_BolterScout>1</GW_SM_M_BolterScout>
+                    <GW_SM_M_PlasmaScout>1</GW_SM_M_PlasmaScout>
                     <GW_SM_M_RangedTier1>4</GW_SM_M_RangedTier1>
                     <GW_SM_M_MeleeTier1>2</GW_SM_M_MeleeTier1>
                     <GW_SM_M_RangedTier2>5</GW_SM_M_RangedTier2>
@@ -258,6 +298,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_RG_SniperScout>1</GW_SM_RG_SniperScout>
+                    <GW_SM_RG_ShotgunScout>1</GW_SM_RG_ShotgunScout>
+                    <GW_SM_RG_BolterScout>1</GW_SM_RG_BolterScout>
+                    <GW_SM_RG_PlasmaScout>1</GW_SM_RG_PlasmaScout>
                     <GW_SM_RG_RangedTier1>4</GW_SM_RG_RangedTier1>
                     <GW_SM_RG_MeleeTier1>2</GW_SM_RG_MeleeTier1>
                     <GW_SM_RG_RangedTier2>5</GW_SM_RG_RangedTier2>
@@ -277,6 +321,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_SL_SniperScout>1</GW_SM_SL_SniperScout>
+                    <GW_SM_SL_ShotgunScout>1</GW_SM_SL_ShotgunScout>
+                    <GW_SM_SL_BolterScout>1</GW_SM_SL_BolterScout>
+                    <GW_SM_SL_PlasmaScout>1</GW_SM_SL_PlasmaScout>
                     <GW_SM_SL_RangedTier1>4</GW_SM_SL_RangedTier1>
                     <GW_SM_SL_MeleeTier1>2</GW_SM_SL_MeleeTier1>
                     <GW_SM_SL_RangedTier2>5</GW_SM_SL_RangedTier2>
@@ -296,6 +344,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_SW_SniperScout>1</GW_SM_SW_SniperScout>
+                    <GW_SM_SW_ShotgunScout>1</GW_SM_SW_ShotgunScout>
+                    <GW_SM_SW_BolterScout>1</GW_SM_SW_BolterScout>
+                    <GW_SM_SW_PlasmaScout>1</GW_SM_SW_PlasmaScout>
                     <GW_SM_SW_RangedTier1>4</GW_SM_SW_RangedTier1>
                     <GW_SM_SW_MeleeTier1>2</GW_SM_SW_MeleeTier1>
                     <GW_SM_SW_RangedTier2>5</GW_SM_SW_RangedTier2>
@@ -315,6 +367,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_UM_SniperScout>1</GW_SM_UM_SniperScout>
+                    <GW_SM_UM_ShotgunScout>1</GW_SM_UM_ShotgunScout>
+                    <GW_SM_UM_BolterScout>1</GW_SM_UM_BolterScout>
+                    <GW_SM_UM_PlasmaScout>1</GW_SM_UM_PlasmaScout>
                     <GW_SM_UM_RangedTier1>4</GW_SM_UM_RangedTier1>
                     <GW_SM_UM_MeleeTier1>2</GW_SM_UM_MeleeTier1>
                     <GW_SM_UM_RangedTier2>5</GW_SM_UM_RangedTier2>
@@ -334,6 +390,10 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
+                    <GW_SM_WS_SniperScout>1</GW_SM_WS_SniperScout>
+                    <GW_SM_WS_ShotgunScout>1</GW_SM_WS_ShotgunScout>
+                    <GW_SM_WS_BolterScout>1</GW_SM_WS_BolterScout>
+                    <GW_SM_WS_PlasmaScout>1</GW_SM_WS_PlasmaScout>
                     <GW_SM_WS_RangedTier1>4</GW_SM_WS_RangedTier1>
                     <GW_SM_WS_MeleeTier1>2</GW_SM_WS_MeleeTier1>
                     <GW_SM_WS_RangedTier2>5</GW_SM_WS_RangedTier2>
@@ -352,6 +412,7 @@
             <li>
                 <kindDef>Peaceful</kindDef>
                 <options>
+                    <GW_SM_UM_SniperScout>1</GW_SM_UM_SniperScout>
                     <GW_SM_UM_RangedTier1>1</GW_SM_UM_RangedTier1>
                     <GW_SM_UM_RangedTier2>1</GW_SM_UM_RangedTier2>
                     <GW_SM_UM_RangedTier3>1</GW_SM_UM_RangedTier3>
@@ -363,6 +424,7 @@
                 <kindDef>Settlement</kindDef>
                 <options>
                     <!--UM tier 0-3 is used to fill in point gaps and give certain quests weaker pawns to use when point levels are lower-->
+                    <GW_SM_UM_SniperScout>1</GW_SM_UM_SniperScout>
                     <GW_SM_UM_RangedTier1>1</GW_SM_UM_RangedTier1>
                     <GW_SM_UM_RangedTier2>1</GW_SM_UM_RangedTier2>
                     <GW_SM_UM_RangedTier3>1</GW_SM_UM_RangedTier3>

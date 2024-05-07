@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef Name="GW_SM_HoodBase" ParentName="HatMakeableBase" Abstract="True">
+        <possessionCount>1</possessionCount>
+        <costStuffCount>50</costStuffCount>
+        <graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+        <stuffCategories>
+            <li>Fabric</li>
+        </stuffCategories>
+        <statBases>
+            <MaxHitPoints>200</MaxHitPoints>
+            <WorkToMake>16000</WorkToMake>
+            <Mass>2</Mass>
+            <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+            <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
+            <EquipDelay>3</EquipDelay>
+        </statBases>
+        <tradeTags>
+            <li>HPHelmet</li>
+        </tradeTags>
+        <apparel>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+                <li>Neck</li>
+            </bodyPartGroups>
+            <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+            <canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>GW_SM_Hood</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <recipeUsers Inherit="False">
+                <li>GW_SM_ArmorBench</li>
+            </recipeUsers>
+        </recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_SM_HoodBase" Name="GW_SM_ScoutHoodBase" Abstract="True">
+        <apparel>
+            <tags>
+                <li>GW_SM_ScoutHood</li>
+            </tags>
+        </apparel>
+        <comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>15</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+        <recipeMaker>
+			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
+		</recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_SM_ScoutHoodBase">
+        <defName>GW_SM_ScoutHood_A</defName>
+        <label>scout hood (a)</label>
+        <description>.</description>
+        <graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodA</texPath>
+		</graphicData>
+        <uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodA</uiIconPath>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Hooded/Scout_hoodA</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_SM_ScoutHoodBase">
+        <defName>GW_SM_ScoutHood_B</defName>
+        <label>scout hood (b)</label>
+        <description>.</description>
+        <graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodB</texPath>
+		</graphicData>
+        <uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodB</uiIconPath>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Hooded/Scout_hoodB</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_SM_ScoutHoodBase">
+        <defName>GW_SM_ScoutHood_C</defName>
+        <label>scout hood (c)</label>
+        <description>.</description>
+        <graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodC</texPath>
+		</graphicData>
+        <uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodC</uiIconPath>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Hooded/Scout_hoodC</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+
+    <ThingDef ParentName="GW_SM_ScoutHoodBase">
+        <defName>GW_SM_ScoutHood_D</defName>
+        <label>scout hood (d)</label>
+        <description>.</description>
+        <graphicData>
+			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodD</texPath>
+		</graphicData>
+        <uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodD</uiIconPath>
+        <apparel>
+            <wornGraphicPath>Things/Apparel/Armor_Scouts/Head/Hooded/Scout_hoodD</wornGraphicPath>
+        </apparel>
+    </ThingDef>
+</Defs>

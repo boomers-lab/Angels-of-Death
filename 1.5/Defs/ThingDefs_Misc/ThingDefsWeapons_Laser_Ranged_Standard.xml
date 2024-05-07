@@ -65,6 +65,7 @@
         <weaponTags>
             <li>SpacerGun</li>
             <li>GW_SM_Ranged</li>
+            <li>GW_SM_ScoutPlasma</li>
         </weaponTags>
         <tradeTags>
             <li>HPRanged</li>
@@ -283,6 +284,7 @@
         <weaponTags>
             <li>SpacerGun</li>
             <li>GW_SM_Ranged</li>
+            <li>GW_SM_ScoutPlasma</li>
         </weaponTags>
         <tradeTags>
             <li>HPRanged</li>

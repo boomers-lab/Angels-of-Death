@@ -29,6 +29,99 @@
         </techHediffsTags>
     </PawnKindDef>
 
+        <!--Tier 0 - Scout-->
+    <PawnKindDef Name="GW_SM_Scout" ParentName="GW_SM_PawnBase" Abstract="True">
+        <label>astartes scout</label>
+        <combatPower>200</combatPower>
+        <weaponMoney>4000~5000</weaponMoney>
+        <apparelMoney>4000~5000</apparelMoney>
+        <apparelTags>
+            <li>GW_Scout</li>
+        </apparelTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>6~9</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>3~4</range>
+            </li>
+        </skills>
+        <apparelRequired>
+            <li>GW_SM_Scout</li>
+            <li>GW_SM_ScoutCape</li>
+        </apparelRequired>
+        <modExtensions>
+            <li Class="CombatExtended.LoadoutPropertiesExtension" MayRequire="ceteam.combatextended">
+			    <primaryMagazineCount>
+				    <min>3</min>
+				    <max>5</max>
+			    </primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>1</generateChance>
+						<sidearmMoney>
+							<min>1000</min>
+							<max>2000</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GW_SM_ScoutMelee</li>
+						</weaponTags>
+					</li>
+				</sidearms>
+		    </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <!--Put into 4 categories so it's easier to ensure a variety of helmets will be seen-->
+    <PawnKindDef ParentName="GW_SM_Scout" Name="GW_SM_SniperScout" Abstract="True">
+        <weaponMoney>5500~6000</weaponMoney> <!--To account for their weapons being more expensive and stronger, they get different amounts-->
+        <apparelMoney>3500~4000</apparelMoney>
+        <weaponTags>
+            <li>GW_SM_ScoutSniper</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>GW_SM_ScoutHelmet_C</li>
+            <li>GW_SM_ScoutShoulderPads_TypeA</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_Scout" Name="GW_SM_ShotgunScout" Abstract="True">
+        <weaponTags>
+            <li>GW_SM_ScoutShotgun</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>GW_SM_ScoutHelmet_A</li>
+            <li>GW_SM_ScoutShoulderPads_TypeB</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_Scout" Name="GW_SM_BolterScout" Abstract="True">
+        <weaponTags>
+            <li>GW_SM_ScoutBolter</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>GW_SM_ScoutHelmet_D</li>
+            <li>GW_SM_ScoutShoulderPads_TypeC</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_Scout" Name="GW_SM_PlasmaScout" Abstract="True">
+        <weaponMoney>5500~6000</weaponMoney> <!--To account for their weapons being more expensive and stronger, they get different amounts-->
+        <apparelMoney>3500~4000</apparelMoney>
+        <weaponTags>
+            <li>GW_SM_ScoutPlasma</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>GW_SM_ScoutHelmet_B</li>
+            <li>GW_SM_ScoutShoulderPads_TypeA</li>
+        </apparelRequired>
+    </PawnKindDef>
+
         <!--Tier 1 - Light-->
 
     <PawnKindDef Name="GW_SM_Light" ParentName="GW_SM_PawnBase" Abstract="True">
@@ -459,9 +552,61 @@
         </modExtensions>
     </PawnKindDef>
 
-            <!-- Pawns -->
+        <!-- Pawns -->
 
-        <!--Astra Revanents-->
+    <!--Astra Revanents-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_AR_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_AR_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_AR_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_AR_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(38, 35, 36)</colorA>
+                    <colorB>(171, 53, 53)</colorB>
+                    <colorC>(198, 2, 15)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_AR_RangedTier1</defName>
         <modExtensions>
@@ -592,7 +737,59 @@
         </modExtensions>
     </PawnKindDef>    
 
-        <!--Black Templar-->
+    <!--Black Templar-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_BT_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_BT_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_BT_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_BT_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_BT_RangedTier1</defName>
         <modExtensions>
@@ -723,7 +920,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Black Angel-->
+    <!--Black Angel-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_BL_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_BL_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_BL_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_BL_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(183, 42, 42)</colorB>
+                    <colorC>(98, 100, 106)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>    
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_BL_RangedTier1</defName>
         <modExtensions>
@@ -854,7 +1103,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Blood Raven-->
+    <!--Blood Raven-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_BR_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_BR_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_BR_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_BR_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(133, 39, 39)</colorA>
+                    <colorB>(133, 39, 39)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_BR_RangedTier1</defName>
         <modExtensions>
@@ -985,7 +1286,59 @@
         </modExtensions>
     </PawnKindDef>
     
-            <!--Carcharodon-->
+    <!--Carcharodon-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_CAR_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_CAR_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_CAR_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_CAR_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(211, 211, 211)</colorA>
+                    <colorB>(211, 211, 211)</colorB>
+                    <colorC>(69, 68, 75)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_CAR_RangedTier1</defName>
         <modExtensions>
@@ -1116,7 +1469,58 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Dark Angel-->
+    <!--Dark Angel-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_DA_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_DA_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_DA_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_DA_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(16, 97, 56)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_DA_RangedTier1</defName>
@@ -1248,7 +1652,58 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Imperial Fist-->
+    <!--Imperial Fist-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_IF_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_IF_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_IF_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_IF_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_IF_RangedTier1</defName>
@@ -1380,7 +1835,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Iron Hand-->
+    <!--Iron Hand-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_IH_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_IH_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_IH_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_IH_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_IH_RangedTier1</defName>
         <modExtensions>
@@ -1511,7 +2018,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Legion of the Dead-->
+    <!--Legion of the Dead-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_LOTD_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_LOTD_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_LOTD_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_LOTD_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(183, 42, 42)</colorA>
+                    <colorB>(16, 97, 56)</colorB>
+                    <colorC>(16, 97, 56)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_LOTD_RangedTier1</defName>
         <modExtensions>
@@ -1642,7 +2201,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Minotaur-->
+    <!--Minotaur-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_M_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_M_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_M_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_M_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(57, 56, 61)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_M_RangedTier1</defName>
         <modExtensions>
@@ -1773,7 +2384,58 @@
         </modExtensions>
     </PawnKindDef>
     
-            <!--Raven Guard-->
+    <!--Raven Guard-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_RG_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_RG_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_RG_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_RG_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(57, 56, 61)</colorA>
+                    <colorB>(57, 56, 61)</colorB>
+                    <colorC>(183, 184, 187)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
 
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_RG_RangedTier1</defName>
@@ -1905,7 +2567,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Salamander-->
+    <!--Salamander-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_SL_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_SL_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_SL_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_SL_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(6, 136, 71)</colorA>
+                    <colorB>(6, 136, 71)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_SL_RangedTier1</defName>
         <modExtensions>
@@ -2036,7 +2750,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Space Wolf-->
+    <!--Space Wolf-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_SW_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_SW_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_SW_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_SW_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(126, 170, 194)</colorA>
+                    <colorB>(126, 170, 194)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_SW_RangedTier1</defName>
         <modExtensions>
@@ -2167,7 +2933,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Ultramarine-->
+    <!--Ultramarine-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_UM_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_UM_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_UM_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_UM_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(56, 93, 162)</colorA>
+                    <colorB>(56, 93, 162)</colorB>
+                    <colorC>(192, 157, 88)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_UM_RangedTier1</defName>
         <modExtensions>
@@ -2298,7 +3116,59 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--White Scar-->
+    <!--White Scar-->
+    <PawnKindDef ParentName="GW_SM_SniperScout">
+        <defName>GW_SM_WS_SniperScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+    
+    <PawnKindDef ParentName="GW_SM_ShotgunScout">
+        <defName>GW_SM_WS_ShotgunScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_BolterScout">
+        <defName>GW_SM_WS_BolterScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_SM_PlasmaScout">
+        <defName>GW_SM_WS_PlasmaScout</defName>
+        <modExtensions>
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+                    <colorB>(255, 255, 255)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
     <PawnKindDef ParentName="GW_SM_RangedTier1">
         <defName>GW_SM_WS_RangedTier1</defName>
         <modExtensions>
@@ -2429,7 +3299,7 @@
         </modExtensions>
     </PawnKindDef>
 
-        <!--Leader-->
+    <!--Leader-->
     <PawnKindDef ParentName="GW_SM_RangedTier5">
         <defName>GW_SM_Captain</defName>
         <label>captain</label>
