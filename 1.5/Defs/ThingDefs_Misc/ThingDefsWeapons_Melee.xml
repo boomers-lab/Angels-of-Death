@@ -404,6 +404,7 @@
 			<drawSize>1.5, 1.5</drawSize>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
+		<tradeability>Sellable</tradeability>
 		<uiIconScale>1.2</uiIconScale>
 		<smeltable>false</smeltable>
 		<statBases>
