@@ -103,7 +103,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
 		<defName>GW_SM_Scout</defName>
 		<label>scout armor</label>
-        <description>.</description>
+        <description>Warhammer 40,000 Scout armor is lightweight yet durable, offering essential protection without sacrificing agility. Made from robust materials, it defends against various threats while maintaining sleek mobility for reconnaissance missions.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_torso</texPath>
 		</graphicData>
@@ -113,7 +113,7 @@
         <statBases>
 			<WorkToMake>20000</WorkToMake>
 			<MaxHitPoints>700</MaxHitPoints>
-			<Mass>9</Mass>
+			<Mass>2</Mass>
 			<Flammability>0.2</Flammability>
 			<ArmorRating_Sharp>1</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.65</ArmorRating_Blunt>
@@ -123,11 +123,11 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
-			<ToxicEnvironmentResistance>0</ToxicEnvironmentResistance>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
 			<MoveSpeed>0.2</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
-			<ComponentSpacer>6</ComponentSpacer>
+			<ComponentSpacer>3</ComponentSpacer>
 			<Plasteel>300</Plasteel>
 			<Steel>300</Steel>
 			<Uranium>40</Uranium>

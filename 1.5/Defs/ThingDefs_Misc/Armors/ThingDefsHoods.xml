@@ -3,6 +3,7 @@
     <ThingDef Name="GW_SM_HoodBase" ParentName="HatMakeableBase" Abstract="True">
         <possessionCount>1</possessionCount>
         <costStuffCount>50</costStuffCount>
+		<description>Warhammer 40,000 Scout hoods are lightweight, rugged, and designed for stealth. Made from durable fabrics, they offer some protection while allowing for agility. The cowl can be pulled up to partially conceal the wearer's face for added camouflage.</description>
         <graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
@@ -81,7 +82,6 @@
     <ThingDef ParentName="GW_SM_ScoutHoodBase">
         <defName>GW_SM_ScoutHood_B</defName>
         <label>scout hood (b)</label>
-        <description>.</description>
         <graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodB</texPath>
 		</graphicData>
@@ -94,7 +94,6 @@
     <ThingDef ParentName="GW_SM_ScoutHoodBase">
         <defName>GW_SM_ScoutHood_C</defName>
         <label>scout hood (c)</label>
-        <description>.</description>
         <graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodC</texPath>
 		</graphicData>
@@ -107,7 +106,6 @@
     <ThingDef ParentName="GW_SM_ScoutHoodBase">
         <defName>GW_SM_ScoutHood_D</defName>
         <label>scout hood (d)</label>
-        <description>.</description>
         <graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_hoodD</texPath>
 		</graphicData>

@@ -89,6 +89,7 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
 		</recipeMaker>
+		<description>Warhammer 40,000 Scout shoulder pads are durable and practical, offering protection without hindering mobility. They often feature subtle chapter insignia, blending functionality with allegiance.</description>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>

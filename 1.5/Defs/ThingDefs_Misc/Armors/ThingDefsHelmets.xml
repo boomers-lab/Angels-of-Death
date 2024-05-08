@@ -51,6 +51,7 @@
 	<ThingDef Name="GW_SM_ScoutHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_ScoutHelmet_A</defName>
 		<label>scout helmet (a)</label>
+		<description>The Astartes Scout helmets in Warhammer 40,000 are sleek, durable, and streamlined for stealth and agility. Made from tough materials like ceramite, they offer excellent protection while maintaining a minimalist design, often featuring subtle insignia denoting the wearer's chapter or squad.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetA</texPath>
 		</graphicData>

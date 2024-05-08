@@ -20,6 +20,9 @@
             <StuffEffectMultiplierInsulation_Heat>0.85</StuffEffectMultiplierInsulation_Heat>
             <EquipDelay>3</EquipDelay>
         </statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>0.4</MoveSpeed>
+		</equippedStatOffsets>
         <tradeTags>
             <li>HPUtility</li>
         </tradeTags>
@@ -77,7 +80,7 @@
     <ThingDef ParentName="GW_SM_CapeBase">
         <defName>GW_SM_ScoutCape</defName>
         <label>scout cape</label>
-        <description>.</description>
+        <description>Warhammer 40,000 Scout capes are rugged and functional, providing protection and adding a sense of grandeur. They often feature chapter insignia or camouflage patterns, merging utility with iconic Space Marine aesthetics.</description>
         <graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_cape</texPath>
 		</graphicData>
