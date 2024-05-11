@@ -435,6 +435,9 @@
 		</comps>
 		<apparel>
 			<wornGraphicPath>Things/Apparel/AssaultJump_pack/Assault_backpack1</wornGraphicPath>
+			<layers>
+				<li>Belt</li>
+			</layers>
 			<tags>
 				<li>PrestigeCombatGear</li>
 				<li>GW_Gravis</li>
