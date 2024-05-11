@@ -438,6 +438,9 @@
 			<layers>
 				<li>Belt</li>
 			</layers>
+			<bodyPartGroups>
+      			  <li>Waist</li>
+     			 </bodyPartGroups>
 			<tags>
 				<li>PrestigeCombatGear</li>
 				<li>GW_Gravis</li>
