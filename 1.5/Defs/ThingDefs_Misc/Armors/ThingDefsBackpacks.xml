@@ -371,16 +371,17 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_AssaultJumpPack</defName>
 		<label>Assault Jump-pack</label>
+		<description>A Jump Pack is a bulky, man-portable, vectored-thrust jet pack fueled by promethium that can be worn by a single Imperial soldier, designed to be attached to the backpacks of the Space Marines' or the Sisters of Battle's suits of power armour.</description>
 		<graphicData>
 			<texPath>Things/Apparel/AssaultJump_pack/Display/Assault_backpack1</texPath>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
+			<researchPrerequisite>GW_SM_Jump_Packs</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
 			<MaxHitPoints>1000</MaxHitPoints>
-			<Mass>4</Mass>
+			<Mass>10</Mass>
 			<Flammability>0.1</Flammability>
 			<ArmorRating_Sharp>0.95</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.80</ArmorRating_Blunt>
@@ -388,10 +389,10 @@
 			<Insulation_Cold>20</Insulation_Cold>
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>3</EquipDelay>			
-			<JumpRange>23.9</JumpRange>
+			<JumpRange>15</JumpRange>
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>0.4</MoveSpeed>
+			<MoveSpeed>-0.4</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>4</ComponentSpacer>
@@ -408,7 +409,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<onlyManualCast>True</onlyManualCast>
 				<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
-				<warmupTime>0.5</warmupTime>
+				<warmupTime>1</warmupTime>
 				<warmupEffecter>JumpWarmupEffect</warmupEffecter>
 				<requireLineOfSight>true</requireLineOfSight>
 				<flightEffecterDef>JumpFlightEffect</flightEffecterDef>
@@ -459,7 +460,7 @@
 		</pawnFlyer>
 		<modExtensions>
 			<li Class="ExplosiveJump.PawnFlyerExtension">
-				<radius>5</radius>
+				<radius>2</radius>
 				<damageDef>Bomb</damageDef>
 				<damageAmount>15</damageAmount>
 				<armorPen>1.0</armorPen>
