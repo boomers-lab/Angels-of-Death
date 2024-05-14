@@ -11,6 +11,9 @@
             <li>Fabric</li>
             <li>Leathery</li>
         </stuffCategories>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
         <statBases>
             <MaxHitPoints>200</MaxHitPoints>
             <WorkToMake>16000</WorkToMake>
