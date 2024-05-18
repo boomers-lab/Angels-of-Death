@@ -555,8 +555,7 @@
 		<costStuffCount>70</costStuffCount>
 		<equippedAngleOffset>-65</equippedAngleOffset>
 		<costList>
-			<Steel>45</Steel>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<Steel>150</Steel>
 		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
@@ -568,7 +567,7 @@
 					<li>Blunt</li>
 				</capacities>
 				<power>8</power>
-				<cooldownTime>0.35</cooldownTime>		
+				<cooldownTime>1</cooldownTime>		
 			</li>
 			<li>
 				<label>edge</label>
@@ -576,14 +575,13 @@
 					<li>Cut</li>
 				</capacities>
 				<power>30</power>
-				<cooldownTime>0.5</cooldownTime>
+				<cooldownTime>1.5</cooldownTime>
 				<soundMeleeMiss>Smite</soundMeleeMiss>
 			</li>
 		</tools>
 		<recipeMaker>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
-				<li>TableMachining</li>
 			</recipeUsers>		
 			<researchPrerequisite>GW_Chainswords</researchPrerequisite>
 			<skillRequirements>
