@@ -17,7 +17,7 @@
 				<li>GW_SM_ArmorBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<uiIconScale>1.6</uiIconScale>
+		<uiIconScale>1.0</uiIconScale>
         <tradeTags>
             <li>HPHelmet</li>
         </tradeTags>

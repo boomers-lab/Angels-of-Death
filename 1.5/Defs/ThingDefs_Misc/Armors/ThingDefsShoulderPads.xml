@@ -30,7 +30,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<uiIconScale>1.6</uiIconScale>
+		<uiIconScale>1.0</uiIconScale>
 		<thingCategories>
 			<li>GW_ArmorShoulderPad</li>
 		</thingCategories>

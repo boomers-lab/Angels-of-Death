@@ -19,7 +19,7 @@
 				<li>GW_SM_ArmorBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<uiIconScale>1.6</uiIconScale>
+		<uiIconScale>1.0</uiIconScale>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
