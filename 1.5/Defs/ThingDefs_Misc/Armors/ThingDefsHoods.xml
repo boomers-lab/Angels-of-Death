@@ -12,7 +12,7 @@
             <li>Fabric</li>
         </stuffCategories>
         <statBases>
-            <MaxHitPoints>200</MaxHitPoints>
+            <MaxHitPoints>500</MaxHitPoints>
             <WorkToMake>16000</WorkToMake>
             <Mass>2</Mass>
             <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>

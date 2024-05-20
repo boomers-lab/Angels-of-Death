@@ -50,7 +50,7 @@
                     <offset>(0.0, 0.4, 0.0)</offset>
                 </dataEast>
                 <scale>1.0</scale>
-                <childScale>1.0</childScale>
+                <childScale>1.</childScale>
             </drawData>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
             <careIfWornByCorpse>false</careIfWornByCorpse>
