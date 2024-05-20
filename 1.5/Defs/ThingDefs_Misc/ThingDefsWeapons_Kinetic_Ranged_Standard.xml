@@ -249,7 +249,7 @@
         <warmupTime>3</warmupTime>
         <range>45</range>
         <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <burstShotCount>1</burstShotCount>
+        <burstShotCount>4</burstShotCount>
         <soundCast>HP_Executor_Bolt_Gun_Sound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>8</muzzleFlashScale>

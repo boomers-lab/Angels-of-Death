@@ -20,7 +20,7 @@
 		<thingCategories>
 			<li>ApparelArmor</li>
 		</thingCategories>
-		<uiIconScale>1.6</uiIconScale>
+		<uiIconScale>1.0</uiIconScale>
         <tradeTags>
             <li>HPArmor</li>
         </tradeTags>
