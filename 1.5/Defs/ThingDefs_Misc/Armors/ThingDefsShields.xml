@@ -29,6 +29,7 @@
 
     <ThingDef ParentName="ArmorSmithableBase" Name="GWShieldBase" Abstract="true">
         <techLevel>Spacer</techLevel>
+		<description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
         <thingCategories>
             <li>ApparelMisc</li>
             <li>GW_Shield</li>
@@ -89,7 +90,6 @@
     <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldA</defName>
         <label>combat shield</label>
-        <description>A combat shield (variant A).</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -147,7 +147,6 @@
 
     <ThingDef ParentName="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldB</defName>
-        <description>A combat shield (variant B).</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield2_preview</texPath>
         </graphicData>
@@ -158,7 +157,6 @@
 
     <ThingDef ParentName="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldC</defName>
-        <description>A combat shield (variant C).</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield3_preview</texPath>
         </graphicData>
@@ -169,7 +167,6 @@
 
     <ThingDef ParentName="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldD</defName>
-        <description>A combat shield (variant D).</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield4_preview</texPath>
         </graphicData>
@@ -181,7 +178,6 @@
     <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase">
         <defName>GW_SM_StormShieldA</defName>
         <label>storm shield</label>
-        <description>A storm shield (variant A).</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -239,7 +235,6 @@
 
     <ThingDef ParentName="GWStormShieldBase">
         <defName>GW_SM_StormShieldB</defName>
-        <description>A storm shield (variant B).</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield2_preview</texPath>
         </graphicData>
@@ -250,7 +245,6 @@
 
     <ThingDef ParentName="GWStormShieldBase">
         <defName>GW_SM_StormShieldC</defName>
-        <description>A storm shield (variant C).</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield3_preview</texPath>
         </graphicData>
@@ -261,7 +255,6 @@
 
     <ThingDef ParentName="GWStormShieldBase">
         <defName>GW_SM_StormShieldD</defName>
-        <description>A storm shield (variant D).</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield4_preview</texPath>
         </graphicData>
@@ -273,7 +266,7 @@
     <ThingDef ParentName="GWShieldBase">
         <defName>GW_SM_PrimarisShield</defName>
         <label>primaris shield</label>
-        <description>A primaris shield.</description>
+        <description>Primaris shields, wielded by Bladeguard Veterans and other Primaris officers, epitomize top-tier defense among Adeptus Astartes. Crafted with advanced materials and tech, they offer unparalleled protection. Enhanced with energy fields and reinforced plating, they provide reliable defense and formidable offense in close-quarters combat. Trusted by elite warriors, Primaris shields symbolize the unwavering dedication of the Imperium's finest champions.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Primaris shields/Previews/PrimarisShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>

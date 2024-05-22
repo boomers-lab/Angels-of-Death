@@ -2,7 +2,7 @@
 <Defs>
 	<ThingDef Abstract="true" Name="GW_SM_HelmetBase" ParentName="ArmorHelmetMakeableBase">
 		<techLevel>Spacer</techLevel>
-		<description>In Warhammer 40,000, Space Marine helmets are vital for protection, advanced sensors, and a distinct appearance:\n\nProtection: Armored helmets safeguard the Space Marine's head in battles.\n\nSensory Augmentation: Helmets have sensors for enhanced battlefield awareness.\n\nCommunications: Integrated systems allow coordination with squadmates and command.\n\nAesthetic Variation: Designs vary based on chapter, unit, or rank, reflecting unique heraldry.\n\nSpecialized Roles: Certain units may have distinct helmets reflecting their roles or ranks.\n\nSpace Marine helmets are essential for combat effectiveness, combining technology with unique designs that define the iconic presence of the Adeptus Astartes on the battlefield.</description>
+		<description>Astartes helmets are robust and angular, designed for protection and communication. They feature a distinctive visor for enhanced vision, often with a grill-like mouthpiece. Integrated systems include targeting optics, respiratory filters, and vox-communicators. Each helmet can be customized with chapter-specific symbols and colors.</description>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>

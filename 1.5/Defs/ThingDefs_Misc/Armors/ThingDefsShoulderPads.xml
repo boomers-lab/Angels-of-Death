@@ -15,7 +15,7 @@
         <!--Generic shoulder base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
     <ThingDef Abstract="true" Name="HP_AoD_ShoulderBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
-		<description>Space Marine shoulder pads are crucial for protection and identity:\n\nProtection: Heavily armored, they shield the upper body from attacks.\n\nChapter Identification: Display unique symbols and colors for quick recognition.\n\nPersonalization: May feature earned decorations, showcasing the Marine's history.\n\nAesthetic Impact: The imposing size intimidates adversaries, reinforcing the Adeptus Astartes' presence in combat.\n\nShoulderpads are a key and recognizable element of Space Marine power armor, blending practicality with chapter identity, personalization, and the warrior's honor within the grim Warhammer 40,000 universe.</description>
+		<description>Shoulderpads are more than armor; they're symbols of a Space Marine's identity and allegiance. Crafted from durable materials, they bear the insignias of the Marine's chapter, inspiring allies and intimidating foes. These pads offer essential protection while representing the pride and legacy of the chapter.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
