@@ -186,7 +186,7 @@
     </graphicData>
     <projectile>
       <damageDef>Bullet</damageDef>
-      <damageAmountBase>75</damageAmountBase>
+      <damageAmountBase>40</damageAmountBase>
       <stoppingPower>1</stoppingPower>
       <armorPenetrationBase>0.8</armorPenetrationBase>
       <speed>40</speed>
@@ -248,8 +248,8 @@
         <defaultProjectile>HP_Bullet_Executor</defaultProjectile>
         <warmupTime>3</warmupTime>
         <range>45</range>
-        <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
-        <burstShotCount>4</burstShotCount>
+        <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+        <burstShotCount>2</burstShotCount>
         <soundCast>HP_Executor_Bolt_Gun_Sound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>8</muzzleFlashScale>
