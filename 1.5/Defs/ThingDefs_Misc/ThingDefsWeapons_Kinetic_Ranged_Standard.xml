@@ -609,8 +609,8 @@
 	<!--Rocket Launcher-->
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_RocketLauncher</defName>
-		<label>astartes launcher</label>
-		<description>Heresy shall be detected no more.</description>
+		<label>astartes missile launcher</label>
+		<description>The Astartes Missile Launcher is a versatile, shoulder-mounted weapon used by Space Marine Devastators. It fires frag and krak missiles for both anti-infantry and anti-armor roles, providing critical support on the battlefield. With advanced targeting and robust design, it's a key asset for the Adeptus Astartes.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/RocketLauncher1Grey</texPath>
 			<drawSize>1.3</drawSize>
@@ -661,7 +661,7 @@
 				<defaultProjectile>GW_SM_LauncherFrag_Bullet</defaultProjectile>
 				<forcedMissRadius>2.2</forcedMissRadius>
 				<warmupTime>3</warmupTime>
-				<range>26</range>
+				<range>35</range>
 				<burstShotCount>1</burstShotCount>
 				<soundCast>HP_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>

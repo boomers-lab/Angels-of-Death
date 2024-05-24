@@ -72,7 +72,7 @@
                 <fuelGizmoLabel>Current Ammo</fuelGizmoLabel>
                 <outOfFuelMessage>Needs more ammo</outOfFuelMessage>
                 <fuelFilter><thingDefs><li>Steel</li></thingDefs></fuelFilter>
-                <fuelCapacity>140</fuelCapacity>       <!-- 20 bursts, 140 total shots -->
+                <fuelCapacity>250</fuelCapacity>       <!-- 20 bursts, 140 total shots -->
                 <fuelMultiplier>1</fuelMultiplier> <!-- 10 steel per burst, 1 per shot -->
                 <initialFuelPercent>1</initialFuelPercent>
                 <autoRefuelPercent>0.5</autoRefuelPercent>
@@ -117,13 +117,14 @@
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
             <Flammability>0</Flammability>
+            <MaxHitPoints>630</MaxHitPoints>
         </statBases>
         <verbs>
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <defaultProjectile>GW_SM_BuildingBullet_HeavyBolter</defaultProjectile>
-                <warmupTime>2</warmupTime>
-                <range>30</range>
+                <warmupTime>1.5</warmupTime>
+                <range>40</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
                 <soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
@@ -149,7 +150,7 @@
         <projectile>
             <damageDef>Burn</damageDef>
             <damageAmountBase>170</damageAmountBase>
-            <armorPenetrationBase>1</armorPenetrationBase>
+            <armorPenetrationBase>1.5</armorPenetrationBase>
             <stoppingPower>2.0</stoppingPower>
         </projectile>
     </ThingDef>
@@ -191,9 +192,10 @@
         <designationCategory>GrimworldCategory</designationCategory>
         <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
         <costList>
-            <Steel>100</Steel>
-            <Plasteel>60</Plasteel>
+            <Steel>200</Steel>
+            <Plasteel>140</Plasteel>
             <ComponentIndustrial>18</ComponentIndustrial>
+            <ComponentSpacer>3</ComponentSpacer>
         </costList>
         <stuffCategories>
               <li>Metallic</li>
@@ -238,14 +240,15 @@
             <drawSize>(1,1)</drawSize>
         </graphicData>
         <statBases>
-            <AccuracyTouch>0.22</AccuracyTouch>
-            <AccuracyShort>0.45</AccuracyShort>
-            <AccuracyMedium>0.60</AccuracyMedium>
+            <AccuracyTouch>0.40</AccuracyTouch>
+            <AccuracyShort>0.55</AccuracyShort>
+            <AccuracyMedium>0.870</AccuracyMedium>
             <AccuracyLong>0.95</AccuracyLong>
             <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
             <Mass>15</Mass>
             <Flammability>0</Flammability>
+            <MaxHitPoints>630</MaxHitPoints>
         </statBases>
         <verbs>
             <li>
