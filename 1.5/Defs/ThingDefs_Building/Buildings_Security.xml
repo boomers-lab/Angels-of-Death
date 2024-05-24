@@ -54,17 +54,17 @@
         <tickerType>Normal</tickerType>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <designationCategory>GrimworldCategory</designationCategory>
-        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <constructionSkillPrerequisite>14</constructionSkillPrerequisite>
         <costList>
             <Steel>200</Steel>
-            <Plasteel>40</Plasteel>
-            <HP_Ceramite>30</HP_Ceramite>
-            <ComponentIndustrial>6</ComponentIndustrial>
+            <Plasteel>140</Plasteel>
+            <ComponentIndustrial>18</ComponentIndustrial>
+            <ComponentSpacer>3</ComponentSpacer>
         </costList>
         <stuffCategories>
               <li>Metallic</li>
         </stuffCategories>
-        <costStuffCount>100</costStuffCount>
+        <costStuffCount>200</costStuffCount>
         <comps>
             <li Class="CompProperties_Forbiddable"/>
             <li Class="CompProperties_Refuelable">
@@ -85,6 +85,7 @@
         </comps>
         <statBases>
             <ShootingAccuracyTurret>1.10</ShootingAccuracyTurret>
+            <MaxHitPoints>630</MaxHitPoints>
         </statBases>
         <building>
             <turretGunDef>GW_SM_BuildingGun_HeavyBolter</turretGunDef>
@@ -117,7 +118,6 @@
             <RangedWeapon_Cooldown>2</RangedWeapon_Cooldown>
             <DeteriorationRate>0</DeteriorationRate>
             <Flammability>0</Flammability>
-            <MaxHitPoints>630</MaxHitPoints>
         </statBases>
         <verbs>
             <li>
@@ -190,7 +190,7 @@
         <tickerType>Normal</tickerType>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <designationCategory>GrimworldCategory</designationCategory>
-        <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+        <constructionSkillPrerequisite>14</constructionSkillPrerequisite>
         <costList>
             <Steel>200</Steel>
             <Plasteel>140</Plasteel>
@@ -200,7 +200,7 @@
         <stuffCategories>
               <li>Metallic</li>
         </stuffCategories>
-        <costStuffCount>100</costStuffCount>
+        <costStuffCount>200</costStuffCount>
         <comps>
             <li Class="CompProperties_Explosive">   <!--Explosion added due to electrical use-->
                 <wickTicks>240</wickTicks>
@@ -216,6 +216,7 @@
         </comps>
         <statBases>
             <ShootingAccuracyTurret>1.5</ShootingAccuracyTurret>
+            <MaxHitPoints>630</MaxHitPoints>
         </statBases>
         <building>
             <turretGunDef>GW_SM_BuildingGun_Lascannon</turretGunDef>
