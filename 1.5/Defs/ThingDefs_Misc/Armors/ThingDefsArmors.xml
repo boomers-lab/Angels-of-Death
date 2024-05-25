@@ -492,6 +492,7 @@
 			<EquipDelay>7</EquipDelay>
 		</statBases>
 		<equippedStatOffsets>
+		    <VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<MoveSpeed>-0.5</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
