@@ -9,7 +9,7 @@
 	<!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
 	<ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="ArmorMachineableBase">
 		<techLevel>Spacer</techLevel>
-		<description>In Warhammer 40,000, Space Marine backpacks, or "power packs," are critical components of Adeptus Astartes armor. They serve for power supply, life support, and mobility:\n\nPower Supply: Energizes armor systems, including servos and weapons.\n\nLife Support: Enables survival in hostile environments like space or toxic atmospheres.\n\n\Mobility and Jump Packs: Used by units like Assault Marines for rapid aerial maneuverability and devastating assaults.\n\nCommunications and Sensors: House devices for enhanced situational awareness and squad-level communication.\n\nAesthetic Variation: Designs vary based on chapter, reflecting heraldry or specialized equipment.\n\nEssential for combat effectiveness, these backpacks are crucial in the grim battles of the 41st millennium.</description>
+		<description>Astartes backpacks serve as power hubs for their armors, providing energy to various systems crucial for combat. These backpacks house fusion reactors and energy storage units, supplying the necessary power for mobility, communication, and weapons systems. Designed for reliability and efficiency, they ensure that Space Marines remain fully operational on the battlefield, powering their armor's functions and enhancing their combat effectiveness.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -31,6 +31,9 @@
 		<tradeTags>
 			<li>GWSMBackpacks</li>
 		</tradeTags>
+		<equippedStatOffsets>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+		</equippedStatOffsets>
 		<apparel>
 			<drawData>
 				<dataSouth>
@@ -371,7 +374,7 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_AssaultJumpPack</defName>
 		<label>Assault Jump-pack</label>
-		<description>A Jump Pack is a bulky, man-portable, vectored-thrust jet pack fueled by promethium that can be worn by a single Imperial soldier, designed to be attached to the backpacks of the Space Marines' or the Sisters of Battle's suits of power armour.</description>
+		<description>The MK 7 Jump pack, commonly utilized by Astartes, particularly in tandem with MK VI Corvus power armor, epitomizes mobility and battlefield agility. These jet-propelled packs provide Space Marines with rapid vertical and horizontal movement, granting them unparalleled maneuverability on the battlefield. Paired with the sleek design of the MK VI Corvus armor, this combination enables swift strikes and dynamic engagements, making it a preferred choice for fast-response missions and airborne assaults.</description>
 		<graphicData>
 			<texPath>Things/Apparel/AssaultJump_pack/Display/Assault_backpack1</texPath>
 		</graphicData>
