@@ -31,9 +31,6 @@
 		<tradeTags>
 			<li>GWSMBackpacks</li>
 		</tradeTags>
-		<equippedStatOffsets>
-			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
-		</equippedStatOffsets>
 		<apparel>
 			<drawData>
 				<dataSouth>
@@ -113,6 +110,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.8</MoveSpeed>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
@@ -153,6 +151,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.8</MoveSpeed>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
@@ -193,6 +192,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
@@ -233,6 +233,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
@@ -273,6 +274,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
@@ -313,6 +315,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>3</ComponentSpacer>
@@ -353,6 +356,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.4</MoveSpeed>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>4</ComponentSpacer>
@@ -395,7 +399,7 @@
 			<!-- <JumpRange>15</JumpRange> -->
 		</statBases>
 		<equippedStatOffsets>
-			<MoveSpeed>-0.4</MoveSpeed>
+			<MoveSpeed>-0.6</MoveSpeed>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>4</ComponentSpacer>
@@ -427,7 +431,7 @@
 		</verbs>
 		<comps>
 			<li Class="CompProperties_ApparelReloadable">
-				<maxCharges>5</maxCharges>
+				<maxCharges>2</maxCharges>
 				<ammoDef>Chemfuel</ammoDef>
 				<ammoCountPerCharge>20</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
