@@ -416,7 +416,7 @@
 				<range>15</range>
 				<!-- <warmupEffecter>JumpWarmupEffect</warmupEffecter> -->
 				<requireLineOfSight>true</requireLineOfSight>
-				<!-- <flightEffecterDef>JumpFlightEffect</flightEffecterDef> -->
+				<flightEffecterDef>ExplosiveJumpFlightEffect</flightEffecterDef>
 				<!-- <soundLanding>JumpPackLand</soundLanding> -->
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
