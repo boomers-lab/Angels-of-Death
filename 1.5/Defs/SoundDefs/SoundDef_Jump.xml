@@ -1,0 +1,20 @@
+<Defs>
+	
+	<SoundDef>
+		<defName>SuperJump</defName>
+		<context>MapOnly</context>
+		<eventNames />  
+		<maxSimultaneous>10</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>SuperJump</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~30</volumeRange>      
+      </li>
+    </subSounds>
+	</SoundDef>
+
+</Defs>
