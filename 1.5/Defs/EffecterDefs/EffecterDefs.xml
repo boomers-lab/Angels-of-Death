@@ -1,0 +1,20 @@
+<Defs>
+
+	<EffecterDef>
+    <defName>ExplosiveJumpFlightEffect</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <spawnLocType>OnSource</spawnLocType>
+        <soundDef>SuperJump</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <spawnLocType>OnSource</spawnLocType>
+        <fleckDef>ShotFlash</fleckDef>
+        <scale>6</scale>
+      </li>
+    </children>
+  </EffecterDef>
+
+</Defs>
