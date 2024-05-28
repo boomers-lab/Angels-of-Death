@@ -106,8 +106,8 @@
 	
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Flamer</defName>
-		<label>flamer</label>
-		<description>In the Warhammer 40,000 universe, the Flamer is a fearsome and devastating close-range weapon, notorious for its ability to unleash torrents of burning promethium upon enemy targets.\n\nThe Flamer operates by spewing a stream or burst of ignited, superheated promethium fuel. It engulfs enemies in a torrent of searing flames upon impact, incinerating infantry and saturating the surrounding area with fire. Its primary function is to clear enemy infantry from cover, bunkers, or enclosed spaces, making it highly effective in close-quarter combat situations.\n\nWhile it has limited range compared to some other ranged weapons, the Flamer's ability to ignore cover and its devastating area-of-effect damage make it a terrifying weapon on the battlefield. It instills fear in enemy ranks and serves as a potent tool for purging heretics and enemies of the Imperium.\n\nWielded by various factions across the galaxy, including the Adeptus Astartes (Space Marines), Imperial Guard, and Chaos forces, the Flamer stands as a symbol of brutal efficiency and unrelenting firepower within the grim and unyielding conflicts of the Warhammer 40,000 universe.</description>
+		<label>Infernus flamer</label>
+		<description>The Infernus Flamer, used by Inferus Squads of Space Marines, is built for close combat. It projects superheated promethium, instantly incinerating enemies. Inferus Squads use these weapons in bunker assaults, urban warfare, and against swarms, maintaining relentless pressure and proving to be a formidable force.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -172,7 +172,7 @@
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_HeavyFlamer</defName>
 		<label>heavy flamer</label>
-		<description>In the Warhammer 40,000 universe, the Heavy Flamer is a larger and more potent variant of the standard Flamer, renowned for its increased range, greater fuel capacity, and heightened destructive capabilities.\n\nThe Heavy Flamer functions similarly to the standard Flamer but with significantly enhanced firepower. It projects a torrent of ignited, superheated promethium fuel over a wider area and at greater distances, engulfing enemy infantry and clearing larger swathes of the battlefield in searing flames.\n\nDesigned to be mounted on heavy weapons platforms, vehicles, or wielded by specialized infantry units, the Heavy Flamer is highly effective in clearing entrenched enemies, purging heretical strongholds, or defending against swarms of adversaries. Its ability to unleash devastating firestorms makes it a terrifying and effective tool in close-quarter engagements.\n\nDeployed by various factions such as the Adeptus Astartes, Imperial Guard, and Chaos forces, the Heavy Flamer stands as a symbol of overwhelming firepower and unyielding destruction within the grim and relentless conflicts of the Warhammer 40,000 universe.</description>
+		<description>The Heavy Flamer, primarily used by Terminators, is a powerful weapon for close combat. It projects superheated promethium to incinerate enemies instantly. Terminators use these flamers in bunker assaults, urban warfare, and against swarms, maintaining relentless pressure and proving to be a formidable force on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/Heavy_Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -255,7 +255,7 @@
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Burner</defName>
 		<label>Hand flamer</label>
-		<description>In the Warhammer 40,000 universe, the Flame Pistol is a compact and portable variant of the Flamer weapon, designed for close-range engagements and wielded as a sidearm by certain specialized units.\n\nThe Flame Pistol operates similarly to larger flamers but in a more condensed form. It expels bursts or streams of ignited, superheated promethium fuel, unleashing fiery torrents upon impact with targets. Despite its smaller size compared to larger flamers, the Flame Pistol maintains devastating incendiary capabilities, capable of immolating enemy infantry and overwhelming foes in close quarters.\n\nIts compact nature offers versatility and ease of use, allowing its wielder to engage adversaries in confined spaces or within the chaos of close combat. While it lacks the range and sheer destructive power of larger flamers, the Flame Pistol compensates with its agility and suitability as a secondary armament.\n\nWielded by specialized units or individuals requiring a potent and portable incendiary weapon, the Flame Pistol represents a deadly tool used amidst the grim and relentless conflicts of the Warhammer 40,000 universe.</description>
+		<description>The Hand Flamer is a compact, one-handed weapon used by elite Space Marines. It projects superheated promethium in short bursts, ideal for close-quarters combat. Often wielded by Assault Marines, it excels in urban warfare and quick strikes, providing intense, immediate firepower to overwhelm enemies in tight spaces.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Burner</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

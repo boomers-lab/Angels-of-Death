@@ -98,7 +98,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Bolter_Gun_Bolter</defName>
     <label>astartes bolter</label>
-    <description>In the Warhammer 40,000 universe, the Astartes Bolter, also known as a Bolter, is the iconic and standard-issue firearm utilized by the Space Marines, revered for its lethal firepower and versatility on the battlefield.\n\nThe Bolter operates as a rapid-firing, self-loading, and magazine-fed weapon, firing mass-reactive bolts or projectiles. These bolts are explosive in nature, capable of causing significant damage upon impact, and are effective against a wide range of targets, from infantry to armored adversaries.\n\nIt serves as a hybrid weapon, bridging the gap between conventional firearms and small-scale artillery. The Bolter's deadly accuracy, powerful impact, and high firing rate make it a fearsome weapon capable of delivering devastating salvos while maintaining precision at moderate ranges.\n\nWielded by the Space Marines, the Astartes Bolter symbolizes the unparalleled might and advanced technology of the Imperium of Man, serving as an integral part of their arsenal in their eternal struggle against the myriad threats and adversaries in the grim and war-torn galaxy of Warhammer 40,000.</description>
+    <description>The Bolter is the standard-issue weapon for Space Marines, renowned for its versatility and power. It fires explosive bolts (boltshells) that detonate on impact, making it effective against a wide range of targets. Durable and reliable, the Bolter is used in various combat scenarios, from ranged firefights to brutal close-quarters engagements, embodying the might and precision of the Adeptus Astartes.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/Boltgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -196,7 +196,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Executor_Bolt_Rifle</defName>
     <label>Executor bolt rifle</label>
-    <description>In the Warhammer 40,000 universe, the Bolt Rifle is a standard-issue firearm used by various factions, including the Adeptus Astartes (Space Marines). It represents a versatile and lethal weapon known for its power and reliability on the battlefield.\n\nThe Bolt Rifle operates as a self-loading, magazine-fed firearm that fires mass-reactive bolts or projectiles. These bolts are designed to explode upon impact, causing substantial damage to targets. The weapon's design incorporates both rapid-fire capability and accuracy, making it effective against various adversaries, from infantry to armored units.\n\nIt serves as a primary weapon for Space Marine Primaris Intercessors and other similar units, embodying a balance between assault rifle functionality and heavy firepower. The Bolt Rifle's precision and destructive potential make it a formidable choice in engagements across different ranges, showcasing the technological prowess and combat superiority of the Adeptus Astartes.\n\nWielded by the Space Marines, the Bolt Rifle stands as a symbol of their relentless might and technological advancement, serving as a crucial tool in their ceaseless battles against the enemies of the Imperium in the grim and war-ravaged galaxy of Warhammer 40,000.</description>
+    <description>The Executor Bolt Rifle, wielded by elite Astartes marksmen, offers superior range, accuracy, and power. Using specialized ammunition and advanced targeting systems, it neutralizes high-value targets with lethal precision. Reserved for critical missions, it showcases Space Marine firepower. Primaris units rely on these rifles, highlighting their advanced technology integration.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/ExecutorBoltRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -214,7 +214,7 @@
     </recipeMaker>
     <statBases>
       <WorkToMake>50000</WorkToMake>
-      <Mass>7</Mass>
+      <Mass>6</Mass>
       <AccuracyTouch>0.75</AccuracyTouch>
       <AccuracyShort>0.80</AccuracyShort>
       <AccuracyMedium>0.85</AccuracyMedium>
@@ -281,7 +281,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HeavyBolter</defName>
     <label>Executor heavy bolter</label>
-    <description>In the Warhammer 40,000 universe, the Heavy Bolter is a powerful and devastating support weapon widely utilized by various factions, including the Adeptus Astartes (Space Marines) and Imperial Guard, renowned for its incredible rate of fire and significant firepower.\n\nThe Heavy Bolter operates as a heavy-caliber machine gun, firing large mass-reactive bolts at an incredibly high speed. These bolts possess immense kinetic energy and explode upon impact, capable of tearing through infantry, lightly armored vehicles, and fortifications with ease.\n\nIt is usually mounted on vehicles, fortifications, or wielded by specialized infantry units. Its sustained and suppressive fire provides excellent anti-infantry and anti-vehicle capabilities, serving as a crucial asset in defensive positions or laying down extensive covering fire on the battlefield.\n\nThe Heavy Bolter's combination of high rate of fire, substantial stopping power, and versatility make it a fearsome weapon, instilling fear in enemies and showcasing the overwhelming firepower wielded by the Imperium in their relentless fight against the myriad threats in the grim darkness of the Warhammer 40,000 universe.</description>
+    <description>The Executor Heavy Bolter, a potent variant of the standard bolter, features a magazine instead of a special backpack. It delivers devastating firepower, unleashing explosive bolts with unmatched ferocity. Favored for suppressing enemy positions and decimating formations, it ensures overwhelming firepower on the battlefield.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/HeavyBolter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -366,7 +366,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_AstartesShotgun</defName>
 		<label>astartes pattern shotgun</label>
-		<description>In the Warhammer 40,000 universe, the Astartes Shotgun is a specialized firearm occasionally utilized by certain factions like the Adeptus Astartes (Space Marines) or other forces within the Imperium of Man.\n\nThe Astartes Shotgun is a close-range, scatter-based weapon that fires a spread of high-impact projectiles, typically in a cone-shaped pattern. These pellets are designed to cause significant damage at close quarters, making the shotgun particularly effective in tight spaces or during close combat engagements.\n\nWhile not as versatile or accurate at longer ranges as some other firearms, the Astartes Shotgun compensates with its ability to deliver devastating firepower in close-quarters scenarios, capable of shredding through lightly-armored targets or clearing enemy infantry at close range.\n\nUsed by certain specialized Space Marine units or Imperial forces, the Astartes Shotgun represents a brutal and efficient close-combat option within the arsenal of the Imperium of Man, allowing its wielders to unleash devastating salvos amidst the grim and unending conflicts of the Warhammer 40,000 universe.</description>
+		<description>The Astartes Shotgun, primarily used by Scouts and Phobos armor units, is a versatile close-quarters weapon. It unleashes high-caliber shells, devastating enemies at short range with deadly efficiency. Revered for its stopping power and reliability, it excels in breaching defenses and close combat, ensuring swift victories on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesShotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -384,7 +384,7 @@
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>52000</WorkToMake>
-			<Mass>8</Mass>
+			<Mass>4</Mass>
 			<AccuracyTouch>0.97</AccuracyTouch>
 			<AccuracyShort>0.90</AccuracyShort>
 			<AccuracyMedium>0.45</AccuracyMedium>

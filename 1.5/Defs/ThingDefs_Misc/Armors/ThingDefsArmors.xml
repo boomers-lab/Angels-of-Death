@@ -186,6 +186,8 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
+			<MeleeDodgeChance>0.2</MeleeDodgeChance>
+			<MeleeHitChance>0.1</MeleeHitChance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -227,6 +229,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>-0.2</MoveSpeed>
+			<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
