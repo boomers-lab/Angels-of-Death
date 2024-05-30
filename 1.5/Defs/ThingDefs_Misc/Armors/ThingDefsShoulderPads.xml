@@ -42,8 +42,8 @@
 				<defaultData>
 					<layer>75</layer> <!--70-77 is over helmet and under gun-->
 				</defaultData>
-                <scale>1.10</scale>
-                <childScale>1.10</childScale>
+                <scale>1</scale>
+                <childScale>1</childScale>
             </drawData>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
