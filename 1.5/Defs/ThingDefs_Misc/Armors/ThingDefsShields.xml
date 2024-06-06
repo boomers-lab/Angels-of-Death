@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingCategoryDef>
-    <defName>GW_Shield</defName>
-    <label>Grimworld Shield</label>
-  </ThingCategoryDef>
+    <ThingCategoryDef>
+        <defName>GW_Shield</defName>
+        <label>grimworld shields</label>
+        <parent>Apparel</parent>
+    </ThingCategoryDef>
+
     <ApparelLayerDef>
 		<defName>GW_Shield</defName>
 		<label>shield</label>
@@ -31,7 +33,6 @@
         <techLevel>Spacer</techLevel>
 		<description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
         <thingCategories>
-            <li>ApparelMisc</li>
             <li>GW_Shield</li>
         </thingCategories>
         <stuffCategories><li>Metallic</li></stuffCategories>
