@@ -614,11 +614,11 @@
 			<MaxHitPoints>700</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
-			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
-			<ArmorRating_Blunt>1.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
 			<ArmorRating_Heat>1.0</ArmorRating_Heat>
-			<Insulation_Cold>30</Insulation_Cold>
-			<Insulation_Heat>30</Insulation_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
