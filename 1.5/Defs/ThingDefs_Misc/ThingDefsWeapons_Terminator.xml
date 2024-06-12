@@ -88,7 +88,7 @@
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_AssualtCannon</defName>
 		<label>Assualt cannon</label>
-		<description>The Assault Cannon is a rapid-firing, high-caliber weapon known for its devastating firepower. It's often used for anti-infantry purposes or against lightly armored vehicles due to its ability to unleash a storm of shells upon its targets.\n\nThe weapon usually fires explosive shells or high-velocity rounds, creating a swath of destruction on the battlefield. It's characterized by its high rate of fire, making it a formidable asset against hordes of enemies or even heavier adversaries.\n\nThe lore often depicts the Assault Cannon as a signature weapon carried by Terminator-armored Space Marines, demonstrating its status as a powerful and iconic firearm in the Warhammer 40,000 universe.</description>
+		<description>The Astartes Terminator Assault Cannon is a high-caliber, multi-barrel rotary weapon that delivers rapid, devastating firepower. Ideal for close-quarters combat, it shreds through infantry and light vehicles, making it a vital asset for the Adeptus Astartes.</description>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -179,7 +179,7 @@
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_ReaperCannon</defName>
 		<label>reaper autocannon</label>
-		<description>In the Warhammer 40,000 universe, the Reaper Autocannon is a heavy weapon known for its devastating firepower and its use primarily by various factions, including Space Marines and Chaos Space Marines.\n\nThe Reaper Autocannon is a large caliber weapon capable of firing high-explosive shells or armor-piercing ammunition at a rapid rate. It is designed to deal significant damage to both infantry and armored targets, making it a versatile weapon on the battlefield.\n\nKnown for its immense destructive potential, the Reaper Autocannon delivers a hail of shells or projectiles with deadly accuracy, making it a formidable asset against both heavily armored vehicles and massed infantry formations. It is often employed to provide long-range fire support or to engage enemy targets from a distance.\n\nThe weapon's lore portrays it as a heavy and imposing firearm, typically wielded by elite troops or heavy support units. Its reputation for delivering overwhelming firepower underscores its importance in battles within the grim and war-torn universe of Warhammer 40,000.</description>
+		<description>The Reaper Autocannon is a high-caliber, twin-barrel weapon used by Astartes Terminators. It delivers sustained, heavy firepower, making it ideal for mowing down infantry and light vehicles, ensuring battlefield dominance.</description>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -269,8 +269,8 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_StormBolter</defName>
-		<label>umbra storm bolter</label>
-		<description>In the Warhammer 40,000 universe, the Storm Bolter is a powerful and iconic ranged weapon commonly associated with Space Marines and their Terminator-armored units.\n\nThe Storm Bolter is an advanced version of the standard Bolter, featuring twin-linked barrels that allow it to fire more rounds at an increased rate. This rapid-fire capability grants the Storm Bolter immense firepower, making it a versatile weapon effective against various targets, including infantry, light vehicles, and even heavily armored foes.\n\nRenowned for its reliability and exceptional rate of fire, the Storm Bolter delivers a hail of explosive rounds or bolts with accuracy and precision. Its design emphasizes versatility and adaptability, providing Space Marines with a lethal weapon suitable for a range of combat situations.\n\nTypically wielded by elite troops, Terminator-armored Space Marines, or heavy support units, the Storm Bolter's reputation for dealing devastating damage on the battlefield is well-established within the lore of Warhammer 40,000. Its ability to unleash a relentless barrage of ammunition makes it a feared and respected weapon among the Imperium's arsenal.</description>
+		<label>storm bolter</label>
+		<description>The Storm Bolter is a dual-barrel, rapid-fire weapon used by Astartes Terminators. It combines the firepower of two bolters, delivering a relentless barrage of explosive rounds, perfect for annihilating infantry and light armor in close combat.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/StormBolter</texPath>
 			<drawSize>1.4</drawSize>
@@ -351,7 +351,7 @@
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_PlasmaCannon</defName>
 		<label>terminator plasma cannon</label>
-		<description>In the Warhammer 40,000 universe, the Plasma Cannon is a heavy and potent weapon used by various factions, notably by Space Marines, Chaos Space Marines, and other technologically advanced forces.\n\nThe Plasma Cannon is a high-powered energy weapon that harnesses superheated plasma to devastate its targets. It fires bursts of superheated plasma energy, making it highly effective against armored units, vehicles, and heavily armored infantry.\n\nKnown for its destructive potential, the Plasma Cannon deals considerable damage upon impact, often capable of causing widespread destruction due to the volatile nature of plasma. However, its power comes with the risk of overheating and potential malfunction, posing a danger to the wielder if not handled properly.\n\nIn the lore, the Plasma Cannon is often wielded by elite units or specialized heavy support teams due to its immense firepower and ability to neutralize heavily armored targets. Its reputation for dealing significant damage in combat makes it a feared and respected weapon on the battlefield within the grim and war-torn setting of Warhammer 40,000.</description>
+		<description>The Plasma Cannon is a powerful, energy-based weapon used by Astartes Terminators. It fires superheated plasma bolts, capable of incinerating infantry and penetrating heavy armor, making it ideal for obliterating high-value targets and fortifications.</description>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -447,7 +447,7 @@
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_AstartesPlasmaCannon</defName>
 		<label>astartes plasma cannon</label>
-		<description>In the Warhammer 40,000 universe, the Plasma Cannon is a heavy and potent weapon used by various factions, notably by Space Marines, Chaos Space Marines, and other technologically advanced forces.\n\nThe Plasma Cannon is a high-powered energy weapon that harnesses superheated plasma to devastate its targets. It fires bursts of superheated plasma energy, making it highly effective against armored units, vehicles, and heavily armored infantry.\n\nKnown for its destructive potential, the Plasma Cannon deals considerable damage upon impact, often capable of causing widespread destruction due to the volatile nature of plasma. However, its power comes with the risk of overheating and potential malfunction, posing a danger to the wielder if not handled properly.\n\nIn the lore, the Plasma Cannon is often wielded by elite units or specialized heavy support teams due to its immense firepower and ability to neutralize heavily armored targets. Its reputation for dealing significant damage in combat makes it a feared and respected weapon on the battlefield within the grim and war-torn setting of Warhammer 40,000.</description>
+		<description>The Astartes Plasma Cannon is a potent energy weapon used by Space Marines, often wielded by Devastator Marines. It fires superheated plasma bolts, capable of vaporizing infantry and melting through heavy armor, making it a versatile and destructive tool on the battlefield.</description>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -568,7 +568,7 @@
 	<ThingDef ParentName="GW_SM_TermBluntBase">
 		<defName>GW_SM_Melee_Thunder1hHammer</defName>
 		<label>terminator thunder hammer</label>
-		<description>The Thunder Hammer in the Warhammer 40,000 universe is a massive close combat melee weapon primarily associated with elite warriors, particularly Space Marines, who wield these formidable weapons into battle.\n\nThe Thunder Hammer is a colossal warhammer known for its immense size, weight, and devastating impact. It is constructed with advanced technology and reinforced materials, capable of generating powerful shockwaves upon impact with its targets. These shockwaves can shatter armor, crush adversaries, and deliver immense concussive force, making it highly effective against heavily armored opponents or monstrous creatures.\n\nWielders of the Thunder Hammer must possess incredible strength and skill due to its immense weight and the sheer force required to wield it effectively. Despite its bulkiness, the weapon is revered for its ability to turn the tide of battle in close combat situations, often used by Space Marine Terminators or other mighty heroes on the battlefield.\n\nThe Thunder Hammer is not only a symbol of incredible might but also a fearsome weapon that strikes fear into the enemies of the Imperium in the Warhammer 40,000 lore. Its devastating blows and raw power make it a revered and respected icon among the iconic weaponry of the grimdark future.</description>
+		<description>The Thunder Hammer is a one-handed, power weapon often wielded by Assault Terminators alongside a Storm Shield. It delivers devastating, thunderous blows capable of crushing armor and obliterating enemies, making it a formidable tool in close-quarters combat.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/ThunderHammerOneHand</texPath>
@@ -634,7 +634,7 @@
 	<ThingDef ParentName="GW_SM_TermBluntBase">
 		<defName>GW_SM_Melee_TermPowerFist</defName>
 		<label>terminator power fist</label>
-		<description>In the Warhammer 40,000 universe, the Power Fist is a formidable close combat melee weapon utilized by various factions, prominently by Space Marines and their Terminator-armored units.\n\nThe Power Fist is an armored gauntlet equipped with advanced energy fields and servomotors that significantly enhance the wearer's strength and striking power. It allows the wielder to deliver bone-crushing blows and devastating punches capable of obliterating armored vehicles, crushing adversaries, and causing significant damage in close combat.\n\nIts design incorporates advanced technology and reinforced materials, enabling the Power Fist to bypass conventional armor and shields with ease. The energy fields surrounding the gauntlet enhance the user's strength to such an extent that it can effortlessly tear through enemy defenses, making it a fearsome weapon on the battlefield.\n\nSpace Marine Terminators and other elite warriors often wield Power Fists due to their incredible strength and effectiveness in close combat. These weapons are symbols of raw power and serve as a reminder of the unstoppable might of the Imperium in the grim and war-torn setting of Warhammer 40,000.</description>
+		<description>The Terminator Power Fist is a massive, armored gauntlet worn by Astartes Terminators. Enhanced with hydraulic servos, it amplifies the wearer's strength to deliver bone-crushing blows and tear through enemy defenses with ease, making it a fearsome weapon on the battlefield.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/FistWSkull</texPath>
@@ -707,7 +707,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_TermSword</defName>
 		<label>terminator powersword</label>
-		<description>In the Warhammer 40,000 universe, the Power Sword wielded by Terminators, the elite armored warriors, is a potent close combat melee weapon embedded with advanced technology and energy fields.\n\nThe Terminator's Power Sword is a finely crafted weapon that harnesses a focused energy field along its blade. This energy field, often crackling with power or glowing with an intense hue, grants the sword the ability to slice through armor, flesh, and even energy barriers with ease.\n\nThe weapon is known for its versatility, offering a balance between precision and destructive capability. Its design allows for swift and lethal strikes, making it effective against various targets, from heavily armored foes to agile adversaries.\n\nWielded by elite warriors like Terminator-armored Space Marines, the Power Sword embodies both martial prowess and advanced technology. It serves as a symbol of the Imperium's might and unyielding determination in the grim and violent conflicts that define the Warhammer 40,000 universe.</description>
+		<description>The Terminator Power Sword is a formidable close combat weapon utilized by Astartes Terminators. With a blade forged from advanced materials and powered by energy fields, it slices effortlessly through armor and flesh alike, offering precision and lethality in the hands of its wielder.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/TermSword</texPath>
