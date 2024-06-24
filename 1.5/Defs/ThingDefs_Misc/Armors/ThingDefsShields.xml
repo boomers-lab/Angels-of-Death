@@ -6,6 +6,18 @@
         <parent>Apparel</parent>
     </ThingCategoryDef>
 
+    <ThingCategoryDef>
+        <defName>GW_CombatShield</defName>
+        <label>combat shields</label>
+        <parent>GW_Shield</parent>
+    </ThingCategoryDef>
+
+    <ThingCategoryDef>
+        <defName>GW_StormShield</defName>
+        <label>storm shields</label>
+        <parent>GW_Shield</parent>
+    </ThingCategoryDef>
+
     <ApparelLayerDef>
 		<defName>GW_Shield</defName>
 		<label>shield</label>
@@ -107,6 +119,9 @@
                 </defaultPalette>
             </li>
         </comps>
+        <thingCategories Inherit="False">
+            <li>GW_CombatShield</li>
+        </thingCategories>
         <costStuffCount>60</costStuffCount>
         <statBases>
             <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
@@ -195,6 +210,9 @@
                 </defaultPalette>
             </li>
         </comps>
+        <thingCategories Inherit="False">
+            <li>GW_StormShield</li>
+        </thingCategories>
         <costStuffCount>90</costStuffCount>
         <statBases>
             <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
