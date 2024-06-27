@@ -1,95 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  <ThingCategoryDef>
-    <defName>GW_Shield</defName>
-    <label>Grimworld Shield</label>
-  </ThingCategoryDef>
-    <ApparelLayerDef>
-		<defName>GW_Shield</defName>
-		<label>shield</label>
-		<drawOrder>590</drawOrder>
-	</ApparelLayerDef>
-
-    <ThingDef ParentName="UnfinishedBase">
-		<defName>UnfinishedShield</defName>
-		<label>Unfinished shield</label>
-		<graphicData>
-			<texPath>Things/Item/Unfinished/UnfinishedTechArmor</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
-		</graphicData>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-	</ThingDef>
-
-    <ThingDef ParentName="ArmorSmithableBase" Name="GWShieldBase" Abstract="true">
-        <techLevel>Spacer</techLevel>
-		<description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
-        <thingCategories>
-            <li>ApparelMisc</li>
-            <li>GW_Shield</li>
-        </thingCategories>
-        <stuffCategories><li>Metallic</li></stuffCategories>
-        <possessionCount>1</possessionCount>
-        <apparel>
-            <drawData>
-				<dataNorth>
-					<offset>(0.0, -0.4, 0.0)</offset>
-				</dataNorth>
-				<dataSouth>
-					<offset>(0.0, 0.4, 0.0)</offset>
-				</dataSouth>
-                <dataWest>
-                    <offset>(0.0, 0.4, 0.0)</offset>
-                </dataWest>
-                <dataEast>
-                    <offset>(0.0, 0.4, 0.0)</offset>
-                </dataEast>
-                <scale>1.0</scale>
-                <childScale>1.</childScale>
-            </drawData>
-            <countsAsClothingForNudity>false</countsAsClothingForNudity>
-            <careIfWornByCorpse>false</careIfWornByCorpse>
-            <bodyPartGroups>
-                <li>LeftHand</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <layers>
-                <li>VFEC_OuterShell</li>
-                <li MayRequire="CETeam.CombatExtended">Shield</li>
-                <li>GW_Shield</li>
-            </layers>
-        </apparel>
-        <statBases>
-            <WorkToMake>15000</WorkToMake>
-            <MaxHitPoints>550</MaxHitPoints>
-        </statBases>
-        <smeltable>true</smeltable>	
-        <recipeMaker>
-            <unfinishedThingDef>UnfinishedShield</unfinishedThingDef>
-            <recipeUsers>
-                <li>GW_SM_ArmorBench</li>
-            </recipeUsers>		
-        </recipeMaker>
-        <tradeTags>
-            <li>Armor</li>
-        </tradeTags>
-        <modExtensions>
-			<li Class="VFECore.ApparelDrawPosExtension">
-                <isUnifiedApparel>true</isUnifiedApparel>
-				<hideHead>false</hideHead>
-            </li>
-        </modExtensions>
-    </ThingDef>
-
     <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldA</defName>
         <label>combat shield</label>
+        <description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -106,6 +20,9 @@
                 </defaultPalette>
             </li>
         </comps>
+        <thingCategories Inherit="False">
+            <li>GW_CombatShield</li>
+        </thingCategories>
         <costStuffCount>60</costStuffCount>
         <statBases>
             <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
@@ -123,6 +40,22 @@
             <MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
         </equippedStatOffsets>
         <apparel>
+            <drawData>
+				<dataNorth>
+					<offset>(0.0, -0.4, 0.0)</offset>
+				</dataNorth>
+				<dataSouth>
+					<offset>(0.0, 0.4, 0.0)</offset>
+				</dataSouth>
+                <dataWest>
+                    <offset>(0.0, 0.4, 0.0)</offset>
+                </dataWest>
+                <dataEast>
+                    <offset>(0.0, 0.4, 0.0)</offset>
+                </dataEast>
+                <scale>1.0</scale>
+                <childScale>1.0</childScale>
+            </drawData>
             <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/CombatShield1</wornGraphicPath>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
             <tags>
@@ -131,6 +64,9 @@
         </apparel>
         <recipeMaker>
             <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
+            <recipeUsers>
+                <li>GW_SM_ArmorBench</li>
+            </recipeUsers>
         </recipeMaker>
         <modExtensions>
           <li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
@@ -178,6 +114,7 @@
     <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase">
         <defName>GW_SM_StormShieldA</defName>
         <label>storm shield</label>
+        <description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -194,6 +131,9 @@
                 </defaultPalette>
             </li>
         </comps>
+        <thingCategories Inherit="False">
+            <li>GW_StormShield</li>
+        </thingCategories>
         <costStuffCount>90</costStuffCount>
         <statBases>
             <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
@@ -211,6 +151,22 @@
             <MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
         </equippedStatOffsets>
         <apparel>
+            <drawData>
+				<dataNorth>
+					<offset>(0.0, -0.4, 0.0)</offset>
+				</dataNorth>
+				<dataSouth>
+					<offset>(0.0, 0.4, 0.0)</offset>
+				</dataSouth>
+                <dataWest>
+                    <offset>(0.0, 0.4, 0.0)</offset>
+                </dataWest>
+                <dataEast>
+                    <offset>(0.0, 0.4, 0.0)</offset>
+                </dataEast>
+                <scale>1.0</scale>
+                <childScale>1.0</childScale>
+            </drawData>
             <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/StormShield1</wornGraphicPath>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
             <tags>
@@ -288,7 +244,6 @@
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
             <tags>
                 <li>40kPrimaris_Shield</li>
-
             </tags>
         </apparel>
         <costStuffCount>90</costStuffCount>
@@ -309,6 +264,9 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
+            <recipeUsers>
+                <li>GW_SM_ArmorBench</li>
+            </recipeUsers>
         </recipeMaker>
         <modExtensions>
           <li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
