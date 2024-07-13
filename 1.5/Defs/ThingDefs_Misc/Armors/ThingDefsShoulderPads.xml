@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <ApparelLayerDef>
-        <defName>GW_Shoulder</defName>
-        <label>shoulder</label>
-        <drawOrder>550</drawOrder>
-    </ApparelLayerDef>
-
-    <ThingCategoryDef>
-        <defName>GW_ArmorShoulderPad</defName>
-        <label>shoulder pads</label>
-        <parent>ApparelArmor</parent>
-    </ThingCategoryDef>
-
         <!--Generic shoulder base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
     <ThingDef Abstract="true" Name="HP_AoD_ShoulderBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
