@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ApparelLayerDef><!--It's the same as CEs so they will act interchangably-->
-		<defName>Backpack</defName>
-		<label>backpack</label>
-		<drawOrder>220</drawOrder>
-	</ApparelLayerDef>
-
 	<!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
-	<ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="ArmorMachineableBase">
+	<ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="GW_BackpackBase">
 		<techLevel>Spacer</techLevel>
 		<description>Astartes backpacks serve as power hubs for their armors, providing energy to various systems crucial for combat. These backpacks house fusion reactors and energy storage units, supplying the necessary power for mobility, communication, and weapons systems. Designed for reliability and efficiency, they ensure that Space Marines remain fully operational on the battlefield, powering their armor's functions and enhancing their combat effectiveness.</description>
+		<uiIconScale>1.6</uiIconScale>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -19,53 +14,18 @@
 				<li>GW_SM_ArmorBench</li>
 			</recipeUsers>
 		</recipeMaker>
-		<uiIconScale>1.6</uiIconScale>
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<thingCategories>
-			<li>ApparelArmor</li>
-		</thingCategories>
 		<tradeTags>
-			<li>GWSMBackpacks</li>
+			<li>GW_SM_Backpacks</li>
 		</tradeTags>
 		<apparel>
-			<drawData>
-				<dataSouth>
-					<layer>-1</layer>
-				</dataSouth>
-				<dataWest>
-					<offset>(0.0, 0.0, -0.1)</offset>
-					<layer>72</layer>
-				</dataWest>
-				<dataEast>
-					<offset>(0.0, 0.0, -0.1)</offset>
-					<layer>72</layer>
-				</dataEast>
-				<dataNorth>
-					<layer>100</layer>
-				</dataNorth>
-				<!--<scale>1.5</scale> Uncomment these to increase size while equipped
-                <childScale>1.5</childScale>-->
-			</drawData>
 			<tags>
 				<li>Spacer</li>
 			</tags>
-			<useWornGraphicMask>true</useWornGraphicMask>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<bodyPartGroups>
-				<li>Torso</li>
-				<li>Neck</li>
-				<li>Shoulders</li>
-			</bodyPartGroups>
-			<layers>
-				<li>Backpack</li>
-			</layers>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
@@ -78,12 +38,6 @@
 				</defaultPalette>
 			</li>
 		</comps>
-		<modExtensions>
-			<li Class="VFECore.ApparelDrawPosExtension">
-				<isUnifiedApparel>true</isUnifiedApparel>
-				<hideHead>false</hideHead>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 	<!--MKX Reiver-->
