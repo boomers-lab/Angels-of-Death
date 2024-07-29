@@ -823,10 +823,10 @@
 		<apparel>
 			<drawData>
 				<dataWest>
-					<offset>(-0.01, 0.0, -0.08)</offset>
+					<offset>(-0.01, 0.0, -0.04)</offset>
 				</dataWest>
 				<dataEast>
-					<offset>(-0.01, 0.0, -0.08)</offset>
+					<offset>(-0.01, 0.0, -0.04)</offset>
 				</dataEast>
             </drawData>
 			<tags>
