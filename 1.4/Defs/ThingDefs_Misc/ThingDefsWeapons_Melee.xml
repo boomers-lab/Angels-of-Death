@@ -390,59 +390,6 @@
 		</recipeMaker>
 	</ThingDef>
 	
-	<!-- ====================== Flame Sword ===================== -->
-	
-	<ThingDef ParentName="GW_SM_RelicWeapon">
-		<defName>GW_SM_Melee_FlameSword</defName>
-		<label>Emperor`s sword</label>
-		<description>The Emperor's sword in the Warhammer 40,000 universe is an iconic and powerful weapon, steeped in lore and significance within the Imperium of Man. Crafted during the early days of the Imperium, it stands as a symbol of the Emperor's might and authority, often wielded in battle by his chosen champions or the Primarchs themselves.\n\nThe sword's appearance is awe-inspiring, reflecting both its ancient origins and the divine nature attributed to the Emperor. It is a massive, two-handed blade, with a shimmering, elongated power field that envelops its edges, sheathing the weapon in a crackling, golden aura. The blade itself is said to be forged from an ancient, indestructible material, its surface etched with intricate runes, glyphs, and revered iconography of the Imperium.\n\nThe power field generated along the sword's edge not only makes it devastatingly lethal in combat but also serves as a protective barrier, capable of deflecting incoming attacks and cleaving through nearly any material or armor with ease. When wielded by a skilled warrior, the Emperor's sword becomes an instrument of righteous fury, cutting down enemies of humanity with righteous precision.\n\nLegend holds that the Emperor's sword carries a fragment of the Emperor's own power, lending strength and resilience to those who fight in his name. It is believed to be an artifact of immense significance, revered by the Imperium's faithful as a sacred relic embodying the Emperor's divine will.\n\nThroughout the vast expanse of the Imperium, tales of the Emperor's sword inspire awe and devotion, serving as a beacon of hope for humanity in its darkest hours and a symbol of unwavering righteousness against the forces of chaos and heresy.</description>
-		<possessionCount>1</possessionCount>
-		<graphicData>
-			<texPath>Things/Weapons/Melee/FlameSword</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5, 1.5</drawSize>
-			<shaderType>CutoutComplex</shaderType>
-		</graphicData>
-		<uiIconScale>1.2</uiIconScale>
-		<smeltable>false</smeltable>
-		<statBases>
-			<Mass>18</Mass>
-		</statBases>
-		<equippedStatOffsets>
-            <MoveSpeed>0.50</MoveSpeed>
-			<Beauty>50</Beauty> 
-        </equippedStatOffsets>
-		<tools>
-			<li>
-				<label>pommel</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>80</power>
-				<cooldownTime>1.8</cooldownTime>
-			</li>
-			<li>
-				<label>blade</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>170</power>
-				<cooldownTime>1.8</cooldownTime>
-			</li>
-			<li>
-				<label>point</label>
-				<capacities>
-					<li>Stab</li>
-				</capacities>
-				<power>130</power>
-				<cooldownTime>1.8</cooldownTime>
-			</li>
-		</tools>
-		<thingSetMakerTags>
-			<li>RewardStandardLowFreq</li>
-		</thingSetMakerTags>
-	</ThingDef>
-
 		<!--===== Thunder Hammer =====-->
 	
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
