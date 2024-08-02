@@ -65,7 +65,7 @@
     <ThingDef ParentName="HP_AoD_OnSkinBase">
         <defName>GW_SM_FibroVest</defName>
         <label>fibrovest</label>
-        <description>The Astartes fibrovest acts as a vital conduit, connecting the Space Marine's nervous system to their power armor. This neural interface enables a seamless integration of the Marine's movements and reflexes with the capabilities of the armor, enhancing combat prowess and responsiveness. Beyond mere control, it provides sensory feedback, allowing the Marine to feel and react to their surroundings intuitively. This link between mind and machine is fundamental to the effectiveness of Astartes warriors on the battlefield, enabling them to operate at peak efficiency in the most demanding combat situations.</description>
+        <description>A specially-designed vest worn under Power Armor. Its systems interface with the users nervous system and link it to the Power Armors artificial muscles, allowing them to move the armor as if it was their own body.\n\nIn the Age of the Imperium, this role used to be played by the Black Carapace implant, which looked like a layer of black plastic under the skin. This implant linked the Marines nervous system to their Power Armor, allowing them to control it - additionally, it also linked the user to their vehicles, giving them a greater degree of control. However, the Space Marine creation process has been lost to time, forcing the Imperiums remnants to improvise.</description>
         <recipeMaker>
             <researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
         </recipeMaker>

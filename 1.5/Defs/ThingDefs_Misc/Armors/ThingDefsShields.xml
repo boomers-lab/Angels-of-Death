@@ -3,7 +3,7 @@
     <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldA</defName>
         <label>combat shield</label>
-        <description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
+        <description>A lighter version of the storm shield, using similar principles. While it is not as protective as a full-sized storm shield, it remains a strong defensive bulwark against enemy attacks, especially due to the power field coating the shield.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -114,7 +114,7 @@
     <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase">
         <defName>GW_SM_StormShieldA</defName>
         <label>storm shield</label>
-        <description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
+        <description>A heavy ballistic shield used by some Space Marine Terminators. As well as being a durable shield in its own right, it has an integrated energy field generator (similar to a power weapon), using gravitational forces to defeat incoming threats.\n\nThe Adeptus Custodes - the personal guard of the God-Emperor of Mankind - have also been known to use storm shields, and smaller versions are used by Daemonhunters of the Inquisition.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>

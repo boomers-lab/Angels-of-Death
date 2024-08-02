@@ -83,7 +83,7 @@
     <ThingDef ParentName="GW_SM_CapeBase">
         <defName>GW_SM_ScoutCape</defName>
         <label>scout cape</label>
-        <description>Warhammer 40,000 Scout capes are rugged and functional, providing protection and adding a sense of grandeur. They often feature chapter insignia or camouflage patterns, merging utility with iconic Space Marine aesthetics.</description>
+        <description>A cape that is designed to work with Space Marine Scout armor. It provides no protection, but it breaks up the user’s silhouette and provides some insulation against extreme temperatures.</description>
         <graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_cape</texPath>
 		</graphicData>

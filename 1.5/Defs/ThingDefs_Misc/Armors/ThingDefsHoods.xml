@@ -3,7 +3,7 @@
     <ThingDef Name="GW_SM_HoodBase" ParentName="HatMakeableBase" Abstract="True">
         <possessionCount>1</possessionCount>
         <costStuffCount>50</costStuffCount>
-		<description>Warhammer 40,000 Scout hoods are lightweight, rugged, and designed for stealth. Made from durable fabrics, they offer some protection while allowing for agility. The cowl can be pulled up to partially conceal the wearer's face for added camouflage.</description>
+		<description>A hood for Space Marine Scouts. It provides no protection, but it breaks up the user’s silhouette and provides some insulation against extreme temperatures.</description>
         <graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>

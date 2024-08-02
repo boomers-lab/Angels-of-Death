@@ -77,7 +77,7 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
 		</recipeMaker>
-		<description>Warhammer 40,000 Scout shoulder pads are durable and practical, offering protection without hindering mobility. They often feature subtle chapter insignia, blending functionality with allegiance.</description>
+		<description>Shoulder pads for Space Marine Scout armor. Compared to the shoulder pads of other suits of Power Armor, they are relatively small, retaining the Scout’s stealthy profile.</description>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>

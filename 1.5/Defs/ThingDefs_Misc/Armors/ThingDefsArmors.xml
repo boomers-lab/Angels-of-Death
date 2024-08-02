@@ -103,7 +103,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
 		<defName>GW_SM_Scout</defName>
 		<label>scout armor</label>
-        <description>Warhammer 40,000 Scout armor is lightweight yet durable, offering essential protection without sacrificing agility. Made from robust materials, it defends against various threats while maintaining sleek mobility for reconnaissance missions.</description>
+        <description>An enlarged, unpowered suit of carapace armor issued to Scout Marines. While it lacks the protection and other benefits of actual Power Armor, this suit of armor is less restrictive on movement and is quieter to move, making it more suitable for reconnaissance and unconventional warfare.\n\nScout Marines are typically the newest recruits of a Space Marine chapter. The Codex Astartes dictates that the 10th Company of a chapter should consist only of Scout Marines and Vanguard Space Marines.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_torso</texPath>
 		</graphicData>
@@ -208,7 +208,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_PhobosArmor</defName>
 		<label>phobos power armor</label>
-        <description>The MK X Phobos armor is engineered for stealth and agility, providing lightweight yet robust protection to the Space Marine. Its streamlined design reduces weight without compromising durability, allowing for swift and silent movement on the battlefield. Integrated with advanced camouflage systems and sensory baffles, Phobos armor enables the Marine to operate undetected, making it indispensable for covert reconnaissance and infiltration missions.</description>
+        <description>A suit of Adeptus Astartes power armor of the Mk X Phobos pattern. It is a variant of the mainline Tacticus pattern, trading protection for lighter weight, higher mobility, and silent servomotors.\n\nArmor like this is worn by Primaris Space Marines - specifically Vanguard Infiltrators (tasked with sabotage and communications disruption) and Vanguard Eliminators (who neutralise high-value targets from long range).</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Phobos_torso_south</texPath>
 		</graphicData>
