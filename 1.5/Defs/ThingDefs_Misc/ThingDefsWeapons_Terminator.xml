@@ -87,8 +87,8 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_AssualtCannon</defName>
-		<label>Assualt cannon</label>
-		<description>The Astartes Terminator Assault Cannon is a high-caliber, multi-barrel rotary weapon that delivers rapid, devastating firepower. Ideal for close-quarters combat, it shreds through infantry and light vehicles, making it a vital asset for the Adeptus Astartes.</description>
+		<label>Assault cannon</label>
+		<description>A six-barrelled, self-loading rotary autocannon for Space Marine Terminators. An iteration on older rotary cannons, its high power and blistering rate of fire allows it to chew up enemy infantry and light armored vehicles alike.\n\nAssault cannons are also found on Astra Militarum Sentinel walkers and Adeptus Astartes vehicles such as the Dreadnought walker, the Land Raider Crusader tank, and the Razorback APC.</description>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -179,7 +179,7 @@
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_ReaperCannon</defName>
 		<label>reaper autocannon</label>
-		<description>The Reaper Autocannon is a high-caliber, twin-barrel weapon used by Astartes Terminators. It delivers sustained, heavy firepower, making it ideal for mowing down infantry and light vehicles, ensuring battlefield dominance.</description>
+		<description>A double-barrelled version of the Autocannon, used by older Space Marine Terminators. Dating back to the Great Crusade, this weapon can still provide high-powered support at surprising range.\n\nThe Adeptus Astartes no longer uses this weapon, having replaced it with the more effective Assault Cannon. However, they can still be found in the hands of Chaos Space Marine Terminators.</description>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -269,8 +269,8 @@
 	
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_StormBolter</defName>
-		<label>storm bolter</label>
-		<description>The Storm Bolter is a dual-barrel, rapid-fire weapon used by Astartes Terminators. It combines the firepower of two bolters, delivering a relentless barrage of explosive rounds, perfect for annihilating infantry and light armor in close combat.</description>
+		<label>Umbra storm bolter</label>
+		<description>A double-barrel, rapid-fire bolter used by Space Marines. Storm Bolters are surprisingly compact for such a powerful weapon, possessing a blistering rate of fire without compromising the power of every bolt.\n\nThe Umbra-pattern Storm Bolter is popular with Terminators of the Red Scorpions chapter of the Adeptus Astartes. Other chapters use their own patterns of Storm Bolter, and the Astra Militarum uses Storm Bolter emplacements as a crowd control weapon.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/StormBolter</texPath>
 			<drawSize>1.4</drawSize>
@@ -568,7 +568,7 @@
 	<ThingDef ParentName="GW_SM_TermBluntBase">
 		<defName>GW_SM_Melee_Thunder1hHammer</defName>
 		<label>terminator thunder hammer</label>
-		<description>The Thunder Hammer is a one-handed, power weapon often wielded by Assault Terminators alongside a Storm Shield. It delivers devastating, thunderous blows capable of crushing armor and obliterating enemies, making it a formidable tool in close-quarters combat.</description>
+		<description>A truly towering Thunder Hammer, able to be used only by Space Marine Terminators. Little can withstand an impact from its crushing weight, and the disruptive power field surrounding the hammers head only ensures that.\n\nTerminator Armor increases the wielders strength even further than standard Power Armor does. This enables them to bring extremely powerful weapons to bear, with even greater destructive potential than those of their battle-brothers.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/ThunderHammerOneHand</texPath>

@@ -172,7 +172,7 @@
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_HeavyFlamer</defName>
 		<label>heavy flamer</label>
-		<description>The Heavy Flamer, primarily used by Terminators, is a powerful weapon for close combat. It projects superheated promethium to incinerate enemies instantly. Terminators use these flamers in bunker assaults, urban warfare, and against swarms, maintaining relentless pressure and proving to be a formidable force on the battlefield.</description>
+		<description>An upsized flamethrower used by Space Marine Terminators, as well as Devastator Squads of the Firstborn Space Marines. Its greater size naturally lends it increased firepower, though it still suffers from short range.\n\nHeavy flamers are a favorite of the elite anti-xenos Deathwatch, particularly when fighting swarms of Tyranids.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/Heavy_Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
