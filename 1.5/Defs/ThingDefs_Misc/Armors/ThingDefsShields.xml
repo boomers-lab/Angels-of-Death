@@ -41,17 +41,20 @@
         </equippedStatOffsets>
         <apparel>
             <drawData>
+				<defaultData>
+					<layer>76</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
 				<dataNorth>
-					<offset>(0.0, -0.4, 0.0)</offset>
+					<offset>(0.0, -0.4, 0.1)</offset>
 				</dataNorth>
-				<dataSouth>
-					<offset>(0.0, 0.4, 0.0)</offset>
-				</dataSouth>
-                <dataWest>
-                    <offset>(0.0, 0.4, 0.0)</offset>
-                </dataWest>
+				<!-- <dataSouth> -->
+					<!-- <offset>(0.0, 0.1, 0.0)</offset> -->
+				<!-- </dataSouth> -->
+                <!-- <dataWest> -->
+                    <!-- <offset>(0.0, 0.4, 0.0)</offset> -->
+                <!-- </dataWest> -->
                 <dataEast>
-                    <offset>(0.0, 0.4, 0.0)</offset>
+                    <offset>(0.25, 0.0, 0.0)</offset>
                 </dataEast>
                 <scale>1.0</scale>
                 <childScale>1.0</childScale>
@@ -152,17 +155,20 @@
         </equippedStatOffsets>
         <apparel>
             <drawData>
+				<defaultData>
+					<layer>76</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
 				<dataNorth>
-					<offset>(0.0, -0.4, 0.0)</offset>
+					<offset>(0.0, -0.4, 0.1)</offset>
 				</dataNorth>
-				<dataSouth>
-					<offset>(0.0, 0.4, 0.0)</offset>
-				</dataSouth>
-                <dataWest>
-                    <offset>(0.0, 0.4, 0.0)</offset>
-                </dataWest>
+				<!-- <dataSouth> -->
+					<!-- <offset>(0.0, 0.1, 0.0)</offset> -->
+				<!-- </dataSouth> -->
+                <!-- <dataWest> -->
+                    <!-- <offset>(0.0, 0.4, 0.0)</offset> -->
+                <!-- </dataWest> -->
                 <dataEast>
-                    <offset>(0.0, 0.4, 0.0)</offset>
+                    <offset>(0.25, 0.0, 0.0)</offset>
                 </dataEast>
                 <scale>1.0</scale>
                 <childScale>1.0</childScale>
@@ -240,6 +246,25 @@
             </li>
         </comps>
         <apparel>
+			<drawData>
+				<defaultData>
+					<layer>76</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
+				<dataNorth>
+					<offset>(0.0, -0.4, 0.1)</offset>
+				</dataNorth>
+				<!-- <dataSouth> -->
+					<!-- <offset>(0.0, 0.1, 0.0)</offset> -->
+				<!-- </dataSouth> -->
+                <!-- <dataWest> -->
+                    <!-- <offset>(0.0, 0.4, 0.0)</offset> -->
+                <!-- </dataWest> -->
+                <dataEast>
+                    <offset>(0.25, 0.0, 0.0)</offset>
+                </dataEast>
+                <scale>1.0</scale>
+                <childScale>1.0</childScale>
+            </drawData>
             <wornGraphicPath>Things/Apparel/ArmorUpgrade_Shields/Primaris shields/PrimarisShield1</wornGraphicPath>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
             <tags>
