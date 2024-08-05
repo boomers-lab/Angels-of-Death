@@ -21,9 +21,9 @@
             </li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_CombatShieldParry</parryHediff>
-				<parryChance>0.20</parryChance> <!-- 0.20 = 20% -->
+				<parryChance>0.25</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow>
-				<parryCooldown>60</parryCooldown>
+				<parryCooldown>90</parryCooldown>
 			</li>
         </comps>
         <thingCategories Inherit="False">
@@ -143,7 +143,7 @@
 				<parryHediff>GW_StormShieldParry</parryHediff><!-- the parry hediff-->
 				<parryChance>0.20</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow><!-- duration of parry hediff-->
-				<parryCooldown>60</parryCooldown>
+				<parryCooldown>120</parryCooldown>
 			</li>
         </comps>
         <thingCategories Inherit="False">
@@ -258,9 +258,9 @@
             </li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_PrimarisShieldParry</parryHediff>
-				<parryChance>0.20</parryChance> <!-- 0.50 = 50% -->
+				<parryChance>0.25</parryChance> <!-- 0.50 = 50% -->
 				<parryWindow>30</parryWindow>
-				<parryCooldown>60</parryCooldown>
+				<parryCooldown>90</parryCooldown>
 			</li>
         </comps>
         <apparel>
