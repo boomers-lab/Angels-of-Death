@@ -19,6 +19,12 @@
                     <colorC>(180, 65, 74)</colorC>
                 </defaultPalette>
             </li>
+			<li Class="GWParryShield.CompProperties_GW_Parryable">
+				<parryHediff>GW_CombatShieldParry</parryHediff><!-- the parry hediff-->
+				<parryChance>1.00</parryChance> <!-- 0.50 = 50% -->
+				<parryWindow>30</parryWindow><!-- duration of parry hediff-->
+				<parryCooldown>60</parryCooldown>
+			</li>
         </comps>
         <thingCategories Inherit="False">
             <li>GW_CombatShield</li>
@@ -133,6 +139,12 @@
                     <colorC>(180, 65, 74)</colorC>
                 </defaultPalette>
             </li>
+			<li Class="GWParryShield.CompProperties_GW_Parryable">
+				<parryHediff>GW_StormShieldParry</parryHediff><!-- the parry hediff-->
+				<parryChance>1.00</parryChance> <!-- 0.50 = 50% -->
+				<parryWindow>30</parryWindow><!-- duration of parry hediff-->
+				<parryCooldown>60</parryCooldown>
+			</li>
         </comps>
         <thingCategories Inherit="False">
             <li>GW_StormShield</li>
@@ -244,6 +256,12 @@
                     <colorC>(180, 65, 74)</colorC>
                 </defaultPalette>
             </li>
+			<li Class="GWParryShield.CompProperties_GW_Parryable">
+				<parryHediff>GW_PrimarisShieldParry</parryHediff><!-- the parry hediff-->
+				<parryChance>1.00</parryChance> <!-- 0.50 = 50% -->
+				<parryWindow>30</parryWindow><!-- duration of parry hediff-->
+				<parryCooldown>60</parryCooldown>
+			</li>
         </comps>
         <apparel>
 			<drawData>
