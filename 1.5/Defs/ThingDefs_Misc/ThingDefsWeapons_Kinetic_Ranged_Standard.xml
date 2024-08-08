@@ -98,7 +98,7 @@
   <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Bolter_Gun_Bolter</defName>
     <label>astartes bolter</label>
-    <description>The Bolter is the standard-issue weapon for Space Marines, renowned for its versatility and power. It fires explosive bolts (boltshells) that detonate on impact, making it effective against a wide range of targets. Durable and reliable, the Bolter is used in various combat scenarios, from ranged firefights to brutal close-quarters engagements, embodying the might and precision of the Adeptus Astartes.</description>
+    <description>A fully-automatic boltgun, scaled for use by Space Marines wearing power armor. Standard bolters fire .75-caliber self-propelling explosive rounds, tipped with an armor-piercing head and a mass-reactive fuse. Bolts are designed to embed themselves into the target as deeply as possible, then explode, shredding flesh and bone with shrapnel.\n\nPossession of a single round of Astartes bolter ammunition without permission has been known to warrant execution.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/Boltgun</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -196,7 +196,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Executor_Bolt_Rifle</defName>
     <label>Executor bolt rifle</label>
-    <description>The Executor Bolt Rifle, wielded by elite Astartes marksmen, offers superior range, accuracy, and power. Using specialized ammunition and advanced targeting systems, it neutralizes high-value targets with lethal precision. Reserved for critical missions, it showcases Space Marine firepower. Primaris units rely on these rifles, highlighting their advanced technology integration.</description>
+    <description>An advanced, long-ranged bolter typically used by Heavy Intercessor Squads of Primaris Space Marines. Its scope and extended barrel gives it superior accuracy and precision over other Astartes-grade bolt weapons.\n\nBolt rifles are an innovation of the great Archmagos Belisarius Cawl, who gives his name to the basic Cawl pattern. Compared to older Bolters, these bolt rifles are larger and have a longer barrel.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/ExecutorBoltRifle</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -281,7 +281,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>HeavyBolter</defName>
     <label>Executor heavy bolter</label>
-    <description>The Executor Heavy Bolter, a potent variant of the standard bolter, features a magazine instead of a special backpack. It delivers devastating firepower, unleashing explosive bolts with unmatched ferocity. Favored for suppressing enemy positions and decimating formations, it ensures overwhelming firepower on the battlefield.</description>
+    <description>An advanced version of the Heavy Bolter. It provides superior crowd-control firepower over older Heavy Bolters, filling the role of a light machine gun for Heavy Intercessors.\n\nInnovation is considered tech-heresy by the Adeptus Mechanicus at large. The Primaris Space Marines and their equipment are many such innovations. Belisarius Cawl, however, quietly ignores that rule, and few people would openly voice such accusations at a friend of the Imperial Regent, Roboute Gulliman.</description>
     <graphicData>
       <texPath>Things/Weapons/Ranged/HeavyBolter</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -366,7 +366,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_AstartesShotgun</defName>
 		<label>astartes pattern shotgun</label>
-		<description>The Astartes Shotgun, primarily used by Scouts and Phobos armor units, is a versatile close-quarters weapon. It unleashes high-caliber shells, devastating enemies at short range with deadly efficiency. Revered for its stopping power and reliability, it excels in breaching defenses and close combat, ensuring swift victories on the battlefield.</description>
+		<description>A pump-action shotgun, built for use by Space Marines. Not typically used by most Marines, they can sometimes be found in the hands of Scout Marines who expect close-combat with the enemy - or a certain lone Sternguard Veteran fighting on Graia.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/AstartesShotgun</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -449,7 +449,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_SniperRifle</defName>
 		<label>ultra pattern sniper rifle</label>
-		<description>The Ultra Pattern Sniper Rifle, designed for Primaris Space Marines, features a 48-inch ceramite-adamantium barrel for precision. It includes a suppressor, adjustable stock, ergonomic grip, and advanced optics with night vision and thermal imaging. Specialized high-caliber rounds and a plasma power supply ensure maximum effectiveness.</description>
+		<description>A heavy, integrally-suppressed sniper rifle, used by Space Marines of the Deathwatch for long-range combat. Properly designated as the Mark IX sniper rifle, this weapon fires needles at the enemy, propelled by an invisible laser. The same laser also punches a tiny hole in the target’s armor, allowing the needle through.\n\nFlashless and almost completely silent, needle weapons are a favorite of assassins, snipers, and other distinguishing shooters. In the Age of the Imperium, the needles used to be made of crystallized chemicals, allowing for non-lethal capture and near-traceless assassination, but in modern times the needles are typically solid materials.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -528,7 +528,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_HeavyBoltPistol</defName>
 		<label>heavy bolt pistol</label>
-		<description>The Heavy Bolt Pistol for Primaris Space Marines features a reinforced ceramite frame, ergonomic grip, and advanced recoil mitigation. It fires high-caliber, explosive bolts with precision and reliability, ensuring devastating close-combat effectiveness.</description>
+		<description>A larger, heavier, and more powerful version of the Bolt Pistol, built for use by Reiver and Assault Intercessor squads of Primaris Space Marines.\n\nPrimaris Space Marines are taller, stronger, and tougher than their Firstborn equivalents, but their younger age causes them to lack experience compared to the battle-hardened veterans.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/HeavyBoltPistol</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -610,7 +610,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_RocketLauncher</defName>
 		<label>astartes missile launcher</label>
-		<description>The Astartes Missile Launcher is a versatile, shoulder-mounted weapon used by Space Marine Devastators. It fires frag and krak missiles for both anti-infantry and anti-armor roles, providing critical support on the battlefield. With advanced targeting and robust design, it's a key asset for the Adeptus Astartes.</description>
+		<description>A shoulder-fired rocket launcher of suitable size for Adeptus Astartes use. Suitable for bunker-busting and anti-personnel fighting alike, all one has to do is fire this launcher at the enemy, and heresy shall be detected no more.\n\nThis design is relatively new, based on the older Soundstrike pattern. Those missile launchers included a missile rack and autoloading arm, which was attached to the Space Marine’s backpack. Every time the Soundstrike launcher was fired, the autoloader would reload the launcher without any action required from the Marine.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/RocketLauncher1Grey</texPath>
 			<drawSize>1.3</drawSize>

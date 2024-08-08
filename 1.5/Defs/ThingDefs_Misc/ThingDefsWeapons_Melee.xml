@@ -36,7 +36,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Chainsword_GrimWorld</defName>
 		<label>Astartes chainsword</label>
-		<description>The Chainsword, a symbol of Imperial might, is a brutal melee weapon favored by the Adeptus Astartes and Imperial Guard. Its rotating chain blade tears through armor and flesh with terrifying efficiency, embodying the grim nature of warfare in the 41st millennium.</description>
+		<description>A large, Astartes-scale chainsword. Chainswords combine the swinging action of a sword and the cutting edge of a chainsaw, resulting in a truly terrifying weapon to face. Only the thick ceramite of Space Marine Power Armor, and other protection of similar toughness, can stand against it - and even then, skilled users can exploit weaknesses in armor to grievous effect.\n\nChainswords are a mainstay of Space Marine Assault Squads - close-combat Marines equipped with Jump Packs to leap into enemy positions and deliver gruesome death. Similarly, chainswords are also frequently used by Chaos Space Marine Raptors, Striking Scorpion Aspect Warriors of the Asuryani, and by various Boyz of the Ork horde.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/ChainSwordStandard</texPath>
@@ -106,7 +106,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Chainsword_GrimWorld</defName>
 		<label>relic chainsword</label>
-		<description>The Relic Chainsword, revered by Astartes veterans, symbolizes centuries of heroism. Crafted with ancient techniques and adorned with sacred symbols, its razor-sharp blade cuts with unmatched precision, carrying the valor of its wielder into battle.</description>
+		<description>An Astartes-size chainsword design of considerable age. For reasons unknown, it is lighter weight than a regular chainsword, and cuts even more viciously.\n\nIn the Imperium of Man, “older” became synonymous with “better”, as relics of the Dark Age of Technology and the following Age of Strife held powerful secrets that no one in the Imperium could truly understand. This became even more true in the 41st Millennium, as even the designs of Great Crusade and Horus Heresy-era technology became lost to the Imperium.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/ChainSword</texPath>
@@ -175,7 +175,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Powersword_GrimWorld</defName>
 		<label>Astartes powersword</label>
-		<description>The Power Sword, a symbol of martial prowess, crackles with disruptive energy. Crafted with arcane technology and blessed by the Omnissiah, its shimmering blade cuts through armor and flesh with lethal precision, inspiring fear in enemies and awe in allies.</description>
+		<description>A powersword of older make and greater strength. As well as being a symbol to the Adeptus Astartes, such relics are often of greater quality than equivalents created in more recent years.\n\nIn the Age of the Imperium, much was forgotten, never to be relearned. The Adeptus Mechanicus is a symbol of that, having created a strange mixture of science and religion. They consider technology to be sacred, especially that of the Dark Age of Technology.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/PowerSword2</texPath>
@@ -245,7 +245,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Powersword_GrimWorld</defName>
 		<label>Astartes relic powersword</label>
-		<description>The Relic Sword, revered by Astartes veterans, embodies centuries of valor. Crafted with ancient techniques and adorned with sacred marks, its blade carries the legacy of heroic deeds. Wielded by those of courage and honor, it inspires allies and strikes fear into enemies with its legendary prowess.</description>
+		<description>A powersword of older make and greater strength. As well as being a symbol to the Adeptus Astartes, such relics are often of greater quality than equivalents created in more recent years.\n\nIn the Age of the Imperium, much was forgotten, never to be relearned. The Adeptus Mechanicus is a symbol of that, having created a strange mixture of science and religion. They consider technology to be sacred, especially that of the Dark Age of Technology.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/PowerSword</texPath>
@@ -311,7 +311,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>GW_SM_Melee_Powerfist</defName>
 		<label>astartes power fist</label>
-		<description>The Power Fist, an iconic symbol of Astartes might, enhances the devastating power of its wearer. Comprised of reinforced ceramite and adamantium, its massive gauntlet can crush armor and pulverize foes with unmatched force, making it a fearsome weapon in close combat.</description>
+		<description>A giant, armored fist designed to be worn over Space Marine Power Armor. Power fists further enhance the user’s strength, as well as coating the fist with a disruptive power field that weakens atomic bonds. The end result is a crushing strike able to pulverize armor and smash flesh and bone.\n\nPower fists are somewhat uncommon in normal Space Marine usage - larger power fists are generally worn by Space Marine Terminators, as the relatively slow action of a power fist punch may result in the user getting hit first. The heavy Terminator Armor should help with withstanding such attacks before striking back with incredible force.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Fist</texPath>
@@ -397,7 +397,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
 		<defName>GW_SM_Melee_ThunderHammer</defName>
 		<label>stormlord thunder hammer</label>
-		<description>The Two-Handed Thunder Hammer, wielded by chosen champions, delivers devastating blows infused with the Emperor's wrath. Crafted with reinforced ceramite, its thunderous strikes pulverize foes, instilling fear and inspiring allies on the battlefield.</description>
+		<description>A heavy, towering, two-handed warhammer built for use by the Adeptus Astartes. Its weight is such that even the genetically-enhanced Space Marines cannot use it one-handed. However, the crushing power of a Thunder Hammer is without comparison among infantry weapons - this is further enhanced by its disruptive power field, which only activates on impact to release its energy at the correct time.\n\nThunder Hammers are comparatively rare compared to weapons such as chainswords. They are typically seen in the hands of the heavyweight Assault Terminators in conjunction with a Storm Shield for better protection.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/ThunderHammer</texPath>
@@ -475,7 +475,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_MeleeWeapon_CombatKnife</defName>
 		<label>Astartes combat knife</label>
-		<description>The Primaris Combat Knife is a versatile tool for close-quarters combat. With a reinforced ceramite blade and ergonomic grip, it enables swift and lethal strikes. Wielded by trained Primaris warriors, it ensures precision and reliability in dispatching enemies on the battlefield.</description>
+		<description>A large, heavy combat knife scaled for use by the Adeptus Astartes. While it is shorter and fairly crude compared to a Astartes chainsword or powersword, a Space Marine’s enhanced strength can use this weapon to great effect against unarmored or lightly-armored opponents. For a baseline human, the length of the blade would be equivalent to a sword.\n\nIn the Age of the Imperium, every Space Marine was issued a combat knife as soon as they recovered from their gene-seed implants. While they were often used in ceremony, some Assault Marines still favor the Combat Knife in close combat.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Combat-knife</texPath>
