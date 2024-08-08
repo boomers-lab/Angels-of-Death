@@ -26,8 +26,8 @@
 
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>HP_Gun_PlasmaGun</defName>
-        <label>plasma gun</label>
-        <description>The Plasma Gun, wielded by Firstborn Space Marines, features a reinforced ceramite casing and a compact design for ease of handling. It channels superheated plasma bolts with deadly accuracy, capable of melting through the toughest armor. The weapon includes a venting system to manage heat buildup, ensuring sustained fire without overheating. Its advanced targeting systems enhance precision, making it a formidable tool in the hands of skilled Firstborn Marines.</description>
+        <label>Astartes plasma gun</label>
+        <description>A plasma weapon scaled for use by Space Marines in Power Armor. These weapons use fusion cores to energize hydrogen fuel into a ball of plasma, which is then fired out of the weapon to devastating effect.\n\nThey are almost as powerful as Melta weapons, making short work of heavily-armored infantry (such as Space Marine Terminators), emplaced weapons, and light vehicles such as APCs, and possess much greater range. However, they are somewhat slow to fire, and have in rare cases been known to destabilize and violently explode in the user’s hands.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <drawSize>1.2</drawSize>
@@ -138,7 +138,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>Plasma_Incinerator</defName>
         <label>plasma incinerator</label>
-        <description>The Plasma Incinerator, wielded by Hellblaster Primaris units, is a pinnacle of plasma weaponry. With reinforced ceramite alloys, it withstands heat and battlefield rigors. Its sleek design balances maneuverability and firepower. Capable of precise, armor-piercing plasma bolts, its advanced cooling systems ensure sustained fire rates. Integrated targeting arrays enhance accuracy, enabling devastating volleys on enemy forces.</description>
+        <description>A newer plasma weapon, designed by Belisarius Cawl for his Primaris Space Marines. Based on the normal Plasma Gun, the Incinerator possesses greater firepower and range - and can fire without risk of a catastrophic overload.\n\nThe Adeptus Astartes use the Plasma Incinerator in their Hellblaster Squads, providing heavy fire support from a distance. A well-positioned Hellblaster Squad can stop an armored assault in its tracks.\n\nOriginal Plasma Incinerators have the ability to overcharge the gun, firing a ferocious volley of plasma but risking death with every shot. The lack of such a setting on this weapon, however, indicates its young age.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <drawSize>1.2</drawSize>
@@ -245,8 +245,8 @@
 
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>HP_Gun_MeltaGun</defName>
-        <label>melta gun</label>
-        <description>The Melta Gun is a compact yet potent weapon utilized by various Imperial forces. It features a reinforced casing designed to withstand the intense heat generated during operation. Emitting a focused beam of superheated energy, the Melta Gun is highly effective at melting through armor and fortifications with ease. Its short-range nature necessitates getting up close to the enemy, making it ideal for close-quarters combat and breaching fortified positions. The Melta Gun's simplicity of design ensures reliability in the heat of battle, making it a favored choice among soldiers confronting heavily armored adversaries.</description>
+        <label>Astartes melta gun</label>
+        <description>A Melta weapon scaled for use by Space Marines in Power Armor. Melta weapons work either by sub-atomic agitation (causing the target to rapidly heat up and melt) or by projecting a small fusion reaction’s energy as a concentrated blast. The end result is a shot that has little range, but can melt Space Marine Terminators and battle tanks into slag.\n\nMelta weapons are surprisingly quiet - the majority of the noise being created by the target vaporizing - so they can be used by infiltrators to destroy enemy vehicles in ambushes and stealth strikes. They are also effective in close-range anti-tank and anti-Marine fighting - woe betide the tanker or Astartes that underestimates a “mere mortal” with a Melta gun.\n\nWhile they are not strictly called Melta weapons, similar weapons can be seen in the service of the Eldar, the Dark Eldar, the T’au, and the Necrons.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <drawSize>1.2</drawSize>
@@ -352,7 +352,7 @@
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>HP_Gun_Multimelta</defName>
         <label>multi-melta</label>
-        <description>The Multimelta, standard for Eradicator Primaris units, is encased in reinforced ceramite alloys, enduring intense heat. Emitting a searing stream of multi-phased plasma, it devastates armored targets with precision at both short and long ranges. Its advanced targeting and cooling systems ensure relentless accuracy and firepower, making it a vital asset in turning the tide of battle.</description>
+        <description>A Melta weapon consisting of two melta guns combined into one weapon. The two barrels firing at once combine into a single beam, enhancing its range and firepower. No amount of armor - even heavy tank armor - stands a chance.\n\nThis is a man-portable (provided the weapon is wearing Power Armor) version, but Multi-meltas are often used on tanks as close-combat weapons, vaporizing heavy infantry and enemy vehicles alike.</description>
         <techLevel>Spacer</techLevel>
         <graphicData>
             <drawSize>1.2</drawSize>
@@ -459,8 +459,8 @@
 	
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_PlasmaPistol</defName>
-		<label>plasma pistol</label>
-		<description>The Plasma Pistol, standard across Imperial forces, boasts a reinforced ceramite casing to withstand its intense heat. Emitting superheated bolts, it's lethal at close range, capable of melting armor. Versatile and reliable, it's a trusted sidearm for soldiers facing tough foes.</description>
+		<label>astartes plasma pistol</label>
+		<description>An Imperial pistol that fires balls of blue, superheated plasma. Scaled for use by the power-armored Adeptus Astartes, it is easier to handle but lacks some power and range compared to two-handed plasma weapons.\n\nAssault Squads sometimes use plasma pistols alongside their melee weapons in close combat. Other Marines carry it as a light anti-armor weapon to use alongside their primary anti-personnel weapons, such as bolters.</description>
 		<techLevel>Spacer</techLevel>
 		<graphicData>
 			<drawSize>1.2</drawSize>
