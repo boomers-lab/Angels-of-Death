@@ -168,6 +168,11 @@
 			</skillRequirements>
 		  <displayPriority>410</displayPriority>
 		</recipeMaker>
+		<comps>
+            <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit">
+				<maxNumberCraftable>3</maxNumberCraftable>
+			</li>
+        </comps>
 	  </ThingDef>
 	  
 		<!-- ====================== Powersword ===================== -->
@@ -304,6 +309,11 @@
 			</skillRequirements>
 		  <displayPriority>410</displayPriority>
 		</recipeMaker>
+		<comps>
+            <li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit">
+				<maxNumberCraftable>3</maxNumberCraftable>
+			</li>
+        </comps>
 	  </ThingDef>
 	  
 	  <!-- ====================== Powerfist ===================== -->
