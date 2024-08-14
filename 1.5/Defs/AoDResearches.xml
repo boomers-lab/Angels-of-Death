@@ -7,7 +7,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_CodexAstartes</defName>
 		<label>codex astartes</label>
-		<description>The Codex Astartes is a great and sacred tome of military organisation, strategy and tactics written by Roboute Guilliman, the primarch of the Ultramarines Space Marine Legion. It outlines Guilliman's ideal for the moral behaviour, order of battle and tactical doctrine of a Space Marine Chapter. Its primary purpose was to restructure the Imperium of Man's most potent military forces to prevent another civil war like the Horus Heresy.</description>
+		<description>Study the Codex Astartes, the doctrine of the Adeptus Astartes written by the Primarch Roboute Guilliman. While most Space Marine chapters are Codex-compliant, following the Codex’s organization and tactics, other chapters use their own methods.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
@@ -19,7 +19,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesFabrication</defName>
 		<label>astartes fabrication</label>
-		<description>Astartes fabrication. First step to unlock Angels of Death weapons and armors!</description>
+		<description>Learn the basics of manufacturing Space Marine equipment, and produce armor suitable for Scout Marines.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>GW_SM_CodexAstartes</li>
@@ -31,7 +31,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesBasicShields</defName>
 		<label>astartes shields</label>
-		<description>Astartes shields are iconic symbols of the Space Marines' resilience and martial prowess in the Warhammer 40,000 universe. Crafted from the most durable materials and adorned with revered chapter insignias, these shields provide unparalleled protection on the battlefield. Wielded alongside deadly weaponry, they serve as bulwarks against enemy fire, enabling Space Marines to advance with unwavering determination and strike fear into the hearts of their adversaries.</description>
+		<description>Produce protective, handheld shields suitable for use by Space Marines.</description>
         <baseCost>3500</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesFabrication</li>
@@ -54,7 +54,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_Jump_Packs</defName>
 		<label>Jump packs</label>
-		<description>A Jump Pack is a bulky, man-portable, vectored-thrust jet pack fueled by promethium that can be worn by a single Imperial soldier, designed to be attached to the backpacks of the Space Marines' or the Sisters of Battle's suits of power armour.</description>
+		<description>Manufacture Jump Packs - back-mounted thrusters used by Space Marines for airborne assault.</description>
         <baseCost>4000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesFabrication</li>
@@ -77,7 +77,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesLight</defName>
 		<label>astartes light power armors</label>
-		<description>The weakest Astartes power armors like Phobos. Another variant of the Mk.X is the Mk.X Reiver or Phobos pattern. The suit’s lighter-weight ceramite and streamlined design allow for greater mobility, and its servo-motors are engineered to be completely silent. The design however sacrifices protection for stealth and speed.</description>
+		<description>Create lightweight Space Marine power armor of the Mk X Phobos pattern, as well as the modified armor of Space Marine Reivers.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesFabrication</li>
@@ -100,7 +100,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesMedium</defName>
 		<label>astartes medium power armors</label>
-		<description>Medium Astartes power armors like the MK 7. Mark X Tacticus armour is a suit that combines the most effective elements of ancestral Horus Heresy patterns of plate with more recent developments in power armour technology. The Mk.X was developed by Magos Belisarius Cawl at the same time as the Primaris Marines. These suits are currently carried into battle by Primaris Space Marines during the unfolding Indomitus Crusade.</description>
+		<description>Produce mainline suits of Space Marine power armor - the Mark IV Maximus, the Mark VI Corvus, the Mark VII Aquila, and the Mark X Tacticus patterns.</description>
         <baseCost>6500</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesLight</li>
@@ -123,7 +123,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesHeavy</defName>
 		<label>astartes heavy power armors</label>
-		<description>Heavy Astartes power armors like Gravis and Terminator. The Mk.X has a number of different variants, such as the Mk.X "Gravis" heavy armour used by Commanders, Aggressor Squads, Eradicator Squads, and the Jump Pack-capable variant used by Inceptor Squads. The Gravis pattern of Mk.X Armour is more heavily protected and allows for a level of protection near Terminator Armour level but with the flexibility of standard designs. Like power armour, Terminator suits have an outer shell of ceramite-bonded plates powered by electrically-motivated fibre bundles. Plates of heavy plasteel further armour the ceramite sections, especially on the front of the suit. This extra armouring provides a level of protection that is far superior to normal Marine armor; not even a Krak missile will penetrate the suit's breastplate.</description>
+		<description>Craft the heaviest suits of Space Marine power armor available - the Mark X Gravis pattern and the rare Terminator Armor.</description>
         <baseCost>7800</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
@@ -146,7 +146,7 @@
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_GravWeapons</defName>
 		<label>grav weapons</label>
-		<description>Unlocks grav weapons. Grav-weaponry, also called Graviton Weapons, or just Grav Weapons, are devastating graviton-based personal and vehicular weapons employed by the Imperial Adeptus Astartes and the Collegia Titanica and the military forces of the Leagues of Votann based on ancient and forgotten technology dating back to the time of the Age of Technology.</description>
+		<description>Manufacture grav weapons - graviton-based weaponry that crushes a target with its own mass.</description>
         <baseCost>6000</baseCost>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>4.10</researchViewY>
