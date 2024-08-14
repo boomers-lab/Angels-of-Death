@@ -194,7 +194,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>GW_SM_TerminatorWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>

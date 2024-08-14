@@ -144,37 +144,11 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
-		<defName>GW_SM_TerminatorWeapons</defName>
-		<label>terminator weapons</label>
-		<description>Unlocks terminator weapons. Such as power fists, assault cannons, plasma cannon, thunter hammers ect.</description>
-        <baseCost>4000</baseCost>
-		<prerequisites>
-			<li>GW_SM_CodexAstartes</li>
-		</prerequisites>
-		<researchViewX>7.00</researchViewX>
-		<researchViewY>3.55</researchViewY>
-        <modExtensions>
-            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
-                <StudyLocation>GW_Cogitator</StudyLocation>
-                <ItemStudyRequirements>
-                    <li Class="GW_Frame.StudyRequirement">
-                        <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>2</NumberRequired>
-                    </li>    
-                </ItemStudyRequirements>
-            </li>
-        </modExtensions>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_GravWeapons</defName>
 		<label>grav weapons</label>
 		<description>Unlocks grav weapons. Grav-weaponry, also called Graviton Weapons, or just Grav Weapons, are devastating graviton-based personal and vehicular weapons employed by the Imperial Adeptus Astartes and the Collegia Titanica and the military forces of the Leagues of Votann based on ancient and forgotten technology dating back to the time of the Age of Technology.</description>
-        <baseCost>4000</baseCost>
-		<prerequisites>
-			<li>GW_SM_CodexAstartes</li>
-		</prerequisites>
-		<researchViewX>7.00</researchViewX>
+        <baseCost>6000</baseCost>
+		<researchViewX>2.00</researchViewX>
 		<researchViewY>4.10</researchViewY>
         <modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">

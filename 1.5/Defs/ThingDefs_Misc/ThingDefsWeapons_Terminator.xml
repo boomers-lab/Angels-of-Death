@@ -116,7 +116,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_SM_TerminatorWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -207,7 +207,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_SM_TerminatorWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -280,7 +280,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_SM_TerminatorWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -379,7 +379,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>
-			<researchPrerequisite>GW_SM_TerminatorWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>15</Crafting>
 			</skillRequirements>
@@ -548,7 +548,7 @@
 			<drawSize>1.2</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_SM_TerminatorWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 		</recipeMaker>
 		<thingSetMakerTags>
@@ -763,7 +763,7 @@
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>
 			</recipeUsers>		
-			<researchPrerequisite>GW_SM_TerminatorWeapons</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>16</Crafting>
 			</skillRequirements>
