@@ -54,7 +54,7 @@
 			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>2</Mass>
 			<Flammability>0.2</Flammability>
@@ -95,7 +95,7 @@
 			<researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>2</Mass>
 			<Flammability>0.2</Flammability>
@@ -136,7 +136,7 @@
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
@@ -177,7 +177,7 @@
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
@@ -218,7 +218,7 @@
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
@@ -259,7 +259,7 @@
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>2500</WorkToMake>
+			<WorkToMake>5000</WorkToMake>
 			<MaxHitPoints>750</MaxHitPoints>
 			<Mass>3</Mass>
 			<Flammability>0.2</Flammability>
