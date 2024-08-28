@@ -27,6 +27,9 @@
 				<li>Spacer</li>
 			</tags>
 		</apparel>
+		<equippedStatOffsets>
+            <CarryBulk MayRequire="CETeam.CombatExtended">50</CarryBulk>
+		</equippedStatOffsets>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>2</maskCount>
