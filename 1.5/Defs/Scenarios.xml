@@ -46,12 +46,6 @@
                     <count>1</count>
                 </li>
 
-                <li Class="ScenPart_StartingThing_Defined" MayRequire="ceteam.combatextended">
-                    <def>StartingThing_Defined</def>
-                    <thingDef>Ammo_Bolter</thingDef>
-                    <count>180</count>
-                </li>
-
                 <!-- Scatter some things near player start -->
 
                 <li Class="ScenPart_StartingThing_Defined">
