@@ -1,0 +1,18 @@
+<Defs>
+    <ThingDef ParentName="DropPodIncoming">
+        <defName>GW_SM_DropPodIncomingImperial</defName>
+        <graphicData>
+            <texPath>Things/Misc/DropPod/DropPod</texPath>
+            <drawSize>(4, 4)</drawSize>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef ParentName="ActiveDropPod">
+        <defName>GW_SM_DropPodActiveImperial</defName>
+        <soundOpen>DropPod_Open_Mechanoid</soundOpen>
+        <graphicData>
+            <texPath>Things/Misc/DropPod/DropPod</texPath>
+            <drawSize>(4, 4)</drawSize>
+        </graphicData>
+    </ThingDef>
+</Defs>
