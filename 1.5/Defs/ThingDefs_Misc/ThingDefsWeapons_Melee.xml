@@ -36,7 +36,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Chainsword_GrimWorld</defName>
 		<label>Astartes chainsword</label>
-		<description>A large, Astartes-scale chainsword. Chainswords combine the swinging action of a sword and the cutting edge of a chainsaw, resulting in a truly terrifying weapon to face. Only the thick ceramite of Space Marine Power Armor, and other protection of similar toughness, can stand against it - and even then, skilled users can exploit weaknesses in armor to grievous effect.\n\nChainswords are a mainstay of Space Marine Assault Squads - close-combat Marines equipped with Jump Packs to leap into enemy positions and deliver gruesome death. Similarly, chainswords are also frequently used by Chaos Space Marine Raptors, Striking Scorpion Aspect Warriors of the Asuryani, and by various Boyz of the Ork horde.</description>
+		<description>A large, Astartes-scale chainsword. Chainswords combine the swinging action of a sword and the cutting edge of a chainsaw, resulting in a truly terrifying weapon to face. Only the thick ceramite of Space Marine Power Armor, and other protection of similar toughness, can stand against it - and even then, skilled users can exploit weaknesses in armor to grievous effect. \n\nChainswords are a mainstay of Space Marine Assault Squads - close-combat Marines equipped with Jump Packs to leap into enemy positions and deliver gruesome death. Similarly, chainswords are also frequently used by Chaos Space Marine Raptors, Striking Scorpion Aspect Warriors of the Asuryani, and by various Boyz of the Ork horde.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/ChainSwordStandard</texPath>
@@ -106,7 +106,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Chainsword_GrimWorld</defName>
 		<label>relic chainsword</label>
-		<description>An Astartes-size chainsword design of considerable age. For reasons unknown, it is lighter weight than a regular chainsword, and cuts even more viciously.\n\nIn the Imperium of Man, “older” became synonymous with “better”, as relics of the Dark Age of Technology and the following Age of Strife held powerful secrets that no one in the Imperium could truly understand. This became even more true in the 41st Millennium, as even the designs of Great Crusade and Horus Heresy-era technology became lost to the Imperium.</description>
+		<description>An Astartes-size chainsword design of considerable age. For reasons unknown, it is lighter weight than a regular chainsword, and cuts even more viciously. \n\nIn the Imperium of Man, “older” is often synonymous with “better”, as relics of the Dark Age of Technology and the following Age of Strife held powerful secrets that no one in the Imperium could truly understand. This became even more true in the 41st Millennium, as even the designs of Great Crusade and Horus Heresy-era technology became lost to the Imperium.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/ChainSword</texPath>
@@ -180,7 +180,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Powersword_GrimWorld</defName>
 		<label>Astartes powersword</label>
-		<description>A powersword of older make and greater strength. As well as being a symbol to the Adeptus Astartes, such relics are often of greater quality than equivalents created in more recent years.\n\nIn the Age of the Imperium, much was forgotten, never to be relearned. The Adeptus Mechanicus is a symbol of that, having created a strange mixture of science and religion. They consider technology to be sacred, especially that of the Dark Age of Technology.</description>
+		<description>A large, Astartes-size sword. As well as being a deadly weapon in its own right, the blade is coated in a disruptive power field that disturbs the molecular bonds of objects it touches. This allows the blade to cut through armor and flesh more easily, greatly enhancing its lethality - while a powersword itself may not be as awe-inspiring as a chainsword, the sight of one’s comrade being cleaved in half with one strike certainly is. \n\nSimilar blades are used by the Eldar and Dark Eldar xenos races - one notable example would be the Diresword, which also contains an Eldar spirit in a Spirit Stone. When striking an opponent, the spirit also attempts to destroy the target’s mind, often resulting in instant death.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/PowerSword2</texPath>
@@ -485,7 +485,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_MeleeWeapon_CombatKnife</defName>
 		<label>Astartes combat knife</label>
-		<description>A large, heavy combat knife scaled for use by the Adeptus Astartes. While it is shorter and fairly crude compared to a Astartes chainsword or powersword, a Space Marine’s enhanced strength can use this weapon to great effect against unarmored or lightly-armored opponents. For a baseline human, the length of the blade would be equivalent to a sword.\n\nIn the Age of the Imperium, every Space Marine was issued a combat knife as soon as they recovered from their gene-seed implants. While they were often used in ceremony, some Assault Marines still favor the Combat Knife in close combat.</description>
+		<description>A large, heavy combat knife scaled for use by the Adeptus Astartes. While it is shorter and fairly crude compared to a Astartes chainsword or powersword, a Space Marine’s enhanced strength can use this weapon to great effect against unarmored or lightly-armored opponents. For a baseline human, the length of the blade would be equivalent to a sword. \n\nEvery Space Marine is issued a combat knife as soon as they recover from their gene-seed implants. While they are often used in ceremony, some Assault Marines still favor the Combat Knife in close combat.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/Combat-knife</texPath>
