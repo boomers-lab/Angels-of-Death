@@ -351,7 +351,7 @@
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_PlasmaCannon</defName>
 		<label>terminator plasma cannon</label>
-		<description>The Plasma Cannon is a powerful, energy-based weapon used by Astartes Terminators. It fires superheated plasma bolts, capable of incinerating infantry and penetrating heavy armor, making it ideal for obliterating high-value targets and fortifications.</description>
+		<description>An Astartes plasma cannon adjusted for the gauntlets of Terminator Armor. Performance is similar to the standard pattern - similarly devastating, that is. \n\nWhile normal Space Marines typically dominate the enemy with speed and ferocity, a squad of Terminators can thoroughly crush opposing forces at a steady pace, leaving behind only mangled corpses and burned-out vehicles.</description>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -447,7 +447,7 @@
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_AstartesPlasmaCannon</defName>
 		<label>astartes plasma cannon</label>
-		<description>The Astartes Plasma Cannon is a potent energy weapon used by Space Marines, often wielded by Devastator Marines. It fires superheated plasma bolts, capable of vaporizing infantry and melting through heavy armor, making it a versatile and destructive tool on the battlefield.</description>
+		<description>A hard-hitting plasma weapon used by Devastator Squads of Firstborn Space Marines. Also known as a heavy plasma gun, the larger size of this weapon allows its shots to affect a wider area, as well as being more deadly. \n\nSimilar weapons are found mounted on Imperial vehicles, which have no risk of overheating due to the vehicle’s systems.</description>
 		<modExtensions>
 			<li Class="VFECore.ThingDefExtension">
 				<weaponDraftedDrawOffsets>
@@ -568,7 +568,7 @@
 	<ThingDef ParentName="GW_SM_TermBluntBase">
 		<defName>GW_SM_Melee_Thunder1hHammer</defName>
 		<label>terminator thunder hammer</label>
-		<description>A truly towering Thunder Hammer, able to be used only by Space Marine Terminators. Little can withstand an impact from its crushing weight, and the disruptive power field surrounding the hammers head only ensures that.\n\nTerminator Armor increases the wielders strength even further than standard Power Armor does. This enables them to bring extremely powerful weapons to bear, with even greater destructive potential than those of their battle-brothers.</description>
+		<description>A truly towering Thunder Hammer, able to be used only by Space Marine Terminators. Little can withstand an impact from its crushing weight, and the disruptive power field surrounding the hammers head only ensures that. \n\nTerminator Armor increases the wielders strength even further than standard Power Armor does. This enables them to bring extremely powerful weapons to bear, with even greater destructive potential than those of their battle-brothers.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/ThunderHammerOneHand</texPath>
@@ -634,7 +634,7 @@
 	<ThingDef ParentName="GW_SM_TermBluntBase">
 		<defName>GW_SM_Melee_TermPowerFist</defName>
 		<label>terminator power fist</label>
-		<description>The Terminator Power Fist is a massive, armored gauntlet worn by Astartes Terminators. Enhanced with hydraulic servos, it amplifies the wearer's strength to deliver bone-crushing blows and tear through enemy defenses with ease, making it a fearsome weapon on the battlefield.</description>
+		<description>A power fist scaled to the size of Terminator Armor. Even a tank would be frightened of the crushing power of this fist. \n\nSome Terminators, Loyalist and Traitor both, also use a similar weapon known as the “chainfist”. It combines the blade of a chainsword with the disruptive field of a power fist to form a very vicious punch.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/FistWSkull</texPath>
@@ -707,7 +707,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>GW_SM_Melee_TermSword</defName>
 		<label>terminator powersword</label>
-		<description>The Terminator Power Sword is a formidable close combat weapon utilized by Astartes Terminators. With a blade forged from advanced materials and powered by energy fields, it slices effortlessly through armor and flesh alike, offering precision and lethality in the hands of its wielder.</description>
+		<description>A giant powersword that can only be wielded by Space Marine Terminators. No infantry armor can hope to withstand a strike from this sword, even other suits of Terminator Armor. \n\nThe traitor Primarchs Perturabo and Angron (of the Iron Warriors and World Eaters respectively) wore custom-built suits of Terminator Armor. Perturabo's armor, “The Logos”, was designed and constructed by him personally, while Angron's armor, the “Armor of Mars”, was actually built by adding systems and materials to the armor of his gladiator-slave days. \n\nThe Arch-Traitor, Horus Lupercal, also wore a unique suit of Terminator Armor - the “Serpent's Scales” - which was decorated with the pelt of an augmented wolf he had slain.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/TermSword</texPath>
