@@ -107,7 +107,7 @@
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Flamer</defName>
 		<label>Infernus flamer</label>
-		<description>The Infernus Flamer, used by Inferus Squads of Space Marines, is built for close combat. It projects superheated promethium, instantly incinerating enemies. Inferus Squads use these weapons in bunker assaults, urban warfare, and against swarms, maintaining relentless pressure and proving to be a formidable force.</description>
+		<description>A flamethrower used by the forces of the Imperium of Man. It fires a steady stream of promethium - a volatile, self-igniting incendiary gel - to consume their enemies in cleansing fire. Flamers are seen widely in the Imperium, with wielders ranging from Space Marines and Sisters of Battle to Imperial Guardsmen and hiveworld gangers. \n\nThe Sisters of Battle, religious zealots as they are, use flamers extensively to purge “abominations” from the galaxy.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -172,7 +172,7 @@
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_HeavyFlamer</defName>
 		<label>heavy flamer</label>
-		<description>A pistol-sized flamethrower, also known as a “burner”. Range and firepower is significantly reduced, but it can be used with only one hand and handles better than full-sized flamers.\n\nWeapons like these have been used by Seraphim assault squads of the Sisters of Battle, incinerating their foes up close. They heavily favor pistols - unlike other assault squads, they are usually seen dual-wielding them, instead of using a pistol in tandem with a melee weapon.</description>
+		<description>An upsized flamethrower used by Space Marine Terminators, as well as Devastator Squads of the Firstborn Space Marines. Its greater size naturally lends it increased firepower, though it still suffers from short range. \n\nHeavy flamers are a favorite of the elite anti-xenos Deathwatch, particularly when fighting swarms of Tyranids.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/Heavy_Flamer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -255,7 +255,7 @@
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Burner</defName>
 		<label>Hand flamer</label>
-		<description>The Hand Flamer is a compact, one-handed weapon used by elite Space Marines. It projects superheated promethium in short bursts, ideal for close-quarters combat. Often wielded by Assault Marines, it excels in urban warfare and quick strikes, providing intense, immediate firepower to overwhelm enemies in tight spaces.</description>
+		<description>A pistol-sized flamethrower, also known as a “burner”. Range and firepower is significantly reduced, but it can be used with only one hand and handles better than full-sized flamers. \n\nWeapons like these are used by Seraphim assault squads of the Sisters of Battle, incinerating their foes up close. They heavily favor pistols - unlike other assault squads, they are usually seen dual-wielding them, instead of using a pistol in tandem with a melee weapon.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Burner</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
