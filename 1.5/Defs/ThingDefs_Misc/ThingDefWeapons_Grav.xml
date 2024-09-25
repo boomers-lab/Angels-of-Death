@@ -90,7 +90,7 @@
 	<ThingDef ParentName="GW_SM_GravBase">
 		<defName>GW_SM_Gun_GravCannon</defName>
 		<label>graviton cannon</label>
-		<description>The Graviton Cannon is a devastating weapon utilized by Devastator Marines and Terminators, harnessing the power of gravitational forces to crush enemies. By manipulating gravitational pulls, it generates destructive waves that crush and disintegrate targets, turning enemy mass against them in a relentless onslaught of destruction.</description>
+		<description>A special design of graviton weapon. With its higher output, even great bunker walls of thick plascrete will collapse before long. \n\nWhile graviton cannons are typically vehicle-mounted, the techmarines of the Deathwatch created this man-portable design.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Grav/GravCannon</texPath>
 			<drawSize>1.4</drawSize>
@@ -158,7 +158,7 @@
 	<ThingDef ParentName="GW_SM_GravBase">
 		<defName>GW_SM_Gun_GravRifle</defName>
 		<label>graviton rifle</label>
-		<description>The Gravitor Rifle, employed by regular Marines, operates on the same principles as its larger counterpart, the Graviton Cannon, albeit with reduced power. Utilizing gravitational forces, it inflicts damage by crushing targets with controlled gravitational fields. While not as potent as the cannon variant, it still serves as a formidable tool for infantry, offering tactical advantages on the battlefield.</description>
+		<description>A rare demolition weapon of the Adeptus Astartes - a rifle that fires gravitons, crushing the enemy and their fortifications with their own mass. \n\nTheir secrets of manufacture have only been discovered very recently. Before that, they were carefully guarded by the Adeptus Mechanicus, and only rarely fielded by the Space Marines.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Grav/GravGun</texPath>
 			<drawSize>1.2</drawSize>
@@ -234,7 +234,7 @@
 	<ThingDef ParentName="GW_SM_GravBase">
 		<defName>GW_SM_Gun_GravPistol</defName>
 		<label>graviton pistol</label>
-		<description>The Gravitor Pistol, though smaller than other gravitor weapons, still wields the power of gravitational forces for damage. While not as potent, its compact size grants Marines crucial agility in close combat, making it a valuable asset on the battlefield.</description>
+		<description>A pistol-sized graviton gun. Just as rare as their larger cousins, the weaker “grav-pistol” can still bring down a house containing enemy heretics. \n\nGraviton weapons date back to the Dark Age of Technology. Even by the time of the Great Crusade, they were a rare sight.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Grav/GravPistol</texPath>
 			<drawSize>1.2</drawSize>
