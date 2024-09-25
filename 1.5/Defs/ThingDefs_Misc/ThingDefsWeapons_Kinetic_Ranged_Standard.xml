@@ -449,7 +449,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_SniperRifle</defName>
 		<label>ultra pattern sniper rifle</label>
-		<description>A heavy, integrally-suppressed sniper rifle, used by Space Marines of the Deathwatch for long-range combat. Properly designated as the Mark IX sniper rifle, this weapon fires needles at the enemy, propelled by an invisible laser. The same laser also punches a tiny hole in the target’s armor, allowing the needle through.\n\nFlashless and almost completely silent, needle weapons are a favorite of assassins, snipers, and other distinguishing shooters. In the Age of the Imperium, the needles used to be made of crystallized chemicals, allowing for non-lethal capture and near-traceless assassination, but in modern times the needles are typically solid materials.</description>
+		<description>A heavy, integrally-suppressed sniper rifle, used by Space Marines of the Deathwatch for long-range combat. Properly designated as the Mark IX sniper rifle, this weapon fires needles at the enemy, propelled by an invisible laser. The same laser also punches a tiny hole in the target’s armor, allowing the needle through.\n\nFlashless and almost completely silent, needle weapons are a favorite of assassins, snipers, and other distinguishing shooters. The needles are normally made of crystallized chemicals, allowing for non-lethal capture and near-traceless assassination, but due to necessity, the needles used here are solid materials.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/SniperRifle</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -610,7 +610,7 @@
 	<ThingDef ParentName="BaseHumanMakeableGun">
 		<defName>GW_SM_RocketLauncher</defName>
 		<label>astartes missile launcher</label>
-		<description>A shoulder-fired rocket launcher of suitable size for Adeptus Astartes use. Suitable for bunker-busting and anti-personnel fighting alike, all one has to do is fire this launcher at the enemy, and heresy shall be detected no more.\n\nThis design is relatively new, based on the older Soundstrike pattern. Those missile launchers included a missile rack and autoloading arm, which was attached to the Space Marine’s backpack. Every time the Soundstrike launcher was fired, the autoloader would reload the launcher without any action required from the Marine.</description>
+		<description>A shoulder-fired rocket launcher of suitable size for Adeptus Astartes use. Suitable for bunker-busting and anti-personnel fighting alike, all one has to do is fire this launcher at the enemy, and heresy shall be detected no more. \n\nThis design is relatively new, based on the older Soundstrike pattern. Those missile launchers included a missile rack and autoloading arm, which was attached to the Space Marine’s backpack. Every time the Soundstrike launcher was fired, the autoloader would reload the launcher without any action required from the Marine.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/RocketLauncher1Grey</texPath>
 			<drawSize>1.3</drawSize>
