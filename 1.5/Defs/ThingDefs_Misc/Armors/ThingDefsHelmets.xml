@@ -18,18 +18,18 @@
 			</recipeUsers>
 		</recipeMaker>
 		<uiIconScale>1.0</uiIconScale>
-        <tradeTags>
-            <li>HPHelmet</li>
-        </tradeTags>
+		<tradeTags>
+			<li>HPHelmet</li>
+		</tradeTags>
 		<apparel>
 			<tags>
 				<li>Spacer</li>
 				<li>EVA</li>
 			</tags>
 			<drawData>
-                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
+				<!--<scale>1.5</scale> Uncomment these to increase size while equipped
                 <childScale>1.5</childScale>-->
-            </drawData>
+			</drawData>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -45,9 +45,9 @@
 				<li>Soldier</li>
 			</defaultOutfitTags>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-		<!-- Scout-->
+	<!-- Scout-->
 	<ThingDef Name="GW_SM_ScoutHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_ScoutHelmet_A</defName>
 		<label>scout helmet (a)</label>
@@ -57,6 +57,9 @@
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_Scouts/Display/Scout_helmetA</uiIconPath>
 		<apparel>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags Inherit="False">
 				<!--<li>Spacer</li>-->
 				<li>GW_Scout</li>
@@ -149,7 +152,7 @@
 		</apparel>
 	</ThingDef>
 
-		<!--MKX Reiver-->
+	<!--MKX Reiver-->
 	<ThingDef Name="GW_SM_MKXReiverHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_ReiverHelmet_Simple</defName>
 		<label>reiver helmet</label>
@@ -226,7 +229,7 @@
 		</apparel>
 	</ThingDef>
 
-		<!--MKX Phobos-->
+	<!--MKX Phobos-->
 	<ThingDef Name="GW_SM_MKXPhobosHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_PhobosHelmet_Simple</defName>
 		<label>phobos helmet</label>
@@ -303,8 +306,8 @@
 		</apparel>
 	</ThingDef>
 
-        <!--MKIV-->
-    <ThingDef Name="GW_SM_MKIVHelmet_Base" ParentName="GW_SM_HelmetBase">
+	<!--MKIV-->
+	<ThingDef Name="GW_SM_MKIVHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_MaximusHelmet_Simple</defName>
 		<label>maximus helmet</label>
 		<graphicData>
@@ -318,16 +321,16 @@
 			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_simple</wornGraphicPath>
 		</apparel>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>9</maskCount>
-                <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-                <defaultPalette>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
-            </li>
-        </comps>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.2</AimingDelayFactor>
@@ -354,7 +357,7 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKIVHelmet_Base">
 		<defName>GW_SM_MaximusHelmet_Skull</defName>
@@ -366,7 +369,7 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_skull</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKIVHelmet_Base">
 		<defName>GW_SM_MaximusHelmet_Studs</defName>
@@ -378,7 +381,7 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_studs</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKIVHelmet_Base">
 		<defName>GW_SM_MaximusHelmet_Laurels</defName>
@@ -390,10 +393,10 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Maximus/Helmets/Maximus_helmet_withlaurels</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-        <!--MKVI-->
-    <ThingDef Name="GW_SM_MKVIHelmet_Base" ParentName="GW_SM_HelmetBase">
+	<!--MKVI-->
+	<ThingDef Name="GW_SM_MKVIHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_CorvusHelmet_Simple</defName>
 		<label>corvus helmet</label>
 		<graphicData>
@@ -407,16 +410,16 @@
 			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_simple</wornGraphicPath>
 		</apparel>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>8</maskCount>
-                <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-                <defaultPalette>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>8</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
-            </li>
-        </comps>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.2</AimingDelayFactor>
@@ -443,7 +446,7 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKVIHelmet_Base">
 		<defName>GW_SM_CorvusHelmet_Skull</defName>
@@ -455,7 +458,7 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_skull</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKVIHelmet_Base">
 		<defName>GW_SM_CorvusHelmet_Laurels</defName>
@@ -467,10 +470,10 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Corvus/Helmets/Corvus_helmet_withlaurels</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-        <!--MKVII-->
-    <ThingDef Name="GW_SM_MKVIIHelmet_Base" ParentName="GW_SM_HelmetBase">
+	<!--MKVII-->
+	<ThingDef Name="GW_SM_MKVIIHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_AquillaHelmet_Simple</defName>
 		<label>aquilla helmet</label>
 		<graphicData>
@@ -484,16 +487,16 @@
 			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_simple</wornGraphicPath>
 		</apparel>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>9</maskCount>
-                <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-                <defaultPalette>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
-            </li>
-        </comps>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.2</AimingDelayFactor>
@@ -520,7 +523,7 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Skull</defName>
@@ -532,7 +535,7 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_skull</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Studs</defName>
@@ -544,7 +547,7 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_studs</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Laurels</defName>
@@ -556,7 +559,7 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_withlaurels</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Winged</defName>
@@ -571,10 +574,10 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
-        <!--MKX Tacticus-->
-    <ThingDef Name="GW_SM_MKXHelmet_Base" ParentName="GW_SM_HelmetBase">
+	<!--MKX Tacticus-->
+	<ThingDef Name="GW_SM_MKXHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_TacticusHelmet_Simple</defName>
 		<label>tacticus helmet</label>
 		<graphicData>
@@ -588,16 +591,16 @@
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple</wornGraphicPath>
 		</apparel>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>9</maskCount>
-                <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-                <defaultPalette>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
-            </li>
-        </comps>
+			</li>
+		</comps>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.2</AimingDelayFactor>
@@ -626,9 +629,9 @@
 				<li>GW_SM_AstartesMedium</li>
 			</researchPrerequisites>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="GW_SM_MKXHelmet_Base">
+	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
 		<defName>GW_SM_TacticusHelmet_Skull</defName>
 		<label>tacticus helmet (skull)</label>
 		<graphicData>
@@ -638,9 +641,9 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_skull</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="GW_SM_MKXHelmet_Base">
+	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
 		<defName>GW_SM_TacticusHelmet_Laurels</defName>
 		<label>tacticus helmet (laurels)</label>
 		<graphicData>
@@ -650,9 +653,9 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_withlaurels</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="GW_SM_MKXHelmet_Base">
+	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
 		<defName>GW_SM_TacticusHelmet_Winged</defName>
 		<label>night lord tacticus helmet</label>
 		<graphicData>
@@ -665,13 +668,13 @@
 		<researchPrerequisites>
 			<li>GW_SM_AstartesMedium</li>
 		</researchPrerequisites>
-    </ThingDef>
+	</ThingDef>
 
-        <!--Gravis-->
-    <ThingDef Name="GW_SM_GravisHelmet_Base" ParentName="GW_SM_HelmetBase">
+	<!--Gravis-->
+	<ThingDef Name="GW_SM_GravisHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_GravisHelmet_Simple</defName>
 		<label>gravis helmet</label>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple_south</uiIconPath>
@@ -683,16 +686,16 @@
 			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_simple</wornGraphicPath>
 		</apparel>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>9</maskCount>
-                <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-                <defaultPalette>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
-            </li>
-        </comps>
+			</li>
+		</comps>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
@@ -720,106 +723,106 @@
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>0.35</SocialImpact>
 		</equippedStatOffsets>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
-        <defName>GW_SM_GravisHelmet_Skull</defName>
+		<defName>GW_SM_GravisHelmet_Skull</defName>
 		<label>gravis helmet (skull)</label>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull_south</uiIconPath>
-        <apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull</wornGraphicPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_skull</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
-        <defName>GW_SM_GravisHelmet_Laurels</defName>
+		<defName>GW_SM_GravisHelmet_Laurels</defName>
 		<label>gravis helmet (laurels)</label>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels_south</uiIconPath>
-        <apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels</wornGraphicPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_withlaurels</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
-        <defName>GW_SM_GravisHelmet_Interceptor</defName>
+		<defName>GW_SM_GravisHelmet_Interceptor</defName>
 		<label>interceptor helmet</label>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor_south</uiIconPath>
-        <apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor</wornGraphicPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptor</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
-        <defName>GW_SM_GravisHelmet_ClosedInterceptor</defName>
+		<defName>GW_SM_GravisHelmet_ClosedInterceptor</defName>
 		<label>closed interceptor helmet</label>
 		<comps Inherit="False">
-			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Forbiddable" />
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
 			<li Class="CompProperties_Styleable"></li>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>4</maskCount>
-                <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-                <defaultPalette>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>4</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
-            </li>
-        </comps>
-        <graphicData>
+			</li>
+		</comps>
+		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed_south</uiIconPath>
-        <apparel>
-            <wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed</wornGraphicPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_Gravis/Helmets/Gravis_helmet_inceptorclosed</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
-        <defName>GW_SM_GravisHelmet_Winged</defName>
+		<defName>GW_SM_GravisHelmet_Winged</defName>
 		<label>night lord gravis helmet</label>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged_south</uiIconPath>
-        <apparel>
-            <wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged</wornGraphicPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
-    </ThingDef>
+	</ThingDef>
 
-		<!--Terminator-->
+	<!--Terminator-->
 	<ThingDef Name="GW_SM_TerminatorHelmet" ParentName="GW_SM_HelmetBase">
-        <defName>GW_SM_TerminatorHelmet_Simple</defName>
+		<defName>GW_SM_TerminatorHelmet_Simple</defName>
 		<label>terminator helmet</label>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple_south</uiIconPath>
 		<comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>8</maskCount>
-                <palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-                <defaultPalette>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>8</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
-            </li>
-        </comps>
+			</li>
+		</comps>
 		<apparel>
 			<drawData>
 				<dataWest>
@@ -828,17 +831,17 @@
 				<dataEast>
 					<offset>(-0.01, 0.0, -0.04)</offset>
 				</dataEast>
-            </drawData>
+			</drawData>
 			<tags>
 				<li>PrestigeCombatGear</li>
-                <li>GW_Terminator</li>
+				<li>GW_Terminator</li>
 			</tags>
-            <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple</wornGraphicPath>
+			<wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_simple</wornGraphicPath>
 		</apparel>
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
 		</recipeMaker>
-        <costList>
+		<costList>
 			<ComponentSpacer>8</ComponentSpacer>
 			<Plasteel>400</Plasteel>
 			<Steel>300</Steel>
@@ -862,17 +865,17 @@
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>0.50</SocialImpact>
 		</equippedStatOffsets>
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="GW_SM_TerminatorHelmet">
-        <defName>GW_SM_TerminatorHelmet_Lensed</defName>
+	<ThingDef ParentName="GW_SM_TerminatorHelmet">
+		<defName>GW_SM_TerminatorHelmet_Lensed</defName>
 		<label>lensed terminator helmet</label>
-        <graphicData>
+		<graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses_south</uiIconPath>
-        <apparel>
-            <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses</wornGraphicPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Helmets/Indomitus_helmet_withlenses</wornGraphicPath>
 		</apparel>
-    </ThingDef>
+	</ThingDef>
 </Defs>
