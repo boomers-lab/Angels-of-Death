@@ -3,7 +3,6 @@
         <!--Generic shoulder base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
     <ThingDef Abstract="true" Name="HP_AoD_ShoulderBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
-		<description>Shoulderpads are more than armor; they're symbols of a Space Marine's identity and allegiance. Crafted from durable materials, they bear the insignias of the Marine's chapter, inspiring allies and intimidating foes. These pads offer essential protection while representing the pride and legacy of the chapter.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -77,7 +76,7 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_SM_AstartesFabrication</researchPrerequisite>
 		</recipeMaker>
-		<description>Shoulder pads for Space Marine Scout armor. Compared to the shoulder pads of other suits of Power Armor, they are relatively small, retaining the Scout’s stealthy profile.</description>
+		<description>Shoulder pads for Space Marine Scout armor. Compared to the shoulder pads of other suits of Power Armor, they are relatively small, retaining the Scout’s stealthy profile. \n\nScout Marines are sometimes known to wear camouflage, to assist in concealment. It is a rare thing indeed for battleline Space Marines to wear camouflage - such a thing has not been widely seen since the days of the Horus Heresy.</description>
 		<statBases>
 			<WorkToMake>4000</WorkToMake>
 			<MaxHitPoints>500</MaxHitPoints>
@@ -173,6 +172,7 @@
 		<!--MKX Reiver-->
 
 	<ThingDef Abstract="True" Name="GW_SM_MKXReiverShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Shoulder pads of Reiver power armor. The left pauldron is noticeably larger than the right - this is because most Reivers with pistols also wield a melee weapon in their left hand, so the larger pauldron helps protect them in melee combat. \n\nThe Space Marine remnants above this rimworld are roughly Chapter-strength, with those not stationed on the planet's surface instead residing in orbit. However, the actual composition of the Marine remnant is a mish-mash of multiple chapters pulled together, a far cry from the strict organization of the Codex Astartes. \n\nThe Chapter Master leading them is painfully aware of the daunting task facing him. While the likelihood of outright mutiny is very low, the cultural and doctrinal friction between the Marines is constantly grinding away at their combat effectiveness.</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
         </recipeMaker>
@@ -293,6 +293,7 @@
 		<!--MKX Phobos-->
 
 	<ThingDef Abstract="True" Name="GW_SM_MKXPhobosShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>A suit of Adeptus Astartes power armor of the Mk X Phobos pattern. It is a variant of the mainline Tacticus pattern, trading protection for lighter weight, higher mobility, and silent servomotors. \n\nArmor like this is worn by Primaris Space Marines - specifically Vanguard Infiltrators (tasked with sabotage and communications disruption) and Vanguard Eliminators (who neutralize high-value targets from long range).</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
         </recipeMaker>
@@ -391,6 +392,7 @@
         <!--MKIV-->
 
 	<ThingDef Abstract="True" Name="GW_SM_MKIVShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Shoulder pads built for Mk IV Maximus-pattern Power Armor. \n\nDuring and after the unification of Terra, the God-Emperor of Mankind began the First Founding - the creation of the Primarchs and the legions of transhuman Space Marines based on them. Twenty Primarchs were made, and so twenty Legions were forged - two failed, and nine fell to Chaos.</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
@@ -489,6 +491,7 @@
         <!--MKVI-->
 
 	<ThingDef Abstract="True" Name="GW_SM_MKVIShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Shoulder pads built for Mk VI Corvus-pattern Power Armor. \n\nAs a loyalist legion, the Raven Guard was fought in the Horus Heresy, but were shattered and broken during the Drop Site Massacre. The Primarch Corvus Corax, seeking a way to rebuild his legion, attempted to rush the process with some guidance from the Emperor, but sabotage by Alpha Legion infiltrators caused the new Marines to mutate into monstrosities. \n\nAfter the Heresy ended, Corvus Corax administered the Emperor’s Peace to the surviving mutants, even those that had remained loyal. Wracked with guilt, he then plunged into the Eye of Terror on a mission of vengeance and has never been seen since.</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
@@ -608,6 +611,7 @@
 
         <!--MKVII-->
 	<ThingDef Abstract="True" Name="GW_SM_MKVIIShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Middleweight shoulder pads, built for Mk VII Aquila-pattern Power Armor. \n\nWhile most recruitment from rimworlds is for the Astra Militarum, a select few are chosen to be added to the Adeptus Astartes. Taken by choice or through kidnapping, the recruits are thoroughly indoctrinated into proper Space Marines, their very identities obliterated and replaced with a more fitting persona. \n\nAs far as they know, they were always Imperial.</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
@@ -639,7 +643,7 @@
 
 	<ThingDef ParentName="GW_SM_MKVIIShoulderPads">
 		<defName>GW_SM_AquillaShoulderPads_TypeA</defName>
-		<label>aquilla shoulder pads (a)</label>
+		<label>aquila shoulder pads (a)</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelA_south</texPath>
 		</graphicData>
@@ -661,7 +665,7 @@
 
 	<ThingDef ParentName="GW_SM_MKVIIShoulderPads">
 		<defName>GW_SM_AquillaShoulderPads_TypeB</defName>
-		<label>aquilla shoulder pads (b)</label>
+		<label>aquila shoulder pads (b)</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelB_south</texPath>
 		</graphicData>
@@ -683,7 +687,7 @@
 
 	<ThingDef ParentName="GW_SM_MKVIIShoulderPads">
 		<defName>GW_SM_AquillaShoulderPads_TypeC</defName>
-		<label>aquilla shoulder pads (c)</label>
+		<label>aquila shoulder pads (c)</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Shoulder pads/Aquilla_sp_modelC_south</texPath>
 		</graphicData>
@@ -705,6 +709,7 @@
 
 		<!--MKX Tacticus-->
 	<ThingDef Abstract="True" Name="GW_SM_MKXShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Power Armor shoulder pads of the Mk X Tacticus pattern. \n\nSome Space Marine chapters were initially slow to adopt Primaris Marines as their own, such as the Space Wolves. Indeed, there were even incidents of grave violence, such as the slaying of a Custodian and his delivery of Primaris Marines by the Black Templars.</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
         </recipeMaker>
@@ -853,6 +858,7 @@
 
 		<!--Gravis-->
 	<ThingDef Abstract="True" Name="GW_SM_GravisShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Heavy shoulder pads of the Gravis pattern, protecting the user's shoulders from enemy attack. \n\nEven Power Armor does not protect against everything, and Space Marine recruitment is struggling to replace the casualties they take. Many Marines have been claimed by the pulse-charged rounds of glitterworld cataphracts or the infamous Doomsday Rocket Launcher. Others still have been isolated and ground down by outlanders and pirates, or hacked to pieces by tribals.</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
         </recipeMaker>
@@ -1023,6 +1029,7 @@
 
     	<!--Terminator-->
 	<ThingDef Abstract="True" Name="GW_SM_TerminatorShoulderPads" ParentName="HP_AoD_ShoulderBase">
+		<description>Large and heavy shoulder pads, built for Terminator Armor. It is just as durable - and expensive - as the plates themselves. \n\nAccording to the Codex Astartes, only the veteran 1st Company has access to Terminator Armor, and even then, one must earn a rare award known as the “Crux Terminatus” to wear it. \n\nIt is said that the Crux Terminatus contains a tiny shard of the One True Armor - the Power Armor once worn by the God-Emperor of Mankind.</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesHeavy</researchPrerequisite>
         </recipeMaker>
