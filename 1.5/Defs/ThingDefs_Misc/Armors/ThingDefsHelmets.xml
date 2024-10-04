@@ -531,7 +531,7 @@
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Skull</defName>
-		<label>aquilla helmet (skull)</label>
+		<label>aquila helmet (skull)</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_skull_south</texPath>
 		</graphicData>
@@ -543,7 +543,7 @@
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Studs</defName>
-		<label>aquilla helmet (studs)</label>
+		<label>aquila helmet (studs)</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_studs_south</texPath>
 		</graphicData>
@@ -555,7 +555,7 @@
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Laurels</defName>
-		<label>aquilla helmet (laurels)</label>
+		<label>aquila helmet (laurels)</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_withlaurels_south</texPath>
 		</graphicData>
@@ -567,7 +567,7 @@
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Winged</defName>
-		<label>night lord aquilla helmet</label>
+		<label>night lord aquila helmet</label>
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged_south</texPath>
 		</graphicData>
