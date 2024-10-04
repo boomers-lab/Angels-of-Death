@@ -165,7 +165,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_ReiverArmor</defName>
 		<label>reiver power armor</label>
-        <description>The MK X Reiver body armor is tailored for stealth and close-quarters combat. It's lightweight yet durable, allowing for agility while providing essential protection. Integrated with camo cloaks and grapnel launchers, Reiver armor enables silent movement and swift engagement, making it ideal for covert operations and infiltration missions.</description>
+        <description>A further modification of Mk X Phobos Power Armor, worn by Reivers of the Primaris Space Marines. This design of armor is so silent that a man would be unaware of a well-trained Reiver behind him until the moment his throat is cut. \n\nReivers are a type of Vanguard Space Marine, specializing in close-quarters guerrilla strikes. They can be upon the enemy before they even notice, hacking them into gory pieces, then disappear just as quickly and silently before an effective response can be made.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Reiver_torso_south</texPath>
 		</graphicData>
@@ -250,7 +250,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_MaximusArmor</defName>
 		<label>maximus power armor</label>
-        <description>The Maximus MK IV armor is celebrated for its exceptional durability and adaptability in combat. Constructed from adamantium and plasteel alloys, it offers superior protection while remaining versatile on the battlefield. Its modular design allows for easy customization to suit diverse combat scenarios. Enhanced with advanced targeting systems, this armor ensures the wearer remains a formidable force, embodying the indomitable spirit of the Space Marines.</description>
+        <description>A suit of Power Armor, following the Great Crusade-era Mk IV Maximus pattern. As a medium Power Armor suit, it possesses both average protection and mobility. \n\nThough succeeded by many designs, Maximus armor remains useful in the 41st Millennium, although only a few Chapters of Space Marines can produce it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Maximus_torso_south</texPath>
 		</graphicData>
@@ -290,8 +290,8 @@
         <!--MKVI-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_CorvusArmor</defName>
-		<label>corvus power armor</label>
-        <description>The MK VI Corvus armor is renowned for its sleek design and agility, particularly suited for stealth missions. Crafted from lightweight yet durable materials, it offers robust protection without compromising mobility. Enhanced with advanced stealth technology, it enables silent movement through enemy territory, making it ideal for covert operations. Frequently paired with jump packs, this armor allows for swift and dynamic engagement on the battlefield.</description>
+		<label>Corvus power armor</label>
+        <description>A suit of Space Marine Power Armor, following the Mk VI Corvus pattern. Developed during the Horus Heresy, this mainline armor strikes a balance between mobility and protection, while also being surprisingly stealthy. \n\nThe armor is named after the Primarch of the Raven Guard legion, Corvus Corax. During the pre-Heresy Scalland Campaign against the Eldar, Raven Guard Space Marines field-tested the armor’s prototypes and helped improve the design - it was they who received the first batches of the finalized armor.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Corvus_torso_south</texPath>
 		</graphicData>
@@ -331,8 +331,8 @@
         <!--MKVII-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_AquillaArmor</defName>
-		<label>aquilla power armor</label>
-        <description>The MK VII Aquila power armor, alongside Primaris variants, stands as one of the most popular choices among "firstborn" Space Marines. Renowned for its versatility and battlefield effectiveness, it offers a balance of protection and mobility. Crafted with the iconic aquila motif, symbolizing the Imperium's might, this armor is a symbol of honor and duty for the Adeptus Astartes. Trusted by generations of Space Marines, the MK VII Aquila armor remains a cornerstone of their arsenal, embodying the unwavering resolve of the Emperor's finest warriors.</description>
+		<label>Aquila power armor</label>
+        <description>Adeptus Astartes Power Armor, of the Mk VII Aquila pattern. Developed in the last days of the Horus Heresy, the Aquilla armor only became widely adopted after the civil war was over. \n\nUp until the Ultima Founding and the subsequent Indomitus Crusade, this was the armor of the typical Space Marine.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_torso_south</texPath>
 		</graphicData>
@@ -372,8 +372,8 @@
         <!--MKX Tacticus-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_TacticusArmor</defName>
-		<label>tacticus power armor</label>
-        <description>The MK X Tacticus power armor, created by Belisarius Cawl, stands as a testament to Adeptus Astartes innovation. Primarily utilized by the Primaris Space Marines, it represents the pinnacle of adaptability and versatility. Its modular construction allows for swift customization to suit various combat roles and environments. Engineered for optimal protection and mobility, the MK X Tacticus armor embodies the relentless pursuit of excellence by the Imperium's finest warriors.</description>
+		<label>Tacticus power armor</label>
+        <description>A suit of middleweight Mk X Tacticus Power Armor. The standard fare for the vast majority of the Primaris Space Marines, it features improved protection over older patterns while retaining mobility. \n\nThe Primarch Roboute Guilliman instructed Archmagos Belisarius Cawl to begin the development of the Primaris Marines in the 31st Millennium, just after the horrors of the Horus Heresy. Ten thousand years later, the two reunited just in time to see the project's completion.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_torso_south</texPath>
 		</graphicData>
@@ -413,8 +413,8 @@
 		<!--Gravis-->
 	<ThingDef Name="GW_SM_GravisArmorBase" ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_GravisArmor</defName>
-		<label>gravis power armor (a)</label>
-        <description>The MK X Gravis power armor, favored by high-ranking Adeptus Astartes officers, as well as specialized units like Inceptors and Aggressors among the Primaris ranks, signifies unparalleled resilience and firepower on the battlefield. Designed by Belisarius Cawl, this armor combines the adaptability of the MK X Tacticus with enhanced durability and strength. Its reinforced plating offers superior protection against heavy weaponry, while its integrated systems provide enhanced firepower and tactical flexibility. Trusted by elite warriors, the MK X Gravis armor embodies the unwavering determination and leadership of the Imperium's finest champions.</description>
+		<label>Gravis power armor (a)</label>
+        <description>A heavyweight suit of Power Armor, of the Mk X Gravis pattern. A cut above standard Tacticus armor, it allows the wearer to take more fire than normal while responding in kind. \n\nThe heavyweight Aggressors, the plasma-wielding Eradicators, and some officers of the Primaris Space Marines all wear this armor. Inceptors, wearing jump-packs, also use this armor to great effect, compensating for lower mobility with the power to leap long distances.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_torso_south</texPath>
 		</graphicData>
@@ -462,7 +462,7 @@
 
 	<ThingDef ParentName="GW_SM_GravisArmorBase">
 		<defName>GW_SM_GravisArmorNeckPlate</defName>
-		<label>gravis power armor (b)</label>
+		<label>Gravis power armor (b)</label>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_necktorso_south</texPath>
 		</graphicData>
@@ -474,8 +474,8 @@
 		<!--Terminator-->
 	<ThingDef ParentName="GW_SM_ArmorBase">
         <defName>GW_SM_IndomitusTerminatorArmor</defName>
-		<label>terminator power armor</label>
-        <description>The Indomitus Terminator armor, reserved for the 1st company of each Adeptus Astartes chapter, symbolizes unparalleled power and invincibility. Crafted with ancient technology and empowered by the Emperor, this armor offers unmatched protection and resilience. Its adamantium plating and energy shielding make its wearer virtually impervious to all but the most devastating attacks. Enhanced with built-in weapons and teleportation, it ensures its bearers lead the Imperium's most critical battles, embodying the indomitable spirit of the Space Marines.</description>
+		<label>Terminator power armor</label>
+        <description>A rare and powerful suit of Power Armor, also known as “Tactical Dreadnought Armor”. Space Marine Terminators are greatly feared, for their thick ceramite-plasteel armor plates can shrug off a great deal of firepower while the Marines respond with heavy weaponry. \n\nThis particular suit is of the Indomitus pattern, the most common version across the Imperium. \n\nWhile it slows down the wearer, some situations call for firepower and durability over maneuverability. Woe betide the foe that faces a Terminator squad in a confined space, such as that of a Space Hulk.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso_south</texPath>
 		</graphicData>
