@@ -237,7 +237,7 @@
 		<modExtensions>
 			<li Class="GravDamege.ModExtension_MassToDamage">
                 <weightThreshold>5</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
-                <damagePerBonus>0.55</damagePerBonus> <!-- bonus damage per threshold, in this case it 1 damage per 5kg -->
+                <damagePerBonus>0.55</damagePerBonus> <!-- bonus damage per threshold, in this case it 0.55 damage per 5kg -->
                 <showBonusDamageText>true</showBonusDamageText> <!-- throw a little green text next to target on hit, telling how much bonus damage is done -->
             </li>
 		</modExtensions>
@@ -319,7 +319,7 @@
 		<modExtensions>
 			<li Class="GravDamege.ModExtension_MassToDamage">
                 <weightThreshold>5</weightThreshold> <!-- added bonus every X kg, in this case. it 5kg -->
-                <damagePerBonus>0.20</damagePerBonus> <!-- bonus damage per threshold, in this case it 1 damage per 5kg -->
+                <damagePerBonus>0.20</damagePerBonus> <!-- bonus damage per threshold, in this case it 0.2 damage per 5kg -->
                 <showBonusDamageText>true</showBonusDamageText> <!-- throw a little green text next to target on hit, telling how much bonus damage is done -->
             </li>
 		</modExtensions>
