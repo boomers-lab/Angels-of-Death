@@ -83,7 +83,7 @@
     <ThingDef ParentName="GW_SM_CapeBase">
         <defName>GW_SM_ScoutCape</defName>
         <label>scout cape</label>
-        <description>A cape that is designed to work with Space Marine Scout armor. It provides no protection, but it breaks up the user’s silhouette and provides some insulation against extreme temperatures.</description>
+        <description>A cape that is designed to work with Space Marine Scout armor. It provides no protection, but it breaks up the user’s silhouette and provides some insulation against extreme temperatures. \n\nMake no mistake - a Scout Marine is as strong as any other Space Marine. It is only their experience that is lacking, and that shall surely be corrected swiftly.</description>
         <graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_cape</texPath>
 		</graphicData>
