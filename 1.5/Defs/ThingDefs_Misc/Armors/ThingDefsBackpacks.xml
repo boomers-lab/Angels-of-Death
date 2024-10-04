@@ -3,7 +3,6 @@
 	<!--Generic armor base. Every armor will have these things. Only add/change stuff in this if you want every armor to be affected-->
 	<ThingDef Abstract="true" Name="GW_SM_BackpackBase" ParentName="GW_BackpackBase">
 		<techLevel>Spacer</techLevel>
-		<description>Astartes backpacks serve as power hubs for their armors, providing energy to various systems crucial for combat. These backpacks house fusion reactors and energy storage units, supplying the necessary power for mobility, communication, and weapons systems. Designed for reliability and efficiency, they ensure that Space Marines remain fully operational on the battlefield, powering their armor's functions and enhancing their combat effectiveness.</description>
 		<uiIconScale>1.6</uiIconScale>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -46,7 +45,8 @@
 	<!--MKX Reiver-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_ReiverBackpack</defName>
-		<label>reiver backpack</label>
+		<label>Reiver backpack</label>
+		<description>A Mk X Phobos backpack modified for use by Space Marine Reivers. As well as providing backup power to the armor’s servos, these backpacks also serve other functions, such as supplying reserve air in a vacuum, temperature regulation, and air purification. \n\nDespite having to induct baseline humans into their ranks, the remaining veteran Space Marines still hold their chapters dearly, and retain their traditions as best they can.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Reiver/Reiver_backpack_south</texPath>
 		</graphicData>
@@ -87,7 +87,8 @@
 	<!--MKX Phobos-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_PhobosBackpack</defName>
-		<label>phobos backpack</label>
+		<label>Phobos backpack</label>
+		<description>A backpack for a suit of Mk X Phobos power armor. While modern suits of Power Armor contain an internal power source, these backpacks provide an additional power system that ensures maximum reliability. \n\nThe stranded Imperial fleet has learned their lesson that glitterworlds are hard targets. When a large force of heavy cataphract infantry fought toe-to-toe against Space Marines and soundly defeated them, much was lost with little gain.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Phobos/Phobos_backpack_south</texPath>
 		</graphicData>
@@ -128,7 +129,8 @@
 	<!--MKIV-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_MaximusBackpack</defName>
-		<label>maximus backpack</label>
+		<label>Maximus backpack</label>
+		<description>An ancient design of backpack, worn with Mk IV Maximus Power Armor. \n\nThe twenty Primarchs, the gene-fathers of the twenty Space Marine Legions, were spirited away in their infancy by a Chaos rift and scattered throughout the galaxy. As well as uniting the galaxy, the second objective of the Great Crusade was to rediscover the missing Primarchs and place them in charge of the Legions descended from them.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Maximus/Maximus_backpack_south</texPath>
 		</graphicData>
@@ -169,7 +171,8 @@
 	<!--MKVI-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_CorvusBackpack</defName>
-		<label>corvus backpack</label>
+		<label>Corvus backpack</label>
+		<description>A backpack worn with Mk VI Corvus-pattern Power Armor. \n\nA Primarch is more than just a leader - they are the “sons” of the God-Emperor of Mankind, and the genetic templates upon which the old Space Marine Legions were based. On the field, a Primarch is near-unstoppable, as the Emperor’s gene-craft is almost without equal.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Corvus/Corvus_backpack_south</texPath>
 		</graphicData>
@@ -210,7 +213,8 @@
 	<!--MKVII-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_AquillaBackpack</defName>
-		<label>aquilla backpack</label>
+		<label>Aquila backpack</label>
+		<description>A Power Armor backpack of the Aquila pattern. \n\nSpace Marine chapters run the gamut from fanatical and strict to free-spirited and unconventional. However, all of them have an absolute loyalty to the Imperium - absolute until the moment they turn Renegade, from choice or circumstance.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Aquilla_backpack_south</texPath>
 		</graphicData>
@@ -251,7 +255,8 @@
 	<!--MKX Tacticus-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_TacticusBackpack</defName>
-		<label>tacticus backpack</label>
+		<label>Tacticus backpack</label>
+		<description>A Power Armor backpack of Mk X Tacticus design. \n\nA Space Marine Librarian - a powerful psyker - once attempted to commune with an archotech. Seeing it in his mind’s eye as a terrifying blend of advanced technology and an immensely powerful psyker’s soul, the Librarian reported it to be completely alien to him, unlike anything he had seen before. \n\nSuch a thing would normally produce a psychic beacon to rival the Astronomicon, but the Librarians theorize that the archotechs have mastered a way of masking their psychic signature. This would help them avoid unwanted attention - from the Imperium, from Chaos, and from any others that would detect them.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Tacticus/Tacticus_backpack_south</texPath>
 		</graphicData>
@@ -292,7 +297,8 @@
 	<!--Gravis-->
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_GravisBackpack</defName>
-		<label>gravis backpack</label>
+		<label>Gravis backpack</label>
+		<description>A heavy backpack for Mk X Gravis power armor. The increased power supply provides the energy needed to move the thicker armor. \n\nAt the time of the Indomitus Crusade, almost all Space Marine chapters were reinforced with Primaris Marines and their equipment. Some of the Firstborn also crossed the “Rubicon Primaris” and became Primaris Marines as well.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Gravis/Gravis_backpack_south</texPath>
 		</graphicData>
@@ -335,7 +341,7 @@
 	<ThingDef ParentName="GW_SM_BackpackBase">
 		<defName>GW_SM_AssaultJumpPack</defName>
 		<label>Assault Jump-pack</label>
-		<description>The MK 7 Jump pack, commonly utilized by Astartes, particularly in tandem with MK VI Corvus power armor, epitomizes mobility and battlefield agility. These jet-propelled packs provide Space Marines with rapid vertical and horizontal movement, granting them unparalleled maneuverability on the battlefield. Paired with the sleek design of the MK VI Corvus armor, this combination enables swift strikes and dynamic engagements, making it a preferred choice for fast-response missions and airborne assaults.</description>
+		<description>A set of thrusters, which are worn attached to a Power Armor backpack. While not designed to provide the ability to fly, it allows the power-armored wearer to jump long distances - usually into the middle of an enemy infantry formation. \n\nJump-packs are so important as to be role-defining. Assault Marines, Inceptors, and others like them all use jump-packs to great effect, leaping into the enemy and unleashing bolt and blade.</description>
 		<graphicData>
 			<texPath>Things/Apparel/AssaultJump_pack/Display/Assault_backpack1</texPath>
 		</graphicData>
