@@ -2,8 +2,8 @@
 <Defs>
     <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldA</defName>
-        <label>combat shield</label>
-        <description>A lighter version of the storm shield, using similar principles. While it is not as protective as a full-sized storm shield, it remains a strong defensive bulwark against enemy attacks, especially due to the power field coating the shield.</description>
+        <label>Combat shield</label>
+        <description>A lighter version of the Storm Shield, using similar principles. While it is not as protective as a full-sized storm shield, it remains a strong defensive bulwark against enemy attacks, especially due to the power field coating the shield.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -240,7 +240,7 @@
     <ThingDef ParentName="GWShieldBase">
         <defName>GW_SM_PrimarisShield</defName>
         <label>primaris shield</label>
-        <description>Primaris shields, wielded by Bladeguard Veterans and other Primaris officers, epitomize top-tier defense among Adeptus Astartes. Crafted with advanced materials and tech, they offer unparalleled protection. Enhanced with energy fields and reinforced plating, they provide reliable defense and formidable offense in close-quarters combat. Trusted by elite warriors, Primaris shields symbolize the unwavering dedication of the Imperium's finest champions.</description>
+        <description>A Relic Shield, used by Primaris Space Marine Captains. A stronger version of the Storm Shield, it also contains the bones of Imperial martyrs, symbolizing their sacrifice. \n\nThe idea to use them was that of the Imperial Regent, Roboute Guilliman. He intended for the newly-forged Primaris Marines to gain a connection to the long and storied history of the Imperium.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Primaris shields/Previews/PrimarisShield1_preview</texPath>
             <graphicClass>Graphic_Single</graphicClass>
