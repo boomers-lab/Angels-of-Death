@@ -293,7 +293,7 @@
 		<!--MKX Phobos-->
 
 	<ThingDef Abstract="True" Name="GW_SM_MKXPhobosShoulderPads" ParentName="HP_AoD_ShoulderBase">
-		<description>A suit of Adeptus Astartes power armor of the Mk X Phobos pattern. It is a variant of the mainline Tacticus pattern, trading protection for lighter weight, higher mobility, and silent servomotors. \n\nArmor like this is worn by Primaris Space Marines - specifically Vanguard Infiltrators (tasked with sabotage and communications disruption) and Vanguard Eliminators (who neutralize high-value targets from long range).</description>
+		<description>Shoulder pads, built for Mk X Phobos Power Armor. While large shoulder pads provide protection when facing the enemy side-on in a shooting stance, it also provides ample room to show their Chapter heraldry, like the knights of old. \n\nOne of the archotechs, having noted the seemingly-impossible arrival of the wrecked Imperial fleet, skipped a large quantity of helpful materials onto the voidships, as well as some samples of archotechnology such as advanced prosthetic limbs. The Imperial forces, regarding this as a show of force, were greatly intimidated by this move - while the resources were used to repair the ships, the limbs and other equipment remained untouched except for study..</description>
 		<recipeMaker>
             <researchPrerequisite>GW_SM_AstartesLight</researchPrerequisite>
         </recipeMaker>
