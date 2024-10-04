@@ -3,7 +3,7 @@
     <ThingDef Name="GW_SM_HoodBase" ParentName="HatMakeableBase" Abstract="True">
         <possessionCount>1</possessionCount>
         <costStuffCount>50</costStuffCount>
-		<description>A hood for Space Marine Scouts. It provides no protection, but it breaks up the user’s silhouette and provides some insulation against extreme temperatures.</description>
+		<description>A hood for Space Marine Scouts. It provides no protection, but it breaks up the user’s silhouette and provides some insulation against extreme temperatures. \n\nVarious patterns of sniper rifle are issued to the Scout Marines. They are not likely to see them again should they leave the 10th Company, but knowledge is power - knowing the way of the sniper will help them if they should find themselves facing one as they serve on the battleline.</description>
         <graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
