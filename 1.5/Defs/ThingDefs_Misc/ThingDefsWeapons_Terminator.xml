@@ -270,7 +270,7 @@
 	<ThingDef ParentName="GW_SM_TermBase">
 		<defName>GW_SM_Gun_StormBolter</defName>
 		<label>Umbra storm bolter</label>
-		<description>A double-barrel, rapid-fire bolter used by Space Marines. Storm Bolters are surprisingly compact for such a powerful weapon, possessing a blistering rate of fire without compromising the power of every bolt.\n\nThe Umbra-pattern Storm Bolter is popular with Terminators of the Red Scorpions chapter of the Adeptus Astartes. Other chapters use their own patterns of Storm Bolter, and the Astra Militarum uses Storm Bolter emplacements as a crowd control weapon.</description>
+		<description>A double-barrel, rapid-fire bolter used by Space Marines. Storm Bolters are surprisingly compact for such a powerful weapon, possessing a blistering rate of fire without compromising the power of every bolt. Its size makes it quick to aim and fire, but causes it to lose out on range compared to standard bolters. \n\nThe Umbra-pattern Storm Bolter is popular with Terminators of the Red Scorpions chapter of the Adeptus Astartes. Other chapters use their own patterns of Storm Bolter, and the Astra Militarum uses Storm Bolter emplacements as a crowd control weapon.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Terminator/StormBolter</texPath>
 			<drawSize>1.4</drawSize>
