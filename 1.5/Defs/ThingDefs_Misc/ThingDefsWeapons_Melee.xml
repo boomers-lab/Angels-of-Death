@@ -106,7 +106,7 @@
 	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
 		<defName>MeleeWeapon_Relic_Chainsword_GrimWorld</defName>
 		<label>relic chainsword</label>
-		<description>An Astartes-size chainsword design of considerable age. For reasons unknown, it is lighter weight than a regular chainsword, and cuts even more viciously. \n\nIn the Imperium of Man, “older” is often synonymous with “better”, as relics of the Dark Age of Technology and the following Age of Strife held powerful secrets that no one in the Imperium could truly understand. This became even more true in the 41st Millennium, as even the designs of Great Crusade and Horus Heresy-era technology became lost to the Imperium.</description>
+		<description>An Astartes-size chainsword design of considerable age. For reasons unknown, it is of lighter weight than a regular chainsword, and cuts even more viciously. \n\nIn the Imperium of Man, “older” is often synonymous with “better”, as relics of the Dark Age of Technology and the following Age of Strife held powerful secrets that no one in the Imperium could truly understand. This became even more true in the 41st Millennium, as even the designs of Great Crusade and Horus Heresy-era technology became lost to the Imperium.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 		  <texPath>Things/Weapons/Melee/ChainSword</texPath>
