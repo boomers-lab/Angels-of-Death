@@ -479,7 +479,7 @@
 	<ThingDef Name="GW_SM_MKVIIHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_SM_AquillaHelmet_Simple</defName>
 		<label>Aquila helmet</label>
-		<description>A Power Armor helmet of Mk VII Aquilla design. Well-suited to shrugging off moderate enemy fire. \n\nIt is a trialing time for everyone, even the gene-enhanced veteran Marines. More than one has had a mental or philosophical breakdown on the Imperial voidships. \n\nMost can be calmed down eventually. Some cannot.</description>
+		<description>A Power Armor helmet of Mk VII Aquila design. Well-suited to shrugging off moderate enemy fire. \n\nIt is a trialing time for everyone, even the gene-enhanced veteran Marines. More than one has had a mental or philosophical breakdown on the Imperial voidships. \n\nMost can be calmed down eventually. Some cannot.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Aquilla/Helmets/Aquilla_helmet_simple_south</texPath>
 		</graphicData>
