@@ -103,7 +103,7 @@
 	<ThingDef ParentName="GW_SM_ArmorBase">
 		<defName>GW_SM_Scout</defName>
 		<label>scout armor</label>
-        <description>An enlarged, unpowered suit of carapace armor issued to Scout Marines. While it lacks the protection and other benefits of actual Power Armor, this suit of armor is less restrictive on movement and is quieter to move, making it more suitable for reconnaissance and unconventional warfare.\n\nScout Marines are typically the newest recruits of a Space Marine chapter. The Codex Astartes dictates that the 10th Company of a chapter should consist only of Scout Marines and Vanguard Space Marines.</description>
+        	<description>An enlarged, unpowered suit of carapace armor issued to Scout Marines. While it lacks the protection and other benefits of actual Power Armor, this suit of armor is less restrictive on movement and is quieter to move, making it more suitable for reconnaissance and unconventional warfare.\n\nScout Marines are typically the newest recruits of a Space Marine chapter. The Codex Astartes dictates that the 10th Company of a chapter should consist only of Scout Marines and Vanguard Space Marines.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Armor_Scouts/Display/Scout_torso</texPath>
 		</graphicData>
