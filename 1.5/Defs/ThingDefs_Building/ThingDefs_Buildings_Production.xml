@@ -2,8 +2,8 @@
 <Defs>
     <ThingDef ParentName="GrimworldFabricationBenchBase">
         <defName>HP_ImperialFabricationBench</defName>
-        <label>astartes weapons workbench</label>
-        <description>The Adeptus Astartes Fabrication Bench stands as the pinnacle of crafting excellence within the Adeptus Astartes' arsenal. This intricate workbench integrates advanced technology and arcane craftsmanship, empowering skilled individuals to manufacture and assemble a vast array of specialized Astartes equipment and weaponry.</description>
+        <label>astartes weapon workbench</label>
+        <description>A workbench for assembling Astartes-grade weaponry. \n\nThese weapons are much too big for a baseline human to handle normally, but with Power Armor, a skilled user can cut a swathe through the galaxy.</description>
         <costList>
             <Steel>100</Steel>
             <Plasteel>50</Plasteel>
@@ -24,8 +24,8 @@
 
     <ThingDef ParentName="GrimworldFabricationBenchBase">
         <defName>GW_SM_ArmorBench</defName>
-        <label>astartes armors workbench</label>
-        <description>The Adeptus Astartes Fabrication Bench stands as the pinnacle of crafting excellence within the Adeptus Astartes' arsenal. This intricate workbench integrates advanced technology and arcane craftsmanship, empowering skilled individuals to manufacture and assemble a vast array of specialized Astartes equipment and weaponry.</description>
+        <label>astartes armor workbench</label>
+        <description>A workbench for assembling Astartes-grade armor. \n\nThe first suits of Power Armor were worn by the techno-barbarians of Terra, and were adopted for use by the Emperor of Mankind’s Thunder Warriors and their Space Marine replacements.</description>
         <costList>
             <Steel>100</Steel>
             <Plasteel>50</Plasteel>
