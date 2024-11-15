@@ -2,7 +2,7 @@
 <Defs>
     <ThingDef ParentName="GWShieldBase" Name="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldA</defName>
-        <label>Combat shield</label>
+        <label>Combat shield(A)</label>
         <description>A lighter version of the Storm Shield, using similar principles. While it is not as protective as a full-sized storm shield, it remains a strong defensive bulwark against enemy attacks, especially due to the power field coating the shield.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield1_preview</texPath>
@@ -73,7 +73,7 @@
         </apparel>
         <recipeMaker>
             <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
-            <recipeUsers>
+            <recipeUsers Inherit="False">
                 <li>GW_SM_ArmorBench</li>
             </recipeUsers>
         </recipeMaker>
@@ -92,6 +92,7 @@
 
     <ThingDef ParentName="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldB</defName>
+		<label>Combat shield(B)</label>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield2_preview</texPath>
         </graphicData>
@@ -102,6 +103,7 @@
 
     <ThingDef ParentName="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldC</defName>
+		<label>Combat shield(C)</label>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield3_preview</texPath>
         </graphicData>
@@ -112,6 +114,7 @@
 
     <ThingDef ParentName="GWCombatShieldBase">
         <defName>GW_SM_CombatShieldD</defName>
+		<label>Combat shield(D)</label>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Combat shields/Preview/CombatShield4_preview</texPath>
         </graphicData>
@@ -122,7 +125,7 @@
 
     <ThingDef ParentName="GWShieldBase" Name="GWStormShieldBase">
         <defName>GW_SM_StormShieldA</defName>
-        <label>storm shield</label>
+        <label>storm shield(A)</label>
         <description>A heavy ballistic shield used by some Space Marine Terminators. As well as being a durable shield in its own right, it has an integrated energy field generator (similar to a power weapon), using gravitational forces to defeat incoming threats.\n\nThe Adeptus Custodes - the personal guard of the God-Emperor of Mankind - have also been known to use storm shields, and smaller versions are used by Daemonhunters of the Inquisition.</description>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield1_preview</texPath>
@@ -193,6 +196,9 @@
         </apparel>
         <recipeMaker>
             <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
+			<recipeUsers Inherit="False">
+                <li>GW_SM_ArmorBench</li>
+            </recipeUsers>
         </recipeMaker>
         <modExtensions>
           <li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
@@ -209,6 +215,7 @@
 
     <ThingDef ParentName="GWStormShieldBase">
         <defName>GW_SM_StormShieldB</defName>
+		<label>storm shield(B)</label>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield2_preview</texPath>
         </graphicData>
@@ -219,6 +226,7 @@
 
     <ThingDef ParentName="GWStormShieldBase">
         <defName>GW_SM_StormShieldC</defName>
+		<label>storm shield(C)</label>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield3_preview</texPath>
         </graphicData>
@@ -229,6 +237,7 @@
 
     <ThingDef ParentName="GWStormShieldBase">
         <defName>GW_SM_StormShieldD</defName>
+		<label>storm shield(D)</label>
         <graphicData>
             <texPath>Things/Apparel/ArmorUpgrade_Shields/Storm shields/Preview/StormShield4_preview</texPath>
         </graphicData>
@@ -307,7 +316,7 @@
         </equippedStatOffsets>
         <recipeMaker>
             <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
-            <recipeUsers>
+            <recipeUsers Inherit="False">
                 <li>GW_SM_ArmorBench</li>
             </recipeUsers>
         </recipeMaker>
