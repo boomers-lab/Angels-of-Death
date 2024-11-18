@@ -395,6 +395,25 @@
 		<equippedStatOffsets>
 			<MoveSpeed>-0.4</MoveSpeed>
 		</equippedStatOffsets>
+		<comps Inherit="False">
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>9</maskCount>
+                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(255, 255, 255)</colorA>
+					<colorB>(255, 255, 255)</colorB>
+					<colorC>(255, 255, 255)</colorC>
+                </defaultPalette>
+            </li>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Styleable" />
+			<li Class="CompProperties_Forbiddable"/>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+        </comps>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
 			<Plasteel>400</Plasteel>
