@@ -148,6 +148,9 @@
 		<label>grav weapons</label>
 		<description>Manufacture grav weapons - graviton-based weaponry that crushes a target with its own mass.</description>
         <baseCost>6000</baseCost>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+		</prerequisites>
 		<researchViewX>2.00</researchViewX>
 		<researchViewY>4.10</researchViewY>
         <modExtensions>
