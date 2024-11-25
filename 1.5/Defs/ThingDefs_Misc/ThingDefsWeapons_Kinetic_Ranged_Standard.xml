@@ -39,7 +39,7 @@
   
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_SM_NeedleBullet</defName>
-		<label>neelde round</label>
+		<label>needle round</label>
 		<graphicData>
 			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
