@@ -106,7 +106,7 @@
 	
 	<ThingDef ParentName="GW_SM_FlamerBase">
 		<defName>GW_SM_Gun_Flamer</defName>
-		<label>Infernus flamer</label>
+		<label>Pyreblaster</label>
 		<description>A flamethrower used by the forces of the Imperium of Man. It fires a steady stream of promethium - a volatile, self-igniting incendiary gel - to consume their enemies in cleansing fire. Flamers are seen widely in the Imperium, with wielders ranging from Space Marines and Sisters of Battle to Imperial Guardsmen and hiveworld gangers. \n\nThe Sisters of Battle, religious zealots as they are, use flamers extensively to purge “abominations” from the galaxy.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/Flamer</texPath>
