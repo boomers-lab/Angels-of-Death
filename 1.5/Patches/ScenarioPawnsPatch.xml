@@ -4,10 +4,8 @@
 		<mods>
 			<li>Warhammer 40.000 - Genes</li>
 		</mods>
-		<match Class="PatchOperationConditional">
-			<xpath>Defs/XenotypeDef[defName="BEWH_PrimarisSpaceMarine"]</xpath>
-			<match Class="PatchOperationReplace">
-            <xpath>Defs/ScenarioDef[defName="HP_CrashlandedAngels"]/scenario/parts/li[@Class="ScenPart_ConfigPage_ConfigureStartingPawns"]</xpath>
+		<match Class="PatchOperationReplace">
+			<xpath>Defs/ScenarioDef[defName="HP_CrashlandedAngels"]/scenario/parts/li[@Class="ScenPart_ConfigPage_ConfigureStartingPawns"]</xpath>
             <value>
                 <li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
                     <def>ConfigurePawnsXenotypes</def>
@@ -24,7 +22,6 @@
                     </xenotypeCounts>
                 </li>
             </value>
-			</match>
 		</match>
 	</Operation>
     <!-- <Operation Class="PatchOperationConditional"> -->

@@ -4,10 +4,8 @@
 		<mods>
 			<li>Warhammer 40.000 - Genes</li>
 		</mods>
-		<match Class="PatchOperationConditional">
-			<xpath>Defs/XenotypeDef[defName="BEWH_SpaceMarine"]</xpath>
-			<match Class="PatchOperationSequence">
-            <operations>
+		<match Class="PatchOperationSequence">
+			<operations>
                 <li Class="PatchOperationAdd">
                     <xpath>Defs/PawnKindDef[@Name="GW_SM_PawnBase"]</xpath>
                     <value>
@@ -41,7 +39,6 @@
                     </value>
                 </li>
             </operations>
-			</match>
 		</match>
 	</Operation>
     <!-- <Operation Class="PatchOperationConditional"> -->
