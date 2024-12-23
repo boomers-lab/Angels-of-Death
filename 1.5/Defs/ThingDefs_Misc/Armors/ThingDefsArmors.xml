@@ -397,7 +397,7 @@
 		</equippedStatOffsets>
 		<comps Inherit="False">
             <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>9</maskCount>
+                <maskCount>4</maskCount>
                 <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
                 <defaultPalette>
                     <colorA>(255, 255, 255)</colorA>
