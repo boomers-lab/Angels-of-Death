@@ -635,7 +635,7 @@
 			<li>RangedHeavy</li>
 		</weaponClasses>
 		<recipeMaker>
-			<researchPrerequisite>GW_Launchers</researchPrerequisite>
+			<researchPrerequisite>GW_SM_AstartesMedium</researchPrerequisite>
 			<displayPriority>420</displayPriority>
 			<recipeUsers Inherit="False">
 				<li>HP_ImperialFabricationBench</li>

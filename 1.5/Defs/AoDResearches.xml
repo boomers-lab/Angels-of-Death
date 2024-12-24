@@ -76,7 +76,7 @@
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesLight</defName>
-		<label>astartes light power armors</label>
+		<label>astartes light armors</label>
 		<description>Create lightweight Space Marine power armor of the Mk X Phobos pattern, as well as the modified armor of Space Marine Reivers.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
@@ -99,7 +99,7 @@
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesMedium</defName>
-		<label>astartes medium power armors</label>
+		<label>astartes medium armors</label>
 		<description>Produce mainline suits of Space Marine power armor - the Mark IV Maximus, the Mark VI Corvus, the Mark VII Aquila, and the Mark X Tacticus patterns.</description>
         <baseCost>6500</baseCost>
 		<prerequisites>
@@ -122,14 +122,14 @@
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_AstartesHeavy</defName>
-		<label>astartes heavy power armors</label>
+		<label>astartes heavy armors</label>
 		<description>Craft the heaviest suits of Space Marine power armor available - the Mark X Gravis pattern and the rare Terminator Armor.</description>
         <baseCost>7800</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
 		</prerequisites>
-		<researchViewX>10.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+			<researchViewX>10.00</researchViewX>
+			<researchViewY>0.70</researchViewY>
         <modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -143,7 +143,7 @@
         </modExtensions>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+	<!--<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_GravWeapons</defName>
 		<label>grav weapons</label>
 		<description>Manufacture grav weapons - graviton-based weaponry that crushes a target with its own mass.</description>
@@ -151,8 +151,11 @@
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 		</prerequisites>
-		<researchViewX>2.00</researchViewX>
-		<researchViewY>4.10</researchViewY>
+  			<researchViewX>7.00</researchViewX>
+ 			<researchViewY>3.20</researchViewY>
+		<prerequisites>
+			<li>GW_SM_CodexAstartes</li>
+		</prerequisites>
         <modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -164,7 +167,7 @@
                 </ItemStudyRequirements>
             </li>
         </modExtensions>
-	</ResearchProjectDef>
+	</ResearchProjectDef>-->
 
         <!--Roles-->
 		<!--
