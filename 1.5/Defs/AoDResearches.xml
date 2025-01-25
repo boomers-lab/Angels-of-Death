@@ -142,6 +142,53 @@
             </li>
         </modExtensions>
 	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_Ultarmarines</defName>
+		<label>Ultarmarines style pack</label>
+		<description>WIP</description>
+        <baseCost>6500</baseCost>
+		<prerequisites>
+			<li>GW_SM_AstartesMedium</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>1.40</researchViewY>
+        <modExtensions>
+            <!-- <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions"> -->
+                <!-- <StudyLocation>GW_Cogitator</StudyLocation> -->
+                <!-- <ItemStudyRequirements> -->
+                    <!-- <li Class="GW_Frame.StudyRequirement"> -->
+                        <!-- <StudyObject>GW_STC_Fragment</StudyObject> -->
+                        <!-- <NumberRequired>3</NumberRequired> -->
+                    <!-- </li>     -->
+                <!-- </ItemStudyRequirements> -->
+            <!-- </li> -->
+        </modExtensions>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
+		<defName>GW_SM_DarkAngels</defName>
+		<label>Dark Angels style pack</label>
+		<description>WIP</description>
+        <baseCost>6500</baseCost>
+		<prerequisites>
+			<li>GW_SM_AstartesMedium</li>
+		</prerequisites>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>2.00</researchViewY>
+        <modExtensions>
+            <!-- <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions"> -->
+                <!-- <StudyLocation>GW_Cogitator</StudyLocation> -->
+                <!-- <ItemStudyRequirements> -->
+                    <!-- <li Class="GW_Frame.StudyRequirement"> -->
+                        <!-- <StudyObject>GW_STC_Fragment</StudyObject> -->
+                        <!-- <NumberRequired>3</NumberRequired> -->
+                    <!-- </li>     -->
+                <!-- </ItemStudyRequirements> -->
+            <!-- </li> -->
+        </modExtensions>
+	</ResearchProjectDef>
+	
 
 	<!--<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_GravWeapons</defName>
