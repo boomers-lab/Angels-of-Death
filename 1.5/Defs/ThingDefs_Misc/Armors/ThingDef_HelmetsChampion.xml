@@ -1,0 +1,436 @@
+<Defs>
+
+	<ThingDef Abstract="true" Name="GW_CM_HelmetBase" ParentName="ArmorHelmetMakeableBase">
+		<techLevel>Spacer</techLevel>
+		<description>Astartes helmets are robust and angular, designed for protection and communication. They feature a distinctive visor for enhanced vision, often with a grill-like mouthpiece. Integrated systems include targeting optics, respiratory filters, and vox-communicators. Each helmet can be customized with chapter-specific symbols and colors.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1.6</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>15</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>GW_SM_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<uiIconScale>1.0</uiIconScale>
+        <tradeTags>
+            <li>HPHelmet</li>
+        </tradeTags>
+		<apparel>
+			<tags>
+				<li>Spacer</li>
+				<li>EVA</li>
+			</tags>
+			<drawData>
+                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
+                <childScale>1.5</childScale>-->
+            </drawData>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>EyeCover</li>
+				<li MayRequire="ceteam.combatextended">StrappedHead</li>
+				<li MayRequire="ceteam.combatextended">OnHead</li>
+				<li>Overhead</li> <!--Needs to be last for the tool to properly label this a helmet-->
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>
+    </ThingDef>
+	
+	<ThingDef Name="GW_CM_DAngelHelmet_Base" ParentName="GW_CM_HelmetBase">
+		<defName>GW_CM_DAngelHelmet_A</defName>
+		<label>dark angel helmet (a)</label>
+		<description>The "Knights of Caliban" armor style pack draws its inspiration from the Dark Angels Space Marine Chapter of the Warhammer 40,000 universe. The design is heavily influenced by the medieval, monastic, and knightly aesthetic associated with the Dark Angels, coupled with the gothic and arcane elements of their homeworld, Caliban.</description>
+		<graphicData>
+			<texPath>Things/Apparel/DarkAngel/Helmets/Aquilla_helmet_hood_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/DarkAngel/Helmets/Aquilla_helmet_hood_south</uiIconPath>
+		<apparel>
+			<tags Inherit="False">
+				<!--<li>Spacer</li>-->
+				<li>GW_Champion</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/DarkAngel/Helmets/Aquilla_helmet_hood</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>8</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_DarkAngels</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_CM_DAngelHelmet_Base">
+		<defName>GW_CM_DAngelHelmet_B</defName>
+		<label>dark angel helmet (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/DarkAngel/Helmets/Corvus_helmet_hood_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/DarkAngel/Helmets/Corvus_helmet_hood_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/DarkAngel/Helmets/Corvus_helmet_hood</wornGraphicPath>
+		</apparel>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_CM_DAngelHelmet_Base">
+		<defName>GW_CM_DAngelHelmet_C</defName>
+		<label>dark angel helmet (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/DarkAngel/Helmets/Gravis_helmet_hood_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/DarkAngel/Helmets/Gravis_helmet_hood_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/DarkAngel/Helmets/Gravis_helmet_hood</wornGraphicPath>
+		</apparel>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>25</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>900</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.3</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>40</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>0.35</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_CM_DAngelHelmet_Base">
+		<defName>GW_CM_DAngelHelmet_D</defName>
+		<label>dark angel helmet (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/DarkAngel/Helmets/Tacticus_helmet_hood_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/DarkAngel/Helmets/Tacticus_helmet_hood_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/DarkAngel/Helmets/Tacticus_helmet_hood</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.65</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.25</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef Abstract="True" Name="GW_CM_UMHelmet_Base" ParentName="GW_CM_HelmetBase">		
+		<description>The "Sons of Ultramar" armor style pack is inspired by the noble and disciplined Ultramarines Space Marine Chapter of the Warhammer 40,000 universe. The design reflects the Chapter's Roman-inspired aesthetics, emphasizing order, valor, and the illustrious legacy of Ultramar.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_fcrest_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_fcrest_south</uiIconPath>
+		<apparel>
+			<tags Inherit="False">
+				<!--<li>Spacer</li>-->
+				<li>GW_Champion</li>
+			</tags>
+			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_fcrest</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_Ultarmarines</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
+	
+	<!--<ThingDef ParentName="GW_CM_UMHelmet_Base">
+		<defName>GW_CM_UMHelmet_A</defName>
+		<label>Ultramarines helmet (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>13</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>-->
+	
+	<ThingDef ParentName="GW_CM_UMHelmet_Base">
+		<defName>GW_CM_UMngelHelmet_B</defName>
+		<label>Ultramarines helmet (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>13</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_CM_UMHelmet_Base">
+		<defName>GW_CM_UMngelHelmet_C</defName>
+		<label>Ultramarines helmet (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Ultramarines/Helmets/Tacticus_helmet_fcrest_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Ultramarines/Helmets/Tacticus_helmet_fcrest_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Tacticus_helmet_fcrest</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>13</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_CM_UMHelmet_Base">
+		<defName>GW_CM_UMngelHelmet_D</defName>
+		<label>Ultramarines helmet (d)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Ultramarines/Helmets/Tacticus_helmet_screst_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Ultramarines/Helmets/Tacticus_helmet_screst_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Tacticus_helmet_screst</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>13</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_CM_UMHelmet_Base">
+		<defName>GW_CM_UMngelHelmet_E</defName>
+		<label>Ultramarines helmet (e)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Ultramarines/Helmets/Victrix_helmet_simple_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/Ultramarines/Helmets/Victrix_helmet_simple_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Victrix_helmet_simple</wornGraphicPath>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>3</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+		<costList>
+			<ComponentSpacer>5</ComponentSpacer>
+			<Plasteel>350</Plasteel>
+			<Steel>300</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>25</HP_Ceramite>
+		</costList>
+		<statBases>
+			<WorkToMake>55000</WorkToMake>
+			<MaxHitPoints>900</MaxHitPoints>
+			<Mass>4</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.85</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.55</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.3</ArmorRating_Heat>
+			<Insulation_Cold>40</Insulation_Cold>
+			<Insulation_Heat>40</Insulation_Heat>
+			<EquipDelay>3</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>0.35</SocialImpact>
+		</equippedStatOffsets>
+	</ThingDef>
+	
+</Defs>
