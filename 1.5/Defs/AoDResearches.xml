@@ -151,8 +151,8 @@
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
 		</prerequisites>
-		<researchViewX>9.00</researchViewX>
-		<researchViewY>1.40</researchViewY>
+  			<researchViewX>9.00</researchViewX>
+ 			<researchViewY>1.50</researchViewY>
         <modExtensions>
             <!-- <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions"> -->
                 <!-- <StudyLocation>GW_Cogitator</StudyLocation> -->
@@ -174,8 +174,8 @@
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
 		</prerequisites>
-		<researchViewX>9.00</researchViewX>
-		<researchViewY>2.00</researchViewY>
+  			<researchViewX>10.00</researchViewX>
+  			<researchViewY>1.50</researchViewY>
         <modExtensions>
             <!-- <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions"> -->
                 <!-- <StudyLocation>GW_Cogitator</StudyLocation> -->
