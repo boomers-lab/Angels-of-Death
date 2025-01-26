@@ -147,7 +147,7 @@
 		<defName>GW_SM_Ultarmarines</defName>
 		<label>Ultarmarines style pack</label>
 		<description>WIP</description>
-        <baseCost>6500</baseCost>
+        <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
 		</prerequisites>
@@ -170,7 +170,7 @@
 		<defName>GW_SM_DarkAngels</defName>
 		<label>Dark Angels style pack</label>
 		<description>WIP</description>
-        <baseCost>6500</baseCost>
+        <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
 		</prerequisites>
@@ -193,7 +193,7 @@
 		<defName>GW_SM_NightLord</defName>
 		<label>Night Lord style pack</label>
 		<description>WIP</description>
-        <baseCost>6500</baseCost>
+        <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
 			<li>GW_SM_AstartesHeavy</li>
