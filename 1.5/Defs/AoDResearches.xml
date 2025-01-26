@@ -190,38 +190,16 @@
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
-		<defName>GW_SM_NightLordMedium</defName>
-		<label>Night Lord style pack(medium)</label>
+		<defName>GW_SM_NightLord</defName>
+		<label>Night Lord style pack</label>
 		<description>WIP</description>
         <baseCost>6500</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
-		</prerequisites>
-  			<researchViewX>11.00</researchViewX>
-  			<researchViewY>1.50</researchViewY>
-        <modExtensions>
-            <!-- <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions"> -->
-                <!-- <StudyLocation>GW_Cogitator</StudyLocation> -->
-                <!-- <ItemStudyRequirements> -->
-                    <!-- <li Class="GW_Frame.StudyRequirement"> -->
-                        <!-- <StudyObject>GW_STC_Fragment</StudyObject> -->
-                        <!-- <NumberRequired>3</NumberRequired> -->
-                    <!-- </li>     -->
-                <!-- </ItemStudyRequirements> -->
-            <!-- </li> -->
-        </modExtensions>
-	</ResearchProjectDef>
-	
-	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
-		<defName>GW_SM_NightLordHeavy</defName>
-		<label>Night Lord style pack(heavy)</label>
-		<description>WIP</description>
-        <baseCost>6500</baseCost>
-		<prerequisites>
 			<li>GW_SM_AstartesHeavy</li>
 		</prerequisites>
   			<researchViewX>11.00</researchViewX>
-  			<researchViewY>2.00</researchViewY>
+  			<researchViewY>1.50</researchViewY>
         <modExtensions>
             <!-- <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions"> -->
                 <!-- <StudyLocation>GW_Cogitator</StudyLocation> -->
