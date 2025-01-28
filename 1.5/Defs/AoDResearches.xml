@@ -145,8 +145,8 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_Ultarmarines</defName>
-		<label>Ultarmarines style pack</label>
-		<description>WIP</description>
+		<label>Ultramarines armor</label>
+		<description>Replicate the armor of the disciplined Ultramarines.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
@@ -168,8 +168,8 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_DarkAngels</defName>
-		<label>Dark Angels style pack</label>
-		<description>WIP</description>
+		<label>Dark Angels armor</label>
+		<description>Replicate the armor of the secretive Dark Angels.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
@@ -191,8 +191,8 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_NightLord</defName>
-		<label>Night Lord style pack</label>
-		<description>WIP</description>
+		<label>Night Lord armor</label>
+		<description>Replicate the armor of the terrifying Night Lords.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>GW_SM_AstartesMedium</li>
