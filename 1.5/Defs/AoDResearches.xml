@@ -145,7 +145,7 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_Ultarmarines</defName>
-		<label>Ultramarines armor</label>
+		<label>Armor of Ultramar</label>
 		<description>Replicate the armor of the disciplined Ultramarines.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
@@ -168,7 +168,7 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_DarkAngels</defName>
-		<label>Dark Angels armor</label>
+		<label>Knights of Caliban</label>
 		<description>Replicate the armor of the secretive Dark Angels.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
@@ -191,7 +191,7 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_NightLord</defName>
-		<label>Night Lord armor</label>
+		<label>Children of the Night</label>
 		<description>Replicate the armor of the terrifying Night Lords.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
