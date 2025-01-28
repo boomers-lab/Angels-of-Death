@@ -6,7 +6,7 @@
 
 	<ResearchProjectDef ParentName="GW_SM_AoDTechBase">
 		<defName>GW_SM_CodexAstartes</defName>
-		<label>codex astartes</label>
+		<label>Codex Astartes</label>
 		<description>Study the Codex Astartes, the doctrine of the Adeptus Astartes written by the Primarch Roboute Guilliman. While most Space Marine chapters are Codex-compliant, following the Codex’s organization and tactics, other chapters use their own methods.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
