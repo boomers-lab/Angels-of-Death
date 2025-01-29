@@ -102,7 +102,7 @@
 						<angleOffset>-60</angleOffset>
 					</south>
 					<west>
-						<angleOffset>-60</angleOffset>
+						<angleOffset>60</angleOffset>
 					</west>
 				</weaponDraftedDrawOffsets>
 			</li>
