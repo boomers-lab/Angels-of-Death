@@ -5,7 +5,7 @@
 	<ThingDef Name="GW_CM_DAngelHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_CM_DAngelHelmet_A</defName>
 		<label>dark angel helmet (a)</label>
-		<description>The "Knights of Caliban" armor style pack draws its inspiration from the Dark Angels Space Marine Chapter of the Warhammer 40,000 universe. The design is heavily influenced by the medieval, monastic, and knightly aesthetic associated with the Dark Angels, coupled with the gothic and arcane elements of their homeworld, Caliban.</description>
+		<description>A Power Armor helmet, decorated in the manner of the Dark Angels chapter of Space Marines. \n\nThe Dark Angels are a secretive lot, and protect one secret above all. They will kill to defend it.</description>
 		<graphicData>
 			<texPath>Things/Apparel/DarkAngel/Helmets/Aquilla_helmet_hood_south</texPath>
 		</graphicData>
@@ -144,6 +144,7 @@
 	<ThingDef Name="GW_CM_UltramarineHelmet_Base"  ParentName="GW_SM_HelmetBase">
 		<defName>GW_CM_UMHelmet_A</defName>
 		<label>Ultramarines helmet (a)</label>
+		<description>A Power Armor helmet, decorated in the manner of the Ultramarines chapter of Space Marines. \n\nThe Ultramarines value discipline above all and hold the Codex Astartes in the highest regard. It is, after all, a work of their Primarch - Roboute Guilliman, the Imperial Regent.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_fcrest_south</texPath>
 		</graphicData>
