@@ -1,0 +1,169 @@
+<Defs>
+
+	<!-- Dark Angel -->
+	
+	<ThingDef Name="GW_CM_DarkAngelShoulder_Base" ParentName="HP_AoD_ShoulderBase">
+		<defName>GW_SM_DarkAngelsShoulderPadsModelA_DA</defName>
+		<label>dark angel shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelA</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+        <comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>12</maskCount>
+                <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_DarkAngels</researchPrerequisite>
+		</recipeMaker>
+    </ThingDef>
+
+	<ThingDef ParentName="GW_CM_DarkAngelShoulder_Base">
+		<defName>GW_SM_DarkAngelsShoulderPadsModelB_DA</defName>
+		<label>dark angel shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelB</wornGraphicPath>
+		</apparel>
+        <comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>12</maskCount>
+                <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+    </ThingDef>
+
+	<ThingDef ParentName="GW_CM_DarkAngelShoulder_Base">
+		<defName>GW_SM_DarkAngelsShoulderPadsModelC_DA</defName>
+		<label>dark angel shoulder pads (c)</label>
+		<graphicData>
+			<texPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelC_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelC</wornGraphicPath>
+		</apparel>
+        <comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>12</maskCount>
+                <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+    </ThingDef>
+	
+	<!-- Ultramarine -->
+	
+	<ThingDef Name="GW_CM_UltramarineShoulder_Base" ParentName="HP_AoD_ShoulderBase">
+		<defName>GW_SM_UltramarineShoulderPadsModelA</defName>
+		<label>ultramarine shoulder pads (a)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Ultramarines/Shoulders/UMGravis_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Ultramarines/Shoulders/UMGravis_sp_modelA</wornGraphicPath>
+		</apparel>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.2</AimingDelayFactor>
+		</equippedStatOffsets>
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<MaxHitPoints>700</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>0.2</Flammability>
+			<ArmorRating_Sharp>1.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1.10</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Insulation_Cold>20</Insulation_Cold>
+			<Insulation_Heat>20</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>1</ComponentSpacer>
+			<Plasteel>100</Plasteel>
+			<Steel>50</Steel>
+			<Uranium>15</Uranium>
+			<HP_Ceramite>10</HP_Ceramite>
+		</costList>
+        <comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>12</maskCount>
+                <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_Ultarmarines</researchPrerequisite>
+		</recipeMaker>
+    </ThingDef>
+	
+	<ThingDef ParentName="GW_CM_UltramarineShoulder_Base">
+		<defName>GW_SM_UltramarineShoulderPadsModelB</defName>
+		<label>ultramarine shoulder pads (b)</label>
+		<graphicData>
+			<texPath>Things/Apparel/Ultramarines/Shoulders/UMGravis_sp_modelB_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/Ultramarines/Shoulders/UMGravis_sp_modelB</wornGraphicPath>
+		</apparel>
+        <comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>12</maskCount>
+                <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

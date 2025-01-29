@@ -581,7 +581,7 @@
 				<li>GW_SM_AstartesMedium</li>
 			</researchPrerequisites>
 		</recipeMaker>
-	</ThingDef>
+	</ThingDef>	
 
 	<!--MKX Tacticus-->
 	<ThingDef Name="GW_SM_MKXHelmet_Base" ParentName="GW_SM_HelmetBase">

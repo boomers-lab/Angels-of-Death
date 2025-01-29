@@ -1,53 +1,8 @@
 <Defs>
 
-	<ThingDef Abstract="true" Name="GW_CM_HelmetBase" ParentName="ArmorHelmetMakeableBase">
-		<techLevel>Spacer</techLevel>
-		<description>Astartes helmets are robust and angular, designed for protection and communication. They feature a distinctive visor for enhanced vision, often with a grill-like mouthpiece. Integrated systems include targeting optics, respiratory filters, and vox-communicators. Each helmet can be customized with chapter-specific symbols and colors.</description>
-		<graphicData>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.6</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-			<skillRequirements>
-				<Crafting>15</Crafting>
-			</skillRequirements>
-			<recipeUsers Inherit="False">
-				<li>GW_SM_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<uiIconScale>1.0</uiIconScale>
-        <tradeTags>
-            <li>HPHelmet</li>
-        </tradeTags>
-		<apparel>
-			<tags>
-				<li>Spacer</li>
-				<li>EVA</li>
-			</tags>
-			<drawData>
-                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
-                <childScale>1.5</childScale>-->
-            </drawData>
-			<useWornGraphicMask>true</useWornGraphicMask>
-			<countsAsClothingForNudity>false</countsAsClothingForNudity>
-			<bodyPartGroups>
-				<li>FullHead</li>
-			</bodyPartGroups>
-			<layers>
-				<li>EyeCover</li>
-				<li MayRequire="ceteam.combatextended">StrappedHead</li>
-				<li MayRequire="ceteam.combatextended">OnHead</li>
-				<li>Overhead</li> <!--Needs to be last for the tool to properly label this a helmet-->
-			</layers>
-			<defaultOutfitTags>
-				<li>Soldier</li>
-			</defaultOutfitTags>
-		</apparel>
-    </ThingDef>
-	
-	<ThingDef Name="GW_CM_DAngelHelmet_Base" ParentName="GW_CM_HelmetBase">
+	<!-- Dark Angel -->
+
+	<ThingDef Name="GW_CM_DAngelHelmet_Base" ParentName="GW_SM_HelmetBase">
 		<defName>GW_CM_DAngelHelmet_A</defName>
 		<label>dark angel helmet (a)</label>
 		<description>The "Knights of Caliban" armor style pack draws its inspiration from the Dark Angels Space Marine Chapter of the Warhammer 40,000 universe. The design is heavily influenced by the medieval, monastic, and knightly aesthetic associated with the Dark Angels, coupled with the gothic and arcane elements of their homeworld, Caliban.</description>
@@ -184,19 +139,18 @@
 		</statBases>
 	</ThingDef>
 	
-	<ThingDef Abstract="True" Name="GW_CM_UMHelmet_Base" ParentName="GW_CM_HelmetBase">		
-		<description>The "Sons of Ultramar" armor style pack is inspired by the noble and disciplined Ultramarines Space Marine Chapter of the Warhammer 40,000 universe. The design reflects the Chapter's Roman-inspired aesthetics, emphasizing order, valor, and the illustrious legacy of Ultramar.</description>
+	<!-- Ultramarine -->
+	
+	<ThingDef Name="GW_CM_UltramarineHelmet_Base"  ParentName="GW_SM_HelmetBase">
+		<defName>GW_CM_UMHelmet_A</defName>
+		<label>Ultramarines helmet (a)</label>
 		<graphicData>
 			<texPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_fcrest_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_fcrest_south</uiIconPath>
 		<apparel>
-			<tags Inherit="False">
-				<!--<li>Spacer</li>-->
-				<li>GW_Champion</li>
-			</tags>
 			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_fcrest</wornGraphicPath>
-		</apparel>		
+		</apparel>
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.2</AimingDelayFactor>
@@ -220,21 +174,6 @@
 			<Insulation_Heat>20</Insulation_Heat>
 			<EquipDelay>2</EquipDelay>
 		</statBases>
-		<recipeMaker>
-			<researchPrerequisite>GW_SM_Ultarmarines</researchPrerequisite>
-		</recipeMaker>
-	</ThingDef>
-	
-	<!--<ThingDef ParentName="GW_CM_UMHelmet_Base">
-		<defName>GW_CM_UMHelmet_A</defName>
-		<label>Ultramarines helmet (a)</label>
-		<graphicData>
-			<texPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst_south</texPath>
-		</graphicData>
-		<uiIconPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst_south</uiIconPath>
-		<apparel>
-			<wornGraphicPath>Things/Apparel/Ultramarines/Helmets/Aquilla_helmet_screst</wornGraphicPath>
-		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>13</maskCount>
@@ -246,9 +185,12 @@
 				</defaultPalette>
 			</li>
 		</comps>
-	</ThingDef>-->
-	
-	<ThingDef ParentName="GW_CM_UMHelmet_Base">
+		<recipeMaker>
+			<researchPrerequisite>GW_SM_Ultarmarines</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>	
+
+	<ThingDef ParentName="GW_CM_UltramarineHelmet_Base">
 		<defName>GW_CM_UMngelHelmet_B</defName>
 		<label>Ultramarines helmet (b)</label>
 		<graphicData>
@@ -294,7 +236,7 @@
 		</statBases>
 	</ThingDef>
 	
-	<ThingDef ParentName="GW_CM_UMHelmet_Base">
+	<ThingDef ParentName="GW_CM_UltramarineHelmet_Base">
 		<defName>GW_CM_UMngelHelmet_C</defName>
 		<label>Ultramarines helmet (c)</label>
 		<graphicData>
@@ -340,7 +282,7 @@
 		</statBases>
 	</ThingDef>
 	
-	<ThingDef ParentName="GW_CM_UMHelmet_Base">
+	<ThingDef ParentName="GW_CM_UltramarineHelmet_Base">
 		<defName>GW_CM_UMngelHelmet_D</defName>
 		<label>Ultramarines helmet (d)</label>
 		<graphicData>
@@ -386,7 +328,7 @@
 		</statBases>
 	</ThingDef>
 	
-	<ThingDef ParentName="GW_CM_UMHelmet_Base">
+	<ThingDef ParentName="GW_CM_UltramarineHelmet_Base">
 		<defName>GW_CM_UMngelHelmet_E</defName>
 		<label>Ultramarines helmet (e)</label>
 		<graphicData>
