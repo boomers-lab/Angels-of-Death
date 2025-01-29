@@ -4,7 +4,8 @@
 	
 	<ThingDef Name="GW_CM_DarkAngelShoulder_Base" ParentName="HP_AoD_ShoulderBase">
 		<defName>GW_SM_DarkAngelsShoulderPadsModelA_DA</defName>
-		<label>dark angel shoulder pads (a)</label>
+		<label>Dark Angel shoulder pads (a)</label>
+		<description>The shoulder pads of a Champion of the Dark Angels. \n\nThe Dark Angels do not have a homeworld, since Caliban was destroyed. Instead, they operate out of "The Rock" - a floating fortress-monastery that was once on the surface of Caliban.</description>
 		<graphicData>
 			<texPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelA_south</texPath>
 		</graphicData>
@@ -52,7 +53,7 @@
 
 	<ThingDef ParentName="GW_CM_DarkAngelShoulder_Base">
 		<defName>GW_SM_DarkAngelsShoulderPadsModelB_DA</defName>
-		<label>dark angel shoulder pads (b)</label>
+		<label>Dark Angel shoulder pads (b)</label>
 		<graphicData>
 			<texPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelB_south</texPath>
 		</graphicData>
@@ -74,7 +75,7 @@
 
 	<ThingDef ParentName="GW_CM_DarkAngelShoulder_Base">
 		<defName>GW_SM_DarkAngelsShoulderPadsModelC_DA</defName>
-		<label>dark angel shoulder pads (c)</label>
+		<label>Dark Angel shoulder pads (c)</label>
 		<graphicData>
 			<texPath>Things/Apparel/DarkAngel/Shoulders/DAGravis_sp_modelC_south</texPath>
 		</graphicData>
@@ -99,6 +100,7 @@
 	<ThingDef Name="GW_CM_UltramarineShoulder_Base" ParentName="HP_AoD_ShoulderBase">
 		<defName>GW_SM_UltramarineShoulderPadsModelA</defName>
 		<label>ultramarine shoulder pads (a)</label>
+		<description>Power Armor shoulder pads, suitable for a Champion of the Ultramarines. \n\nAll Ultramarines hold the Codex Astartes dearly, but not all of them do so in the same way. Some follow it rigidly and without deviation, while others treat it as wise advice and guidance.</description>
 		<graphicData>
 			<texPath>Things/Apparel/Ultramarines/Shoulders/UMGravis_sp_modelA_south</texPath>
 		</graphicData>
