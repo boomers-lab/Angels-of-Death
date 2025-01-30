@@ -833,7 +833,7 @@
 
 	<ThingDef ParentName="GW_SM_MKXShoulderPads">
 		<defName>GW_SM_TacticusShoulderPads_NightLord</defName>
-		<label>tacticus shoulder pads (Night Lord)</label>
+		<label>Night lord shoulder pads (a)</label>
 		<description>Mk X Tacticus shoulder pads, modified to fit the Night Lords. \n\nThe Night Lords, though they are Chaos Space Marines, do not worship Chaos as the others do. They desire only power, and if that power is gifted from the pleased forces of Chaos, then they would not reject it. \n\nTheir common assertion that they are "untainted" by Chaos is, however, more doubtful.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Shoulder pads/NightLordsTacticus_sp_modelA_south</texPath>
@@ -1006,7 +1006,7 @@
 
 	<ThingDef ParentName="GW_SM_GravisShoulderPads">
 		<defName>GW_SM_GravisShoulderPads_NightLord</defName>
-		<label>gravis shoulder pads (Night Lord)</label>
+		<label>Night lord shoulder pads (b)</label>
 		<description>Heavy Mk X Gravis shoulder pads, adjusted to befit the tastes of the Night Lords. \n\nThough Konrad Curze wanted his Legion to be made of the best of Nostromo, the corrupt nobility sent him criminals instead. This led the Night Haunter to hate his Legion - to him, they were the same kind of scum that he wanted to wipe off the face of the galaxy.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Shoulder pads/NightLordsGravis_sp_modelA_south</texPath>

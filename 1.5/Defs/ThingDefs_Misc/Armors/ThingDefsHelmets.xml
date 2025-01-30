@@ -567,7 +567,7 @@
 
 	<ThingDef ParentName="GW_SM_MKVIIHelmet_Base">
 		<defName>GW_SM_AquillaHelmet_Winged</defName>
-		<label>Night Lord aquila helmet</label>
+		<label>Night Lord helmet (a)</label>
 		<description>A modified Mk VII Power Armor helmet, decorated in the manner of the Night Lords. \n\nThe Primarch of the Night Lords, Konrad Curze, grew up an orphan on the planet of Nostromo, a world of eternal night and unchecked crime and corruption. As a young man, plagued by terrible visions of the future, he used his Primarch strength to wage a vigilante crusade at all levels of society, becoming so feared by all that he was crowned the first monarch of the entire planet. \n\nWhen the Emperor of Mankind came for the "Night Haunter", he knew exactly what He intended to make of him.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Aquilla_helmet_winged_south</texPath>
@@ -666,7 +666,7 @@
 
 	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
 		<defName>GW_SM_TacticusHelmet_Winged</defName>
-		<label>Night Lord tacticus helmet</label>
+		<label>Night Lord helmet (b)</label>
 		<description>A modified Mk X Tacticus helmet, bearing the iconography of the Night Lords. \n\nThe Night Lords use terror tactics to dominate the minds of their enemies. As enemy soldiers bear witness to scenes of unspeakable violence and hear the agonised screams of their comrades, their discipline breaks down and their will to fight evaporates.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Tacticus_helmet_winged_south</texPath>
@@ -803,7 +803,7 @@
 
 	<ThingDef ParentName="GW_SM_GravisHelmet_Base">
 		<defName>GW_SM_GravisHelmet_Winged</defName>
-		<label>Night Lord gravis helmet</label>
+		<label>Night Lord helmet (c)</label>
 		<description>A modified Mk X Gravis helmet, decorated with the regalia of the Night Lords. \n\nWhile the Night Lords generally prefer hit-and-run terror attacks, a very different kind of terror can be evoked with heavier armor. A sudden explosion of violence, where men are literally ripped limb-from-limb by nigh-unstoppable giants, can break an army's will like a pane of glass before a sledgehammer.</description>
 		<graphicData>
 			<texPath>Things/Apparel/ArmorUpgrade_NightLords/Helmets/Gravis_helmet_winged_south</texPath>
