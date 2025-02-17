@@ -31,11 +31,11 @@
         </tradeTags>
         <apparel>
             <bodyPartGroups>
-                <!-- <li>Torso</li> -->
-                <!-- <li>Neck</li> -->
+                <li>Torso</li>
+                <li>Neck</li>
                 <li>Shoulders</li>
-                <!-- <li>Arms</li> -->
-                <!-- <li>Legs</li> -->
+                <li>Arms</li>
+                <li>Legs</li>
             </bodyPartGroups>
             <drawData>
 				<dataNorth>

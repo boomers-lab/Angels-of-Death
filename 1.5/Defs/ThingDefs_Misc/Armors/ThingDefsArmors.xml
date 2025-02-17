@@ -537,6 +537,7 @@
             </drawData>
             <wornGraphicPath>Things/Apparel/Armor_IndomitusTerminator/Indomitus_torso</wornGraphicPath>
 			<layers>
+                <li>Belt</li>
 				<li>Backpack</li>
 			</layers>
 			<tags>
