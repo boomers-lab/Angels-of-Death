@@ -27,7 +27,7 @@
 			</li>
         </comps>
         <thingCategories Inherit="False">
-            <li>GW_CombatShield</li>
+            <li>GW_Shield</li>
         </thingCategories>
         <costStuffCount>60</costStuffCount>
         <statBases>
@@ -150,7 +150,7 @@
 			</li>
         </comps>
         <thingCategories Inherit="False">
-            <li>GW_StormShield</li>
+            <li>GW_Shield</li>
         </thingCategories>
         <costStuffCount>90</costStuffCount>
         <statBases>
