@@ -2,28 +2,6 @@
 
 <Defs>
 	<!--===== this def can be deleted safely if you do not need a slot for a new projectile =====-->
-	<ThingDef ParentName="BaseBullet">
-		<defName>stormHawkboltor</defName>
-		<label>Boltor shot</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		
-		<graphicData>
-			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-		</graphicData>
-		
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>20</damageAmountBase>
-			<explosionRadius>0.6</explosionRadius>
-			<speed>100</speed>
-      			<flyOverhead>true</flyOverhead>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-		</projectile>
-	</ThingDef>
-
-	<!--===== this def can be deleted safely if you do not need a slot for a new projectile =====-->
 
     <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
         <defName>GW_Stormhawk_las</defName>
