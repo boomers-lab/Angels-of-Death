@@ -78,7 +78,7 @@
 		
 		<nameable>false</nameable>
 
-		<buildDef>OrionGunshipbuild</buildDef>
+		<buildDef>StormTalonbuild</buildDef>
 
 		<size>(2,6)</size>
 		<uiIconScale>1</uiIconScale>
