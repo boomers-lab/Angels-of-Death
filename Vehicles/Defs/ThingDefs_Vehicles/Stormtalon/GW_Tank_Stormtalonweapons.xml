@@ -12,7 +12,7 @@
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordHBolter</shotSound>
 		
-		<projectile>Bullet_HeavyBolter</projectile>
+		<projectile>GW_Bullet_HeavyBolter</projectile>
 		<reloadTimer>5</reloadTimer>
 		<warmUpTimer>0.4</warmUpTimer>
 		
@@ -78,7 +78,7 @@
 
 			<shotSound>OverlordHBolter</shotSound>
 
-			<projectile>Bullet_HeavyBolter</projectile>
+			<projectile>GW_Bullet_HeavyBolter</projectile>
 
 			<reloadTimer>7.8</reloadTimer>
 			<warmUpTimer>1.0</warmUpTimer>

@@ -9,7 +9,7 @@
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordLascannon</shotSound>
 		
-		<projectile>GW_Valkyrielas</projectile>
+		<projectile>GW_LascanonShot</projectile>
 		<reloadTimer>3.5</reloadTimer>
 		<warmUpTimer>0.4</warmUpTimer>
 		
@@ -57,34 +57,13 @@
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
 
-	<ThingDef ParentName="BaseBullet">
-		<defName>Bullet_SpiteTank_MainTurret</defName>
-		<label>High Caliber Round</label>
-		<thingClass>Projectile_Explosive</thingClass>
-		<graphicData>
-			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>TransparentPostLight</shaderType>
-		</graphicData>
-		<projectile>
-			<damageDef>Bomb</damageDef>
-			<damageAmountBase>200</damageAmountBase>
-			<speed>190</speed>
-			<explosionRadius>5.9</explosionRadius>
-			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
-			<soundExplode>MortarBomb_Explode</soundExplode>
-			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-			<soundAmbient>MortarRound_Ambient</soundAmbient>
-		</projectile>
-	</ThingDef>
-
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_PrimarisTank_twinpounder</defName>
 		<label>Twin Heavy Bolter</label>
 		<description>bolt.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
-		<projectile>Bullet_SpiteTank_MainTurret</projectile>
+		<projectile>GW_Bullet_HeavyBolter</projectile>
 		<reloadTimer>7.8</reloadTimer>
 		<warmUpTimer>1.0</warmUpTimer>
 		<magazineCapacity>2</magazineCapacity>

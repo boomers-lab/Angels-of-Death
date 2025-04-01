@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-   <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
-        <defName>GW_Predatorlas</defName>
-        <label>Lascanon shot</label>
-        <description>WIP</description>
-        <textures>
-            <li>Things/Projectiles/Las_Bolt</li>
-        </textures>
-        <seam>0</seam>
-        <causefireChance>0.08</causefireChance>
-        <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>100</damageAmountBase>
-            <armorPenetrationBase>1</armorPenetrationBase>
-            <stoppingPower>2.0</stoppingPower>
-        </projectile>
-    </ThingDef>
-
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_PredatorAnihilator_MainTurret</defName>
 		<label>Predator main cannon</label>
 		<description>WIP</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordLascannon</shotSound>
-		<projectile>GW_Predatorlas</projectile>
+		<projectile>GW_LascanonShot</projectile>
 		<reloadTimer>12.0</reloadTimer>
 		<warmUpTimer>4.0</warmUpTimer>
 		<magazineCapacity>6</magazineCapacity>

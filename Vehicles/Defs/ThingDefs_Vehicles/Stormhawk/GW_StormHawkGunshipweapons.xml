@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <Defs>
-	<!--===== this def can be deleted safely if you do not need a slot for a new projectile =====-->
-
-    <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
-        <defName>GW_Stormhawk_las</defName>
-        <label>Heavy Blaze Cannon shot</label>
-        <description>The Arachnus Heavy Blaze Cannon, WIP</description>
-        <textures>
-            <li>Things/Projectiles/Las_Bolt</li>
-        </textures>
-        <seam>0</seam>
-        <causefireChance>0.1</causefireChance>
-        <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>200</damageAmountBase>
-            <armorPenetrationBase>2</armorPenetrationBase>
-            <stoppingPower>3.0</stoppingPower>
-        </projectile>
-    </ThingDef>
-
 	<!--===== Below This are the sounds for the Overlord weapons, and by extension, the astartes Bike =====-->
 
 	
@@ -31,7 +12,7 @@
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordLascannon</shotSound>
 		
-		<projectile>GW_Stormhawk_las</projectile>
+		<projectile>GW_LascanonShot</projectile>
 		<reloadTimer>5</reloadTimer>
 		<warmUpTimer>0.4</warmUpTimer>
 		
@@ -97,7 +78,7 @@
 
 			<shotSound>OverlordHBolter</shotSound>
 
-			<projectile>Bullet_HeavyBolter</projectile>
+			<projectile>GW_Bullet_HeavyBolter</projectile>
 
 			<reloadTimer>7.8</reloadTimer>
 			<warmUpTimer>1.0</warmUpTimer>
