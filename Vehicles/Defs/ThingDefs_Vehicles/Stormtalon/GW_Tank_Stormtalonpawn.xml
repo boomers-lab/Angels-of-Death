@@ -72,6 +72,7 @@
 			<drawSize>(7,7)</drawSize>
 			<drawRotated>true</drawRotated>
 			<color>(155, 155, 155)</color>
+			<layer>1</layer>
 		</graphicData>
 		
 		<fillPercent>1</fillPercent>
@@ -269,10 +270,11 @@
 						<turretDef>GW_Stormtalon_AssaultCannons</turretDef>
 						
 						<renderProperties>
-							<north>(0, 3)</north>
-							<south>(0, -3)</south>
-							<east>(3, 0)</east>
+							<north>(0, 2.63)</north>
+							<south>(0, -2.63)</south>
+							<east>(2.63, 0)</east>
 						</renderProperties>
+						<drawLayer>0</drawLayer>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(300,60)</angleRestricted>
 						<gizmoLabel>Assault Cannons</gizmoLabel>
@@ -285,10 +287,11 @@
 						<turretDef>GW_StormTalon_Bolter</turretDef>
 						
 						<renderProperties>
-							<north>(-1.2, 2.3)</north>
-							<south>(1.2, 2.3)</south>
-							<east>(2.3, 1.2)</east>
+							<north>(-1.2, 2.7)</north>
+							<south>(1.2, -2.7)</south>
+							<east>(2.7, 1.2)</east>
 						</renderProperties>
+						<drawLayer>0</drawLayer>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(320,40)</angleRestricted>
 						<gizmoLabel>Heavy Bolter</gizmoLabel>
@@ -301,10 +304,11 @@
 						<turretDef>GW_StormTalon_Bolter</turretDef>
 						
 						<renderProperties>
-							<north>(1.2, 2.3)</north>
-							<south>(-1.2, 2.3)</south>
-							<east>(2.3, -1.2)</east>
+							<north>(1.2, 2.7)</north>
+							<south>(-1.2, -2.7)</south>
+							<east>(2.7, -1.2)</east>
 						</renderProperties>
+						<drawLayer>0</drawLayer>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(320,40)</angleRestricted>
 						<gizmoLabel>Heavy Bolter</gizmoLabel>

@@ -64,7 +64,7 @@
 		<description>bolt.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>HP_Heavy_Bolt_Gun_Sound</shotSound>
-		<projectile>HP_Bullet_HeavyBolter</projectile>
+		<projectile>GW_Bullet_HeavyBolter</projectile>
 		<reloadTimer>15.8</reloadTimer>
 		<warmUpTimer>3.0</warmUpTimer>
 		<magazineCapacity>600</magazineCapacity>

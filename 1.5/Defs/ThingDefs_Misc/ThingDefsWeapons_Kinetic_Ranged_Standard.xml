@@ -330,7 +330,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>HP_Bullet_HeavyBolter</defaultProjectile>
+        <defaultProjectile>GW_Bullet_HeavyBolter</defaultProjectile>
         <warmupTime>5</warmupTime>
         <range>40</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
