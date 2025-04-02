@@ -264,6 +264,9 @@
 				<fuelConsumptionRate>0.5</fuelConsumptionRate>
 				<fuelCapacity>100</fuelCapacity>
 			</li>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>GW_Tank_StormtalonUpgradeTree</def>
+			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
 					<li>
@@ -282,40 +285,6 @@
 						<aimPieOffset>(0, 2.55)</aimPieOffset>
 						
 						<key>assaultCannons</key>
-					</li>
-					<li>
-						<turretDef>GW_StormTalon_Bolter</turretDef>
-						
-						<renderProperties>
-							<north>(-1.2, 2.7)</north>
-							<south>(1.2, -2.7)</south>
-							<east>(2.7, 1.2)</east>
-						</renderProperties>
-						<drawLayer>0</drawLayer>
-						<defaultAngleRotated>0</defaultAngleRotated>
-						<angleRestricted>(320,40)</angleRestricted>
-						<gizmoLabel>Heavy Bolter</gizmoLabel>
-						
-						<aimPieOffset>(0, 2.55)</aimPieOffset>
-						
-						<key>boltor1</key>
-					</li>
-					<li>
-						<turretDef>GW_StormTalon_Bolter</turretDef>
-						
-						<renderProperties>
-							<north>(1.2, 2.7)</north>
-							<south>(-1.2, -2.7)</south>
-							<east>(2.7, -1.2)</east>
-						</renderProperties>
-						<drawLayer>0</drawLayer>
-						<defaultAngleRotated>0</defaultAngleRotated>
-						<angleRestricted>(320,40)</angleRestricted>
-						<gizmoLabel>Heavy Bolter</gizmoLabel>
-						
-						<aimPieOffset>(0, 2.55)</aimPieOffset>
-						
-						<key>boltor2</key>
 					</li>
 				</turrets>
 			</li>

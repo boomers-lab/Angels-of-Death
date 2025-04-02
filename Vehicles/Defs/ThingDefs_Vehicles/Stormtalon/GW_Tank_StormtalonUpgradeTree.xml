@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.UpgradeTreeDef>
+		<defName>GW_Tank_StormtalonUpgradeTree</defName>		 
+		<nodes>
+			<li>
+				<key>GW_StormTalonLascannonUpgrade</key>
+				<label>Dual Lascannons</label>
+				<description>WIP</description>
+				<icon>Things/Vehicles/Stormtalon/Stormtalon_MountedLasgun</icon>
+				<work>7500</work>
+				<gridCoordinate>(5, 5)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<disableIfUpgradeNodesEnabled>
+				 	<li>GW_StormTalonBolterUpgrade</li>
+				</disableIfUpgradeNodesEnabled>
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>GW_Stormtalon_lascannon</turretDef>
+								<renderProperties>
+									<north>(-1.2, 3)</north>
+									<south>(1.2, -3)</south>
+									<east>(3, 1.2)</east>
+								</renderProperties>
+								<drawLayer>0</drawLayer>
+								<gizmoLabel>Lascannon</gizmoLabel>
+								<defaultAngleRotated>0</defaultAngleRotated>
+								<angleRestricted>(320,40)</angleRestricted>
+								<aimPieOffset>(0, 2.55)</aimPieOffset>
+								<key>leftGunPod</key>
+							</li>
+							<li>
+								<turretDef>GW_Stormtalon_lascannon</turretDef>
+								<renderProperties>
+									<north>(1.2, 3)</north>
+									<south>(-1.2, -3)</south>
+									<east>(3, -1.2)</east>
+								</renderProperties>
+								<drawLayer>0</drawLayer>
+								<gizmoLabel>Lascannon</gizmoLabel>
+								<defaultAngleRotated>0</defaultAngleRotated>
+								<angleRestricted>(320,40)</angleRestricted>
+								<aimPieOffset>(0, 2.55)</aimPieOffset>
+								<key>rightGunPod</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>100</Steel>
+			     <GW_VehicleCannon>2</GW_VehicleCannon>
+			     <HP_Ceramite>100</HP_Ceramite>
+				 <ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+			</li>
+			<li>
+				<key>GW_StormTalonBolterUpgrade</key>
+				<label>Dual Bolters</label>
+				<description>WIP</description>
+				<icon>Things/Vehicles/Stormtalon/Stormtalon_MountedBolter</icon>
+				<work>7500</work>
+				<gridCoordinate>(10, 5)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<disableIfUpgradeNodesEnabled>
+				 	<li>GW_StormTalonLascannonUpgrade</li>
+				</disableIfUpgradeNodesEnabled>
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>GW_StormTalon_Bolter</turretDef>
+								<renderProperties>
+									<north>(-1.2, 2.7)</north>
+									<south>(1.2, -2.7)</south>
+									<east>(2.7, 1.2)</east>
+								</renderProperties>
+								<drawLayer>0</drawLayer>
+								<gizmoLabel>Bolter</gizmoLabel>
+								<defaultAngleRotated>0</defaultAngleRotated>
+								<angleRestricted>(320,40)</angleRestricted>
+								<aimPieOffset>(0, 2.55)</aimPieOffset>
+								<key>leftGunPod</key>
+							</li>
+								<li>
+								<turretDef>GW_StormTalon_Bolter</turretDef>
+								<renderProperties>
+									<north>(1.2, 2.7)</north>
+									<south>(-1.2, -2.7)</south>
+									<east>(2.7, -1.2)</east>
+								</renderProperties>
+								<drawLayer>0</drawLayer>
+								<gizmoLabel>Bolter</gizmoLabel>
+								<defaultAngleRotated>0</defaultAngleRotated>
+								<angleRestricted>(320,40)</angleRestricted>
+								<aimPieOffset>(0, 2.55)</aimPieOffset>
+								<key>rightGunPod</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>100</Steel>
+			     <GW_VehicleCannon>2</GW_VehicleCannon>
+			     <HP_Ceramite>100</HP_Ceramite>
+				 <ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+			</li>
+		</nodes>
+	</Vehicles.UpgradeTreeDef>
+	
+</Defs>
