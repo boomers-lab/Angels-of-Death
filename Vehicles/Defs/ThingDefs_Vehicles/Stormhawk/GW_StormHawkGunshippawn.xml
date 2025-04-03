@@ -214,24 +214,11 @@
 				<fuelConsumptionRate>0.5</fuelConsumptionRate>
 				<fuelCapacity>100</fuelCapacity>
 			</li>
+			<li Class = "Vehicles.CompProperties_UpgradeTree">
+				<def>GW_Tank_StormHawkGunshipUpgradeTree</def>
+			</li>
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
-					<li>
-						<turretDef>GW_Stormhawk_Lastalon</turretDef>
-						
-						<renderProperties>
-							<north>(0, 3)</north>
-							<south>(0, -3)</south>
-							<east>(3, 0)</east>
-						</renderProperties>
-						<defaultAngleRotated>0</defaultAngleRotated>
-						<angleRestricted>(300,60)</angleRestricted>
-						<gizmoLabel>Las-Talon</gizmoLabel>
-						
-						<aimPieOffset>(0, 2.55)</aimPieOffset>
-						
-						<key>lasTalon</key>
-					</li>
 					<li>
 						<turretDef>GW_Stormhawk_AssaultCannon</turretDef>
 						

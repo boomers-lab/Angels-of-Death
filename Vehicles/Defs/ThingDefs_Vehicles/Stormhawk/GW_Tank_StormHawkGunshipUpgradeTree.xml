@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.UpgradeTreeDef>
+		<defName>GW_Tank_StormHawkGunshipUpgradeTree</defName>		 
+		<nodes>
+			<li>
+				<key>GW_StormHawkLasTalonUpgrade</key>
+				<label>Las-Talon</label>
+				<description>WIP</description>
+				<icon>Things/Vehicles/Stormhawk/stormhawk_lastalon</icon>
+				<work>7500</work>
+				<gridCoordinate>(5, 5)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<disableIfUpgradeNodesEnabled>
+				 	<li>GW_StormHawkStormCannonUpgrade</li>
+				</disableIfUpgradeNodesEnabled>
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+							<li>
+								<turretDef>GW_Stormhawk_Lastalon</turretDef>
+								<renderProperties>
+									<north>(0, 3.5)</north>
+									<south>(0, -3.5)</south>
+									<east>(3.5, 0)</east>
+								</renderProperties>
+								<drawLayer>0</drawLayer>
+								<gizmoLabel>Las-Talon</gizmoLabel>
+								<defaultAngleRotated>0</defaultAngleRotated>
+								<angleRestricted>(320,40)</angleRestricted>
+								<aimPieOffset>(0, 2.55)</aimPieOffset>
+								<key>noseGun</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>100</Steel>
+			     <GW_VehicleCannon>1</GW_VehicleCannon>
+			     <HP_Ceramite>100</HP_Ceramite>
+				 <ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+			</li>
+			<li>
+				<key>GW_StormHawkStormCannonUpgrade</key>
+				<label>Storm Cannon</label>
+				<description>WIP</description>
+				<icon>Things/Vehicles/Stormhawk/Icarus_Stormcannon1</icon>
+				<work>7500</work>
+				<gridCoordinate>(10, 5)</gridCoordinate>
+				<drawSize>(80, 80)</drawSize>
+				<disableIfUpgradeNodesEnabled>
+				 	<li>GW_StormHawkLasTalonUpgrade</li>
+				</disableIfUpgradeNodesEnabled>
+				<upgrades>
+					<li Class = "Vehicles.TurretUpgrade">
+						<turrets>
+								<li>
+								<turretDef>GW_Stormhawk_Stormcannon</turretDef>
+								<renderProperties>
+									<north>(0, 3.5)</north>
+									<south>(0, -3.5)</south>
+									<east>(3.5, 0)</east>
+								</renderProperties>
+								<drawLayer>0</drawLayer>
+								<gizmoLabel>Storm Cannon</gizmoLabel>
+								<defaultAngleRotated>0</defaultAngleRotated>
+								<angleRestricted>(320,40)</angleRestricted>
+								<aimPieOffset>(0, 2.55)</aimPieOffset>
+								<key>noseGun</key>
+							</li>
+						</turrets>
+					</li>
+				</upgrades>
+				<ingredients>
+				 <Steel>100</Steel>
+			     <GW_VehicleCannon>2</GW_VehicleCannon>
+			     <HP_Ceramite>100</HP_Ceramite>
+				 <ComponentIndustrial>4</ComponentIndustrial>
+				</ingredients>
+			</li>
+		</nodes>
+	</Vehicles.UpgradeTreeDef>
+	
+</Defs>

@@ -9,7 +9,7 @@
 		<label>Las-Talon</label>
 		<description>WIP</description>
 		
-		<turretType>Rotatable</turretType>
+		<turretType>Static</turretType>
 		<shotSound>OverlordLascannon</shotSound>
 		
 		<projectile>GW_LascanonShot</projectile>
@@ -24,7 +24,7 @@
 		<autoSnapTargeting>false</autoSnapTargeting>
 		<rotationSpeed>2.95</rotationSpeed>
 		
-		<projectileOffset>0</projectileOffset>
+		<projectileOffset>1.5</projectileOffset>
 		
 		<minRange>1</minRange>
 		<maxRange>42.9</maxRange>
@@ -33,14 +33,14 @@
 		
 		<fireModes>
 			<li>
-				<shotsPerBurst>2</shotsPerBurst>
+				<shotsPerBurst>1</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
 			<li>
-				<shotsPerBurst>6</shotsPerBurst>
+				<shotsPerBurst>3</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<spreadRadius>1</spreadRadius>
@@ -48,7 +48,7 @@
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
 			<li>
-				<shotsPerBurst>10</shotsPerBurst>
+				<shotsPerBurst>7</shotsPerBurst>
 				<ticksBetweenShots>5</ticksBetweenShots>
 				<ticksBetweenBursts>45</ticksBetweenBursts>
 				<label>Auto</label>
@@ -57,15 +57,81 @@
 		</fireModes>
 
 		<graphicData>
-			<texPath>Things/Vehicles/Chimera/Chimera_CannonSide</texPath>
+			<texPath>Things/Vehicles/Stormhawk/stormhawk_lastalon</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
-			<drawSize>(0, 0)</drawSize>
+			<drawSize>(1, 1)</drawSize>
 		</graphicData>
 		
 		<ammunition>
 			<thingDefs>
 				<li>GW_LascannonammoNonCE</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+
+		<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>GW_Stormhawk_Stormcannon</defName>
+		<label>Storm Cannon</label>
+		<description>WIP</description>
+		
+		<turretType>Static</turretType>
+		<shotSound>Shot_autocannon</shotSound>
+		
+		<projectile>GW_Bullet_Autocannon</projectile>
+		<reloadTimer>5</reloadTimer>
+		<warmUpTimer>0.4</warmUpTimer>
+		
+		<magazineCapacity>100</magazineCapacity>
+		<genericAmmo>true</genericAmmo>
+		
+		<hitFlags>IntendedTarget</hitFlags>
+		
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>2.95</rotationSpeed>
+		
+		<projectileOffset>1.5</projectileOffset>
+		
+		<minRange>1</minRange>
+		<maxRange>42.9</maxRange>
+		
+		
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>5</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<label>Single</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>15</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<spreadRadius>1</spreadRadius>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>25</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>45</ticksBetweenBursts>
+				<label>Auto</label>
+				<texPath>UI/Gizmos/FireRate_Auto</texPath>
+			</li>
+		</fireModes>
+
+		<graphicData>
+			<texPath>Things/Vehicles/Stormhawk/Icarus_Stormcannon1</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(1, 1)</drawSize>
+		</graphicData>
+		
+		<ammunition>
+			<thingDefs>
+				<li>GW_HeavyBolterNonCE</li>
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
@@ -78,12 +144,12 @@
 
 			<shotSound>OverlordHBolter</shotSound>
 
-			<projectile>GW_Bullet_HeavyBolter</projectile>
+			<projectile>GW_Bullet_Assaultcannon</projectile>
 
 			<reloadTimer>7.8</reloadTimer>
 			<warmUpTimer>1.0</warmUpTimer>
 
-			<magazineCapacity>100</magazineCapacity>
+			<magazineCapacity>200</magazineCapacity>
 			<chargePerAmmoCount>1</chargePerAmmoCount>
 			<genericAmmo>true</genericAmmo>
 
@@ -99,23 +165,23 @@
 
 			<fireModes>
 			<li>
-				<shotsPerBurst>5</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
+				<shotsPerBurst>10</shotsPerBurst>
+				<ticksBetweenShots>1</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<label>Single</label>
 				<texPath>UI/Gizmos/FireRate_Single</texPath>
 			</li>
 			<li>
-				<shotsPerBurst>10</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
+				<shotsPerBurst>25</shotsPerBurst>
+				<ticksBetweenShots>1</ticksBetweenShots>
 				<ticksBetweenBursts>30</ticksBetweenBursts>
 				<spreadRadius>1</spreadRadius>
 				<label>Burst</label>
 				<texPath>UI/Gizmos/FireRate_Burst</texPath>
 			</li>
 			<li>
-				<shotsPerBurst>25</shotsPerBurst>
-				<ticksBetweenShots>5</ticksBetweenShots>
+				<shotsPerBurst>50</shotsPerBurst>
+				<ticksBetweenShots>1</ticksBetweenShots>
 				<ticksBetweenBursts>45</ticksBetweenBursts>
 				<label>Auto</label>
 				<texPath>UI/Gizmos/FireRate_Auto</texPath>
@@ -123,7 +189,7 @@
 			</fireModes>
 
 		<graphicData>
-			<texPath>Things/Vehicles/Chimera/Chimera_CannonSide</texPath>
+			<texPath>Things/invisibleTurret</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(0, 0)</drawSize>
