@@ -25,6 +25,7 @@
   </modDependencies>
 	<loadAfter>
 		<li>ceteam.combatextended</li>
+		<li>SmashPhil.VehicleFramework</li>
 		<li>Grimworld.Core</li>
 	</loadAfter>
 
