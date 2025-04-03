@@ -47,22 +47,22 @@
 			<li>
 				<start>AerialVehicleLaunch</start>
 				<stop>AerialVehicleLeftMap</stop>
-				<value>valkloop</value>
+				<value>jetloop</value>
 			</li>
 			<li>
 				<start>AerialVehicleLanding</start>
 				<stop>Spawned</stop>
-				<value>valkloop</value>
+				<value>jetloop</value>
 			</li>
 			<li>
 				<start>AerialVehicleCrashLanding</start>
 				<stop>Spawned</stop>
-				<value>valkloop</value>
+				<value>jetloop</value>
 			</li>
 			<li>
 				<start>IgnitionOn</start>
 				<stop>IgnitionOff</stop>
-				<value>valkloop</value>
+				<value>jetloop</value>
 			</li>
 		</soundSustainersOnEvent>
 		
