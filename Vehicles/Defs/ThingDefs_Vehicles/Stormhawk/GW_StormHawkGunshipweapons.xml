@@ -76,7 +76,7 @@
 		<description>WIP</description>
 		
 		<turretType>Static</turretType>
-		<shotSound>Shot_autocannon</shotSound>
+		<shotSound>shot_autocannon</shotSound>
 		
 		<projectile>GW_Bullet_Autocannon</projectile>
 		<reloadTimer>5</reloadTimer>
