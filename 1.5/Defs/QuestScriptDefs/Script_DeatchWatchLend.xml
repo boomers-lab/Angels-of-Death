@@ -39,16 +39,16 @@
 			    <storeAs>faction</storeAs>
 		    <factionDef>GW_SM_AdeptusAstartes</factionDef>
 		</li>
-        <li Class="QuestNode_SubScript">
-          <def>Util_RandomizePointsChallengeRating</def>
-        </li>
 
+        <li Class="QuestNode_SetChallengeRating">
+          <challengeRating>2</challengeRating>
+        </li>
         <!-- Calculate colonist count to lend -->
         <li Class="QuestNode_GetRandomInRangeForChallengeRating">
         <storeAs>colonistsToLendCount</storeAs>
           <oneStarRange>1~1</oneStarRange>
-          <twoStarRange>2~2</twoStarRange>
-          <threeStarRange>3~3</threeStarRange>
+          <twoStarRange>1~1</twoStarRange>
+          <threeStarRange>1~1</threeStarRange>
         </li>
 
         <li Class="QuestNode_ExpansionActive">
@@ -88,23 +88,13 @@
             <threeStarRange>300~600</threeStarRange>
           <roundRandom>true</roundRandom>
         </li>
-
-        <!-- Calculate reward from colonistsToLendCount * lendForDays -->
-        <li Class="QuestNode_EvaluateSimpleCurve">
-          <value>$($colonistsToLendCount*$lendForDays)</value>
-          <storeAs>rewardValue</storeAs>
-          <curve>
-            <points>
-              <li>5, 500</li>
-              <li>50, 1500</li>
-              <li>200, 4000</li>
-            </points>
-          </curve>
+        <li Class="QuestNode_GetRandomInRangeInt">
+          <storeAs>shuttleTime</storeAs>
+          <range>400000~800000</range>
         </li>
-
         <!-- Shuttle -->
         <li Class="QuestNode_ShuttleDelay">
-          <delayTicks>600000~12000000</delayTicks>
+          <delayTicks>$shuttleTime</delayTicks>
             <node Class="QuestNode_Sequence">
               <nodes>
                 <li Class="QuestNode_SubScript">
@@ -166,6 +156,9 @@
                       <parms>
                         <allowGoodwill>true</allowGoodwill>
                         <allowRoyalFavor>false</allowRoyalFavor>
+                        <thingRewardDisallowed>true</thingRewardDisallowed>
+                        <minGeneratedRewardValue>0</minGeneratedRewardValue>
+                        <rewardValue>0</rewardValue>
                       </parms>
                     </li>
                   </nodes>
@@ -180,10 +173,14 @@
           <node Class="QuestNode_Sequence">
             <nodes>
               <li Class="QuestNode_Letter">
-                <label TKey="LetterLabelColonistsReturned">Astartes returned</label>
+                <label TKey="LetterLabelColonistsReturned">Astarte returned</label>
                 <text>$returnLetterText</text>
                 <letterDef>PositiveEvent</letterDef>
               </li>
+                <li Class="QuestNode_ChangeFactionGoodwill">
+                    <faction>$faction</faction>
+                    <change>15</change>
+                </li>
               <li Class="QuestNode_End">
                 <outcome>Success</outcome>
               </li>
@@ -193,15 +190,40 @@
             
         <li Class="QuestNode_Signal">
           <inSignal>ColonistsDied</inSignal>
-          <node Class="QuestNode_End">
-            <outcome>Success</outcome>
+            <node Class="QuestNode_Sequence">
+              <nodes>
+                <li Class="QuestNode_Letter">
+                    <label TKey="LetterLabelQuestFailed">Astarte KIA</label>
+                    <text>The Deathwatch honors the sacrifice of your Astarte in battle. Their remains will be returned.</text>
+                </li>
+                <li Class="QuestNode_ChangeFactionGoodwill">
+                  <faction>$faction</faction>
+                  <change>10</change>
+                </li>
+                <li Class="QuestNode_End">
+                  <outcome>Success</outcome>
+              </li>
+            </nodes>
           </node>
         </li>
         
         <li Class="QuestNode_Signal">
           <inSignal>pickupShipThing.SentUnsatisfied</inSignal>
-          <node Class="QuestNode_End">
-            <outcome>Fail</outcome>
+            <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestFailed">Tithe not fulfilled</label>
+                <text>The Deathwatch scorns your chapter for not sending any Astartes</text>
+                <letterDef>NegativeEvent</letterDef>
+              </li>
+                <li Class="QuestNode_ChangeFactionGoodwill">
+                    <faction>$faction</faction>
+                    <change>-20</change>
+                </li>
+                <li Class="QuestNode_End">
+                 <outcome>Fail</outcome>
+                </li>
+          </nodes>
           </node>
         </li>
         

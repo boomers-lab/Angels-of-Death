@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "V7JHP/owyRXoJ9k9NfBjTVISQzgRoHKUCVTl7xJUgAnMgbebQ2smVtYJwO0ChcaVlFuxqNXVyaY32nPnnniL7w==",
+  "success": true,
+  "projectFilePath": "/home/yakhmet/.wine/drive_c/Games/RimWorld/Mods/Angels-of-Death/Source/ShieldApparel/ShieldApparel.csproj",
+  "expectedPackageFiles": [
+    "/home/yakhmet/.nuget/packages/krafs.rimworld.ref/1.4.3901/krafs.rimworld.ref.1.4.3901.nupkg.sha512",
+    "/home/yakhmet/.nuget/packages/lib.harmony/2.3.3/lib.harmony.2.3.3.nupkg.sha512",
+    "/home/yakhmet/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/yakhmet/.nuget/packages/microsoft.netframework.referenceassemblies.net48/1.0.3/microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
