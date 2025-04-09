@@ -52,9 +52,13 @@ namespace eridanus_quests
 			factionDef = DefDatabase<FactionDef>.AllDefs.Where((FactionDef fd) => fd.isPlayer).RandomElement();
 		}
 
-		public override void PostWorldGenerate()
+        public override void PreMapGenerate()
 		{
-			Current.Game.components.Add(new GameComponent_PlayerFaction(Current.Game));
+            Current.Game.components.Add(new GameComponent_PlayerFaction(Current.Game));
+        }
+
+        public override void PostWorldGenerate()
+		{
 			Current.Game.GetComponent<GameComponent_PlayerFaction>().SetPlayerFaction(factionDef);
 		}
 

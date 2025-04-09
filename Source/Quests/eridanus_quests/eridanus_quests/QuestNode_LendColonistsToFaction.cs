@@ -1,5 +1,6 @@
 // Assembly-CSharp, Version=1.5.9214.33606, Culture=neutral, PublicKeyToken=null
 // RimWorld.QuestGen.QuestNode_LendColonistsToFaction
+using System.Collections.Generic;
 using RimWorld;
 using RimWorld.QuestGen;
 using Verse;
@@ -49,7 +50,19 @@ namespace eridanus_quests
 
 		public override bool TestRunInt(Slate slate)
 		{
+
 			return true;
+
+            List<Quest> questsListForReading = Find.QuestManager.QuestsListForReading;
+			for (int i = 0; i < questsListForReading.Count; i++)
+			{
+				if(questsListForReading[i] != null)
+				{
+
+				}
+			}
+
+            return true;
 		}
 	}
 }

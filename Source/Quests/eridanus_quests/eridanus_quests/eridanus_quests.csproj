@@ -69,12 +69,11 @@
     <Publicize Include="Assembly-CSharp" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="QuestGen.QuestNode_LendColonistsToFaction.cs" />
+    <Compile Include="QuestNode_LendColonistsToFaction.cs" />
     <Compile Include="QuestPart_LendColonistsToFaction.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuestNode_GWFaction.cs" />
     <Compile Include="ScenPart_PlayerParentFaction.cs" />
-    <Compile Include="StorytellerComp_FactionQuest.cs" />
-    <Compile Include="StorytellerCompProperties_FactionQuest.cs" />
     <Compile Include="GameComponent_PlayerFaction.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

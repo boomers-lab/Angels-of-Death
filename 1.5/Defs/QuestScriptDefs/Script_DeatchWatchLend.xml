@@ -14,7 +14,7 @@
       <rulesStrings>
 
         <!-- Asker is faction leader -->
-        <li>questDescription->The [faction_name] requires your chapter to send [colonistCountToLend] to serve in the Deathwatch for 5-10 quadrums.\nYou will lose relations with the [faction_name] if not fulfilled.\n\n[willSendShuttle]</li>
+        <li>questDescription->The [faction_name] requires your chapter to send [colonistCountToLend] to serve in the Deathwatch for 5-10 quadrums.\nYou will lose relations with the [faction_name] if not fulfilled. If the Astartes survives, he will come back more experienced.\n\n[willSendShuttle]</li>
         
         <li>colonistCountToLend(colonistsToLendCount==1)->1 Astarte[minAgeOrOlder]</li>
         <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] Astartes[minAgeOrOlder]</li>
@@ -39,6 +39,13 @@
 			    <storeAs>faction</storeAs>
 		    <factionDef>GW_SM_AdeptusAstartes</factionDef>
 		</li>
+
+    <li Class="eridanus_quests.QuestNode_GWFaction">
+      <inList>true</inList>
+      <factionList>
+      <li>GW_SM_AdeptusAstartes</li>
+      </factionList>
+    </li>
 
         <li Class="QuestNode_SetChallengeRating">
           <challengeRating>2</challengeRating>
