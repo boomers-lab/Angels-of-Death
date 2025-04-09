@@ -54,6 +54,7 @@ namespace eridanus_quests
 
 		public override void PostWorldGenerate()
 		{
+			Current.Game.components.Add(new GameComponent_PlayerFaction(Current.Game));
 			Current.Game.GetComponent<GameComponent_PlayerFaction>().SetPlayerFaction(factionDef);
 		}
 

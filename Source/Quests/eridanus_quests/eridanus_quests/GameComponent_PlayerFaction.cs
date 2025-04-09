@@ -10,6 +10,7 @@ namespace eridanus_quests
 	public class GameComponent_PlayerFaction : GameComponent
 	{
 		private FactionDef playerFactionIs = null;
+		//subfaction? = null;
 
 		public GameComponent_PlayerFaction(Game game)
 		{

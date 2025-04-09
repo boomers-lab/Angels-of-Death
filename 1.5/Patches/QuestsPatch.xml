@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/StoryTellerDef[defName="Cassandra"]</xpath>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/StoryTellerDef[defName="Cassandra"]/comps</xpath>
+            <value>
+                <li Class="eridanus_quests.StorytellerCompProperties_FactionQuest">
+                    <incident>DeathWatchLend</incident>
+                    <mtbDays>350</mtbDays>
+                    <minSpacingDays>300</minSpacingDays>
+                    <allowedFactions>
+                        <li>GW_SM_AdeptusAstartes</li>
+                    </allowedFactions>
+                    <blockedByQueuedOrActiveQuests>
+                        <li>DeathWatchLend</li>
+                    </blockedByQueuedOrActiveQuests>
+                </li>
+            </value>
+        </match>
+    </Operation>
+</Patch>
