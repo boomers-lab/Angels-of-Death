@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|c:\\users\\paul\\documents\\github\\angels-of-death\\source\\quests\\eridanus_quests\\eridanus_quests\\questnode_gwfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|solutionrelative:questnode_gwfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\questpart_lendcoloniststofaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|solutionrelative:questpart_lendcoloniststofaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\scenpart_playerparentfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|solutionrelative:scenpart_playerparentfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|c:\\users\\paul\\documents\\github\\angels-of-death\\source\\quests\\eridanus_quests\\eridanus_quests\\questnode_lendcoloniststofaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|solutionrelative:questnode_lendcoloniststofaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\scenpart_playerparentfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|solutionrelative:scenpart_playerparentfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\questpart_lendcoloniststofaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|solutionrelative:questpart_lendcoloniststofaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\gamecomponent_playerfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|solutionrelative:gamecomponent_playerfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|c:\\users\\paul\\documents\\github\\angels-of-death\\source\\quests\\eridanus_quests\\eridanus_quests\\questnode_gwfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97FA1308-3ED7-41D8-827D-0CC3A3291EE8}|eridanus_quests.csproj|solutionrelative:questnode_gwfaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,12 +29,12 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 184,
+          "DockedWidth": 154,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "QuestNode_GWFaction.cs",
               "DocumentMoniker": "C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\QuestNode_GWFaction.cs",
               "RelativeDocumentMoniker": "QuestNode_GWFaction.cs",
@@ -48,25 +48,25 @@
           ]
         },
         {
-          "DockedWidth": 166,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 196,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "ScenPart_PlayerParentFaction.cs",
               "DocumentMoniker": "C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\ScenPart_PlayerParentFaction.cs",
               "RelativeDocumentMoniker": "ScenPart_PlayerParentFaction.cs",
               "ToolTip": "C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\ScenPart_PlayerParentFaction.cs",
               "RelativeToolTip": "ScenPart_PlayerParentFaction.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-07T00:29:40.5Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "QuestPart_LendColonistsToFaction.cs",
               "DocumentMoniker": "C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\QuestPart_LendColonistsToFaction.cs",
               "RelativeDocumentMoniker": "QuestPart_LendColonistsToFaction.cs",
@@ -79,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "GameComponent_PlayerFaction.cs",
               "DocumentMoniker": "C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\GameComponent_PlayerFaction.cs",
               "RelativeDocumentMoniker": "GameComponent_PlayerFaction.cs",
@@ -92,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "QuestNode_LendColonistsToFaction.cs",
               "DocumentMoniker": "C:\\Users\\Paul\\Documents\\GitHub\\Angels-of-Death\\Source\\Quests\\eridanus_quests\\eridanus_quests\\QuestNode_LendColonistsToFaction.cs",
               "RelativeDocumentMoniker": "QuestNode_LendColonistsToFaction.cs",
