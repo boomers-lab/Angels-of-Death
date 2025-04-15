@@ -29,6 +29,7 @@
 			<ArmorRating_Heat>0.4</ArmorRating_Heat>
 			<Flammability>0</Flammability>
 			<MarketValue>15000</MarketValue>
+			<Mass>590</Mass>
 		</statBases>
 		<vehicleStats>
 			<Mass>590</Mass>
