@@ -130,7 +130,7 @@
 		<description>plasma.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>Shot_TurretSniper</shotSound>
-		<projectile>Bullet_LemanRussExecutioner_MainTurret</projectile>
+		<projectile>GW_Tank_PlasmaShot</projectile>
 		<reloadTimer>12.0</reloadTimer>
 		<warmUpTimer>4.0</warmUpTimer>
 		<magazineCapacity>6</magazineCapacity>
