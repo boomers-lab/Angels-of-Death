@@ -663,7 +663,7 @@
 				<warmupTime>3</warmupTime>
 				<range>35</range>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>HP_Plasma_Gun_Sound</soundCast>
+				<soundCast>GW_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<targetParams>
