@@ -126,7 +126,7 @@
                 <range>40</range>
                 <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                 <burstShotCount>10</burstShotCount>
-                <soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
+                <soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>8</muzzleFlashScale>
                 <consumeFuelPerShot>1</consumeFuelPerShot>

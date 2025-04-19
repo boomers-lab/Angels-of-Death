@@ -335,7 +335,7 @@
         <range>40</range>
         <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
         <burstShotCount>20</burstShotCount>
-        <soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
+        <soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>8</muzzleFlashScale>
       </li>
@@ -418,7 +418,7 @@
 				<defaultProjectile>GW_SM_AstartesBullet</defaultProjectile>
 				<warmupTime>1.2</warmupTime>
 				<range>22</range>
-				<soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
+				<soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>
@@ -497,7 +497,7 @@
 				<defaultProjectile>GW_SM_NeedleBullet</defaultProjectile>
 				<warmupTime>5</warmupTime>
 				<range>55</range>
-				<soundCast>HP_Heavy_Bolt_Gun_Sound</soundCast>
+				<soundCast>GW_Heavy_Bolt_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 			</li>

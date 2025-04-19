@@ -63,7 +63,7 @@
 		<label>Hurricane Bolter</label>
 		<description>bolt.</description>
 		<turretType>Rotatable</turretType>
-		<shotSound>HP_Heavy_Bolt_Gun_Sound</shotSound>
+		<shotSound>GW_Heavy_Bolt_Gun_Sound</shotSound>
 		<projectile>GW_Bullet_HeavyBolter</projectile>
 		<reloadTimer>15.8</reloadTimer>
 		<warmUpTimer>3.0</warmUpTimer>
