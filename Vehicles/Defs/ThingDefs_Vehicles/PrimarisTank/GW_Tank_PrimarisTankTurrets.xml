@@ -159,7 +159,7 @@
 			</li>
 		</fireModes>
 		<graphicData>
-			<texPath>Things/Vehicles/LemanRuss/LemanRussExecutioner_Cannon</texPath>
+			<texPath>Things/invisibleTurret</texPath>
 			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
 			<shaderType>CutoutComplexPattern</shaderType>
 			<drawSize>(0, 0)</drawSize>
