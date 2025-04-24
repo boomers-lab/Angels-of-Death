@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <QuestScriptDef>
+    <defName>DeathWatchLend</defName>
+    <autoAccept>True</autoAccept>
+    <rootSelectionWeight>1</rootSelectionWeight>
+    <questNameRules>
+      <rulesStrings>
+        <li>questName->The Long Watch</li>
+        <li>questName->Deathwatch Tithe</li>
+      </rulesStrings>
+    </questNameRules>
+    <questDescriptionRules>
+      <rulesStrings>
+
+        <!-- Asker is faction leader -->
+        <li>questDescription->The [faction_name] requires your chapter to send [colonistCountToLend] to serve in the Deathwatch for 5-10 quadrums.\nYou will lose relations with the [faction_name] if not fulfilled. If the Astartes survives, he will come back more experienced.\n\n[willSendShuttle]</li>
+        
+        <li>colonistCountToLend(colonistsToLendCount==1)->1 Astarte[minAgeOrOlder]</li>
+        <li>colonistCountToLend(colonistsToLendCount>1)->[colonistsToLendCount] Astartes[minAgeOrOlder]</li>
+
+        <li>willSendShuttle->The Deathwatch will send a shuttle to pick up the Astartes.</li>
+        <li>minAgeOrOlder(minAge==0)-></li>
+        <li>minAgeOrOlder(minAge>0)-> [minAge] years old or older</li>
+
+        <li>pawnListHaveConjugation(colonistsToLendCount==1)->has</li>
+        <li>pawnListHaveConjugation(colonistsToLendCount>1)->have</li>
+
+      </rulesStrings>
+    </questDescriptionRules>
+    
+    <root Class="QuestNode_Sequence">
+      <nodes>
+        <li Class="VFECore.QuestNode_GetFaction">
+			    <allowEnemy>false</allowEnemy>
+          <allowAlly>true</allowAlly>
+          <allowNeutral>true</allowNeutral>
+			    <allowPermanentEnemy>false</allowPermanentEnemy>
+			    <storeAs>faction</storeAs>
+		    <factionDef>GW_SM_AdeptusAstartes</factionDef>
+		</li>
+
+    <li Class="eridanus_quests.QuestNode_GWFaction">
+      <inList>true</inList>
+      <factionList>
+      <li>GW_SM_AdeptusAstartes</li>
+      </factionList>
+    </li>
+
+        <li Class="QuestNode_SetChallengeRating">
+          <challengeRating>2</challengeRating>
+        </li>
+        <!-- Calculate colonist count to lend -->
+        <li Class="QuestNode_GetRandomInRangeForChallengeRating">
+        <storeAs>colonistsToLendCount</storeAs>
+          <oneStarRange>1~1</oneStarRange>
+          <twoStarRange>1~1</twoStarRange>
+          <threeStarRange>1~1</threeStarRange>
+        </li>
+
+        <li Class="QuestNode_ExpansionActive">
+          <modID>Ludeon.RimWorld.Biotech</modID>
+          <node Class="QuestNode_Set">
+            <name>minAge</name>
+            <value>18</value>
+          </node>
+          <elseNode Class="QuestNode_Set">
+            <name>minAge</name>
+            <value>0</value>
+          </elseNode>
+        </li>
+
+        <li Class="QuestNode_GetMap">
+          <preferMapWithMinFreeColonists>$colonistsToLendCount</preferMapWithMinFreeColonists>
+        </li>
+
+        <!-- End if map removed before the quest is accepted -->
+        <li Class="QuestNode_End">
+          <inSignal>map.MapRemoved</inSignal>
+          <outcome>Fail</outcome>
+          <signalListenMode>NotYetAcceptedOnly</signalListenMode>
+        </li>
+
+        
+        <li Class="QuestNode_Set">
+          <name>returnLetterText</name>
+          <value TKey="LetterTextReturnAfterHelping">{PAWNS} [pawnListHaveConjugation] faithfully completed their service in the Deathwatch.</value>
+        </li>
+
+        <!-- Calculate days to lend colonists for -->
+        <li Class="QuestNode_GetRandomInRangeForChallengeRating">
+          <storeAs>lendForDays</storeAs>
+            <oneStarRange>300~600</oneStarRange>
+            <twoStarRange>300~600</twoStarRange>
+            <threeStarRange>300~600</threeStarRange>
+          <roundRandom>true</roundRandom>
+        </li>
+        <li Class="QuestNode_GetRandomInRangeInt">
+          <storeAs>shuttleTime</storeAs>
+          <range>400000~800000</range>
+        </li>
+        <!-- Shuttle -->
+        <li Class="QuestNode_ShuttleDelay">
+          <delayTicks>$shuttleTime</delayTicks>
+            <node Class="QuestNode_Sequence">
+              <nodes>
+                <li Class="QuestNode_SubScript">
+                  <def>Util_TransportShip_Pickup</def>
+                  <parms>
+                    <leaveDelayTicks>120000</leaveDelayTicks>
+                    <leaveImmediatelyWhenSatisfied>true</leaveImmediatelyWhenSatisfied>
+                    <acceptColonists>true</acceptColonists>
+                    <acceptChildren>false</acceptChildren>
+                    <onlyAcceptColonists>true</onlyAcceptColonists>
+                    <onlyAcceptHealthy>true</onlyAcceptHealthy>
+                    <requireColonistCount>$colonistsToLendCount</requireColonistCount>
+                    <minAge>$minAge</minAge>
+                  </parms>
+                </li>
+
+                <li Class="QuestNode_Letter">
+                  <label TKey="LetterLabelShuttleArrived">Shuttle arrived</label>
+                  <text TKey="LetterTextShuttleArrived">The shuttle has arrived to collect [colonistsToLendCount] of your Astartes.</text>
+                  <lookTargets>$pickupShipThing</lookTargets>
+                </li>
+            </nodes>
+          </node>
+        </li>
+
+        <!-- Shuttle destroyed -->
+        <li Class="QuestNode_Signal">
+          <inSignal>pickupShipThing.Destroyed</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelShuttleDestroyed">Shuttle destroyed</label>
+                <text TKey="LetterTextShuttleDestroyed">The shuttle sent to collect the Astartes has been destroyed.</text>
+              </li>
+              <li Class="QuestNode_End">
+                <outcome>Fail</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        <!-- Shuttle sent away -->
+        <li Class="QuestNode_Signal">
+          <inSignal>pickupShipThing.SentSatisfied</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+            <li Class="eridanus_quests.QuestNode_LendAstartesToFaction">
+                <shuttle>$pickupShipThing</shuttle>
+                <lendColonistsToFactionOf>$faction</lendColonistsToFactionOf>
+                <returnLentColonistsInTicks>$($lendForDays*60000)</returnLentColonistsInTicks>
+                <outSignalComplete>ColonistsReturned</outSignalComplete>
+                <outSignalColonistsDied>ColonistsDied</outSignalColonistsDied>
+              </li>
+              <li Class="QuestNode_Delay">
+                <delayTicks>$(randInt(300,600))</delayTicks>
+                <node Class="QuestNode_Sequence">
+                  <nodes>
+                    <li Class="QuestNode_GiveRewards">
+                      <parms>
+                        <allowGoodwill>true</allowGoodwill>
+                        <allowRoyalFavor>false</allowRoyalFavor>
+                        <thingRewardDisallowed>true</thingRewardDisallowed>
+                        <minGeneratedRewardValue>0</minGeneratedRewardValue>
+                        <rewardValue>0</rewardValue>
+                      </parms>
+                    </li>
+                  </nodes>
+                </node>
+              </li>
+            </nodes>
+          </node>
+        </li>
+
+        <li Class="QuestNode_Signal">
+          <inSignal>ColonistsReturned</inSignal>
+          <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelColonistsReturned">Astarte returned</label>
+                <text>$returnLetterText</text>
+                <letterDef>PositiveEvent</letterDef>
+              </li>
+                <li Class="QuestNode_ChangeFactionGoodwill">
+                    <faction>$faction</faction>
+                    <change>15</change>
+                </li>
+              <li Class="QuestNode_End">
+                <outcome>Success</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+            
+        <li Class="QuestNode_Signal">
+          <inSignal>ColonistsDied</inSignal>
+            <node Class="QuestNode_Sequence">
+              <nodes>
+                <li Class="QuestNode_Letter">
+                    <label TKey="LetterLabelQuestFailed">Astarte KIA</label>
+                    <text>The Deathwatch honors the sacrifice of your Astarte in battle. Their remains will be returned.</text>
+                </li>
+                <li Class="QuestNode_ChangeFactionGoodwill">
+                  <faction>$faction</faction>
+                  <change>10</change>
+                </li>
+                <li Class="QuestNode_End">
+                  <outcome>Success</outcome>
+              </li>
+            </nodes>
+          </node>
+        </li>
+        
+        <li Class="QuestNode_Signal">
+          <inSignal>pickupShipThing.SentUnsatisfied</inSignal>
+            <node Class="QuestNode_Sequence">
+            <nodes>
+              <li Class="QuestNode_Letter">
+                <label TKey="LetterLabelQuestFailed">Tithe not fulfilled</label>
+                <text>The Deathwatch scorns your chapter for not sending any Astartes</text>
+                <letterDef>NegativeEvent</letterDef>
+              </li>
+                <li Class="QuestNode_ChangeFactionGoodwill">
+                    <faction>$faction</faction>
+                    <change>-20</change>
+                </li>
+                <li Class="QuestNode_End">
+                 <outcome>Fail</outcome>
+                </li>
+          </nodes>
+          </node>
+        </li>
+        
+      </nodes>
+    </root>
+  </QuestScriptDef>
+  
+</Defs>

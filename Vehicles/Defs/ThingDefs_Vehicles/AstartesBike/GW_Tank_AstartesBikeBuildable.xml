@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--===== Chimera =====-->
+	
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_AstartesBike_Blueprint</defName>
+		<label>Astartes Bike</label>
+		<description>An Astartes Bike, also known as an Assault Bike, is a two-wheeled fast-attack motorcycle equipped with a heavy bolter on the front. Such bikes are used by Space Marine Bike Squads to quickly strike at an enemy formation, whittling down some and sowing disorder in the rest, then retreat before an effective response can be made. \n\nAstartes Bikes are heavily associated with the White Scars chapter of Space Marines, where Bike Squads make up the majority of their offensive force. Rarely will they stand and fight head-to-head, preferring to bleed their enemies dry for every inch they march. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/AstartesBike/AstartesBike</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.8, 3.8)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(2, 2)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialLandVehicleResearch</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>425</Steel>
+			<HP_Ceramite>25</HP_Ceramite>
+			<GW_VehicleEngine>1</GW_VehicleEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<GW_VehicleSuspension>2</GW_VehicleSuspension>
+			<GW_VehicleWheel>2</GW_VehicleWheel>
+			<ComponentIndustrial>16</ComponentIndustrial>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_AstartesBike</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

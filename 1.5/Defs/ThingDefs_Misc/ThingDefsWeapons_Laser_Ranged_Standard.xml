@@ -83,7 +83,7 @@
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
                 <forcedMissRadius>1.9</forcedMissRadius>
                 <burstShotCount>1</burstShotCount>
-                <soundCast>HP_Plasma_Gun_Sound</soundCast>
+                <soundCast>GW_Plasma_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>	
                 <targetParams>
@@ -329,25 +329,6 @@
     </ThingDef>
   
     <!-- ====================== MultiMelta  ===================== -->
-  
-    <ThingDef ParentName="BaseBullet">
-        <defName>HP_Bullet_MultiMelta</defName>
-        <label>melta gun shot</label>
-        <graphicData>
-            <texPath>Things/Projectiles/Melta_Projectile</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>TransparentPostLight</shaderType>
-            <drawSize>1.5</drawSize>
-        </graphicData>
-        <thingClass>Projectile_Explosive</thingClass>
-        <projectile>
-            <damageDef>Burn</damageDef>
-            <damageAmountBase>150</damageAmountBase>
-            <stoppingPower>4</stoppingPower>
-            <armorPenetrationBase>3.5</armorPenetrationBase>
-            <speed>80</speed>
-        </projectile>
-    </ThingDef>
 
     <ThingDef ParentName="BaseHumanMakeableGun">
         <defName>HP_Gun_Multimelta</defName>
@@ -402,13 +383,13 @@
             <li>
                 <verbClass>Verb_Shoot</verbClass>
                 <hasStandardCommand>true</hasStandardCommand>
-                <defaultProjectile>HP_Bullet_MultiMelta</defaultProjectile>
+                <defaultProjectile>GW_Bullet_MultiMelta</defaultProjectile>
                 <warmupTime>5</warmupTime>
                 <range>45</range>
                 <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
 				<forcedMissRadius>1</forcedMissRadius>
                 <burstShotCount>2</burstShotCount>
-                <soundCast>HP_Multi_Melta_Gun_Sound</soundCast>
+                <soundCast>GW_Multi_Melta_Gun_Sound</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
                 <muzzleFlashScale>12</muzzleFlashScale>		
             </li>
@@ -515,7 +496,7 @@
 				<ticksBetweenBurstShots>8</ticksBetweenBurstShots>
                 <forcedMissRadius>1.9</forcedMissRadius>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>HP_Plasma_Gun_Sound</soundCast>
+				<soundCast>GW_Plasma_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>12</muzzleFlashScale>	
                 <targetParams>
