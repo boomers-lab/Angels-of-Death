@@ -598,18 +598,7 @@
 				<li>GW_Tacticus</li>
 			</tags>
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_simple</wornGraphicPath>
-		</apparel>
-		<comps>
-			<li Class="GW4KArmor.CompProperties_TriColorMask">
-				<maskCount>9</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
-				<defaultPalette>
-					<colorA>(250, 176, 67)</colorA>
-					<colorB>(250, 176, 67)</colorB>
-					<colorC>(180, 65, 74)</colorC>
-				</defaultPalette>
-			</li>
-		</comps>
+		</apparel>		
 		<equippedStatOffsets>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 			<AimingDelayFactor>-0.2</AimingDelayFactor>
@@ -650,6 +639,17 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_skull</wornGraphicPath>
 		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
@@ -662,6 +662,17 @@
 		<apparel>
 			<wornGraphicPath>Things/Apparel/Armor_Tacticus/Helmets/Tacticus_helmet_withlaurels</wornGraphicPath>
 		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
@@ -678,7 +689,46 @@
 		<researchPrerequisites>
 				<li>GW_SM_NightLord</li>
 				<li>GW_SM_AstartesMedium</li>
-			</researchPrerequisites>
+		</researchPrerequisites>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>9</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="GW_SM_MKXHelmet_Base">
+		<defName>GW_SM_SalamanderHelmet</defName>
+		<label>Salamander Helmet</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet_south</uiIconPath>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_Salamander/Helmets/SalamandersTacticus_helmet</wornGraphicPath>
+		</apparel>
+		<researchPrerequisites>
+				<li>GW_SM_Salamander</li>
+				<li>GW_SM_AstartesMedium</li>
+		</researchPrerequisites>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>2</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
 	</ThingDef>
 
 	<!--Gravis-->

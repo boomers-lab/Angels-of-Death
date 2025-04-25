@@ -332,4 +332,91 @@
           </li>
         </modExtensions>
     </ThingDef>
+
+    <ThingDef ParentName="GWShieldBase">
+        <defName>GW_SM_SalamanderShield</defName>
+        <label>salamander shield</label>
+        <description>WIP.</description>
+        <graphicData>
+            <texPath>Things/Apparel/ArmorUpgrade_Salamander/Shields/SalamandersShield_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>1</maskCount>
+                <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+			<li Class="GWParryShield.CompProperties_GW_Parryable">
+				<parryHediff>GW_SalamanderShieldParry</parryHediff>
+				<parryChance>0.20</parryChance> <!-- 0.50 = 50% -->
+				<parryWindow>30</parryWindow>
+				<parryCooldown>90</parryCooldown>
+			</li>
+        </comps>
+        <apparel>
+			<drawData>
+				<defaultData>
+					<layer>76</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
+				<dataNorth>
+					<offset>(0.0, -0.4, 0.1)</offset>
+				</dataNorth>
+				<!-- <dataSouth> -->
+					<!-- <offset>(0.0, 0.1, 0.0)</offset> -->
+				<!-- </dataSouth> -->
+                <!-- <dataWest> -->
+                    <!-- <offset>(0.0, 0.4, 0.0)</offset> -->
+                <!-- </dataWest> -->
+                <dataEast>
+                    <offset>(0.25, 0.0, 0.0)</offset>
+                </dataEast>
+                <scale>1.0</scale>
+                <childScale>1.0</childScale>
+            </drawData>
+            <wornGraphicPath>Things/Apparel/ArmorUpgrade_Salamander/Shields/SalamandersShield_south</wornGraphicPath>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <tags>
+                <li>40kPrimaris_Shield</li>
+            </tags>
+        </apparel>
+        <costStuffCount>90</costStuffCount>
+        <statBases>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <Mass>12</Mass>
+            <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+            <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
+        </statBases>
+        <equippedStatOffsets>
+            <ReloadSpeed MayRequire="CETeam.CombatExtended">-0.3</ReloadSpeed>
+            <MeleeHitChance>-4</MeleeHitChance>
+            <ShootingAccuracyPawn>-0.4</ShootingAccuracyPawn>
+            <AimingAccuracy MayRequire="CETeam.CombatExtended">-0.2</AimingAccuracy>
+            <Suppressability MayRequire="CETeam.CombatExtended">-0.5</Suppressability>
+            <MeleeCritChance MayRequire="CETeam.CombatExtended">-0.2</MeleeCritChance>
+            <MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
+        </equippedStatOffsets>
+        <recipeMaker>
+            <researchPrerequisite>GW_SM_AstartesBasicShields</researchPrerequisite>
+            <recipeUsers Inherit="False">
+                <li>GW_SM_ArmorBench</li>
+            </recipeUsers>
+        </recipeMaker>
+        <modExtensions>
+          <li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
+            <shieldCoverage>
+              <li>Hands</li>
+              <li>Arms</li>
+              <li>Shoulders</li>
+              <li>Torso</li>
+              <li>Neck</li>
+            </shieldCoverage>
+          </li>
+        </modExtensions>
+    </ThingDef>
 </Defs>

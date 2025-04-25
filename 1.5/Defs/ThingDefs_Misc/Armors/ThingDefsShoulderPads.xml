@@ -858,6 +858,33 @@
 		</researchPrerequisites>
 	</ThingDef>
 
+	<ThingDef ParentName="GW_SM_MKXShoulderPads">
+		<defName>GW_SM_TacticusShoulderPads_Salamander</defName>
+		<label>Salamander shoulder pads (a)</label>
+		<description>WIP.</description>
+		<graphicData>
+			<texPath>Things/Apparel/ArmorUpgrade_Salamander/Shoulders/SalamanderGravis_sp_modelA_south</texPath>
+		</graphicData>
+		<apparel>
+			<wornGraphicPath>Things/Apparel/ArmorUpgrade_Salamander/Shoulders/SalamanderGravis_sp_modelA</wornGraphicPath>
+		</apparel>
+		<comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>4</maskCount>
+                <palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+		<researchPrerequisites>
+			<li>GW_SM_Salamander</li>
+			<li>GW_SM_AstartesMedium</li>
+		</researchPrerequisites>
+	</ThingDef>
+
 		<!--Gravis-->
 	<ThingDef Abstract="True" Name="GW_SM_GravisShoulderPads" ParentName="HP_AoD_ShoulderBase">
 		<description>Heavy shoulder pads of the Gravis pattern, protecting the user's shoulders from enemy attack. \n\nEven Power Armor does not protect against everything, and Space Marine recruitment is struggling to replace the casualties they take. Many Marines have been claimed by the pulse-charged rounds of glitterworld cataphracts or the infamous Doomsday Rocket Launcher. Others still have been isolated and ground down by outlanders and pirates, or hacked to pieces by tribals.</description>
