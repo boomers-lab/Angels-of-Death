@@ -5,7 +5,7 @@
 		<defName>GW_DropPod_Blueprint</defName>
 		<label>Drop Pod</label>
 		<description>In GrimWorld 40,000, the Astartes Drop Pod is a symbol of rapid deployment. It's utilitarian in design, with battle scars and chapter-specific icons. Hinged doors guard stasis racks for Astartes weaponry. Upon touchdown, it delivers Space Marines directly into battle, embodying the relentless nature of the Imperium's fight against darkness. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Operator x1, Passenger x3\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/DropPod/DropPod</texPath>

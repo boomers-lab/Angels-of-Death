@@ -6,7 +6,7 @@
 		<defName>GW_AstartesBike_Blueprint</defName>
 		<label>Astartes Bike</label>
 		<description>An Astartes Bike, also known as an Assault Bike, is a two-wheeled fast-attack motorcycle equipped with a heavy bolter on the front. Such bikes are used by Space Marine Bike Squads to quickly strike at an enemy formation, whittling down some and sowing disorder in the rest, then retreat before an effective response can be made. \n\nAstartes Bikes are heavily associated with the White Scars chapter of Space Marines, where Bike Squads make up the majority of their offensive force. Rarely will they stand and fight head-to-head, preferring to bleed their enemies dry for every inch they march. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/AstartesBike/AstartesBike</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

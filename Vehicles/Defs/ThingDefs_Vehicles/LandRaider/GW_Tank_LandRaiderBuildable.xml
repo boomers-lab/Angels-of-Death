@@ -5,7 +5,7 @@
 		<defName>GW_LandRaider_Blueprint</defName>
 		<label>Land Raider</label>
 		<description>The Land Raider is a formidable armored transport vehicle, renowned for its versatility and durability on the battlefield. With its rugged design and heavy armor plating, it serves as both a troop transport and a mobile fortress, capable of delivering squads of Space Marines directly into the heart of combat zones while providing fire support with its potent array of weaponry. Its iconic silhouette strikes fear into the hearts of enemies as it advances relentlessly, embodying the indomitable power of the Imperium of Man. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x8\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</description>
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/LandRaider/LandRaider</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

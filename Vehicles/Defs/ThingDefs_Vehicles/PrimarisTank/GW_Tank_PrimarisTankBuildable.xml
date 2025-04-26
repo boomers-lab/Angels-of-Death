@@ -6,7 +6,7 @@
 		<defName>GW_SpiteTank_Blueprint</defName>
 		<label>Astraeus</label>
 		<description>The Astraeus, formally the Astraeus Super-Heavy Tank, is a massive, super-heavy grav-tank utilised exclusively by the Primaris Space Marines. Just as these new transhuman warriors represent the pinnacle of the Adeptus Astartes' capabilities, the Astraeus super-heavy tank embodies the apex of Imperial engineering, a devastating war machine that serves as the perfect accompaniment for any Primaris Astartes force. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/PrimarisTank/Astraeus</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

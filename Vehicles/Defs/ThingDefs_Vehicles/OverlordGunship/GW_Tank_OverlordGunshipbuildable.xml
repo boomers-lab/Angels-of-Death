@@ -6,7 +6,7 @@
 		<label>Overlord Gunship</label>
 		<description>In GrimWorld 40,000, the Overlord Gunship is a formidable aerial juggernaut symbolizing the Imperium's dominance. Adorned with battle-worn plating, it bears scars from countless dogfights, emphasizing its role in the ongoing war. Armed with devastating weaponry for anti-aircraft and ground assaults, it embodies the relentless spirit of the Imperium, guarding against threats in the perilous theater of GrimWorld 40,000. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Passenger x40\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/OverlordGunship/Overlord</texPath>
