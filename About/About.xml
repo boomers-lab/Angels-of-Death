@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 	<name>Grimworld 40,000 - Angels of Death</name>
-	<author>Clashgore, Odzmang, BlackMarket420, Tittymcswaggy, Alite, Abomination, Epsilon, Maxim, Samael, Con</author>
+	<author>Clashgore, Odzmang, BlackMarket420, Tittymcswaggy, Alite, Abomination, Epsilon, Maxim, Samael, Con, Eridanus</author>
 	<packageId>HappyPurging.AgeofDarkness</packageId>
 	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/AngelsofDeathModIcon</modIconPath>
 	<supportedVersions>
