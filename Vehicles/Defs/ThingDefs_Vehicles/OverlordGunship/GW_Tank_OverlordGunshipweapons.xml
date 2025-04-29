@@ -56,7 +56,7 @@
   </SoundDef>
 	
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
-		<defName>GW_Overlord_Lasgun</defName>
+		<defName>GW_Overlord_Lascannon</defName>
 		<label>lasgun</label>
 		<description>The Lascannon, a devastating energy weapon, is mounted on a formidable vehicle in the war-ridden GrimWorld 40,000. With a sleek design and ominous presence, this armament is affixed to the vehicle's battle-hardened chassis, embodying precision and destructive power against heavily armored foes. Bearing the Imperial Aquila, it symbolizes the unwavering might of the Imperium in the relentless struggle against darkness.</description>
 		

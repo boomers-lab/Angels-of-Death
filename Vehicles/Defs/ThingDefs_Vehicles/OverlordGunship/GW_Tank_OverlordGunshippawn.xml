@@ -234,7 +234,7 @@
 			<li Class="Vehicles.CompProperties_VehicleTurrets">
 				<turrets>
 					<li>
-						<turretDef>GW_Overlord_Lasgun</turretDef>
+						<turretDef>GW_Overlord_Lascannon</turretDef>
 						
 						<renderProperties>
 							<north>(7, 1)</north>
@@ -243,14 +243,14 @@
 						</renderProperties>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(320,40)</angleRestricted>
-						<gizmoLabel>Heavy Lasgun</gizmoLabel>
+						<gizmoLabel>Heavy Lascannon</gizmoLabel>
 						
 						<aimPieOffset>(0, 2.55)</aimPieOffset>
 						
 						<key>lasgun2</key>
 					</li>
 					<li>
-						<turretDef>GW_Overlord_Lasgun</turretDef>
+						<turretDef>GW_Overlord_Lascannon<</turretDef>
 						
 						<renderProperties>
 							<north>(-7, 1)</north>
@@ -259,7 +259,7 @@
 						</renderProperties>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(320,40)</angleRestricted>
-						<gizmoLabel>Heavy Lasgun</gizmoLabel>
+						<gizmoLabel>Heavy Lascannon</gizmoLabel>
 						
 						<aimPieOffset>(0, 2.55)</aimPieOffset>
 						
@@ -275,7 +275,7 @@
 						</renderProperties>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(10,80)</angleRestricted>
-						<gizmoLabel>Heavy Boltor</gizmoLabel>
+						<gizmoLabel>Heavy Bolter</gizmoLabel>
 						
 						<aimPieOffset>(0, 2.55)</aimPieOffset>
 						
@@ -291,7 +291,7 @@
 						</renderProperties>
 						<defaultAngleRotated>0</defaultAngleRotated>
 						<angleRestricted>(280,350)</angleRestricted>
-						<gizmoLabel>Heavy Boltor</gizmoLabel>
+						<gizmoLabel>Heavy Bolter</gizmoLabel>
 						
 						<aimPieOffset>(0, 2.55)</aimPieOffset>
 						
