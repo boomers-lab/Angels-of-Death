@@ -69,7 +69,7 @@
 		
 		<ammunition>
 			<thingDefs>
-				<li>GW_LascannonammoNonCE</li>
+				<li>GW_HeavyBolterNonCE</li>
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>
@@ -201,7 +201,7 @@
 
 		<ammunition>
 			<thingDefs>
-				<li>GW_HeavyBolterNonCE</li>
+				<li>GW_LascannonammoNonCE</li>
 			</thingDefs>
 		</ammunition>
 	</Vehicles.VehicleTurretDef>

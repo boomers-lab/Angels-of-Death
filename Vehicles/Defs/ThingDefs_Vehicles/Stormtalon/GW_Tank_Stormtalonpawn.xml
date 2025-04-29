@@ -62,7 +62,7 @@
 
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>Stormtalonpawn</defName>
-		<label>Storm Talon</label>
+		<label>Stormtalon</label>
 		<description>The Stormtalon, WIP \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x2 Passengers x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</description>
 		
 		<graphicData>

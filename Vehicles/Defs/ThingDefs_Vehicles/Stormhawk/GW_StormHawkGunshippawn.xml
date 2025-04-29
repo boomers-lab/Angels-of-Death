@@ -3,7 +3,7 @@
 <Defs>
 	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
 		<defName>stormHawkpawn</defName>
-		<label>Storm Hawk</label>
+		<label>Stormhawk</label>
 		<description>The Stormhawk, WIP \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Pilots x2 Passengers x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</description>
 		
 		<graphicData>
@@ -96,16 +96,6 @@
 					<handlingTypes>
 						<li>Movement</li>
 					</handlingTypes>
-				</li>
-				<li>
-					<key>passenger</key>
-					<label>Passenger</label>
-					<slots>24</slots>
-					
-					<hitbox>
-						<side>Body</side>
-					</hitbox>
-					
 				</li>
 			</roles>
 		</properties>

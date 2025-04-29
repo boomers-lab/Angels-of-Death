@@ -3,8 +3,8 @@
 <Defs>
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>StormTalonbuild</defName>
-		<label>Storm Talon</label>
-		<description>The Storm Talon, WIP \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<label>Stormtalon</label>
+		<description>The Stormtalon, WIP \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
 		<designationCategory>VF_Vehicles</designationCategory>
 		
@@ -25,7 +25,7 @@
 		<size>(7,7)</size>
 		
 		<researchPrerequisites>
-			<li>GW_ImperialAirMilitaryEliteVehicleResearch</li>
+			<li>GW_ImperialAirMilitaryVehicleResearch</li>
 		</researchPrerequisites>
 		
 		<costList>
