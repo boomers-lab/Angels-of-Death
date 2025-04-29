@@ -250,7 +250,7 @@
 						<key>lasgun2</key>
 					</li>
 					<li>
-						<turretDef>GW_Overlord_Lascannon<</turretDef>
+						<turretDef>GW_Overlord_Lascannon</turretDef>
 						
 						<renderProperties>
 							<north>(-7, 1)</north>
